@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+/*清楚弹出层的样式*/
+.actions-modal{ background: #EDEDED }
+.actions-modal-group{ margin: 0 }
+.actions-modal-button, .actions-modal-label{ background: #ffffff }
+.actions-modal-button.bg-danger, .actions-modal-label.bg-danger{ background: #ffffff; border-radius: 0; color: #000000 }
+.actions-modal-button.actions-modal-button-bold, .actions-modal-label.actions-modal-button-bold{ font-weight: 400 }
+.actions-modal-button{ font-size: 0.8rem ; padding: 0.2rem 0; display: block; overflow: hidden;}
+.actions-modal-label{ font-size: 0.6rem }
+/*.actions-modal-group { margin-bottom: 8px; }*/
+.actions-share-box .actions-modal-group { background: #ffffff; margin-bottom: 8px; padding-top: 20px;}
+
+
+.actions-modal .actions-modal-group:nth-child(2){margin-bottom: 0;  padding-top: 0;}
+.actions-modal-button{ color: #000000 }
+.actions-modal-button.color-danger, .actions-modal-label.color-danger{ color: #D04344 }
+.actions-modal-button:first-child:last-child, .actions-modal-label:first-child:last-child{ border-radius: 0 }
+.actions-modal-group .actions-modal-button-bold:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #eff2f3;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+/**/
+.share-box{ padding:0.75rem }
+.share-modal-button {
+    cursor: pointer;
+    line-height: 2.65rem;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    display: block;
+}
+
+.shareit-warp-tip .content-block{  margin: 1rem 0 }
+.actions-modal-button:after, .actions-modal-label:after{ background: #ededed }
+.actions-modal-button:last-child, .actions-modal-label:last-child {
+    border-radius:0;
+}
+.actions-modal-button:first-child, .actions-modal-label:first-child {
+    border-radius:0;
+}
+.actions-share-box .actions-modal-button:after,.actions-share-box .actions-modal-label:after{ background: none }
+.actions-share-box .actions-modal-button{ display: inline-block; text-align: center; width: 25%; }
+.actions-modal .actions-modal-group:nth-child(2) .actions-modal-button{width: 100%;}
+.actions-share-box .actions-modal-button i.icon{width: 50px; height:50px; display:block; margin: 0 auto; padding: 0;}
+.actions-share-box .actions-modal-button i.share-icon-1{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/sx.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button i.share-icon-2{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/wb.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button i.share-icon-3{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/fb.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button i.share-icon-4{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/tw.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button:active{ background: #ffffff }
+.actions-share-box .actions-modal-button:active i.share-icon-1{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/sx_on.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button:active i.share-icon-2{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/wb_on.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button:active i.share-icon-3{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/fb_on.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-button:active i.share-icon-4{
+    width: 50px;
+    height:50px; 
+    background: url(../../images/new-images/details/version2/tw_on.png) no-repeat;
+    background-size:48px 48px; }
+.actions-share-box .actions-modal-group{ background: #ffffff }
+.actions-share-box .actions-modal-button { font-size: 0.65rem; color: #555555 }
+.actions-modal-group .file {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    line-height: 1000px;
+    cursor: pointer;
+    font-size: 1000px;
+    z-index: 60;
+}
+/**/
+/*清楚弹出层的样式*/
+.create-modal.modal{ width: 15.2rem; margin-left: -7.51rem; }
+.create-modal .modal-inner{ background: #ffffff }
+.create-modal .modal-button{ background: #ffffff }
+.create-modal .modal-inner:after { background: #EDEDED }
+.create-modal .modal-button.modal-button-bold{  font-weight: 400; font-size: 0.7rem; color: #57AD68 }
+.create-modal .modal-button{    font-size: .7rem; color: #999999}
+.create-modal .modal-button:after{ background-color: #EDEDED; }
+.create-modal .list-block ul ul{ padding-left: 0 }
+.create-modal .list-block ul:before{ height: 0 }
+.create-modal .list-block ul:after{ height: 0 }
+.create-modal .list-block input[type=text]{ padding-left: 0; text-align: center; font-size: 0.8rem }
+.create-modal .list-block .item-content{ padding-left: 0 }
+.create-modal .list-block .item-title.label{ text-align: left; width: 45%; padding-left: 0.3rem;}
+.create-modal .list-block .item-inner{ padding-right: 0.2rem; padding-bottom: 0; padding-top: 0.5rem; padding-top: 0.9rem; }
+.create-modal .list-block .item-input{margin-top: 0;}
+.create-modal-ul li{ padding-bottom: 0.3rem; position: relative; margin: 0 0.5rem; }
+.create-modal .modal-inner{ padding-top: 1.2rem }
+/*隐私*/
+.label-switch .checkbox:before {
+    height: 1rem;
+    width: 2.2rem;
+    display: none;
+}
+.label-switch .checkbox:after {
+    height: 1rem;
+    width: 1rem;
+    top: -6px;
+    left: 0
+}
+.label-switch .checkbox {
+    height: 0.5rem;
+    width: 2rem;
+    float: right;
+    position: relative;
+    top: 7px;
+}
+.label-switch input[type=checkbox]:checked+.checkbox {
+    background: #57ad68
+}
+.label-switch .checkbox:after {
+    background: #ffffff;
+    border: 1px solid #cccccc
+}
+.privacy-li-block .label-switch {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.6rem;
+    border-radius: .8rem;
+    box-sizing: border-box;
+    height: 1.4rem;
+    position: relative;
+    cursor: pointer;
+    -webkit-align-self: center;
+    align-self: center;
+}
+.label-switch .checkbox:after{box-shadow:none;}
+.create-modal-ul li:first-child:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #ededed;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.create-modal .modal-text{ font-size: 0.7rem }
+.actions-modal-button-delete{ color: #D04344 }
+.create-delete-modal .modal-button.modal-button-bold{color: #D04344}

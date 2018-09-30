@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    font-size: 20px;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Hiragino Kaku Gothic Pro", Meiryo, "Malgun Gothic", sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    overflow-y: auto;
+}
+
+/*reset*/
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table, th, tr, thead, tbody, td, label, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+/*.font_fs {
+	font-family: "仿宋";
+}*/
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img, abbr, acronym {
+    border: 0;
+}
+ol, ul, li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+input {
+    border: none;
+}
+a{text-decoration:none; color: #000;}
+select {
+    height: 22px;
+    line-height: 18px;
+    padding: 2px 0;
+    font-size: 12px;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+div:focus {
+    outline: 0;
+}
+input:focus {
+    outline: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+img {
+    vertical-align: middle;
+}
+html {
+    height: 100%;
+}
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+img {
+    border-style: none;
+}
+img {
+    vertical-align: top;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.loading-box-warp{ width: 100%; height: 100%; position: fixed; top: 0; left: 0; right: 0; bottom: 0 ; background: #e4e4e4; }
+.loading-box-warp .loading{ height: 100%; }
+.loading {
+  min-height: 1.6rem;
+  position: relative;
+  pointer-events: none;
+  color: transparent !important;
+}
+.loading::after {
+  border: 0.1rem solid #000000;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-radius: .8rem;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.8rem;
+  margin-top: -0.8rem;
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  -webkit-animation: loading 500ms infinite linear;
+          animation: loading 500ms infinite linear;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+

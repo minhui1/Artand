@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+.bar-nav {
+    padding-left: 0;
+    padding-right: 0;
+    background: #ffffff;
+}
+.bar .button-nav.pull-left {
+    margin: 0;
+}
+.bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/search/6.png) center no-repeat;
+    background-size: 10px 19px;
+}
+.btn.btn-publish {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #57AD68;
+}
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.title {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.list-block {
+    margin: 0;
+    font-size: .7rem;
+}
+.list-block ul {
+    background: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.payment-body .content{ background: #f8f8f8 }
+.list-block .item-inner-right .item-input{ text-align: right; }
+.bar-nav~.content.payment-li-content{ top: 2.15rem }
+.item-input .red{ color: #D04344 }
+.list-block .item-inner{
+
+    padding-top: .5rem;
+    padding-bottom: .45rem;
+}
+.list-block.list-block-zhifu .item-inner{
+
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+.list-block .margin-bottom-12 {
+    margin-bottom: 12px;
+}
+.list-block h4{ font-size: 0.6rem; font-weight: 400; color: #9C9C9C; padding-left: 0.7rem; padding-bottom: 0.4rem}
+.item-title .icon{ width: 30px; height: 30px; margin-right: 0.7rem;  }
+.item-title .icon.zhifubao{
+    background: url(../../images/new-images/common/zhifubao.png) no-repeat;
+    background-size: 30px 30px;
+}
+.item-title .icon.weixin{
+    background: url(../../images/new-images/common/weixin.png) no-repeat;
+    background-size: 30px 30px;
+}
+.item-title .icon.yinlian{
+    background: url(../../images/new-images/common/yinlian.png) no-repeat;
+    background-size: 30px 30px;
+}
+.item-title .icon.yinhang{
+    background: url(../../images/new-images/common/yinhang.png) no-repeat;
+    background-size: 30px 30px;
+}
+.item-title .icon.qianbao{
+    background: url(../../images/new-images/common/qianbao.png) no-repeat;
+    background-size: 30px 30px;
+}
+.list-block .item-link .item-inner {
+    padding-right: 1.5rem;
+    background: url(../../images/new-images/site/6.png) no-repeat;
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - .7rem) center;
+    background-position: calc(100% - .7rem) center;
+}
+/*银行信息*/
+.payment-body .bank-info-content{ background: #ffffff }
+.page .bar.bar-footer.bar-standard {
+    height: 60px;
+}
+.submit1 {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    background: #000000;
+    height: 40px;
+    top: 11px;
+    position: relative;
+}
+.bar-standard:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+.bank-info-box{ padding: 1rem; }
+.bank-info-box h4{  height: 40px; text-align: center; font-size: 0.6rem; color: #ffffff; line-height: 40px;  background:  rgba(81,132,188,0.6); }
+.infoDiv{}
+.info-li{ position: relative;  font-size: 0.6rem; color: #555555; }
+.info-li .left{ position: absolute; top: 0; left: 0 ; height: 40px; line-height: 40px; padding-left: 0.6rem}
+.info-li .right{ position: absolute; top: 0; right: 0 ;height: 40px; line-height: 40px;}
+.info-li .right a{ color: #5184BC; display: inline-block; width: 2rem; text-align: center; }
+.info-li .right a:active{ color: #666666; }
+
+.info-li .middle{ line-height: 40px; padding: 0 2rem 0 3.6rem;}
+.info-li .middle i{ padding-right:5px;  }
+
+.info-li:nth-child(2)
+{
+background:#FAFAFA;
+}
+.info-li:nth-child(4)
+{
+background:#FAFAFA;
+}
+.info-li:nth-child(4) .middle
+{
+padding: 0 2rem 0 4.3rem;
+}
+.prompt{ padding-top: 1rem; padding-bottom: 2rem; font-size: 0.65rem }
+.prompt h5{ padding-bottom: 0.65rem }
+.prompt h6{ padding-top: 0.65rem }
+.prompt p{ line-height: 24px; padding-bottom: 0.6rem}
+.countdown{ font-size: 0.7rem; padding-bottom: 0.7rem }
+.prompt i{ color: #5184BC }
+.countdown i{ color: #D04344 }
+.list-block .not-payment .item-title { color: #999999 }
+.list-block .not-payment .item-title .icon.qianbao{ opacity: 0.5 }

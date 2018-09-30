@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.item-btn-link.grid-demo .row{ margin: 0 }
+.item-btn-link.grid-demo .row .col-50{ margin: 0 ; width: 50%}
+.item-btn-link.grid-demo .row .col-50:first-child{ text-align: left; }
+.item-btn-link.grid-demo .row .col-50:last-child{ text-align: right; }
+.item-btn-link .link-ash{ color: #9c9c9c }
+/*帮助与反馈*/
+.help-content{ background: #FAFAFA }
+.help-infoBbox{ padding: 1rem 0 }
+.types-box{ padding:0 0.75rem; }
+.types-box h4{ color: #9c9c9c; padding-bottom: 0.3rem}
+.types-box .radio{padding: 0.4rem 0;}
+.types-box .radio-label{ font-size: 0.7rem }
+/*radio和checkbox美化*/
+.checkboxWarp input{
+	width: 14px;
+    height: 14px;
+    border: solid 1px #cfd1d3;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    margin-right: 3px;
+}
+.checkboxWarp input {
+    opacity: 0;
+    display: none;
+}
+
+.checkboxWarp {
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    margin-right: 3px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+
+}
+.checkboxWarp.not {
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin-right: 3px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+
+.checkboxWarp.not:after{ 
+	content: '';
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+    right: 0;
+    top: 3px;
+    height: 8px;
+    width: 8px;
+    background-color: #000000;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    border-radius: 12px;
+}
+.list-block{ margin: 0.3rem 0 }
+.list-block li{ margin-bottom: 0.5rem  }
+.list-block .under-input1 {
+    text-align: left!important;
+    font-size: 0.7rem!important;
+}
+.list-block .under-textarea {
+    height: 6rem;
+    text-align: left;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: #ffffff;
+    font-size: 0.65rem
+}
+
+.item-content-uoder {
+    margin-top: 0.6rem;
+
+}
+.contactText{ padding: 7rem 1rem 1rem 1rem; color:#9C9C9C }
+.contactText a{ color: #6297C8 } 
+.contactText h4{ padding-bottom: 0.3rem }
+
+.item-grid-in{ text-align: center; }
+.item-grid-in .link-ash{ color: #9c9c9c }

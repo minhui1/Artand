@@ -1,0 +1,122 @@
+.article-header {
+    background: #fff;
+}
+.artistDetail.article-author {
+    padding-top: 4rem;
+    padding-left: 0;
+    margin-left: 0.75rem;
+}
+.article-detail-box {
+    background: #fff;
+    padding: 0.9rem 0.75rem 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.article-title {
+    font-size: 26px;
+    line-height: 34px;
+    color: #000;
+    font-weight: 800;
+}
+.article-title2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #9c9c9c;
+    margin: 9px 0;
+}
+.article-detail-box p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.article-detail-box p:first-of-type {
+    margin-top: 38px;
+}
+.pic-box {
+    padding-top: 0.75rem;
+}
+.pic-box img {
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+.keywords-box {
+    margin-top: 1.5rem;
+}
+.read-num {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #9c9c9c;
+}
+.more-article-list {
+    padding-right: 0.75rem;
+    border-bottom: 1px solid #f4f4f4;
+}
+.more-article-list .more-article-item {
+    height: 156px;
+    border-top: 1px solid #f4f4f4;
+}
+.more-article-list .more-article-item:first-of-type {
+    height: 144px;
+}
+.more-article-list .more-article-item:first-of-type img {
+    margin-top: 18px;
+}
+.more-article-list .more-article-item a {
+    display: block;
+}
+.more-article-item .article-text-box {
+    width: 100%;
+    margin-right: -143px;
+}
+.more-article-item .article-text {
+    margin-right: 143px;
+}
+.more-article-item img {
+    width: 128px;
+    height: 96px;
+    display: inline-block;
+    margin: 30px 0  30px 15px;
+}
+.article-text h2 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 26px;
+    margin-top: 27px;
+    max-height: 52px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.more-article-item:first-of-type h2 {
+    margin-top: 15px;
+}
+.article-text p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #555555;
+    margin-top: 15px;
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.article-text p.row2 {
+    max-height: 40px;
+}
+.footer-line {
+    height: 7px;
+}
+
+.article-detail-box .introduction {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #000000;
+}
+.article-detail-box p:first-of-type.introduction {
+    margin: 18px 0;
+}
+.introduction+.share .read-num {
+    line-height: 20px;
+}

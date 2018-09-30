@@ -1,0 +1,154 @@
+.article-header {
+    background: #fff;
+}
+.artistDetail.article-author {
+    padding-left: 0.75rem;
+}
+.article-detail-box {
+    background: #fff;
+    padding: 1.3rem 0.75rem 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.article-title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 800;
+}
+.article-title2 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #A4AFB3;
+    margin: 6px 0;
+}
+.article-detail-box .main-body p ,.article-detail-box .main-body h1,.article-detail-box .main-body h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom:20px; 
+    color: #000000
+}
+.article-detail-box a{ color: #006699 }
+.article-detail-box p:first-of-type {
+    /*margin-top: 38px;*/
+}
+.pic-box {
+    padding-top: 0.75rem;
+}
+.pic-box img {
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+.keywords-box {
+    margin-top: 1.5rem;
+}
+.read-num {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #9c9c9c;
+}
+.more-article-list {
+    border-bottom: 1px solid #f4f4f4;
+    
+}
+.more-article-list .more-article-item {
+    border-top: 1px solid #f4f4f4;
+    padding: 0 0.75rem;
+}
+.more-article-list .more-article-item:first-of-type {
+    height: 144px;
+}
+.more-article-list .more-article-item:first-of-type img {
+    margin-top: 18px;
+}
+.more-article-list .more-article-item a {
+    display: block;
+}
+.more-article-item .article-text-box {
+    width: 100%;
+    margin-right: -143px;
+}
+.more-article-item .article-text {
+    margin-right: 143px;
+}
+.more-article-item.no-picture .article-text {
+    margin-right: 0;
+}
+.more-article-list .more-article-item.no-picture{ height: 136px }
+.more-article-item img {
+    width: 128px;
+    height: 96px;
+    display: inline-block;
+    margin: 20px 0  20px 15px;
+}
+.article-text h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 26px;
+    margin-top: 20px;
+    max-height: 52px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.more-article-item:first-of-type h2 {
+    margin-top: 15px;
+}
+.article-text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A4AFB3;
+    margin-top: 15px;
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.article-text p.row2 {
+    max-height: 60px;
+}
+.footer-line {
+    height: 7px;
+}
+
+.article-detail-box .introduction {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+}
+.article-detail-box p:first-of-type.introduction {
+    margin: 18px 0;
+}
+.introduction+.share .read-num {
+    line-height: 20px;
+}
+.article-page .zan-div-warp{    border-bottom: 1px solid #f4f4f4;}
+.article-detail-box .artKeyWords{ padding-top: 20px; }
+.article-detail-box .browse-box{}
+.width-70{ width: 70%; min-height: 40px; float: left;}
+
+.article-detail-box .art-btn-sns {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    float: right;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),only screen and (-moz-min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 3/2),only screen and (min-device-pixel-ratio: 1.5) {
+  .article-detail-box .art-btn-sns{background: url(../../images/new-images/details/fx@2x.png) no-repeat;  background-size: 24px 24px;}
+
+}
+
+.main-body{ padding-top:15px; line-height: 28px;}
+.article-page .bar-nav .title{ font-weight: 600; text-align: left;  line-height: 38px; width: 100%; padding:0 5rem; margin: 0; font-size: 14px; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden; }
+.article-page .page .bar{ height: 38px; padding: 0;}
+.article-page .bar-nav~.content{top: 38px;}
+.article-page .bar .button-link{ height: 38px; }
+.article-page .bar .button-nav.pull-left{ margin: 0 }
+.article-page .bar .bar .button.pull-right { margin: 0;}
+.article-page .bar .button-nav.pull-right{ margin: 0 }
+
+.main-body img{ width: 100%; height: auto !important; }

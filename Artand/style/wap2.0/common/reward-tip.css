@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.login-screen, .popup.approve-warp-tip{ display: block; }
+.reward-instruction{ text-align: center; padding-top: 2rem}
+.reward-instruction h3{ font-size: 16px; padding: 1rem 0}
+.instruction-box { padding: 0 1rem; margin-top:1rem }
+.instruction-step{ padding: 0.5rem 2rem; width: 100%; background: #FFFFFF;
+border: 1px solid #D9D9D9;margin-bottom: 1rem; }
+
+
+.price-no {
+    width: auto;
+    height: 20px;
+    background: url(../../../images/publish/price_no.png) no-repeat;
+    background-size: 110px 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #d04344;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3px;
+    padding:0 5px;
+}
+.price-no-a {
+    width: 15px;
+    height: 15px;
+    background: url(../../../images/publish/instruction.png) no-repeat;
+    background-size: 15px 15px;
+    display: inline-block;
+    margin-top: 3px;
+    vertical-align: top;
+    margin-left: 2px;
+}
+.instruction-text{ font-size: 14px; padding-left: 5px;}
+.price-open i{ font-size: 14px; color: #D04344}
+.instruction-tips { padding: 0 1rem; text-align: left; font-size: 14px; line-height: 24px;}
+.green-ok {
+    width: 14px;
+    height: 14px;
+    background: url(../../../images/publish/green_ok.png) no-repeat;
+    background-size: 14px 14px;
+display: inline-block;
+position: relative;top: 2px;
+}
+.triangle-warp{ position: relative; text-align: center; height: 10px}
+.difficult{ position: relative; width: 18px; height: 18px; display: inline-block; }
+.triangle-a{width:0;  display: inline-block; height:0; border-width:8px 8px; border-style:solid; border-color: #cbcbcb #ffffff #ffffff #ffffff; position: absolute; top: -6px; left: 0; z-index: 20}
+.triangle-b{width:0; display: inline-block; height:0; border-width:8px 8px; border-style:solid; border-color: #e5e5e5 #ffffff #ffffff #ffffff;position: absolute; top: -9px;left: 0; z-index: 10}

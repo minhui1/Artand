@@ -1,0 +1,162 @@
+.cover-decision {
+    width: 100%;
+    opacity: .7;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0.0.0.1);
+    top: 0;
+    left: 0;
+    z-index: 10001;
+} 
+/*
+.login-screen, .popup.v-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10400;
+   background-color: rgba(0,0,0,0.7)!important;
+    box-sizing: border-box;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,0,0);
+}*/
+.v-number .content-v-box{ width: 100%; height: 95%; position: absolute; bottom: 0; left: 0; background: #ffffff;z-index: 10002; margin: 0}
+
+.content-v-box .summary {
+    padding: .6rem;
+}
+.content-v-box .summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkitbox-shadow: 0 1px 0 rgba(0,0,0,.05),0 .5px 0 rgba(0,0,0,.09);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05),0 .5px 0 rgba(0,0,0,.09);
+    height: 93px;
+}
+.content-v-box .summary .img {
+    position: relative;
+    top: -32px;
+    background-color: #fff;
+    z-index: 10;
+    padding: 2px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 1em;
+    height: 100px;
+    width: 100px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+}
+.content-v-box .summary .img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.summary .text-main {
+    overflow: hidden;
+}
+.summary .text-main .priceContainer {
+
+    line-height: .7rem;
+    display: inline-block;
+    vertical-align: middle;
+    color: #F63233;
+    font-size: 0.7rem;
+    padding-bottom: 0.2rem;
+}
+.summary .text-main .sku-dtips {
+    margin-right: .38rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.summary .text-main .nameh2{ font-size: 0.8rem; padding-bottom: 0.2rem; color: #000000; width: 80%; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+.summary .sback {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: .5rem;
+    right: .5rem;
+    background: url(../../images/new-images/details/sback.png) 0 no-repeat;
+    background-size: 15px 15px;
+}
+.sku-control{ padding:0 .6rem .6rem .6rem; }
+.sku-text {text-align: left; font-size: 0.68rem; width: 100%; padding-bottom: 0.6rem}
+.sku-text a{ color: #4386CE }
+.sku-control{ position: absolute;
+    top: 93px;
+    bottom: 48px;
+    left: 0;
+    right: 0;  font-size: 0.65rem;
+overflow-y: auto;
+padding-top: 18px}
+.sku-btn a {
+    display: inline-block;
+    border: 1px solid #979797;
+    color: #555555;
+    padding: 2px 8px;
+    font-size: 0.65rem;
+    margin-bottom: 8px; 
+    margin-right:3px; 
+}
+.sku-btn a.on{ background:#F6D9DA; border: 1px solid #E59697; color: #DD2727 }
+.padding-lr{ padding: 0 0.2rem }
+.empty-line{ border-top:1px solid #EAEAEA; padding-bottom: 0.6rem }
+.sku-btn { padding-bottom: 0.6rem }
+.columns-warp{ width: 100%; }
+
+.columns {
+       display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0.2rem;
+  width: 20%;
+
+}
+.columns { border-bottom:1px solid #EAEAEA; padding: 0.4rem 0}
+.column .btn {
+    display: inline-block;
+    border: 1px solid #979797;
+    color: #555555;
+    padding: 0 8px;
+    font-size: 0.65rem; 
+}
+.column.on .btn{ background:#F6D9DA; border: 1px solid #E59697; color: #DD2727 ;}
+.grey-text,.grey-btn{ text-align: center; display: block;}
+.columns-warp .column p{ max-width: 3rem;  white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+
+
+.v-number .option {
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+}
+.option-btn-warp{ padding: 0.4rem ;
+    bottom: 0;
+    left: 0;  box-sizing: border-box; width: 100%; height: 100%}
+.v-number .option .cell{ display:block; background: #000000; height: 32px; line-height: 32px; color: #ffffff;  font-size: 0.65rem}
+.content-v-box.collectors-box .padding-lr{ padding: 0 0.2rem 0 0}
+.v-number .content-block{ margin: 0 }

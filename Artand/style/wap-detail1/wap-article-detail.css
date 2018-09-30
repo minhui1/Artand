@@ -1,0 +1,268 @@
+.article-header {
+    background: #ffffff;
+    position: relative;
+}
+.artistDetail.article-author {
+    padding-left: 0.75rem;
+}
+.article-detail-box {
+    background: #ffffff;
+    padding: 1.3rem 0.75rem 0;
+}
+.article-title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 800;
+}
+.article-title2 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #9C9C9C;
+    margin: 6px 0;
+}
+.article-detail-box .main-body p ,.article-detail-box .main-body h1,.article-detail-box .main-body h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom:20px; 
+    color: #000000
+}
+.article-detail-box .main-body a { color: #5184BC }
+.article-detail-box .main-body .interData a{ color: #555555 }
+.article-detail-box p:first-of-type {
+    /*margin-top: 38px;*/
+}
+.pic-box {
+  
+}
+.pic-box img {
+    width: 100%;
+    margin-bottom: 7px;
+}
+.keywords-box {
+    margin-top: 1.5rem;
+}
+.read-num {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #9c9c9c;
+}
+
+.article-page .zan-div-warp{    border-bottom: 1px solid #f4f4f4;}
+.article-detail-box .browse-box{}
+.width-70{ width: 70%; min-height: 40px; float: left;}
+.main-body{ padding-top:15px; line-height: 28px;}
+.article-page .bar-nav .title{ font-weight: 600; text-align: left;  line-height: 38px; width: 100%; padding:0 5rem; margin: 0; font-size: 14px; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden; }
+.article-page .page .bar{ height: 38px; padding: 0;}
+.article-page .bar-nav~.content{top: 38px;}
+.article-page .bar .button-link{ height: 38px; }
+.article-page .bar .button-nav.pull-left{ margin: 0 }
+.article-page .bar .bar .button.pull-right { margin: 0;}
+.article-page .bar .button-nav.pull-right{ margin: 0 }
+
+.main-body img{ max-width: 100%; height: auto !important; text-align: center;
+    margin: 0 auto;
+    display: block}
+.interData{ position: relative; }
+.interData .icon.au2 {
+    background: url(../../images/new-images/details/version2/11.png) no-repeat;
+    background-size: 12px 9px;
+}
+.interData span .icon {
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: 0px;
+}
+
+.interData .artKeyWords{ padding-top: 20px; }
+.article-page .zan-div-warp {
+    padding: 1.3rem 0.75rem 0.9rem 0.75rem;
+}
+
+
+.search-essay .content-block {
+    margin: 0;
+}
+.more-article-list {
+    border-bottom: 1px solid #f4f4f4;
+}
+.more-article-list .more-article-item {
+    border-top: 1px solid #f4f4f4;
+    padding: 0 0.75rem;
+}
+.more-article-list .more-article-item:first-of-type {
+    height: 144px;
+}
+.more-article-list .more-article-item:first-of-type img {
+    margin-top: 18px;
+}
+.more-article-list .more-article-item a {
+    display: block;
+}
+.more-article-item .article-text-box {
+    width: 100%;
+    margin-right: -165px;
+    min-height: 120px;
+}
+.more-article-item .article-text {
+    margin-right: 155px;
+}
+.more-article-item.no-picture .article-text {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-right: 0.75rem;
+}
+.more-article-list .more-article-item.no-picture {
+    height: 136px
+}
+.more-article-item img {
+    width: 128px;
+    height: 96px;
+    display: inline-block;
+    margin: 20px 15px 15px 15px;
+    padding-top: 0;
+}
+.article-text h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 26px;
+    margin-top: 20px;
+    max-height: 52px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.more-article-item:first-of-type h2 {
+    margin-top: 18px;
+}
+.article-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #555555;
+    margin-top: 15px;
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.article-text p.row2 {
+    max-height: 60px;
+}
+.footer-line {
+    height: 7px;
+}
+.article-detail-box .introduction {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+}
+.article-detail-box p:first-of-type.introduction {
+    margin: 18px 0;
+}
+.introduction+.share .read-num {
+    line-height: 20px;
+}
+.d-main {
+    font-size: 12px;
+}
+.d-name {
+    padding: 5px 0 2px 0;
+}
+.d-main a {
+    color: #5184BC;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+}
+.d-area {
+    color: #9C9C9C;
+}
+.d-area .area-left {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 8em;
+    display: inline-block;
+    float: left;
+}
+.d-area .area-right {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 6em;
+    display: inline-block;
+    float: right;
+}
+.search-essay .d-main {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.search-essay .list-block ul li:last-child:after {
+    background: none;
+}
+.article-li a {
+    display: block;
+}
+.article-essay { margin: 0 }
+.article-essay .search-list{ padding:0 0 0 0.75rem}
+.article-essay .page-container li{padding-bottom: 15px;}
+.article-essay .page-container li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.article-essay .d-main{ padding-right: 0.75rem }
+
+.article-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.icon.au1 {
+    background: url(../../images/new-images/details/version2/15.png) no-repeat;
+    background-size: 10px 10px;
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-right: 2px;
+    position: relative;
+    top: 0;
+}
+.artist-data{ color: #9c9c9c }
+.artist-data .icon{ top: 0px }

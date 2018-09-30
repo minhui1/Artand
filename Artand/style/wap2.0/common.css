@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    /* 1 */
+    -ms-text-size-adjust: none;
+    /* 2 */
+    -webkit-text-size-adjust: none;
+    /* 2 */
+    font-size: 20px;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Hiragino Kaku Gothic Pro", Meiryo, "Malgun Gothic", sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    overflow-y: auto;
+}
+
+/*reset*/
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table, th, tr, thead, tbody, td, label, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+/*.font_fs {
+	font-family: "仿宋";
+}*/
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img, abbr, acronym {
+    border: 0;
+}
+ol, ul, li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+input {
+    border: none;
+}
+a{text-decoration:none}
+select {
+    line-height: 18px;
+    padding: 2px 0;
+    font-size: 12px;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+div:focus {
+    outline: 0;
+}
+input:focus {
+    outline: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+img {
+    vertical-align: middle;
+}
+html {
+    height: 100%;
+}
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+img {
+    border-style: none;
+}
+img {
+    vertical-align: top;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.color9c {
+    color: #9c9c9c;
+}
+
+
+.border-top {
+    box-shadow: inset 0 1px 1px -1px #ededed;
+}
+.border-bottom {
+    box-shadow: inset 0 -1px 1px -1px #ededed;
+}
+.border-top.border-bottom {
+    box-shadow: inset 0 1px 1px -1px #ededed,inset 0 -1px 1px -1px #ededed;
+}
+
+input,textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.page, .page-group{ background: #ffffff; display:block; }
+.fontsize-14{ font-size: 14px }
+.btn-block{ width: 100%; display:inline-block; }
+textarea {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+/*load*/
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  color: transparent !important;
+  min-height: 0.8rem;
+  pointer-events: none;
+}
+.loading::after {
+  -webkit-animation: loading 500ms infinite linear;
+  animation: loading 500ms infinite linear;
+  border: .1rem solid #333333;
+  border-radius: .8rem;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  left: 50%;
+  margin-left: -.4rem;
+  margin-top: -.6rem;
+  position: absolute;
+  top: 50%;
+  width: 0.8rem;
+}
+
+/**/
+.bar-nav~.content {
+    top: 2rem;
+}
+
+a:active{color:#0a8ddf}
+
+.placeholder{ color: #A4AFB3 }
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+

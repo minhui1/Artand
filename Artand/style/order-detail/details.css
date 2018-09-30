@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    font-size: 20px;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Hiragino Kaku Gothic Pro", Meiryo, "Malgun Gothic", sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+/*reset*/
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table, th, tr, thead, tbody, td, label, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    font-weight: normal
+}
+body, button, input, select, textarea {
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+/*.font_fs {
+	font-family: "仿宋";
+}*/
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img, abbr, acronym {
+    border: 0;
+}
+ol, ul, li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+input {
+    border: none;
+}
+a{text-decoration:none}
+select {
+    height: 22px;
+    line-height: 18px;
+    padding: 2px 0;
+    font-size: 12px;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+div:focus {
+    outline: 0;
+}
+input:focus {
+    outline: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+img {
+    vertical-align: middle;
+}
+html {
+    height: 100%;
+}
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+address, caption, cite, code, dfn, em, b, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+img {
+    border-style: none;
+}
+img {
+    vertical-align: middle;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+
+.detailsBox{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.detailsBox h1.title{
+    font-size:.80rem;
+    font-weight: 300;
+    color: #000000;
+    line-height: 2.2rem;
+    text-align: center;
+}
+.detailsBox .bar{
+    background:#ffffff;
+    height:2.2rem;
+    position:fixed;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    border-bottom: 1px solid #ddd;
+}
+.page .bar-nav .icon {
+    color: #686868;
+    background: none;
+    font-size: 14px;
+}
+.detailsBox .content{
+    width: 100%;
+    overflow-x: hidden;
+    background: #fff;
+    padding-bottom: 70px;
+    bottom: 3.1rem;
+}
+
+.detailsDiv{
+    border-bottom: 1px solid #ededed;
+    /*margin-bottom: 7px;*/
+    background: #fff;
+}
+.row-text {
+    padding: 0.9rem;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    line-height: 1.4rem;
+    color: #555555;
+}
+.logis-detail{
+    background: #fff;
+}
+.row-text-l {
+    text-align: left;
+    display: block;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.logis-detail-1 {
+    font-size: 0.6rem;
+    color: #000;
+    font-weight: 300;
+}
+/*.logis-detail-li {
+    background: #fff;
+}*/
+.logis-detail-li .logis-item-box{
+    margin: 0 0.75rem 0 1.1rem;
+    border-left: 1px solid #cccccc;
+    position: relative;
+}
+.logis-detail-li .point{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d8d8d8;
+    border: 2px solid #fff;
+}
+.logis-detail-li .point-circle{
+    display: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #57ad68;
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    margin-top: -3px;
+}
+.current .mask-line-top{
+    display: inline-block;
+    width: 10px;
+    height: 47%;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #eef6ef;
+}
+.mask-line-bottom{
+    display: inline-block;
+    width: 10px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    background: #fff;
+}
+.logis-item-box .logis-item{
+    margin-left: 1.1rem;
+    border-top: 1px solid #f1f1f1;
+    padding: 12px 0 8px;
+}
+.logis-detail-li:nth-of-type(2) .logis-item {
+    border-top: 0;
+}
+.logis-item .logis-detail-1{
+    font-size: 14px;
+    color: #808080;
+    line-height: 23px;
+}
+.logis-item .logis-detail-2{
+    font-size: 12px;
+    color: #808080;
+    line-height: 21px;
+
+}
+.logis-item .logis-detail-3{
+    font-size: 12px;
+    color: #808080;
+    line-height: 21px;
+}
+.logis-detail .current{
+    background: #eef6ef;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.current .logis-item{
+    border: none;
+}
+.current .point{
+    background: #57ad68;
+    border: 6px solid #eef6ef;
+    left: -10px;
+    width: 8px;
+    height: 8px;
+}
+.current .point-circle{
+    display: block;
+}
+.current .logis-detail-1{
+    color: #57ad68;
+    font-weight: 500;
+}
+.current .logis-detail-2{
+    color: #57ad68;
+}
+
+.detailsBox .bar.bar-footer {
+    bottom: 0;
+    height: 3.1rem;
+    border-bottom: 0;
+    border-top: 1px solid #ededed;
+}
+.btn-details-warp{
+    text-align: right;
+    padding-top: 0.75rem
+}
+.btn-details-warp .btn{
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    margin-right: 0.75rem;
+}
+.btn-details-warp .btn-ash{ border: 1px solid #6d6d6d; background: #ffffff;  color: #000000; text-align: center; min-width: 3.1rem} 
+.btn-details-warp .btn-black{
+    border: 1px solid #000000;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    min-width: 3.1rem;
+}
+.btn-details-warp .btn-white{
+    border: 1px solid #000000;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    min-width: 3.1rem;
+    margin-right: 0.5rem;
+}
+.btn-details-warp .do-not{ border: 1px solid #bbbbbb; background: #ffffff;  color: #bbbbbb; }
+
+
+.details-div-box {
+    background: #fafafa;
+    padding-bottom: 7px;
+}
+
+
+
