@@ -6,6 +6,7 @@ html{width: 100%; overflow-x: hidden;}
 /*公用*/
 .content-block{position: relative; margin: 0; padding: 0; height: 100%;}
 .B-body-index,
+.B-body-index .page,
 .B-body-index .page .content{background: #000;}
 .content-block img{ display: block; font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
