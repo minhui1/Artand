@@ -2,10 +2,11 @@
 a{color: #57AD68 ;}
 body{max-width: 750px; margin: 0 auto; }
 body,
-html{overflow-x: hidden;}
+html{width: 100%; overflow-x: hidden;}
 /*公用*/
 .content-block{position: relative; margin: 0; padding: 0; height: 100%;}
-.B-body-index{background: #000;}
+.B-body-index,
+.B-body-index .page .content{background: #000;}
 .content-block img{ display: block; font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
 
@@ -42,7 +43,7 @@ html{overflow-x: hidden;}
 .M-header .mod-img-box{display: block; height: 28.5rem;}
 .M-header .mod-bottom{position:absolute; width: 100%; bottom: 0; left: 0;}
 .M-header .mod-list{overflow: hidden; margin-top: 1.2rem;}
-.M-header .mod-list .mod-warp{margin: 0 0.8rem;}
+.M-header .mod-list .mod-warp{padding: 0 0.8rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .M-header .mod-list ul{-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap:wrap; margin-left: -0.2rem;}
 .M-header .mod-list ul li{width: 50%; margin-bottom: 0.25rem; text-align: center; overflow: hidden;}
 .M-header .mod-list ul li a{display: flex;display: -webkit-box;display: -webkit-flex; display: -ms-flexbox;width: 8.4rem; height: 3.0rem;margin-left: 0.3rem; background: url(../../images/special/coupon.png); background-size: 100% 100%; background-repeat: no-repeat;-webkit-align-items: center; -ms-align-items: center; -moz-align-items: center; -ms-align-items: center; align-items: center; }
