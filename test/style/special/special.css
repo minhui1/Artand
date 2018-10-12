@@ -1,5 +1,6 @@
 @charset "UTF-8";
-a{color: #57AD68 ;}
+a{color: #000 ;}
+a:active{color: #000;}
 body{max-width: 750px; margin: 0 auto; }
 body,
 html{width: 100%; overflow-x: hidden;}
@@ -30,6 +31,7 @@ html{width: 100%; overflow-x: hidden;}
 .mod-tab .nav-item li span{display: block; color: #9C9C9C;}
 .mod-tab .nav-item li.m-cur span{position: relative; color: #fff; font-weight: bold;}
 .mod-tab .nav-item li.m-cur span:before{position: absolute;content: '';width: 100%;bottom: 0.15rem;left: 0;height: 0.15rem;background: #fff;}
+
 
 .mod-footer{padding-top: 1.5rem;}
 .mod-footer .mod-warp{text-align: center; font-size: 0;}
@@ -103,7 +105,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-three .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 0.7rem; text-align: left; margin-top: 0.7rem;}
 .M-section .mod-three .mod-list ul li p{font-size: 0.6rem;color: #FFFFFF;line-height: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.25rem;}
 .M-section .mod-three .mod-list ul li b{display: block;text-decoration:line-through; color: #555; font-size: 0.5rem; line-height: 0.5rem;}
-
+.M-section .mod-three .mod-tab .nav-item li.m-cur span a{color: #fff;}
+.M-section .mod-three .mod-tab .nav-item li span a{color: #9C9C9C;}
 /*content*/
 .M-download{background: #F0F0F0;}
 .M-download .card-wrap{margin: 0 0.75rem; height: 100%;}
@@ -116,13 +119,14 @@ html{width: 100%; overflow-x: hidden;}
 .M-tab .mod-tab{position: relative;}
 .M-tab .mod-tab .nav-item{margin-left: 0.1rem;}
 .M-tab .mod-tab .nav-item li{padding: 0 0.9rem; line-height: 2.5rem;}
+.M-tab .mod-tab .nav-item li a{ display: block; color: #000;}
 .M-tab .mod-tab .nav-item li span{padding: 0;}
 .M-tab .mod-tab .nav-item li.m-cur span{color: #000;}
 .M-tab .mod-tab .nav-item li.m-cur span:before{position: absolute;content: '';width: 100%;bottom: 0;left: 0;height: 0.15rem;background: #57AD68;}
 
 .M-poster{}
-.M-poster .m-img-box{ position: relative; padding-bottom: 100%;}
-.M-poster .m-img-box img{position: absolute; top: 0;left: 0;width: 100%;height: 100%;}
+.M-poster .m-img-box{ position: relative; min-height: 12.0rem;}
+.M-poster .m-img-box img{width: 100%;}
 .M-poster .m-filter{ position: absolute; bottom: 0; left: 0; width: 100%; height: 5.85rem;background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.60) 100%);}
 .M-poster .m-filter .m-text{ margin: 2.0rem 0.75rem 0; overflow: hidden;}
 .M-poster .m-filter .m-text .m-left{ float: left; }
@@ -133,18 +137,21 @@ html{width: 100%; overflow-x: hidden;}
 .M-poster .m-filter .m-text .m-right p b{display: inline-block;font-size: 0.7rem;color: #FFFFFF;line-height: 0.7rem;}
 
 .M-hour{}
-.M-hour .mod-time{text-align: left; margin: 0.75rem 0.75rem 0.6rem;}
+.M-hour .mod-time{text-align: left; margin: 0.75rem 0.75rem 0;}
 .M-hour .mod-time p{ color: #000;}
 .M-hour .mod-time p em{border: 1px solid rgba(237, 237, 237, 1); text-align: center; border-radius: 2px;color: #D20001;}
 
 .M-text{}
-.M-text p{margin: 0 0.75rem 0;font-size: 0.6rem;color: #000000;}
-.M-text span{display: inline-block; width: 100%; text-align: center;}
+.M-text p{margin: 0.6rem 0.75rem 0;font-size: 0.6rem;color: #000000;}
+.M-text span{ display: none; width: 100%; text-align: center;}
+.M-text.M-display span{display: block;width: 100%; text-align: center; height: auto;}
 .M-text .m-icon{ display: inline-block; margin: 0 auto; width: 0.6rem; height: 0.35rem;}
 .M-text .m-icon-down{background: url(../../images/special/icon_down.png); background-size: 100% 100%; background-repeat: no-repeat;}
 .M-text .m-icon-upper{background: url(../../images/special/icon_upper.png); background-size: 100% 100%; background-repeat: no-repeat;}
 
 .content-block-content .mod-bgColor{margin-top:0.65rem;height: 0.5rem;background: #F2F2F2;}
+.content-block-content .mod-tab .nav-item li.m-cur span a{color: #000;}
+.content-block-content .mod-tab .nav-item li span a{color: #9C9C9C;}
 
 .M-list{overflow: hidden;}
 .M-list .card-wrap{ position: relative; margin: 0 0.75rem; height: 100%; overflow: hidden;}
@@ -207,6 +214,8 @@ html{width: 100%; overflow-x: hidden;}
 }
 @media screen and (max-width: 320px){
 	html{font-size: 17px;}
+	.M-header .mod-list ul li .m-left{margin-left: 0.45rem;-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
+	.M-header .mod-list ul li .m-right{-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
 }
 
 
