@@ -36,7 +36,7 @@ html{width: 100%; overflow-x: hidden;}
 .mod-footer{padding-top: 1.5rem;}
 .mod-footer .mod-warp{text-align: center; font-size: 0;}
 .mod-footer .mod-warp ul li{display: inline-block; font-size: 0.7rem;color: #9C9C9C;line-height: 0.7rem; }
-.mod-footer .mod-warp ul li a{color: #9C9C9C;}
+.mod-footer .mod-warp ul li a{color: #9C9C9C;display: inline-block;max-width: 3.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;}
 .mod-footer .mod-warp ul li span{ display: inline-block; height: 0.7rem; font-size: 0.7rem; color: #9C9C9C;margin: 0 0.4rem;}
 .mod-footer .mod-warp p{font-size: 0.5rem;color: #9C9C9C; margin-top: 0.5rem; padding-bottom: 2.5rem;}
 
@@ -50,12 +50,12 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-list ul{-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap:wrap; margin-left: -0.2rem;}
 .M-header .mod-list ul li{width: 50%; margin-bottom: 0.25rem; text-align: center; overflow: hidden;}
 .M-header .mod-list ul li a{display: flex;display: -webkit-box;display: -webkit-flex; display: -ms-flexbox;width: 8.4rem; height: 3.0rem;margin-left: 0.3rem; background: url(../../images/special/coupon.png); background-size: 100% 100%; background-repeat: no-repeat;-webkit-align-items: center; -ms-align-items: center; -moz-align-items: center; -ms-align-items: center; align-items: center; }
-.M-header .mod-list ul li span{ display: inline-block; }
-.M-header .mod-list ul li .m-left{float: left; margin-left: 0.75rem; }
+.M-header .mod-list ul li span{ display: inline-block; white-space: nowrap;}
+.M-header .mod-list ul li .m-left{float: left; margin-left: 0.4rem;text-align: right;width: 29%; }
 .M-header .mod-list ul li .m-left b,
 .M-header .mod-list ul li .m-left em{display: inline-block;font-weight: bold; color: #D20001;}
 .M-header .mod-list ul li .m-left b{ font-size: 0.6rem; }
-.M-header .mod-list ul li .m-left em{ font-size: 1.1rem; margin-left: 0.25rem;}
+.M-header .mod-list ul li .m-left em{ font-size: 1.1rem; margin-left: 0.15rem;}
 .M-header .mod-list ul li .m-right{ font-size: 0; float: left; text-align: left; color: #000; margin-left: 1.2rem;}
 .M-header .mod-list ul li .m-right i{display: block; font-size: 0.5rem; margin-bottom: 0.1rem; font-weight: bold;}
 .M-header .mod-list ul li .m-right em{display: block; font-size: 0.4rem;}
@@ -63,7 +63,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-list ul li.m-txt-disable .m-left b,
 .M-header .mod-list ul li.m-txt-disable .m-left em,
 .M-header .mod-list ul li.m-txt-disable .m-right{color: #9C9C9C;}
-.M-header .mod-img{width: 0.7rem; height: 0.75rem; margin: 1.5rem auto 1.75rem;}
+.M-header .mod-img{position: relative; z-index: 99; width: 0.7rem; height: 0.75rem; margin: 1.5rem auto 1.75rem;}
 
 /*第二部分*/
 .M-section{background: #000;position: absolute; left: 50%; top: 0;width: 100%; max-width: 750px; -webkit-transform: translateX(-50%); transform: translateX(-50%); overflow-x: hidden; }
@@ -77,16 +77,18 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-one .mod-list .m-col-2 li:first-child{margin-left: 0;}
 .M-section .mod-one .mod-list .m-col-1 li{ height: 4.7rem; margin-bottom: 0.25rem;}
 .M-section .mod-one .mod-list .m-gradient{ position: absolute; bottom: -1px; width: 100%; height: 3.5rem; background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%); }
-.M-section .mod-one .mod-list .m-left{float: left; margin-top: 1.85rem; margin-left: 0.75rem;font-size: 0.9rem; font-weight: bold; color: #FFFFFF;line-height: 0.9rem;}
+.M-section .mod-one .mod-list .m-left{float: left; margin-top: 1.85rem; margin-left: 0.75rem;font-size: 0.9rem; font-weight: bold; color: #FFFFFF;line-height: 0.9rem;display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;}
 .M-section .mod-one .mod-list .m-right{float: right; margin-top: 1.85rem; margin-right: 0.75rem;font-size: 0.9rem; font-weight: bold; color: #FFFFFF;line-height: 0.9rem;}
+.M-section .mod-one .mod-list .m-col-2 .m-left{width: 82%;}
+.M-section .mod-one .mod-list .m-col-1 .m-left{width: 62%;}
 .M-section .mod-bgColor{margin-top: 2.5rem;height: 0.5rem; background: #251730;}
 
 .M-section .mod-two .mod-title,
 .M-section .mod-three .mod-title{ padding-top: 2.0rem; }
 .M-section .mod-two .mod-img-box{height: 9.35rem;overflow: hidden;}
 .M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto;}
-.M-section .mod-two .mod-list ul{margin:0 0 0 0.25rem; max-width: 37.5rem;display: inline-block;white-space: nowrap;width: 18.5rem; }
-.M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%;  display: inline-block; margin-right: 0.1rem;}
+.M-section .mod-two .mod-list ul{margin:0 0 0 0.25rem; max-width: 37.5rem;display: inline-block;white-space: nowrap;width: 20.48rem; }
+.M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-section .mod-two .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 0.7rem; text-align: left; margin-top: 0.7rem;}
@@ -214,8 +216,10 @@ html{width: 100%; overflow-x: hidden;}
 }
 @media screen and (max-width: 320px){
 	html{font-size: 17px;}
-	.M-header .mod-list ul li .m-left{margin-left: 0.45rem;-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
+	.M-header .mod-list ul li .m-left{margin-left: 0.4rem;-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
 	.M-header .mod-list ul li .m-right{-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
+	.M-header .mod-list ul li .m-left{width: 27%;}
+	.M-header .mod-list ul li .m-right{margin-left: 1.0rem;}
 }
 
 
