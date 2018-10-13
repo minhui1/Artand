@@ -176,8 +176,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-list .m-right .m-lf .m-top{color: #D20001; margin-bottom: 0.2rem; font-size: 0.9rem; line-height: 0.9rem; font-weight: bold;}
 .M-list .m-right .m-lf .m-top b{display: inline-block; font-size: 0.7rem;}
 .M-list .m-right .m-lf .m-footer{font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;}
-.M-list .m-right .m-lf .m-footer .m-txt{ display: inline-block; font-size: 0.5rem;color: #9C9C9C;line-height: 0.5rem; font-weight: bold;}
-.M-list .m-right .m-lf .m-footer .m-txt-through{ display: inline-block; font-size: 0.6rem; line-height: 0.6rem; font-weight: bold; color: #9C9C9C; text-decoration: line-through;}
+.M-list .m-right .m-lf .m-footer .m-txt{ display: inline-block; font-size: 0.5rem;color: #9C9C9C;line-height: 0.5rem; font-weight: bold;vertical-align: -1px;}
+.M-list .m-right .m-lf .m-footer .m-txt-through{ display: inline-block; font-size: 0.6rem; line-height: 0.6rem; font-weight: bold; color: #9C9C9C; text-decoration: line-through;vertical-align: middle;}
 .M-list .m-right .m-lf .m-footer .m-icon-vip{ display: inline-block; vertical-align: middle; width: 1.2rem; height: 0.6rem; margin: 0 0.2rem 0 0.5rem;background: url(../../images/special/icon_vip.png); background-size: 100% 100%; background-repeat: no-repeat;}
 .M-list .m-right .m-rg{float: right;padding-top: 0.025rem;}
 .M-list .m-right .m-rg .m-btn{ display: block; color: #fff; font-size: 0.6rem; font-weight: bold; text-align: center; width: 3.4rem; height: 1.7rem; line-height: 1.7rem; background: #000000;border-radius: 20px;}
