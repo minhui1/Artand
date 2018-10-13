@@ -36,8 +36,8 @@ html{width: 100%; overflow-x: hidden;}
 .mod-footer{padding-top: 1.5rem;}
 .mod-footer .mod-warp{text-align: center; font-size: 0;}
 .mod-footer .mod-warp ul li{display: inline-block; font-size: 0.7rem;color: #9C9C9C;line-height: 0.7rem; }
-.mod-footer .mod-warp ul li a{color: #9C9C9C;display: inline-block;max-width: 3.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;}
-.mod-footer .mod-warp ul li span{ display: inline-block; height: 0.7rem; font-size: 0.7rem; color: #9C9C9C;margin: 0 0.4rem;}
+.mod-footer .mod-warp ul li a{color: #9C9C9C;display: inline-block;max-width: 3.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;vertical-align: middle;}
+.mod-footer .mod-warp ul li span{ display: inline-block; height: 0.7rem; font-size: 0.7rem; color: #9C9C9C;margin: 0 0.4rem;vertical-align: middle;}
 .mod-footer .mod-warp p{font-size: 0.5rem;color: #9C9C9C; margin-top: 0.5rem; padding-bottom: 2.5rem;}
 
 
@@ -91,7 +91,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
-.M-section .mod-two .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 0.7rem; text-align: left; margin-top: 0.7rem;}
+.M-section .mod-two .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 1.2em; text-align: left; margin-top: 0.7rem;}
 .M-section .mod-two .mod-list ul li p{font-size: 0.6rem;color: #FFFFFF;line-height: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.25rem;}
 .M-section .mod-two .mod-list ul li b{display: block;text-decoration:line-through; color: #555; font-size: 0.5rem; line-height: 0.5rem;}
 .M-section .mod-two .mod-bgColor{margin-top: 0;}
