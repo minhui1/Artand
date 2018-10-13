@@ -86,8 +86,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-two .mod-title,
 .M-section .mod-three .mod-title{ padding-top: 2.0rem; }
 .M-section .mod-two .mod-img-box{height: 9.35rem;overflow: hidden;}
-.M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto;}
-.M-section .mod-two .mod-list ul{margin:0 0 0 0.25rem; max-width: 37.5rem;display: inline-block;white-space: nowrap;width: 20.48rem; }
+.M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto; overflow-y: hidden;}
+.M-section .mod-two .mod-list ul{padding:0 0 0 0.25rem;display: inline-flex;white-space: nowrap;/*width:20.48rem;*/ }
 .M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
@@ -168,7 +168,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-list .m-left span img{border-radius: 2px;}
 .M-list .m-right{float: left; width: 69%;}
 .M-list .m-right h3{ width: 96%; font-size: 0.8rem;color: #000000;line-height: 0.8rem; font-weight: bold; margin-bottom: 0.7rem;}
-.M-list .m-right h4{width: 90%;font-size: 0.6rem;color: #000000;line-height: 0.6rem;font-weight: normal; margin-bottom: 0.7rem;}
+.M-list .m-right h4{width: 90%;font-size: 0.6rem;color: #000000;line-height: 1.2em;font-weight: normal; margin-bottom: 0.5rem;}
 .M-list .m-right p{overflow: hidden;}
 .M-list .m-right .m-lf{float: left;}
 .M-list .m-right .m-lf .m-top,
