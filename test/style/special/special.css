@@ -86,9 +86,10 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-two .mod-title,
 .M-section .mod-three .mod-title{ padding-top: 2.0rem; }
 .M-section .mod-two .mod-img-box{height: 9.35rem;overflow: hidden;}
-.M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto; overflow-y: hidden;}
+.M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto; overflow-y: hidden;-webkit-overflow-scrolling: touch;}
 .M-section .mod-two .mod-list ul{padding:0 0 0 0.25rem;display: inline-flex;white-space: nowrap;/*width:20.48rem;*/ }
 .M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
+.M-section .mod-two .mod-list ul li:last-child{margin-right: 0.25rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-section .mod-two .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 1.2em; text-align: left; margin-top: 0.7rem;}
@@ -175,10 +176,10 @@ html{width: 100%; overflow-x: hidden;}
 .M-list .m-right .m-lf .m-footer{display: block;}
 .M-list .m-right .m-lf .m-top{color: #D20001; margin-bottom: 0.2rem; font-size: 0.9rem; line-height: 0.9rem; font-weight: bold;}
 .M-list .m-right .m-lf .m-top b{display: inline-block; font-size: 0.7rem;}
-.M-list .m-right .m-lf .m-footer{font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;}
-.M-list .m-right .m-lf .m-footer .m-txt{ display: inline-block; font-size: 0.5rem;color: #9C9C9C;line-height: 0.5rem; font-weight: bold;vertical-align: -1px;}
-.M-list .m-right .m-lf .m-footer .m-txt-through{ display: inline-block; font-size: 0.6rem; line-height: 0.6rem; font-weight: bold; color: #9C9C9C; text-decoration: line-through;vertical-align: middle;}
-.M-list .m-right .m-lf .m-footer .m-icon-vip{ display: inline-block; vertical-align: middle; width: 1.2rem; height: 0.6rem; margin: 0 0.2rem 0 0.5rem;background: url(../../images/special/icon_vip.png); background-size: 100% 100%; background-repeat: no-repeat;}
+.M-list .m-right .m-lf .m-footer{font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;vertical-align: middle;}
+.M-list .m-right .m-lf .m-footer .m-txt{ display: inline-block; font-size: 0.5rem;color: #9C9C9C;line-height: 0.6rem; font-weight: bold;vertical-align: 1px;}
+.M-list .m-right .m-lf .m-footer .m-txt-through{ display: inline-block; font-size: 0.6rem; line-height: 0.6rem; font-weight: bold; color: #9C9C9C; text-decoration: line-through;}
+.M-list .m-right .m-lf .m-footer .m-icon-vip{ display: inline-block; vertical-align: -1px; width: 1.2rem; height: 0.6rem; margin: 0 0.2rem 0 0.5rem;background: url(../../images/special/icon_vip.png); background-size: 100% 100%; background-repeat: no-repeat;}
 .M-list .m-right .m-rg{float: right;padding-top: 0.025rem;}
 .M-list .m-right .m-rg .m-btn{ display: block; color: #fff; font-size: 0.6rem; font-weight: bold; text-align: center; width: 3.4rem; height: 1.7rem; line-height: 1.7rem; background: #000000;border-radius: 20px;}
 .M-list .m-right .m-rg .m-btn-disable{background: #CCCCCC; cursor: default;}
