@@ -72,7 +72,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-line{ display: inline-block; margin: 1.15rem auto 1.5rem; width: 1.5rem; height: 0.3rem; text-align: center; background-image: linear-gradient(-90deg, #FF2F1D 0%, #FF741D 100%);}
 .M-section .mod-one .mod-list{}
 .M-section .mod-one .mod-list ul{margin: 0 0.5rem 0.25rem;}
-.M-section .mod-one .mod-list ul li{ position: relative; overflow: hidden; }
+.M-section .mod-one .mod-list ul li{ position: relative;border-radius: 2px; overflow: hidden; }
+.M-section .mod-one .mod-list ul li img{border-radius: 2px;}
 .M-section .mod-one .mod-list .m-col-2 li{width: 50%; height: 4.7rem; margin-left: 0.25rem;}
 .M-section .mod-one .mod-list .m-col-2 li:first-child{margin-left: 0;}
 .M-section .mod-one .mod-list .m-col-1 li{ height: 4.7rem; margin-bottom: 0.25rem;}
@@ -91,6 +92,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
 .M-section .mod-two .mod-list ul li:last-child{margin-right: 0.25rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
+.M-section .mod-two .mod-list ul li span img{border-radius: 2px;height: 100%;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-section .mod-two .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 1.2em; text-align: left; margin-top: 0.7rem;}
 .M-section .mod-two .mod-list ul li p{font-size: 0.6rem;color: #FFFFFF;line-height: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.25rem;}
@@ -104,6 +106,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-three .mod-list ul{font-size: 0; padding: 0 10px;margin-left: -5px;margin-right: -4px; overflow: hidden;}
 .M-section .mod-three .mod-list ul li{width: 33.33%;display: inline-block;vertical-align: top;padding-left: 4px;padding-right: 4px;margin-bottom: 20px;box-sizing: border-box;}
 .M-section .mod-three .mod-list ul li span{ position: relative; display: block; width: 5.75rem; height: 5.75rem; border-radius: 2px;}
+.M-section .mod-three .mod-list ul li span img{border-radius: 2px;height: 100%;}
 .M-section .mod-three .mod-list ul li .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.1rem; background-image: linear-gradient(90deg, #FF2F1D 0%, #D20001 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-section .mod-three .mod-list ul li h3{font-size: 0.7rem;color: #FFFFFF;line-height: 0.7rem; text-align: left; margin-top: 0.7rem;}
 .M-section .mod-three .mod-list ul li p{font-size: 0.6rem;color: #FFFFFF;line-height: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.25rem;}
