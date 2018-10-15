@@ -9,6 +9,7 @@ html{width: 100%; overflow-x: hidden;}
 .B-body-index,
 .B-body-index .page,
 .B-body-index .page .content{background: #000;}
+
 .content-block img{ display: block; font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
 
@@ -51,12 +52,12 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-list ul li{width: 50%; margin-bottom: 0.25rem; text-align: center; overflow: hidden;}
 .M-header .mod-list ul li a{display: flex;display: -webkit-box;display: -webkit-flex; display: -ms-flexbox;width: 8.4rem; height: 3.0rem;margin-left: 0.3rem; background: url(../../images/special/coupon.png); background-size: 100% 100%; background-repeat: no-repeat;-webkit-align-items: center; -ms-align-items: center; -moz-align-items: center; -ms-align-items: center; align-items: center; }
 .M-header .mod-list ul li span{ display: inline-block; white-space: nowrap;}
-.M-header .mod-list ul li .m-left{float: left; margin-left: 0.4rem;text-align: right;width: 29%; }
+.M-header .mod-list ul li .m-left{float: left; margin-left: 0.1rem;text-align: center;width: 38%;-webkit-transform: scale(.9,.9);transform: scale(.9,.9); }
 .M-header .mod-list ul li .m-left b,
 .M-header .mod-list ul li .m-left em{display: inline-block;font-weight: bold; color: #D20001;}
 .M-header .mod-list ul li .m-left b{ font-size: 0.6rem; }
-.M-header .mod-list ul li .m-left em{ font-size: 1.1rem; margin-left: 0.15rem;}
-.M-header .mod-list ul li .m-right{ font-size: 0; float: left; text-align: left; color: #000; margin-left: 1.2rem;}
+.M-header .mod-list ul li .m-left em{ font-size: 1.1rem; margin-left: 0.15rem; position: relative; top: 1px;}
+.M-header .mod-list ul li .m-right{ font-size: 0; float: left; text-align: left; color: #000; margin-left: 8.2%;/*-webkit-transform: scale(.95,.95);transform: scale(.95,.95);*/}
 .M-header .mod-list ul li .m-right i{display: block; font-size: 0.5rem; margin-bottom: 0.1rem; font-weight: bold;}
 .M-header .mod-list ul li .m-right em{display: block; font-size: 0.4rem;}
 .M-header .mod-list ul li .m-right em b{display: inline-block; width: 3px; height: 6px; margin-left: 0.15rem; font-weight: bold; vertical-align: -.7px; background: url(../../images/special/bitmap.png); background-size: 100% 100%; background-repeat: no-repeat;}
@@ -64,6 +65,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-list ul li.m-txt-disable .m-left em,
 .M-header .mod-list ul li.m-txt-disable .m-right{color: #9C9C9C;}
 .M-header .mod-img{position: relative; z-index: 99; width: 0.7rem; height: 0.75rem; margin: 1.5rem auto 1.75rem;}
+.M-header .mod-headMap{display: block; width: 100%; height: 100%;background:#000 url(../../images/special/banner.png); background-repeat: no-repeat; background-size: 100%; background-position: center top;}
 
 /*第二部分*/
 .M-section{background: #000;position: absolute; left: 50%; top: 0;width: 100%; max-width: 750px; -webkit-transform: translateX(-50%); transform: translateX(-50%); overflow-x: hidden; }
@@ -217,13 +219,15 @@ html{width: 100%; overflow-x: hidden;}
 
 @media screen and (max-width: 360px){
 	html{font-size: 19px;}
+	.M-header .mod-headMap5s{background:#000 url(../../images/special/banner5s.png); background-repeat: no-repeat; background-size: 100%; background-position: center top;}
 }
 @media screen and (max-width: 320px){
 	html{font-size: 17px;}
-	.M-header .mod-list ul li .m-left{margin-left: 0.4rem;-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
+	.M-header .mod-headMap5s{background:#000 url(../../images/special/banner5s.png); background-repeat: no-repeat; background-size: 100%; background-position: center top;}
+	.M-header .mod-list ul li .m-left{-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
 	.M-header .mod-list ul li .m-right{-webkit-transform: scale(.9,.9);transform: scale(.9,.9);}
-	.M-header .mod-list ul li .m-left{width: 27%;}
-	.M-header .mod-list ul li .m-right{margin-left: 1.0rem;}
+	.M-header .mod-list ul li .m-left{}
+	.M-header .mod-list ul li .m-right{}
 }
 
 
