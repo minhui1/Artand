@@ -89,8 +89,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-section .mod-two .mod-title,
 .M-section .mod-three .mod-title{ padding-top: 2.0rem; }
 .M-section .mod-two .mod-img-box{height: 9.35rem;overflow: hidden;}
-.M-section .mod-two .mod-list{margin-top: 0.25rem;margin-bottom: 2.5rem;overflow-x: auto; overflow-y: hidden;-webkit-overflow-scrolling: touch;}
-.M-section .mod-two .mod-list ul{padding:0 0 0 0.25rem;display: inline-flex;white-space: nowrap;/*width:20.48rem;*/ }
+.M-section .mod-two .mod-list{ margin-top: 0.25rem;margin-bottom: 2.5rem; -webkit-overflow-x: auto; overflow-x: auto; overflow-y: hidden;-webkit-overflow-scrolling: touch;}
+.M-section .mod-two .mod-list ul{ padding:0 0 0 0.25rem;display: inline-flex;white-space: nowrap;/*width:20.48rem; */}
 .M-section .mod-two .mod-list ul li{width: 4.8rem; height: 100%; float: left;  display: inline-block; margin-right: 0.3rem;}
 .M-section .mod-two .mod-list ul li:last-child{margin-right: 0.25rem;}
 .M-section .mod-two .mod-list ul li span{ position: relative; display: block; width: 4.8rem; height: 4.8rem; border-radius: 2px;}
@@ -216,7 +216,9 @@ html{width: 100%; overflow-x: hidden;}
 
 
 
-
+@media screen and (max-width: 375px){
+	.M-header .mod-headMap5s{background:#000 url(../../images/special/banner5s.png); background-repeat: no-repeat; background-size: 100%; background-position: center top;}
+}
 @media screen and (max-width: 360px){
 	html{font-size: 19px;}
 	.M-header .mod-headMap5s{background:#000 url(../../images/special/banner5s.png); background-repeat: no-repeat; background-size: 100%; background-position: center top;}
