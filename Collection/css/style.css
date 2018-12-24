@@ -9,10 +9,11 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .edge-footer-left{position: absolute; z-index: 2; left: -16px; bottom: -16px; width: 226px; height: 226px;}
 .edge-footer-right{position: absolute; z-index: 2; right: -16px; bottom: -16px; width: 226px; height: 226px;}
 .edge img{width: 226px; height: 226px;}
-.box{width: 2148px;height: 3176px; border: 4px solid #4F6378; margin: 54px auto; }
+.box{ position: relative; width: 2148px;height: 3176px; border: 4px solid #4F6378; margin: 54px auto; }
 .m-text-cut{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
-.content{width: 1416px; margin: 0 auto 46px;}
-.content h3{font-size: 168px; line-height: 168px; font-weight: bold; color: #000; margin: 207px 0 68px;text-align: center; }
+.content{ position: absolute; left: 50%; top: 50%; margin-left: -708px; width: 1416px; padding-bottom: 46px;-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateY(-50%);}
+.box h3{font-size: 168px; line-height: 168px; font-weight: bold; color: #000; margin: 207px 0 68px;text-align: center; }
+.box h3 img{ display: block; font-size: 0; width:1165px ; height:154px ; margin: 0 auto;}
 .content h4{font-size: 40px;color: #555555;line-height: 40px; margin-bottom: 43px;}
 .content p{font-size: 40px;color: #555555;line-height: 40px; margin-bottom: 68px; overflow: hidden;}
 .content p span{display: inline-block;} 
@@ -34,11 +35,11 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .footer dl{ position: relative; white-space: nowrap;overflow: hidden;}
 .footer dl dt{ font-size: 0; }
 .footer dl dt img{font-size: 0; width: 100%;}
-.footer dl dt.logo{position: absolute; bottom: 0; left: 100px; }
+.footer dl dt.logo{position: absolute; bottom: 0; left: 105px; }
 .footer dl dt.logo img{width: 458px; height: 162px;}
 .footer dl dt.autograph{position: absolute; width: 60%; left: 50%; margin: 0 0 20px -30%; text-align: center; overflow: hidden;}
 .footer dl dt.autograph img{width:666px; height: 258px; margin: 0 auto;}
-.footer dl dt.code{ float: right; margin-right: 200px;}
+.footer dl dt.code{ float: right; margin-right: 105px;}
 .footer dl dt.code img{width: 292px; height: 292px;}
 
 
