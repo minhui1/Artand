@@ -1,0 +1,133 @@
+.content {
+    bottom: 3.1rem;
+}
+
+#starBox{
+    position:relative;
+    width:140px;
+    top:50%;
+    margin-top:-10px;
+}
+.star{
+    height:20px;
+    width:140px;
+    position:relative;
+    background:url(../../images/wap-detail/star.png) repeat-x;
+    background-size: 28px 40px;
+    cursor:pointer
+}
+.star li{
+    float:left;
+    padding:0;
+    margin:0;
+}
+.star li a{display:block;width:28px;height:19px;overflow:hidden;text-indent:-9999px;position:absolute;z-index:5}
+.star li a:hover{
+    background:url(../../images/wap-detail/star.png) 0 -20px repeat-x;
+    background-size: 28px 40px;
+    z-index:3;
+    left:0;
+}
+.star a.one-star{left:0}
+.star a.one-star:hover{width:28px}
+.star a.two-stars{left:28px}
+.star a.two-stars:hover{width:56px}
+.star a.three-stars{left:56px}
+.star a.three-stars:hover{width:84px}
+.star a.four-stars{left:84px}
+.star a.four-stars:hover{width:112px}
+.star a.five-stars{left:112px}
+.star a.five-stars:hover{width:140px}
+.current-rating{
+    background:url(../../images/wap-detail/star.png) 0 -20px repeat-x;
+    background-size: 28px 40px;
+    position:absolute;
+    height:20px;
+    z-index:1;
+    top:0;
+    left:0;
+}
+
+.content {
+    background: #fff;
+}
+.customer-point {
+    height: 62px;
+    line-height: 62px;
+    margin-left: 0.75rem;
+    border-bottom: 1px solid #ededed;
+}
+.eva-span {
+    margin-right: 12px;
+    color: #555;
+    min-width: 56px;
+}
+.customer-text {
+    margin-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-bottom: 1px solid #ededed;
+}
+.customer-text .eva-span {
+    margin-top: 1rem;
+    line-height: 22px;
+}
+.text-msg {
+    width: 74%;
+    margin: 1rem 0;
+    border: 0;
+    line-height: 22px;
+    min-height: 22px;
+}
+.customer-img {
+    border-bottom: 1px solid #ededed;
+    padding: 0.8rem 0 0.8rem 0.75rem;
+}
+.customer-img .eva-span {
+    line-height: 30px;
+}
+.customer-img-box {
+    width: 77%;
+    margin-top: 8px;
+}
+.img-item {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    background: #f0f0f0;
+    margin: 0 8px 8px 0;
+    float: left;
+}
+.img-item img {
+    width: 100%;
+    height: 100%;
+}
+.img-item .img-delete {
+    width: 17px;
+    height: 17px;
+    background: url(../../images/wap-detail/delete.png) no-repeat;
+    background-size: 17px 17px;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    z-index: 100;
+}
+.img-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.img-wrap i {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+}
+.upload {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    opacity: 0;
+}

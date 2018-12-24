@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*弹出层*/
+.lean-overlay{position: fixed; z-index: 102; top: 0px; left: 0px; height: 100%; width: 100%; overflow: auto; transition: all 0.3s ease 0s ; background:rgba(0,0,0,0.5);}
+.reward-modal { background: #ffffff; width: 600px; margin: 0 auto; position: relative;}
+.reward-modal .modal-header{ width: 100%; }
+.a-reward-modal {background: #ffffff;  width: 600px; margin: 0 auto; position: relative;}
+.a-reward-modal .modal-body{ padding-top: 40px }
+.close {
+    width: 16px;
+    height: 16px;
+    display: block;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    background: url(../../../images/Icon/shut/Close_1.png?v=1467720348) no-repeat;
+}
+.reward-modal .reward-instruction{ padding-bottom: 60px }
+.instruction-box{ margin-top: 0}
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.modal{ background: none }
+

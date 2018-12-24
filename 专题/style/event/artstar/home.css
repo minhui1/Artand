@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table, th, tr, thead, tbody, td, label, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	font-weight: normal
+}
+body, button, input, select, textarea {
+	font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simhei, "宋体";
+	background: #FFFFFF;
+	max-width:500px;
+	margin:0 auto;
+}
+.font_fs {
+	font-family: "仿宋";
+}
+address, caption, cite, code, dfn, em, b, i, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img, abbr, acronym {
+	border: 0;
+}
+ol, ul, li {
+	list-style: none;
+}
+textarea {
+	resize: none;
+}
+input {
+	border: none;
+}
+a{text-decoration:none}
+/*input{-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing: border-box; border:none; }*/
+select {
+	height: 22px;
+	line-height: 18px;
+	padding: 2px 0;
+	font-size: 12px;
+}
+.clearfix {
+ *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+div:focus {
+	outline: 0;
+}
+input:focus {
+	outline: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+img {
+	vertical-align: middle;
+}
+html {
+	height: 100%;
+}
+*:before, *:after {
+	-moz-box-sizing: border-box;
+}
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Lantinghei SC Extralight", "STHeitiSC-Light", "Microsoft Yahei", "Arial", sans-serif;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	overflow-x: hidden;
+}
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+   background: rgba(0, 0, 0, 1);
+	height:100%;
+}
+.content{ padding: 1rem 0 1rem 0 }
+
+.container {
+padding: 2rem 2rem 2rem 2rem;
+text-align: center;
+}
+.product-item {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 1%;
+    width: 30%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.product-logo {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+.product-logo img {
+    width: 100%;
+    height: 100%； border-radius:100%;
+}
+.product-name {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ticket {
+    padding-bottom: 1.2rem;
+    color: #9f9f9f;
+}
+
+
+.product-item .btn.share.active {
+    background-color: #000000;
+    border: 1px solid #919191;
+    color: #929292;
+}
+.product-item .btn.share {
+    background-color: #000000;
+    border: 1px solid #4faca4;
+}
+.product-item .btn {
+    padding: 3px 2px;
+    display: block;
+    letter-spacing: normal;
+    color: #FFF;
+    width: 78%;
+    margin: 0 auto;
+    cursor: default;
+        border: 1px solid #4faca4;
+}
+.resume-box{ padding: 0 2rem; padding-bottom: 2.5rem; font-size: 0.75rem; color: #ffffff}
+
+.writing p{padding:0.3rem 0; line-height: 1.4rem}
+.btn-ex-warp{ border:1px solid red;  width: 100%; padding:0; margin-top:1rem;  text-align:center; }
+.btn-ex-warp .btn{color: #52bab1; display: inline-block; font-size: 12px}
+
+.btn-ex-warp .btn span{ display: inline-block; padding-left:0.2rem }
+.head-box{padding: 0 0 2rem 0; text-align: center;  color: #9f9f9f}
+.head-box h2{ width: 162px; height: 12px; background: url(../../../images/event/artstar/title1@2x.png) no-repeat; background-size: 162px 12px; display:inline-block}
+/*
+.head-box p:after {
+    content: '';
+    margin: 0 auto;
+    height: 1px;
+    width: 60%;
+    background-color: #9f9f9f;
+    display: block;
+    z-index: 15;
+}
+
+.head-box p span{ display:inline-block; padding: 0 0.5rem; background: #000000; position: relative; top: 10px }
+.head-box p span i{ display: inline-block;  }
+*/
+.head-box h2.a2{ width: 162px; height: 12px; background: url(../../../images/event/artstar/title2@2x.png) no-repeat; background-size: 162px 12px; display:inline-block}
+.history-container{width: 100%;}
+.art-box {
+    width: 100%;
+    padding-bottom: 3rem;
+    min-height: 10rem;
+}
+.art-box li {
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.art-box li img {
+    width: 100%;
+    min-height: 40px;
+}
+.art-box li h3{ text-align: center; padding:1rem;line-height: 1.6rem}
+.art-box li h3 a{ font-size: 0.85rem; color: #ffffff;   }
+img {
+    vertical-align: top;
+}
+.activityFooter {
+    width: 100%;
+    text-align: center;
+    /*background: url("../../../images/event/activity/bg.jpg") center top;*/
+    background-size: cover;
+}
+.activityFooter img {
+    width: 100%;
+}
+
+
+.category {
+    padding-top: 2rem;
+    background: #000000;
+    text-align: center;
+}
+.category h2{ color: #ffffff; font-size: 1.2rem }
+.relative {
+    position: relative;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.item-mobile {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.4rem 0.2rem;
+    background-color: #000000;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    min-width:30%;
+    font-weight:bold;
+    border: 1px solid #4faca4
+}
+
+.item-mobile.active {
+    background-color: #4faca4;
+}
+
+.type_p {
+    text-align: center;
+    padding-top: 6rem;
+}
+.typebtn-a {
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    display: inline-block;
+     background: url(../../../images/event/artstar/Next@2x.png) no-repeat;
+    background-size: 60px 60px;
+}
+.typebtn-a:active{background: url(../../../images/event/artstar/Next2@2x.png) no-repeat;
+    background-size: 60px 60px;}
+
+/*提示*/
+.prompt{ text-align: center; padding: 2rem 0 0rem 0;}
+.prompt h2{padding: 1rem 0 1.2rem 0; color: #ffffff; font-size:18px}
+.prompt h3{ color: #ffffff; line-height: 1.6rem}
+.prompt h3 a{ color: #4eafa6;  padding: 0 0.2rem }
+.checkmark{ width: 70px; height: 70px; display:inline-block; background: url(../../../images/event/artstar/correct@2x.png) no-repeat; background-size: 70px 70px;}
+.inst-btn-div {  padding: 1.5rem 0}
+.inst-btn-div .btn {
+    width: 12rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    border: 1px solid #4eafa6;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+.Guide-warp {
+    width: 100%;
+    height: 120px;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+}
+.Guide {
+    width: 316px;
+    height: 65px;
+    display: block;
+    background: url(../../../images/weixin_login/Guide1.png) no-repeat;
+    background-size: 169px 65px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+    background-size: 316px 65px;
+}
+.mobile-images { width: 235px; height: 312px; background: url(../../../images/event/artstar/phone@2x.png) no-repeat; background-size: 235px 312px;  margin: 2rem auto 3rem auto}
+/*清除*/
+html {
+    /* 1 */
+    -ms-text-size-adjust: none;
+    /* 2 */
+    -webkit-text-size-adjust: none;
+    /* 2 */
+    font-size: 16px;
+}
+.page, .page-group{ background:none; display:block; overflow: inherit;}
+.content .category{ display: none; }
+.content .prompt{ display: block; }
+.prompt-none .prompt{ display: none; }
+.prompt-none .category{ display: block; }
+
+a:active{ color: #4faca4 }
+.head-box.padding-b1{ padding-bottom: 1rem }
+
+
+.writing{ max-height: 150px; overflow:hidden;}
+.resume-box.show .writing{ max-height:inherit; overflow:inherit;}
+.triangle{width:0; height:0; border-width:5px 4px; border-style:solid; border-color:#52bab1 #000000 #000000 #000000; position:relative; top: 11px;}
+.show .btn-ex-warp .btn span .triangle {
+position:relative; top:-10px;
+width:0;
+height:0;
+border-style:solid;
+border-width:5px 4px;
+border-color:#000000 #000000 #52bab1 #000000;
+}
+.loadimg a{ background: url(../../../images/event/artstar/pixel.gif) repeat-x; min-height: 3rem; width: 100%;}
+
+/*底部导航*/
+.bar-bottom-nav{ position: fixed; bottom: 0; height: 44px; background: rgba(0,0,0,1);}
+.bar-bottom-nav .logo-btn{ background: url(../../../images/event/artstar/logo@2xb.png) no-repeat; width: 77px;height: 18px; display: block; float: left; margin: 11px 0 0 10px;
+    background-size: 77px 18px;}
+.bar-bottom-nav .nav-b-btn{ float:right; display: inline-block; padding: 5px 12px; font-size: 12px; border: 1px solid #59c2b7;  color: #ffffff; margin: 8px 7px 0 0}
+.bar:after,.bar-bottom-nav:after{height:0;}

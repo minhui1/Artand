@@ -1,0 +1,50 @@
+@charset "utf-8";
+/**/
+.artcircle-body .page-group .content {
+    top: 43px;
+}
+.list-block{margin: 0}
+.list-block input[type=text], .list-block input[type=password], .list-block input[type=email], .list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], .list-block input[type=datetime-local], .list-block input[type=time], .list-block input[type=number], .list-block input[type=search], .list-block select, .list-block textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: none;
+    background: 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 2rem;
+    color: #3d4145;
+    font-size: .7rem;
+    font-family: inherit;
+    text-align: left;
+}
+.item-input input[type=text] {
+    color: #555555;
+}
+.btn.btn-publish {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #57AD68;
+}
+.item-inner p{ font-size: 0.7rem; line-height: 2rem; width: 100%;}
+
+.data-ul .on .item-inner-right {
+    padding-right: 1.5rem;
+    background: url(../../images/new-images/Artcircle/Bitmap.png) no-repeat;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - .7rem) center;
+    background-position: calc(100% - .7rem) center;
+}
+.list-block .item-inner{ display: block; }
+.list-block .item-inner .p1{ font-size: 0.7rem ; width: 95%}
+.list-block .item-inner .p2{ font-size: 0.6rem ; color: #555555;width: 95% ;padding-top: 0.2rem}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+/*底部导航*/
+.popular-body .bar-tab .icon-item-warp{ text-align: right; }
+.popular-body .bar-tab .tab-item .icon{ top: 0; height: 38px; line-height: 38px; }
+.popular-body .bar-tab{height: 38px; background: #000000; z-index: 16}
+.popular-body .bar-tab .tab-item{ height: 38px; font-size: 14px; }
+.popular-body .bar-tab:before{ background: #000000 }
+.popular-body .bar-tab .tab-item.active,.popular-body .bar-tab .tab-item:active{ color: #ffffff; font-size: 14px; }
+.artand-nav .icon-msg,.artand-nav .icon-seh{ width: 38px; height: 38px; position: relative;}
+.artand-nav .icon-msg{background: url(../../../images/new-images/common/sx@2x.png) no-repeat;  background-size: 38px 38px;}
+.artand-nav .icon-msg i{ display: none; }
+.artand-nav .icon-msg i{  width: 6px; height: 6px; border-radius: 6px;background: #EE5C5C; position: absolute; top: 8px; right: 6px}
+.artand-nav .icon-msg.on i{ display: block; }
+.artand-nav .icon-seh{background: url(../../../images/new-images/common/ss@2x.png) no-repeat;  background-size: 38px 38px;}

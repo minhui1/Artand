@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.empty-warp {
+	width: 100%;
+	text-align: center;
+	padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+
+.icon-empty {
+	display: inline-block;
+	margin-top: 3.5rem
+}
+.text-empty-h3 {
+	font-size: 0.65rem;
+	color: #9C9C9C;
+	padding-top: 15px;
+}
+.empty-body .bar-nav~.content{ background: #ffffff }
+.icon.nav-empty-1 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/14.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-2 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/2.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-3 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/11.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-4 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/4.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-5 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/3.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-6 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/8.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.icon.nav-empty-7 {
+    width:108px;
+    height: 108px;
+    display: inline-block;
+    background: url(../../images/new-images/air/13.png) left top no-repeat;
+    background-size: 108px 108px;
+}
+.btn-add-em{ padding: 0.3rem 1rem; background: #000000;  color: #ffffff; font-size: 0.7rem;  display: inline-block;  margin-top:1rem   }

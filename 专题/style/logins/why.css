@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.why-content{}
+.why-li-block{ margin: 0; position: relative; top: -1px; }
+.list-block .item-media+.item-inner{  margin-left: 0;  }
+.why-li-block .item-title{ background: none; height: auto; width: 30%;     padding-top: 1.2rem;
+    padding-bottom: 1.9rem;}
+.why-li-block .item-title .icon{ display: inline-block; }
+.why-li-block .item-title .artist{ width: 64px;
+    height: 97px;
+    background: url(../../images/new-images/login/3.png) center no-repeat;
+    background-size: 64px 97px;}
+.why-li-block .item-title .collectors{ width: 74px;
+    height: 85px;
+    background: url(../../images/new-images/login/1.png) center no-repeat;
+    background-size: 74px 85px;}
+.why-li-block .item-title .hobbies{ width: 69px;
+    height: 83px;
+    background: url(../../images/new-images/login/2.png) center no-repeat;
+    background-size: 69px 83px;}
+.why-li-block .item-content {
+    padding-right: 1.5rem;
+    background: url(../../images/new-images/site/6.png) no-repeat;
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - .7rem) center;
+    background-position: calc(100% - .7rem) center;
+}
+.why-li-block .item-after{ width: 60%; display: block; max-height: inherit; }
+.why-li-block .after-t1{ width: 100%; display: block; padding-top: 0.5rem }
+.why-li-block .item-after h3{ font-size: 0.8rem; font-weight: 400; color: #000000;display: block; width: 100%;}
+.why-li-block .item-after ul{ padding-left: 0; width: 100%; display: block; }
+.why-li-block .item-after ul li{  font-size: 0.6rem ; padding: 0.1rem 0}
+.why-li-block .item-after ul li p{color: #555555;}
+.why-li-block .item-after ul li p i{  display: inline-block; width: 3px; height: 3px; position: relative; top: -2px; margin-right:7px;  background: #D3D2D3; }
+.why-li-block .item-after .after-t1  ul.width50 li{ width: 50%; float: left; }
+.item-content .entire-btn{ display: block; width: 100%; }
+
+.list-block.why-li-block .why-ul-block .item-inner{ padding: 1.44rem 0; }
+
+.list-block .item-inner:after {
+    height: 0;
+}
+
+.why-ul-block .item-content:after {
+    content: '';
+    position: absolute;
+    left: 0.75rem;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.why-ul-block .item-content:last-child:after {
+    height: 0
+}
+/*2016-11-23修改*/
+.why-li-block{ padding-top: 6.5rem }
+.why-li-block .entire-btn-warp{ padding: 0 2rem 1.5rem 2rem }
+.why-li-block .entire-btn-warp .entire-btn-new{ width: 100%; display: inline-block; padding: 0.5rem 0; line-height: 2rem; background: #000000; text-align: center; color: #ffffff; font-size: 0.8rem }

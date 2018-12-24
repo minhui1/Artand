@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.surface {
+    -moz-box-sizing: border-box;
+    height: 100%;
+    top: 0;
+    transition: padding-bottom 0.1s ease 0s;
+    width: 100%;
+}
+.surface .inner {
+    position: absolute;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+.surface .promo-fill {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10
+}
+.QRcode{ width: 147px; height: 278px; z-index: 30; position: absolute; top: 50%; left: 50%; margin: -139px 0 0 -74px; background: url(../../images/new-images/PC/qrcode/qrcode.png); }
+.QR-bottom-a{ color: #ffffff; font-size: 14px; display: inline-block; position: absolute; bottom: 30px; right: 30px; z-index: 40; text-decoration: none; }
+.QR-bottom-a span{ padding: 0 3px; }
+
+
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+.QRcode{ 
+  background: url(../../images/new-images/PC/qrcode/qrcode@2x.png); 
+  background-size: 147px 278px;
+}
+
+}
+body {
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simhei,"宋体";
+}

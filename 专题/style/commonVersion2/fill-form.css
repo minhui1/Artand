@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+.page, .page-group{ display: block; }
+.bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/search/6.png) center no-repeat;
+    background-size: 10px 19px;
+}
+.bar .button-nav.pull-left{ margin: 0 }
+.bar-nav~.content{ top: 43px; }
+body {
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.bar-nav{ padding-left: 0; padding-right: 0; background: #ffffff }
+.bar .icon{ font-size: 0.8rem;padding: .5rem 0.4rem;}
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fafafa;
+}
+.title {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-weight: 400
+}
+.title .title-left {
+    font-size: 24px;
+    color: #000000;
+    padding-top: 39px;
+}
+.title .title-right {
+    font-size: 16px;
+    color: #aaaaaa;
+    padding-top: 47px;
+}
+.title .title-right a {
+    color: #aaaaaa;
+}
+.content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+.content-left {
+    width: 100%;
+}
+
+
+
+a {
+    color: #000;
+}
+a:hover {
+    color: #000;
+}
+a:active {
+    color: #000;
+}
+.btn {
+    display: inline-block;
+}
+.btn.btn-publish {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #57AD68;
+}
+.upload {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    opacity: 0;
+    left: 0;
+}
+.list-block {
+    margin: 0;
+    font-size: .7rem;
+}
+.list-block ul {
+    background: #fff;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0.75rem;
+    position: relative;
+    overflow: hidden
+}
+.list-block li {
+    box-sizing: border-box;
+    position: relative;
+}
+.list-block .item-inner {
+    width: 100%;
+    padding-top: .7rem;
+    padding-bottom: .65rem;
+}
+.list-block .item-title {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.data-ul .item-input {
+    text-align: right;
+}
+.list-block input[type=text], .list-block input[type=password], .list-block input[type=email], .list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], .list-block input[type=datetime-local], .list-block input[type=time], .list-block input[type=number], .list-block input[type=search], .list-block select, .list-block textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: none;
+    background: 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 2rem;
+    color: #3d4145;
+    font-size: .7rem;
+    font-family: inherit;
+    text-align: right;
+}
+
+.data-ul .item-content .item-inner-right {
+    padding-right: 1.5rem;
+    background: url(../../images/new-images/site/6.png) no-repeat;
+    background-size: 7px 12px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - .7rem) center;
+    background-position: calc(100% - .7rem) center;
+}
+
+.item-content-under:before {
+    content: '';
+    position: absolute;
+    left: 0.75rem;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.item-content-uoder:after {
+    content: '';
+    position: absolute;
+    left: 0.75rem;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.list-block .item-title.label{ text-align: left; }
+.list-block .item-content .item-input select {
+    direction: rtl;
+}
+
+.item-input input[type=checkbox],.item-input input[type=radio]{  opacity: 0; position: absolute; top: 0; left: 0}
+.item-input input[type=text]{ color: #555555 }
+.item-input select{ color: #555555 }
+/**/
+.publish-img-box .publish-img-list {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-right: 2%;
+    position: relative;
+    background: #ededed url(../../images/publish/add-img.png) center no-repeat;
+    background-size: 38px 38px;
+    border: 0;
+}
+.fl {
+    float: left;
+}
+.text-p{ text-align: left;     padding-bottom: 0.5rem;}
+.list-block ul.publish-img-box{    padding:0.75rem 0.75rem;}

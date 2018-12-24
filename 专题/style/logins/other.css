@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+/**/
+.policy-content {
+   padding: 1rem 1.2rem 3rem 1.2rem;
+}
+.policy-content h4 {
+    padding: 5px 0;
+     font-size: 0.7rem;
+    line-height: 28px;
+    font-weight: bold;
+}
+.policy-content p {
+    margin-bottom: 9px;
+    font-size: 0.7rem;
+    line-height: 28px;
+    color: #737373;
+}
+.policy-content a{ color: #5184BC }
+.policy-content ol li{ margin-bottom: 9px;
+    font-size: 0.7rem;
+    line-height: 28px;
+    color: #737373;}
+/**/
+.app_ad_box .iphonebox{ width:414px; height:546px; background:url(../../images/app_ad/iphone.jpg) right 0 no-repeat; background-size: 414px 546px; float:left}
+.app_ad_box .text_box{ padding-left:103px; float:left}
+.app_ad_box .top{ padding-top:36px;}
+.app_ad_box .top h2{ width:368px; height:171px; background:url(../../images/app_ad/text.jpg) right 0 no-repeat;background-size: 368px 171px; }
+.app_ad_box .text_p{ width:387px; padding-top:24px; color:#000; font-size:13px; text-align:left; position:relative; left:2px;}
+.app_ad_box .padding_t20{ padding-top:18px;}
+.app_ad_box .app_btn_box{ padding-top:60px; padding-left:3px; text-align:left}
+.app_ad_box .btn.app{ width:186px; height:58px; display:inline-block; background:url(../../images/app_ad/app_btn.png) 0 0 no-repeat; background-size: 186px 58px; float:left}
+.app_ad_box .btn.g_play{ width:186px; height:58px; display:inline-block; background:url(../../images/app_ad/g_play_btn.png) 0 0 no-repeat; background-size: 186px 58px; }
+.app_ad_box .g_play{ width:170px; display:inline-block; padding-left:17px;}
+.app_ad_box .g_play p{ color:#999999; font-size:12px; padding:2px 0 0 10px}
+
+.app_ad_mobile{  padding-bottom: 1rem}
+.app_ad_mobile h2{ font-size: 2rem; padding-bottom: 20px;}
+.app_ad_mobile h3{ font-size: 1rem; font-weight: normal; padding-bottom: 0.5rem;}
+.app_ad_mobile h4{ font-size: 1.2rem; font-weight: bold;padding-bottom: 2rem;}
+.text_mobile p{ padding-bottom: 10px; font-size: 0.8rem; line-height: 24px; color: #555555; font-size: 0.7rem}
+.btn_mobile{ text-align: center; padding-bottom: 30px}
+.btn_mobile .a1{width:186px; height:58px; display:inline-block; background:url(../../images/app_ad/app_btn.png) 0 0 no-repeat; background-size: 186px 58px;}
+.btn_mobile .a2{ width:186px; height:58px; display:inline-block; background:url(../../images/app_ad/g_play_btn.png) 0 0 no-repeat; background-size: 186px 58px; }
+.mobile-bj{width:280px; height:372px; background:url(../../images/app_ad/iphone.jpg) center no-repeat; background-size: 280px 372px; }
+.mobile-bj-warp{ width: 280px; height:372px; margin: 0 auto; text-align: center; }
+/**/
+.policy-content .resumeBox .profile-head{ padding-top: 40px }
+.policy-content .resumeBox{ padding-top: 0; color: #555555 }
+.policy-content .resumeBox p img{ width: 100%; }
+

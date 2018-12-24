@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>收银台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../../xiaobai/style/plugin/sui/sm.min.css">
+    <link rel="stylesheet" href="../../xiaobai/style/plugin/sui/sm-extend.min.css">
+    <link rel="stylesheet" href="../../style/wap-detail/common.css"/>
+    <link rel="stylesheet" href="../../style/trade-detail/cashier.css"/>
+</head>
+<body>
+    <div class="page">
+        <header class="bar bar-nav">
+            <a href="#" class="icon  icon-left pull-left "></a>
+            <h1 class="title font16">Artand 收银台</h1>
+        </header>
+        <div class="content">
+            <div class="price-total font14 clearfix">
+                <span class="price-text fl">订单金额</span>
+                <span class="price fr">¥3000.00</span>
+            </div>
+            <fieldset class="pay-type">
+                <h2 class="font14">支付方式</h2>
+                <label class="radio fl" for="pay-zhi">
+                    <div class="check-info">
+                        <div class="pay-img pay-zhi"></div>
+                        <span class="font14">支付宝支付</span>
+                    </div>
+                    <input type="radio" name="pay-type" id="pay-zhi" checked="checked"/>
+                    <span class="radio-btn"></span>
+                </label>
+                <label class="radio fl" for="pay-wei">
+                    <div class="check-info">
+                        <div class="pay-img pay-wei"></div>
+                        <span class="font14">微信支付</span>
+                    </div>
+                    <input type="radio" name="pay-type" id="pay-wei"/>
+                    <span class="radio-btn"></span>
+                </label>
+            </fieldset>
+            <div class="pay-balance">
+                <label class="radio fl" for="pay-bal">
+                    <div class="check-info">
+                        <div class="pay-img pay-bal"></div>
+                        <div class="pay-balance-box">
+                            <p class="font14">余额支付</p>
+                            <p class="font12 balance-number">
+                                <span>余额</span>
+                                <span class="price">¥1000.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <input type="radio" name="pay-bal" id="pay-bal"/>
+                    <span class="radio-btn"></span>
+                </label>
+            </div>
+        </div>
+        <footer class="bar bar-footer">
+            <a class="btn black-btn" href="#">立即支付</a>
+        </footer>
+    </div>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+</body>
+</html>

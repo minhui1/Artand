@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.content-block{ margin: 0.5rem 0;padding: 0 .75rem;}
+.list-project-warp{ padding-bottom: 3rem }
+.list-project-warp .list-block ul {
+    background: #ffffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.list-project-warp .list-block .item-content{ padding-left: 0 ; padding-bottom: 0.85rem}
+.list-project-warp .list-block {
+    margin: 0;
+    font-size: .7rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #E7E7E7;
+}
+.list-project-warp .list-block.media-list .item-media{ padding: 0 ; max-width: 4.5rem}
+.list-project-warp .list-block.media-list .item-inner{ padding-top: 0; padding-bottom: 0; padding-right:0;}
+.list-project-warp .list-block .item-link .item-inner{ background: none }
+.list-name{ padding: 0.3rem 0 0.6rem 0 }
+.list-name .place{ padding-right: 0.5rem; display: inline-block; float: left;}
+.list-block .list-name .item-link-warp{ float: left; display: inline-block; color: #000000; }
+.list-project-warp .list-block .item-link-warp .item-link{max-width: 16em; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+.list-project-warp .list-block.media-list .item-media img{ width: 4.5rem }
+.list-project-warp .list-block .item-subtitle{ font-size: 0.6rem; color: #41494C }
+.list-project-warp .list-block .item-inner:after{ height: 0 }
+.list-project-warp .list-block.media-list .item-title{ font-weight: inherit; color: #000000 }
+.list-project-warp .inter-ac{ padding-top: 1.4rem; font-size: 0.6rem; color: #A4AFB3}
+.padding-top-3{ padding-top: 0.3rem }
+.inter-ac .item-title span{ padding-right: 0.8rem;}
+.inter-ac .item-title span i{ padding-left: .3rem }
+.list-project-warp .item-inner .inter-ac .item-title{ color: #A4AFB3 }
+.list-project-warp .item-inner .inter-ac .item-after{ color: #A4AFB3 }
+.list-block .item-media+.item-inner{ margin-left:0.65rem }
+.reward-box { padding: 0 0 0.85rem 0;  }
+.reward-box .reward-btn{ width: 100%; line-height: 1.8rem; height: 1.8rem; background: #EFF2F3; display: inline-block; text-align: center; font-size: 0.6rem; color: #000000}
+.reward-box{ display: none; }
+.list-block.on .reward-box{ display: block; }
