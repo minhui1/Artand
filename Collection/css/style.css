@@ -18,8 +18,8 @@ html{background: #fff; height: 100%;font-family: '.PingFangSC-Light';-webkit-fon
 .content p span{display: inline-block;} 
 .content p .m-left{float: left;}
 .content p .m-right{float: right;}
-.content .picIMG{position: relative; height: 1416px; margin-bottom: 67px; overflow: hidden;}
-.content .picIMG img{display: block;font-size: 0;height: 100%;margin: 0 auto;}
+.content .picIMG{position: relative; margin-bottom: 67px; overflow: hidden;}
+.content .picIMG img{display: block;font-size: 0; width: 1416px;height: 1416px; margin: 0 auto;}
 .content ul li{font-size: 40px;line-height: 40px; color: #555555; margin-bottom: 43px; overflow: hidden;}
 .content ul li span,
 .content ul li em{display: inline-block;line-height: 43px;}
