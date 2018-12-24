@@ -27,11 +27,10 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .content ul li span{text-align: left; float: left; width: 20%;}
 .content ul li em{text-align: right; float: right; width: 78%;}
 .content ul li b{list-style: none; font-weight: normal;}
-.content ul li .m-txt{margin-left: 13px;}
-.content ul li .m-txtA{ margin-left: 116px;}
-.content ul li .m-txtB{ margin-left: 116px;}
-.content ul li .m-txtC{ margin-left: 39px;}
-.content ul li .m-txtD{ margin-left: 39px;}
+.content ul li .m-txtA{ margin-left: 112px;}
+.content ul li .m-txtB{ margin-left: 112px;}
+.content ul li .m-txtC{ margin-left: 36px;}
+.content ul li .m-txtD{ margin-left: 36px;}
 .footer{ position: absolute; width: 100%; bottom: 105px;}
 .footer dl{ position: relative; white-space: nowrap;overflow: hidden;}
 .footer dl dt{ font-size: 0; }
