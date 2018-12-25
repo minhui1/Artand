@@ -9,7 +9,7 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .edge-footer-left{position: absolute; z-index: 2; left: -16px; bottom: -16px; width: 226px; height: 226px;}
 .edge-footer-right{position: absolute; z-index: 2; right: -16px; bottom: -16px; width: 226px; height: 226px;}
 .edge img{width: 226px; height: 226px;}
-.box{ position: relative; width: 2148px;height: 3176px; border: 4px solid #4F6378; margin: 54px auto; }
+.box{ position: relative; width: 2148px;height: 3176px; border: 4px solid #4F6378; margin: 40px; }
 .m-text-cut{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .content{ position: absolute; left: 50%; top: 50%; margin-left: -708px; width: 1416px; padding-bottom: 46px;-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateY(-50%);}
 .box h3{font-size: 168px; line-height: 168px; font-weight: bold; color: #000; margin: 207px 0 68px;text-align: center; }
