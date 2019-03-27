@@ -32,7 +32,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-logo{ position: absolute; right: 1.0rem; bottom: 1.0rem; }
 .M-header .mod-logo span{display: block; width: 2.5rem; height: 0.6rem;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
-.M-header .mod-logo p{ width: 2.5rem; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;letter-spacing: 7px;text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
+.M-header .mod-logo p{ width: 2.5rem; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;letter-spacing: 10.33px;text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
 
 .M-info{ background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
