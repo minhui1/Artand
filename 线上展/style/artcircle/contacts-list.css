@@ -1,0 +1,420 @@
+
+/**/
+.reward {
+    border-bottom: 0.01rem solid #f4f4f4;
+    background: #ffffff;
+    padding-top: 0.6rem;
+}
+.reward .reward-top {
+    text-align: center;
+    padding: 0 0.75rem;
+}
+.reward .reward-top .reward-btn {
+    width: 134px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #000000;
+    margin: 33px 0 10px;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.reward .reward-top .reward-num {
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: #555555;
+    padding: 1rem 0 21px;
+    box-sizing: content-box;
+}
+.reward .reward-top .reward-num i {
+    padding: 0 0.2rem
+}
+.reward-list {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 1rem 0 0 0.75rem;
+    background: #fff;
+}
+.reward-list .reward-record {
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+    line-height: 38px;
+    padding-right: 0.75rem;
+}
+.reward .reward-list li:nth-last-of-type(2) {
+    border-bottom: 0;
+}
+.reward-list li:nth-last-of-type(2) {
+}
+.reward-record-left {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #000000;
+    max-width: 80%;
+}
+.reward-record:nth-of-type(1) .ranking, .reward-record:nth-of-type(2) .ranking, .reward-record:nth-of-type(3) .ranking {
+    background: url(../../images/wap-detail/icons.png) no-repeat;
+    background-size: 150px 80px;
+    text-indent: -9999px;
+}
+.reward-record:nth-of-type(1) .ranking {
+    background-position: 0 -50px;
+}
+.reward-record:nth-of-type(2) .ranking {
+    background-position: -20px -50px;
+}
+.reward-record:nth-of-type(3) .ranking {
+    background-position: -40px -50px;
+}
+.reward-photo {
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    position: relative;
+}
+.artistPhoto a{position: relative;}
+.artistPhoto a:first-of-type {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+.reward-photo a:first-of-type {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.reward-name {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #000000;
+    height: 34px;
+    line-height: 34px;
+    max-width: 10em;
+    padding-top: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reward-record-left span {
+/* margin-left: 5px;*/
+     float: inherit;
+}
+.reward-record-right .time {
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1.17;
+    text-align: right;
+    color: #A4AFB3;
+}
+.reward-list .price {
+    color: #000;
+}
+/*end*/
+/**/
+.comment {
+    background: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0.8rem 0.75rem 0 0.75rem
+}
+.comment-btn-box {
+    margin: 0.75rem 0.75rem 0.2rem 0;
+    text-align: right;
+}
+.comment-btn-box button {
+    width: 66px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    border: 0;
+}
+.comment-list {
+    padding-top: 4px;
+}
+.comment-list .comment-record {
+    border-bottom: 1px solid #f4f4f4;
+    margin-top: 14px;
+}
+.comment-detail {
+    margin-left: 43px;
+}
+.comment-detail-left .bottom {
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #9c9c9c;
+    margin-top: 4px;
+}
+.icon.heart {
+    width: 15px;
+    height: 15px;
+    background-position: -42px -20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon.heart-red {
+    width: 16px;
+    height: 16px;
+    background-position: -62px -20px;
+}
+.comment-detail-right span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9c9c9c;
+}
+.comment-detail-right a {
+    display: inline-block;
+}
+.comment-detail-content {
+    margin: 11px 0 20px;
+}
+.comment-detail-content p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+}
+/*end*/
+/**/
+.more {
+    text-align: center;
+}
+.more a {
+    width: 100%;
+    height: 0.6rem;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #A4AFB3;
+    margin: 1rem 0;
+    display: inline-block;
+}
+/**/
+
+.list-title {
+    position: relative;
+}
+.list-title h2 {
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.list-box .attention {
+    margin-top: 1px;
+}
+.comment-detail.zan-box {
+    padding-right: 0;
+}
+.list-box .comment {
+    margin-top: 0;
+    border: 0;
+}
+.comment-detail-right {
+    height: 34px;
+    line-height: 34px;
+}
+button.cancel {
+    background: #fff;
+    color: #555;
+}
+button.sure {
+    background: #000;
+    color: #fff;
+}
+/**/
+.list-nav-left {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0.6rem;
+    z-index: 20;
+    line-height: 2.2rem
+}
+.reward .reward-top .reward-btn-a {
+    width: 100%;
+    height: 1.8rem;
+    background-color: #4FD17F;
+    margin: 0;
+    text-align: center;
+    line-height: 1.8rem;
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.reward .reward-top .reward-btn-b {
+    width: 100%;
+    height: 1.8rem;
+    background-color: #EFF2F3;
+    margin: 0;
+    text-align: center;
+    line-height: 1.8rem;
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #000000;
+}
+.reward .reward-top .reward-btn-a i {
+    padding: 0 0.2rem
+}
+.reward .reward-top .btn {
+    margin-top: 0.8rem
+}
+.textarea-itme-content {
+    box-sizing: border-box;
+    min-height: 2.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.textarea-itme-content .item-media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 0.4rem;
+}
+.textarea-itme-content .item-inner {
+    position: relative;
+    width: 100%;
+    min-height: 2.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+.textarea-itme-content .text-msg {
+    height: 1.8rem;
+    resize: none;
+    line-height: 1.4;
+    padding: 0.4rem 0.75rem;
+    background: none;
+    border: none;
+    width: 100%;
+    overflow-y: hidden;
+    font-size: 0.7rem
+}
+.textarea-itme-content .item-input {
+    width: 100%;
+    height: 1.8rem
+}
+.itme-send-btn {
+    text-align: center;
+    height: 1.8rem;
+    padding: 0.4rem 0;
+    display: inline-block;
+    width: 60px;
+    background: none;
+    color: #000000;
+    border: 1px solid none;
+    margin-top: -0.3rem
+}
+.grade-box-span {
+    display: inline-block;
+    float: left;
+    height: 38px;
+    line-height: 43px;
+}
+.itme-clear-btn {
+    width: 2rem;
+    height: 2.2rem;
+    display: inline-block;
+    background: url(../../images/new-images/details/close@2x.png) center no-repeat;
+    background-size: 13px 13px;
+    display: none;
+}
+.reward-list h4 {
+    color: #9c9c9c;
+    padding-bottom: 10px;
+}
+.grade-box-span .grade {
+    position: relative;
+    top: 8px;
+    margin-left:3px; 
+}
+.bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/homepage/3.png) center no-repeat;
+    background-size: 10px 18px;
+}
+.bar .save-btn {
+    border: none;
+    color: #57AD68;
+    top: .5rem;
+    padding: 0 0.6rem 0 .5rem;
+}
+.reward-photo a img{ width: 100%; border-radius: 100%; }
+
+.reward-record.on {
+    padding-right: 1.5rem;
+    background: url(../../images/new-images/Artcircle/Bitmap.png) no-repeat;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - .7rem) center;
+    background-position: calc(100% - .7rem) center;
+}
+.item-title{ position: relative; top: 2px; }
+
+.nav-white.bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/search/6.png) center no-repeat;
+    background-size: 10px 18px;
+    
+}
+.bar.nav-white .button-nav.pull-left{margin-left: -.50rem;}
+.release-body .bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/search/6.png) center no-repeat;
+    background-size: 10px 18px;
+}
+/*
+#at .bar.nav-white .button-nav.pull-left {
+    margin-left: 0rem;
+}*/

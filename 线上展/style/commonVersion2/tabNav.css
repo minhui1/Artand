@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.tabNav{ background: #ffffff;}
+.tabNav .tab-item .icon-home{
+    width: 18px;
+    height: 20px;
+    background: url(../../images/new-images/nav/home.png) no-repeat;
+    background-size:18px 20px;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.tabNav .tab-item.active .icon-home{
+    background: url(../../images/new-images/nav/home_active.png) no-repeat;
+    background-size:18px 20px;;
+}
+.tabNav .tab-item .icon-explore{
+    width: 20px;
+    height: 20px;
+    background: url(../../images/new-images/nav/explore.png) no-repeat;
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.tabNav .tab-item.active .icon-explore{
+    background: url(../../images/new-images/nav/explore_active.png) no-repeat;
+    background-size:20px 20px;
+}
+
+
+.tabNav .tab-item .icon-topics{
+    width: 17px;
+    height: 20px;
+    background: url(../../images/new-images/nav/zhuanti.png) no-repeat;
+    background-size:17px 20px;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.tabNav .tab-item.active .icon-topics{
+    background: url(../../images/new-images/nav/zhuanti_active.png) no-repeat;
+    background-size:17px 20px;
+}
+.tabNav .tab-item .icon-mine{
+    width: 19px;
+    height: 20px;
+    background: url(../../images/new-images/nav/mi.png) no-repeat;
+    background-size:19px 20px;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.tabNav .tab-item.active .icon-mine{
+    background: url(../../images/new-images/nav/mi_active.png) no-repeat;
+    background-size:19px 20px;
+}
+.tabNav .tab-item .icon-lp{
+    width: 20px;
+    height: 20px;
+    background: url(../../images/new-images/nav/Lboard.png) no-repeat;
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.tabNav .tab-item.active .icon-lp{
+    background: url(../../images/new-images/nav/Lboard_active.png) no-repeat;
+    background-size:20px 20px;
+}
+.tabNav .tab-item .icon{ display: inline-block; }
+.tabNav .icon:before{ display: none; }
+/*
+.tabNav .tab-item:first-child { position: relative; left: 0.6rem }
+.tabNav .tab-item:last-child{ position: relative; right: 0.6rem }
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
+
+    .bar-tab:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+}
+
+.tabNav .prompt {
+    background: #D04344;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 0.5rem;
+    padding: 0 5px;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+}
+.tabNav .point{
+    background: #D04344;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 15px;
+    padding:5px;
+    position: absolute;
+    top: 12px;
+    margin: 0;
+}
+.bar {
+   height: 46px !important;
+}
+.bar-tab .tab-item{ height: 46px !important;}
+.bar-tab ~ .content{ bottom: 46px !important; }

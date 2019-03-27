@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*清楚弹出层的样式*/
+.picCode.modal{ width: 15.2rem; margin-left: -7.51rem; }
+.picCode .modal-inner{ background: #ffffff }
+.picCode .modal-button{ background: #ffffff }
+.picCode .modal-inner:after { background: #EDEDED }
+.picCode .modal-button.modal-button-bold{  font-weight: 400; font-size: 0.7rem; color: #57AD68 }
+.picCode .modal-button{    font-size: .7rem; color: #999999}
+.picCode .modal-button:after{ background-color: #EDEDED; }
+.picCode input[type=text]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: none;
+    background: 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 2rem;
+    color: #3d4145;
+    font-size: .7rem;
+    font-family: inherit;
+    text-align: left;
+    padding: 0 0.5rem;
+    font-weight: inherit;
+}
+.picCode .item-title {
+    width: 50%;
+    text-align: center;
+    background: #f2f2f2;
+    height: 2rem;
+    line-height: 2rem;
+}
+.picCode .item-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.picCode .item-img img {
+    width: 100%;
+    height: 100%;
+}
+.picCode .item-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #F2F2F2;
+}
+.item-content h3{ font-size: 0.8rem;  font-weight: 400; }
+.item-inner { margin-bottom: 0.8rem  }
+.modal-button.modal-button-bold{ color: #57AD68; font-weight: 400}

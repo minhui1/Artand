@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+.login-screen, .popup.approve-warp-tip{ display: block; }
+.approve-warp-tip .content-block{ padding-top: 40px }
+.approve {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(../../images/approve/approve_x.png)
+}
+.max.approve{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background: url(../../images/approve/approve_x.png)}
+.max.approve-btn-a {
+    background-position: -8px -36px
+}
+.max.approve-btn-b {
+    background-position: -41px -36px
+}
+.max.approve-btn-c {
+    background-position: -74px -36px
+}
+.approve-btn-a {
+    background-position: -8px -17px
+}
+.approve-btn-b {
+    background-position: -28px -17px
+}
+.approve-btn-c {
+    background-position: -48px -17px
+}
+.carte_box .approve {
+    position: absolute;
+    bottom: -3px;
+    right: 3px
+}
+.cGrade_warp{ margin:0; padding:5px 0 0 0;}
+.cGrade {
+    width: 29px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/approve/approve_x.png) no-repeat;
+}
+.cGrade.max{
+    width: 38px;
+    height: 22px;
+    display: inline-block;
+    background: url(../../images/approve/approve_x.png) no-repeat;
+}
+.grade1 {
+    background-position: -8px -241px;
+}
+.grade2 {
+    background-position: -8px -208px;
+}
+.grade3 {
+    background-position: -8px -174px;
+}
+.grade4 {
+    background-position: -8px -141px;
+}
+.grade5 {
+    background-position: -8px -108px;
+}
+.grade6 {
+    background-position: -8px -74px;
+}
+.grade1.max {
+    background-position: -42px -241px;
+}
+.grade2.max {
+    background-position: -42px -208px;
+}
+.grade3.max {
+    background-position: -42px -174px;
+}
+.grade4.max {
+    background-position: -42px -141px;
+}
+.grade5.max {
+    background-position: -42px -108px;
+}
+.grade6.max {
+    background-position: -42px -74px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 160dpi) {
+    .approve-btn-a {
+        background: url(../../images/approve/approve_2x.png) -8px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .approve-btn-b {
+        background: url(../../images/approve/approve_2x.png) -28px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .approve-btn-c {
+        background: url(../../images/approve/approve_2x.png) -48px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-a {
+        background: url(../../images/approve/approve_2x.png) -8px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-b {
+        background: url(../../images/approve/approve_2x.png) -41px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-c {
+        background: url(../../images/approve/approve_2x.png) -74px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .cGrade {
+        width: 28px;
+        height: 16px;
+        display: inline-block;
+        background: url(../../images/approve/approve_2x.png) no-repeat;
+
+    }
+    .cGrade.max {
+        width: 38px;
+        height: 22px;
+        display: inline-block;
+        background: url(../../images/approve/approve_2x.png) no-repeat;
+
+    }
+    .grade1 {
+        background: url(../../images/approve/approve_2x.png) -8px -241px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade2 {
+        background: url(../../images/approve/approve_2x.png) -8px -208px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade3 {
+        background: url(../../images/approve/approve_2x.png) -8px -174px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade4 {
+        background: url(../../images/approve/approve_2x.png) -8px -141px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade5 {
+        background: url(../../images/approve/approve_2x.png) -8px -108px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade6 {
+        background: url(../../images/approve/approve_2x.png) -8px -74px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade1.max {
+        background: url(../../images/approve/approve_2x.png) -42px -241px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade2.max {
+        background: url(../../images/approve/approve_2x.png) -42px -208px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade3.max {
+        background: url(../../images/approve/approve_2x.png) -42px -174px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade4.max {
+        background: url(../../images/approve/approve_2x.png) -42px -141px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade5.max {
+        background: url(../../images/approve/approve_2x.png) -42px -108px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade6.max {
+        background: url(../../images/approve/approve_2x.png) -42px -74px no-repeat;
+        background-size: 110px 355px
+    }
+}
+.Description{
+    margin: 0 auto;
+    max-width: 960px;
+    height:100%;
+}
+.tableWarp h2 {
+    text-align:center;
+    font-size: 16px;
+    color: #000000;
+    line-height: 16px;
+    padding-left: 6px;
+}
+.tableWarp{min-width:100%; height:100%; position:relative}
+.Description .table{ width:100%; padding-top:38px}
+.Description .table table{ min-width:80%; margin:0 auto; text-align:center}
+.Description .table table thead{
+    background:#5184bc;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #fff;
+}
+.Description .table table tr td{ height:40px;}
+.Description .table .cGrade{ margin-top:5px;}
+.Description .closeBox{ width:64px; height:64px; display:block; position:absolute; top:20px; right:20px; }
+.Description .closeBox .close{ width:100%; height:100%; display:block; transition-property:none;background:url(../../../images/approve/approve_web_2x_86.png) no-repeat; background-size: 64px 128px}
+.Description .closeBox .close:hover{ background:url(../../images/approve/approve_web_2x_86.png) 0 -64px no-repeat;background-size: 64px 128px}
+.cGrade{ margin:0 3px;}
+.approve{ margin:0 3px;}
+
+.publish_review .review_warp ul .review_text .cGrade {
+    position: static;
+    margin-top: 2px;
+}
+
+
+.Description .table table tr:nth-of-type(2n){
+    background: #f8f8f8;
+}
+table {
+    font-size: 14px;
+    color: #000;
+}
+.info-text {
+    width: 90%;
+    max-width: 519px;
+    height: 40px;
+    margin: 34px auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #a6a6a6;
+}
+.Description .table table tr td:first-of-type {
+    padding-left: 15px;
+    text-align: left;
+}
+.Description .table table tr td:last-of-type {
+    padding-right: 15px;
+    text-align: right;
+}

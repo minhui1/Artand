@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.status-box{ height: 100%; text-align: center; padding-top: 6rem;}
+.status-box .icon-status.under{ width: 58px; height: 58px; background: url(../../images/new-images/verify/audit.png) no-repeat;
+    background-size: 58px 58px; display: inline-block; }
+.status-box .icon-status.failure{ width: 58px; height: 58px; background: url(../../images/new-images/verify/fail.png) no-repeat;
+    background-size: 58px 58px; display: inline-block; }
+.status-box .icon-status.success{ width: 58px; height: 58px; background: url(../../images/new-images/verify/success.png) no-repeat;
+    background-size: 58px 58px; display: inline-block; }
+.status-text{ padding: 1rem 1rem 0 1rem;  }
+.status-text p{ font-size: 0.8rem; padding-bottom: 0.3rem; color: #000000; text-align: center; }
+.status-Datatext{ padding: 0 1.5rem; position: absolute; bottom: 0;  font-size: 0.7rem; text-align: left; color: #555555; padding-bottom: 4rem }
+.status-text .st-p{ font-size: 0.7rem; line-height: 24px; color: #555555; text-align: center; }
+.st-warp{padding-top: 7rem; }
+.st-warp .st-p{ padding-bottom: 0.3rem }
+.st-warp .st-p-a{ padding-bottom: 0.3rem; color: #666666; padding: 0 1rem; line-height: 24px; font-size: 0.6rem}
+.ver-submit1 {
+    font-size: 0.6rem;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    background: #000000;
+    padding: 0.3rem 1rem;
+    margin-top: 1rem 
+}
+
+/*修改*/
+.status-bjBox{
+         background: url(../../images/new-images/verify/bjr-s.jpg) repeat-x;
+         background-size:cover;: 
+}
+
+.status-bjBox .status-text p{ color: #ffffff }
+.verify-submit-box.verify-submit2{ background: none }
+.verify-submit2.bar-standard:before{ height: 0 }
+.verify-submit2.bar-standard .verify-submit1{ background: #ffffff; color: #F63843 }
+.head-box {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+   
+}
+.head-box img{ border: 2px solid #ffffff}

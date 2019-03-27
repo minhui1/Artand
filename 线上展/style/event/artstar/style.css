@@ -1,0 +1,670 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table, th, tr, thead, tbody, td, label, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	font-weight: normal
+}
+body, button, input, select, textarea {
+	font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simhei, "宋体";
+	background: #FFFFFF;
+	max-width:500px;
+	margin:0 auto;
+}
+.font_fs {
+	font-family: "仿宋";
+}
+address, caption, cite, code, dfn, em, b, i, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img, abbr, acronym {
+	border: 0;
+}
+ol, ul, li {
+	list-style: none;
+}
+textarea {
+	resize: none;
+}
+input {
+	border: none;
+}
+a{text-decoration:none}
+/*input{-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing: border-box; border:none; }*/
+select {
+	height: 22px;
+	line-height: 18px;
+	padding: 2px 0;
+	font-size: 12px;
+}
+.clearfix {
+ *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+div:focus {
+	outline: 0;
+}
+input:focus {
+	outline: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+img {
+	vertical-align: middle;
+}
+html {
+	height: 100%;
+}
+*:before, *:after {
+	-moz-box-sizing: border-box;
+}
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Lantinghei SC Extralight", "STHeitiSC-Light", "Microsoft Yahei", "Arial", sans-serif;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	overflow-x: hidden;
+}
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+   background: rgba(0, 0, 0, 1);
+	height:100%;
+}
+
+.site-nav-logo {
+    position: fixed;
+    top: 26px;
+    left: 0;
+    z-index: 99;
+    width: 70px;
+    height: 34px;
+}
+.site_logo{     width: 70px;
+    height: 34px;
+    bottom: 0;
+    display: block; cursor:pointer; display:block}
+.relative {
+    position: relative;
+}
+.content{ height:100%; text-align:center}
+.firstScreen{ width:100%; height:100%;  background: rgba(188, 146, 83, 1)}
+.badge{ height:300px;  background: rgba(255, 255, 255, 0.1); border:1px solid #FFF; display:inline-block; width:15rem}
+.dib-top{ color:#FFF; height:100%; width:194px; display:inline-block; position:relative}
+.dib-top .desc{ font-size:16px; padding-top:3rem; padding-bottom:1rem}
+.dib-top .eng-desc{ font-size:14px;padding-bottom:2rem}
+.banner-content{ position:relative; height:100%;}
+.theme-btn{ display:inline-block; padding:0.8rem 0; width:193px; height: 82px; position:absolute; bottom:2rem; left:0; background: #000000 url(../../../images/event/artstar/writing5@2x.png) center no-repeat;
+    background-size: 193px 82px; 
+-webkit-animation-timing-function: ease-in-out;    /*动画时间曲线*/
+-webkit-animation-name: breathe;                  /*动画名称，与@keyframes搭配使用*/
+-webkit-animation-duration: 2000ms;              /*动画持续时间*/
+-webkit-animation-iteration-count: infinite;    /*动画要重复次数*/
+-webkit-animation-direction: alternate;         /*动画执行方向，alternate 表示反复*/}
+
+/**/
+.vote{ padding-bottom:30px; background:#000000}
+.section-title {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Lantinghei TC Extralight", "STHeitiSC-Light", "Microsoft Yahei";
+    text-align: center;
+    margin: 35px 0 20px 0;
+}
+.visible-block{argin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;}
+.vote .item-mobile {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.4rem 0.2rem;
+    background-color: #000000;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+	min-width:30%;
+	font-weight:bold;
+    border: 1px solid #4faca4
+}
+.vote .item-mobile.active {
+    background-color: #4faca4;
+}
+.vote .category-item {
+    background: none;
+    display: none;
+	padding:40px 0 0 0;
+}
+.vote .category-item.active {
+    display: block;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vote .product-logo {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius:10rem; 
+    overflow: hidden;
+   
+}
+.vote .product-item {
+    width: 30%;
+    padding: 0 0 20px 0;
+}
+.vote .product-logo img {
+width: 100%;
+height: 100%；
+border-radius:100%;
+}
+.vote .product-name {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.vote .product-name {
+	line-height:20px
+}
+.vote .product-item .btn.share {
+    background-color: #000000;
+    border:1px solid #4faca4 
+}
+.vote .product-item .btn.share.active {
+    background-color: #000000;
+    border:1px solid #919191 ;
+    color: #929292
+}
+.vote .product-item .btn {
+    padding: 3px 2px;
+    display: block;
+    letter-spacing: normal;
+	color:#FFF;
+	width:78%;
+	margin:0 auto;
+    cursor:pointer;  
+}
+.vote .product-item {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0.5rem;
+    width: 26%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+	min-height:192px;
+}
+.p-typeset {
+    line-height: 1.8rem;
+	padding:0 1.6rem;
+	text-align:left;
+	padding-bottom:20px;
+    color: #ffffff
+}
+.special .p-typeset{ text-align:center}
+footer.footer {
+    padding: 20px 0 30px 0;
+    line-height: 25px;
+    color: #444;
+    background-color:#000;
+}
+footer.footer a{ color:#444}
+footer.footer .container {
+    padding: 0 0;
+}
+footer.footer .text{ color:#444; font-size:12px;}
+.banner {
+    background: #000000 url(../../../images/event/artstar/bj@2x.png) center top no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+	max-height:768px;
+}
+.ticket{ padding-bottom:6px;  color:#9f9f9f}
+.about{ padding-bottom:30px;}
+.special{ padding-bottom:20px;  }
+.about .num-desc {
+    font-family: "Lantinghei TC Extralight", "STHeitiSC-Light", "Microsoft Yahei";
+	color:#444
+}
+.about .num-desc .left {
+    width: 20%;
+}
+.about .num-desc .item {
+    display: inline-block;
+    border-radius: 80px;
+    border: 1px solid #444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+	padding:15px 10px;
+}
+.about .num-desc .num {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-right: 5px;
+}
+.about .num-desc .cont {
+    font-size: 0.8rem;
+}
+.about .num-desc .num {
+    font-size: 1rem;
+    display: block;
+}
+.title1{background: url(../../../images/event/artstar/writing1@2x.png) no-repeat; background-size: 122px 20px; width:122px; height:20px; display:inline-block}
+.title2{background: url(../../../images/event/artstar/writing@2x.png) no-repeat; background-size: 96px 20px; width:96px; height:20px; display:inline-block}
+.title3{background: url(../../../images/event/artstar/writing3@2x.png) no-repeat; background-size: 96px 20px; width:96px; height:20px; display:inline-block}
+.title4{background: url(../../../images/event/artstar/writing4@2x.png) no-repeat; background-size: 96px 20px; width:96px; height:20px; display:inline-block}
+.title5{background: url(../../../images/event/artstar/writing2@2x.png) no-repeat; background-size: 45px 19px; width:45px; height:19px; display:inline-block}
+.logo{background: url(../../../images/event/artstar/logo@2x.png) no-repeat; background-size: 110px 38px; width:110px; height:38px; display:inline-block}
+.p-typeset .type_p{text-align:center; padding-top:2rem;}
+.typebtn {
+    color: #ffffff;  
+    border-bottom: 1px dashed #ffffff;
+	font-size:1rem;
+	
+}
+.selection_time{}
+.organizers{ padding-bottom:40px;}
+.padding_s2{ padding:20px 0 30px 0}
+.desc_img_warp{ padding:20px 0 0 0; text-align:center}
+.embold{ font-weight:bold}
+@media (min-width: 480px) {
+ .content{ min-height:960px;}
+}
+
+
+.desc_img_warp{ text-align: left; }
+.desc_img_warp span{ display: inline-block; margin-right:1rem; width: 1rem; height: 1rem; border-radius: 1rem; background: #ffffff; color: #000000 ; text-align: center; line-height: 1rem;  font-size: 12px;}
+.typebtn-a{ width: 100%; height: 50px;  line-height: 48px; text-align: center; font-weight: bold; border: 1px solid #4eafa6; color: #ffffff; display: block; font-size: 16px }
+@-webkit-keyframes breathe {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+}
+
+.Awards{ width: 100%; box-sizing: border-box; padding-top: 0.6rem}
+.awards-box{ width: 20%; padding-bottom: 2rem; display:inline-table;  margin: 0 0.3rem}
+.awards-icon{ width: 50px; height: 50px; display: inline-block; }
+.awards-p{ color: #ffffff; padding-top: 0.2rem; font-size: 12px;}
+.icon-a{ background: url(../../../images/event/artstar/icon@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-b{ background: url(../../../images/event/artstar/icon1@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-c{ background: url(../../../images/event/artstar/icon2@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-d{ background: url(../../../images/event/artstar/icon3@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-e{ background: url(../../../images/event/artstar/icon4@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-f{ background: url(../../../images/event/artstar/icon5@2x.png) no-repeat; background-size: 50px 50px;}
+.icon-g{ background: url(../../../images/event/artstar/icon6@2x.png) no-repeat; background-size: 50px 50px;}
+.process-box{ padding: 0 1.4rem }
+.linebox{ width:100% }
+.linebox:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #4bad94;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.stage{ width: 100px; font-size: 12px; color: #ffffff; display: inline-table; position:relative;  padding-bottom: 1rem}
+.stage p{ line-height: 1.6rem }
+.stage .point{ width: 15px; height: 15px;  background: url(../../../images/event/artstar/point@2x.png) no-repeat; background-size: 15px 15px; position: absolute;  bottom: -8px; left: 50%;
+    margin-left: -7px;}
+
+.desc-text-ul{
+    line-height: 1.8rem;
+    padding:1rem  0 ;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #ffffff;}
+.desc-text-ul p{ padding-bottom: 0.5rem}
+.desc-text-ul ul{ padding-left: 1rem }
+.desc-text-ul ul li{
+list-style-type:square;}
+
+a:active{ color: #4faca4 }
+/**/
+.modal {
+    width: 13.5rem;
+    position: absolute;
+    z-index: 11000;
+    left: 50%;
+    margin-left: -6.75rem;
+    margin-top: 0;
+    top: 50%;
+    text-align: center;
+    border-radius: .35rem;
+    opacity: 0;
+    -webkit-transform: translate3d(0,0,0) scale(1.185);
+    transform: translate3d(0,0,0) scale(1.185);
+    -webkit-transition-property: -webkit-transform,opacity;
+    transition-property: transform,opacity;
+    color: #3d4145;
+    display: none;
+}
+
+.toast {
+   /* background: rgba(255,255,255,0.6);*/
+    border-radius: 1rem;
+    color: #ffffff;
+    padding: 0 .8rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    width: auto;
+}
+
+.toast {
+    font-size: 0.85rem;
+}
+.modal.modal-in {
+    opacity: 1;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}
+
+/*清除*/
+html {
+    /* 1 */
+    -ms-text-size-adjust: none;
+    /* 2 */
+    -webkit-text-size-adjust: none;
+    /* 2 */
+    font-size: 16px;
+}
+.page, .page-group{ background:none; display:block; overflow: inherit;}
+.padding-t30{ padding-top: 30px }
+.loadimg{background: url(../../../images/event/artstar/icon6@2x.png) no-repeat;}
+/* page2 */
+
+.page2 .content{ padding: 1rem 0 1rem 0 }
+
+.page2 .container {
+padding: 2rem 2rem 2rem 2rem;
+text-align: center;
+}
+.page2 .product-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 1%;
+    width: 30%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.page2 .product-logo {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 10rem;
+}
+.page2 .product-logo img {
+    width: 100%;
+    height: 100%; border-radius:100%;
+}
+.page2 .product-name {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.page2 .ticket {
+    padding-bottom: 1.2rem;
+    color: #9f9f9f;
+}
+
+
+.page2 .product-item .btn.share.active {
+    background-color: #000000;
+    border: 1px solid #919191;
+    color: #929292;
+}
+.page2 .product-item .btn.share {
+    background-color: #000000;
+    border: 1px solid #4faca4;
+}
+.page2 .product-item .btn {
+    padding: 3px 2px;
+    display: block;
+    letter-spacing: normal;
+    color: #FFF;
+    width: 78%;
+    margin: 0 auto;
+    cursor: default;
+        border: 1px solid #4faca4;
+}
+.page2 .resume-box{ padding: 0 20px; padding-bottom: 2.5rem; font-size: 0.75rem; color: #ffffff}
+
+.page2 .writing p{ line-height: 32px; text-align: left; font-size: 16px;}
+.page2 .btn-ex-warp{  width: 100%; padding:0; margin-top:1rem;  text-align:center; }
+.page2 .btn-ex-warp .btn{color: #52bab1; display: inline-block; font-size: 14px}
+
+.page2 .btn-ex-warp .btn span{  display: inline-block; padding-left:0.2rem }
+.page2 .head-box{padding: 0 0 2rem 0; text-align: center;  color: #9f9f9f}
+.page2 .head-box h2{ width: 162px; height: 12px; background: url(../../../images/event/artstar/title1@2x.png) no-repeat; background-size: 162px 12px; display:inline-block}
+
+.page2 .head-box h2.a2{ width: 162px; height: 12px; background: url(../../../images/event/artstar/title2@2x.png) no-repeat; background-size: 162px 12px; display:inline-block}
+.page2 .history-container{width: 100%;}
+.page2 .art-box {
+    width: 100%;
+    padding-bottom: 3rem;
+    min-height: 10rem;
+}
+.page2 .art-box li {
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.page2 .art-box li img {
+    width: 100%;
+}
+.page2 .art-box li h3{ text-align: center; padding:1rem;line-height: 1.6rem}
+.page2 .art-box li h3 a{ font-size: 16px; color: #ffffff;   }
+.page2 img {
+    vertical-align: top;
+}
+.page2 .activityFooter {
+    width: 100%;
+    text-align: center;
+    /*background: url("../../../images/event/activity/bg.jpg") center top;*/
+    background-size: cover;
+}
+.page2 .activityFooter img {
+    width: 100%;
+}
+
+
+.page2 .category {
+    padding-top: 2rem;
+    background: #000000;
+    text-align: center;
+}
+.page2 .category h2{ color: #ffffff; font-size: 1.2rem }
+.page2 .relative {
+    position: relative;
+}
+.page2 .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page2 .item-mobile {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.4rem 0.2rem;
+    background-color: #000000;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    min-width:30%;
+    font-weight:bold;
+    border: 1px solid #4faca4
+}
+
+.page2 .item-mobile.active {
+    background-color: #4faca4;
+}
+
+.page2 .type_p {
+    text-align: center;
+    padding-top: 6rem;
+}
+.page2 .typebtn-a {
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    display: inline-block;
+     background: url(../../../images/event/artstar/Next@2x.png) no-repeat;
+    background-size: 60px 60px;
+}
+.page2 .typebtn-a:active{background: url(../../../images/event/artstar/Next2@2x.png) no-repeat;
+    background-size: 60px 60px;}
+
+/*提示*/
+.prompt{ text-align: center; padding: 2rem 0 0rem 0;}
+.prompt h2{padding: 1rem 0 1.2rem 0; color: #ffffff; font-size:18px} 
+.prompt h3{ color: #ffffff; line-height: 1.6rem}
+.prompt h3 a{ color: #4eafa6;  padding: 0 0.2rem }
+.checkmark{ width: 70px; height: 70px; display:inline-block; background: url(../../../images/event/artstar/correct@2x.png) no-repeat; background-size: 70px 70px;}
+.inst-btn-div {  padding: 1.5rem 0}
+.inst-btn-div .btn {
+    width: 12rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    border: 1px solid #4eafa6;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+.Guide-warp {
+    width: 100%;
+    height: 120px;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+}
+.Guide {
+    width: 316px;
+    height: 65px;
+    display: block;
+    background: url(../../../images/weixin_login/Guide1.png) no-repeat;
+    background-size: 169px 65px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+    background-size: 316px 65px;
+}
+.mobile-images { width: 235px; height: 312px; background: url(../../../images/event/artstar/phone@2x.png) no-repeat; background-size: 235px 312px;  margin: 2rem auto 3rem auto}
+
+.page2{ background:#000000; height: 100%; display:block; overflow: inherit;}
+.page2 .content .category{ display: none; }
+.page2 .content .prompt{ display: block; }
+.page2 .prompt-none .prompt{ display: none; }
+.page2 .prompt-none .category{ display: block; }
+
+.page2 a:active{ color: #4faca4 }
+.page2 .head-box.padding-b1{ padding-bottom: 1rem }
+
+
+.page2 .writing{ max-height: 160px; overflow:hidden;}
+.page2 .resume-box.show .writing{ max-height:inherit; text-align: left; overflow:inherit;}
+.page2 .btn-ex-warp .btn span .triangle {
+    width: 6px; height: 3px;
+background: url(../../../images/event/artstar/show@2x.png) no-repeat; 
+background-size: 6px 3px;
+display: inline-block;
+position: relative; top: -3px;
+}
+.page2 .show .btn-ex-warp .btn span .triangle {
+    width: 6px; height: 3px;
+background: url(../../../images/event/artstar/show2@2x.png) no-repeat; 
+background-size: 6px 3px;
+display: inline-block;
+position: relative; top: -3px;
+}
+/*底部导航*/
+.bar-bottom-nav{ position: fixed; bottom: 0; height: 44px; background: rgba(0,0,0,1);}
+.bar-bottom-nav .logo-btn{ background: url(../../../images/event/artstar/logo@2xb.png) no-repeat; width: 77px;height: 18px; display: block; float: left; margin: 11px 0 0 10px;
+    background-size: 77px 18px;}
+.bar-bottom-nav .nav-b-btn{ float:right; display: inline-block; padding: 5px 12px; font-size: 12px; border: 1px solid #59c2b7;  color: #ffffff; margin: 8px 7px 0 0}
+.bar:after,.bar-bottom-nav:after{height:0;}
+/*2016.7.27*/
+.solveBox{ padding: 2.5rem 1.6rem 0 1.6rem;}
+.solveBox h3{padding-left: 10px;  border-left: 3px solid #4eafa6; height: 16px; line-height: 16px}
+.solveBox p{ padding-top: 10px; line-height: 26px }
+.solveBox-div{ padding-bottom: 40px;text-align: left;  color: #ffffff}
+.solveBox h4{ height: 21px;}
+.solveBox ul{ padding-top: 10px; line-height: 26px }
+.solveBox ul li {
+    list-style-type: square;
+    margin-left: 1rem;
+}
+
+.solveBox .solveBox-div:last-of-type { padding-bottom: 0 }
+
+
+
+
+.category-warp { padding-top: 30px; }
+.category-warp .container h3{ color: #50aca3; font-size: 18px; font-weight: 600; }
+
+
+
+
