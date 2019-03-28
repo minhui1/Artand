@@ -27,8 +27,8 @@ html{width: 100%; overflow-x: hidden;}
 
 /*头部图片*/
 .M-header{position: relative;}
-.M-header .m-img-box{position:relative; height: 0; padding-top: 100%;background: #f2f2f2;}
-.M-header .m-img-box img{ position: absolute; top: 0; left: 0; height: 100%;}
+.M-header .m-img-box{height: 14.1rem; background: #f2f2f2;}
+.M-header .m-img-box img{ height: 100%; }
 .M-header .mod-logo{ position: absolute; right: 1.0rem; bottom: 1.0rem; }
 .M-header .mod-logo span{display: block; width: 2.85rem; height: 1.65rem;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
