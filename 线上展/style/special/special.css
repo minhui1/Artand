@@ -36,8 +36,10 @@ html{width: 100%; overflow-x: hidden;}
 
 .M-info{ background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
-.M-info-a{ position:relative; padding-top:1.25rem;padding-bottom:1.25rem;}
-.M-info-a::before {position: absolute; content: ''; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
+.M-info-a{}
+.M-info-a .mod-meout{position: relative;padding-top:1.25rem;padding-bottom:1.25rem;}
+.M-info-a .mod-meout::before {position: absolute; content: ''; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
+
 .M-info-a .mod-title{ overflow: hidden;}
 .M-info-a .mod-title > div{height:1.2rem; line-height: 1.2rem;font-weight: bold;}
 .M-info-a .mod-title .m-left{float: left; font-size: 1.2rem; color: #000;}
@@ -111,10 +113,11 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-video .mod-warp .m-icon-play{display: block; width: 1.8rem; height: 1.8rem;background: url(../../images/special/m-icon-play.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: middle;}
 .M-info-video .mod-warp p{text-align: center; font-size: 0.6rem; color: #9C9C9C;font-weight: bold;}
 
-.M-info-card{ padding-bottom: 0.8rem; }
+.M-info-card{ padding-bottom: /*0.8rem*/ 1.5rem; }
 .M-info-card .mod-warp{ width: 100%; height: 100%; padding:0.15rem; background: #F5F5F5;border-radius: 4px; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .M-info-card .mod-warp .m-box{ height: 100%;}
-.M-info-card .m-img-box{ position: relative; width: 3.3rem; height: 3.3rem; margin: 0 0.7rem 0 0; border-radius: 0.1rem;background: #e9e9e9;}
+.M-info-card .m-img-box{ position: relative; width: 3.3rem; height: 3.3rem; margin: 0 0.7rem 0 0; border-radius: 2px;background: #e9e9e9;}
+.M-info-card .m-img-box img{border-radius: 2px;}
 .M-info-card .mod-warp h3{font-size: 0.7rem; color: #000;}
 .M-info-card .mod-warp h4{font-size: 0.6rem; color: #555;max-width: 94%;font-weight: normal;}
 .M-info-card .mod-warp .m-box-dir{ overflow: hidden;}
@@ -127,8 +130,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-pic{padding-bottom: 1.25rem;}
 .M-info-pic .mod-warp{position: relative;}
 .M-info-pic .mod-warp.mod-death::after{position: absolute; content: ""; top: 0; width: 100%; height: 100%; background: rgba(255,255,255,.6);}
-.M-info-pic .mod-warp .m-img-box{ min-height: 9.8rem; border-right: 4px; background: #f2f2f2;}
-.M-info-pic .mod-warp img{border-radius: 4px;}
+.M-info-pic .mod-warp .m-img-box{ height: 11.6rem; border-right: 4px; background: #f2f2f2;overflow: hidden;}
+.M-info-pic .mod-warp img{border-radius: 4px;height: 11.6rem;}
 .M-info-pic .m-filter{ position: absolute; bottom: 0; left: 0; width: 100%; height:6.0rem;background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%);border-radius: 0 0 4px 4px;}
 .M-info-pic .m-filter .m-text{ margin: 2.6rem 0.9rem 0; overflow: hidden;}
 .M-info-pic .m-filter .m-text .m-box{ display: block; }
@@ -144,7 +147,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-pic .m-filter .m-text .m-box span{float: left;}
 .M-info-pic .m-filter .m-text .m-box .m-txt-through,
 .M-info-pic .m-filter .m-text .m-box em{float: right;}
-.M-info-pic .m-filter .m-text .m-box h3{font-size: 1.0rem; line-height: 1.0rem; font-weight: normal;color: #fff;}
+.M-info-pic .m-filter .m-text .m-box h3{font-size: 1.0rem; line-height: 1.0rem; font-weight: bold;color: #fff;}
 .M-info-pic .m-filter .m-text .m-box span{position: absolute; bottom:2px;  font-size: 0.6rem; line-height: 0.6rem;color: rgba(255,255,255,.8);}
 .M-info-pic .m-filter .m-text .m-box .m-txt-through{ position: relative; top: 0.3rem; color: #fff; text-decoration: line-through;font-weight: bold;}
 .M-info-pic .m-filter .m-text .m-box em{font-size: 1.2rem; color: #fff; line-height: 1.2rem;font-weight: bold;}
@@ -266,7 +269,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-waterfall .mod-box{-webkit-column-count: 2;column-count: 2; -webkit-column-gap: 0.5em;column-gap: 0.5em; margin-left:-0.65rem; }
 .M-waterfall .mod-box .item { position: relative;padding: 0;margin: 0 0 1.2rem 0.65rem; font-size: 0; -webkit-column-break-inside: avoid;break-inside: avoid; }
 .M-waterfall .mod-box .item.mod-death:after{position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,.6);}
-.M-waterfall .mod-box .item .m-img-box{  border-radius: 4px;}
+.M-waterfall .mod-box .item .m-img-box{ position: relative; border-radius: 4px;}
+.M-waterfall .mod-box .item .m-img-box .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.8rem; height: 1.4rem; line-height: 1.35rem; background: rgba(0,0,0,0.30);border-radius: 4px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-waterfall .mod-box .item img{width: 100%;}
 .M-waterfall .mod-box .item h3{font-size: 0.8rem; color: #000; line-height: 0.8rem; margin-top: 0.7rem;}
 .M-waterfall .mod-box .item span{display: block;}
