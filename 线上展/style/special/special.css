@@ -224,7 +224,7 @@ html{width: 100%; overflow-x: hidden;}
 *
 */
 .section-top{padding-bottom: 0.7rem; background: #fff;}
-.section-content-card{margin-top: 0.5rem;}
+/*.section-content-card{margin-top: 0.5rem;}*/
 .section-content-card .M-info-title .mod-warp{padding: 1.25rem 0 0.5rem;}
 .section-content-card .M-list .m-right h4{margin-top: 0.5rem;}
 .section-content-card .M-info-btn{padding-top: 0.75rem;}
@@ -242,7 +242,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-list .m-left span img{border-radius: 2px;}
 .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.4rem; height: 1.1rem; line-height: 1.15rem; background-image: linear-gradient(90deg, #D20001 0%, #FF2F1D 100%);border-radius: 2px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-list .m-right{float: left; width: 69%;}
-.M-list .m-right h3{ width: 96%; font-size: 0.8rem;color: #000000;line-height: 0.8rem; font-weight: bold; margin-bottom: 0.rem;}
+.M-list .m-right h3{ width: 96%; font-size: 0.8rem;color: #000000;line-height: 0.8rem; font-weight: bold; margin-bottom: 0.6rem;}
 .M-list .m-right h4{width: 90%;font-size: 0.6rem;color: #000000;line-height: 1.2em;font-weight: normal; margin-bottom: 0.5rem;}
 .M-list .m-right p{overflow: hidden;}
 .M-list .m-right .m-lf{float: left;}
