@@ -29,8 +29,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-header{position: relative;}
 .M-header .m-img-box{position:relative; height: 0; padding-top: 100%;background: #f2f2f2;}
 .M-header .m-img-box img{ position: absolute; top: 0; left: 0; height: 100%;}
-.M-header .mod-logo{ position: absolute; right: 1.0rem; bottom: 1.5rem; }
-.M-header .mod-logo span{display: block; width: 2.5rem; height: 0.6rem;}
+.M-header .mod-logo{ position: absolute; right: 1.0rem; bottom: 1.0rem; }
+.M-header .mod-logo span{display: block; width: 2.85rem; height: 1.65rem;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .M-header .mod-logo p{ width: 2.5rem;text-align: center; padding-left: 1px; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;/*letter-spacing: 10.33px;*/text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
 
@@ -113,6 +113,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-video .mod-warp .m-icon-play{display: block; width: 1.8rem; height: 1.8rem;background: url(../../images/special/m-icon-play.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: middle;}
 .M-info-video .mod-warp p{text-align: center; font-size: 0.6rem; color: #9C9C9C;font-weight: bold;}
 
+.section-top-three .M-info-card{padding-bottom: 0.8rem;}
 .M-info-card{ padding-bottom: /*0.8rem*/ 1.5rem; }
 .M-info-card .mod-warp{ width: 100%; height: 100%; padding:0.15rem; background: #F5F5F5;border-radius: 4px; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .M-info-card .mod-warp .m-box{ height: 100%;}
