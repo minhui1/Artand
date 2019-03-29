@@ -159,7 +159,7 @@ html{width: 100%; overflow-x: hidden;}
 .mod-video{position: relative;min-height: 9.8rem; border-radius: 4px;padding-bottom: 0.8rem;overflow: hidden;}
 .mod-video span{display: block; background: #f2f2f2;margin-right: 0.65rem;border-radius: 4px;}
 .mod-video video{ width: 100%; -webkit-object-fit: fill; object-fit: fill; border-radius: 4px; }
-.mod-title h3{ font-size: 0.6rem;color: #9C9C9C;line-height: 1.5; text-align: center;padding-bottom: 0.9rem;}
+.mod-title h3{ font-size: 0.6rem;color: #9C9C9C;line-height: 1.5; text-align: center;padding-bottom: 0.8rem;}
 .mod-title-left h3{font-size: 0.6rem; color: #555; line-height: 1.5; font-weight: bold;padding-bottom: 0.5rem;}
 /*作品*/
 .section-content{margin-top: 0.5rem;}
@@ -187,7 +187,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-pic .m-filter .m-text .m-box .m-txt-through,
 .M-info-pic .m-filter .m-text .m-box em{float: right;}
 .M-info-pic .m-filter .m-text .m-box h3{font-size: 1.0rem; line-height: 1.0rem; font-weight: bold;color: #fff;}
-.M-info-pic .m-filter .m-text .m-box span{position: absolute; bottom:2px;  font-size: 0.6rem; line-height: 0.6rem;color: rgba(255,255,255,.8);}
+.M-info-pic .m-filter .m-text .m-box span{ display: block; max-width: 70%; position: absolute; bottom:2px;  font-size: 0.6rem; line-height: 0.6rem;color: rgba(255,255,255,.8);}
 .M-info-pic .m-filter .m-text .m-box .m-txt-through{ position: relative; top: 0.3rem; color: #fff; text-decoration: line-through;font-weight: bold;}
 .M-info-pic .m-filter .m-text .m-box em{font-size: 1.2rem; color: #fff; line-height: 1.2rem;font-weight: bold;}
 .M-info-pic .m-filter .m-text .m-box em b{display: inline-block; font-size: 0.8rem; font-weight: bold; margin-right: 0.2rem;}
@@ -212,7 +212,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-comment .m-left span img{border-radius: 50px;}
 .M-comment .m-right{float: left; width: 87%; }
 .M-comment .m-right h3{ position: relative; font-size: 0.7rem; font-weight: bold; color: #000; margin-bottom: 0.3rem;}
-.M-comment .m-right h3 .m-ident{display: inline-block; margin-left: 0.1rem; width: 0.7rem; height: 0.7rem; background:url(../../images/special/m-ident.png); background-size: 100% 100%; background-repeat: no-repeat; vertical-align: -0.09375rem; }
+.M-comment .m-right h3 .m-ident{display: inline-block; margin-left: 0.15rem; width: 0.7rem; height: 0.7rem; background:url(../../images/special/m-ident.png); background-size: 100% 100%; background-repeat: no-repeat; vertical-align: -0.09375rem; }
 .M-comment .m-right h3 span{position: absolute; right: 0; top: 0;font-size: 0.6rem;line-height: 0.7rem;font-weight: normal;}
 .M-comment .m-right h3 span.m-txt-default{color: #9C9C9C;}
 .M-comment .m-right h3 span.m-txt-red{color: #D04344;}
@@ -227,9 +227,9 @@ html{width: 100%; overflow-x: hidden;}
 .section-groom{margin-top: 0.5rem;}
 .section-groom .M-info-pic .m-filter{height: 7.5rem}
 .section-groom .M-info-pic .m-filter .m-text{margin: 3.6rem 0.8rem 0;}
-.section-groom .M-info-pic .m-filter .m-text .m-box h3{font-size: 0.6rem; line-height: 0.6rem;}
-.section-groom .M-info-pic .m-filter .m-text .m-box span{font-size: 1.4rem; line-height: 1.4rem; font-weight: bold; margin-top: 0.35rem; color: #fff;}
-.section-groom .M-info-pic .m-filter .m-text .m-box .m-footer{height: 1.4rem; line-height: 1.4rem; margin-top: 0.35rem;}
+.section-groom .M-info-pic .m-filter .m-text .m-box h3{max-width: 90%;font-size: 1.0rem; line-height: 1.0rem; font-weight: bold;color: #fff;}
+.section-groom .M-info-pic .m-filter .m-text .m-box span{font-size: 0.6rem; line-height: 0.6rem;}
+.section-groom .M-info-pic .m-filter .m-text .m-box .m-footer{height: 1.2rem; line-height: 1.2rem; margin-top: 0.3rem;}
 
 /*end*/
 .M-info-end{padding: 0.75rem 0 5.2rem;}
@@ -261,7 +261,7 @@ html{width: 100%; overflow-x: hidden;}
 *展出作品*小
 *
 */
-.section-top{padding-bottom: 0.7rem; background: #fff;}
+.section-top{/*padding-bottom: 0.7rem;*/ background: #fff;}
 /*.section-content-card{margin-top: 0.5rem;}*/
 .section-content-card .M-info-title .mod-warp{padding: 1.25rem 0 0.5rem;}
 .section-content-card .M-list .m-right h4{margin-top: 0.5rem;}
