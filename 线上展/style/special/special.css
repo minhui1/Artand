@@ -42,7 +42,7 @@ html{width: 100%; overflow-x: hidden;}
 
 .M-info-a .mod-title{ padding-left: 0;overflow: hidden;}
 .M-info-a .mod-title > div{height:1.2rem; line-height: 1.2rem;font-weight: bold;}
-.M-info-a .mod-title .m-left{float: left; font-size: 1.2rem; color: #000;}
+.M-info-a .mod-title .m-left{float: left; font-size: 1.2rem; color: #000; max-width: 98%;}
 .M-info-a .mod-title .m-right{float: right; font-size: 0.5rem; color: rgba(0,0,0,.8);}
 .M-info-a .mod-title .m-right em{display: inline-block; position: relative; text-align: center;font-weight: bold; width: 2.2rem; height: 1.2rem;}
 .M-info-a .mod-title .m-right em::before{position: absolute; content: ''; left: 0; top: 0; width: 100%; height: 1px; background-color: #D8D8D8; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
@@ -161,7 +161,7 @@ html{width: 100%; overflow-x: hidden;}
 .mod-video span{display: block; background: #f2f2f2;margin-right: 0.65rem;border-radius: 4px;}
 .mod-video video{ width: 100%; -webkit-object-fit: fill; object-fit: fill; border-radius: 4px; }
 .mod-title h3{ font-size: 0.6rem;color: #9C9C9C;line-height: 1.5; text-align: center;padding-bottom: 0.8rem;}
-.mod-title-left h3{font-size: 0.6rem; color: #555; line-height: 1.5; font-weight: bold;padding-bottom: 0.5rem;}
+.mod-title-left h3{font-size: 0.6rem; color: #000; line-height: 1.5; font-weight: normal;padding-bottom: 0.725rem;}
 /*作品*/
 .section-content{margin-top: 0.5rem;}
 .section-content .M-info-title .mod-warp,
@@ -197,7 +197,7 @@ html{width: 100%; overflow-x: hidden;}
 /*简介*/
 .M-info-summary{ padding-bottom: 1.25rem; }
 .M-info-summary .mod-warp{ position: relative; background: #F5F5F5; padding: 1.0rem; box-sizing: border-box; border-radius: 0.2rem;}
-.M-info-summary .mod-warp::after{ position: absolute; content: ''; width: 93%; height: 3.0rem; bottom: 1.75rem; background-image: linear-gradient(-180deg, rgba(245,245,245,0.00) 0%, #F5F5F5 100%);}
+.M-info-summary .mod-warp::after{ position: absolute; content: ''; width: 93%; height: 3.0rem; bottom: 2.3rem; background-image: linear-gradient(-180deg, rgba(245,245,245,0.00) 0%, #F5F5F5 100%);}
 .M-info-summary .mod-warp h3{font-size: 0.8rem; line-height: 0.8rem; color: #000;}
 .M-info-summary .mod-warp p{font-size: 0.6rem; color: #555; line-height: 1.5; padding: 0.6rem 0 0.5rem;}
 .M-info-summary .mod-warp a{display: block; text-align: center; color: #57AD68; font-size: 0.6rem; line-height: 0.6rem;}
@@ -221,7 +221,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-comment .m-right h3 span .m-give{display: inline-block; width: 0.75rem; height: 0.7rem;margin-left: 0.2rem;}
 .M-comment .m-right h3 span .m-give-gray{background:url(../../images/special/m-give-gray.png); background-size: 100% 100%; background-repeat: no-repeat; vertical-align: -1px;}
 .M-comment .m-right h3 span .m-give-red{background:url(../../images/special/m-give-red.png); background-size: 100% 100%; background-repeat: no-repeat; vertical-align: -1px;}
-.M-comment .m-right h4{width: 86%; font-weight: normal; color: #000;}
+.M-comment .m-right h4{width: 94%; font-weight: normal; color: #000;}
 .M-comment .card-wrap::before {position: absolute; content: ''; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
 .M-comment .card-wrap:last-child::before{ height: 0;}
 
@@ -267,7 +267,7 @@ html{width: 100%; overflow-x: hidden;}
 /*.section-content-card{margin-top: 0.5rem;}*/
 .section-content-card .M-info-title .mod-warp{padding: 1.25rem 0 0.5rem;}
 .section-content-card .M-list .m-right h4{margin-top: 0.5rem;}
-.section-content-card .M-info-btn{padding-top: 0.75rem;}
+.section-content-card .M-info-btn{padding-top: 0.75rem; padding-bottom: 0;}
 .M-list{overflow: hidden;}
 
 
@@ -316,14 +316,15 @@ html{width: 100%; overflow-x: hidden;}
 .M-waterfall .mod-box .item .m-img-box{ position: relative; border-radius: 4px;}
 .M-waterfall .mod-box .item .m-img-box .m-sub{ position: absolute; right: 0; bottom: 0; width: 1.8rem; height: 1.4rem; line-height: 1.35rem; background: rgba(0,0,0,0.30);border-radius: 4px; display: block;font-size: 0.5rem;color: #FFFFFF; text-align: center; font-weight: bold;}
 .M-waterfall .mod-box .item img{width: 100%;}
-.M-waterfall .mod-box .item h3{font-size: 0.8rem; color: #000; line-height: 0.8rem; margin-top: 0.7rem;}
+.M-waterfall .mod-box .item h3{ max-width: 98%; font-size: 0.8rem; color: #000; line-height: 0.8rem; margin-top: 0.7rem;}
 .M-waterfall .mod-box .item span{display: block;}
 .M-waterfall .mod-box .item .m-name{ font-size: 0.6rem; line-height: 0.6rem; color: #000; margin-top: 0.6rem;}
+.M-waterfall .mod-box .item .m-name em{display: inline-block;max-width: 88%; vertical-align: middle;line-height: 1.2;}
 .M-waterfall .mod-box .item .m-ident{width: 0.6rem; height: 0.6rem;margin-left: 0.15rem;}
-.M-waterfall .mod-box .item .m-top{display: block;color: #D20001; margin-top: 0.5rem; margin-bottom: 0.4rem;font-size: 0.9rem;line-height: 0.9rem;font-weight: bold;}
+.M-waterfall .mod-box .item .m-top{display: block;color: #D20001; max-width: 88%;margin-top: 0.5rem; margin-bottom: 0.4rem;font-size: 0.9rem;line-height: 0.9rem;font-weight: bold;}
 .M-waterfall .mod-box .item .m-top b{display: inline-block;font-size: 0.7rem;}
 .M-waterfall .mod-box .item .m-footer{display: block; overflow: hidden;font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;vertical-align: middle;}
-.M-waterfall .mod-box .item .m-txt-through{display: inline-block; float: left;font-size: 0.6rem;line-height: 0.6rem;font-weight: bold;color: #9C9C9C;text-decoration: line-through;}
+.M-waterfall .mod-box .item .m-txt-through{display: inline-block; max-width: 87%;float: left;font-size: 0.6rem;line-height: 0.6rem;font-weight: bold;color: #9C9C9C;text-decoration: line-through;}
 .M-waterfall .mod-box .item .m-heart{ display: inline-block; float: right; width: 0.8rem; height: 0.65rem; background: url(../../images/special/m-give.png); background-size: 100% 100%; background-repeat: no-repeat; }
 .M-waterfall .mod-box .item .m-heart-curr{ display: inline-block; float: right; width: 0.8rem; height: 0.65rem; background: url(../../images/special/m-give-curr.png); background-size: 100% 100%; background-repeat: no-repeat; }
 
