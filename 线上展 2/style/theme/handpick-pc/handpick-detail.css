@@ -1,0 +1,382 @@
+body {
+    font-family: "AGaramondPro-Regular","Times New Roman","Hiragino Sans GB", "Helvetica Neue","PingFang SC",  "Microsoft YaHei", "Hiragino Kaku Gothic Pro", "Meiryo", "Malgun Gothic", "sans-serif";
+}
+.content {
+    width: 950px;
+    margin: 0 auto;
+}
+.pic-box {
+    width: 100%;
+    max-height: 100%;
+    padding-top: 80px;
+}
+.pic-box img {
+    width: 100%;
+    height: 100%;
+}
+.theme-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.theme-box h2 {
+    font-size: 42px;
+    color: #000;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+.theme-box p {
+    font-size: 14px;
+}
+.theme-box .time {
+    line-height: 14px;
+    color: #999;
+    letter-spacing: 1px;
+}
+.theme-box .text {
+    color: #9b9b9b;
+    line-height: 24px;
+    margin: 35px 0 65px;
+    text-align: left;
+}
+.history-container {
+    width: 100%;
+}
+.art-box {
+    width: 100%;
+}
+.art-box li {
+    width: 302px;
+    margin-right: 22px;
+}
+.art-box li:nth-of-type(3n) {
+    margin-right: 0;
+}
+.art-list a {
+    display: inline-block;
+    width: 100%;
+}
+.art-list img {
+    width: 100%;
+    height: 226px;
+}
+.art-list h3 {
+    padding: 18px 0 7px 0;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.art-list h3 a {
+    color: #000;
+    max-width: 302px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.art-list p {
+    font-size: 12px;
+    color: #a6a6a6;
+    line-height: 16px;
+    max-width: 302px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.art-list h5 {
+     font-size: 12px;
+    color: #a6a6a6;
+    padding-top: 10px;
+    text-decoration: line-through;
+}
+.art-list .price-box {
+    width: 100%;
+    height: 32px;
+    margin: 9px 0 48px 0;
+    position: relative;
+}
+.price-box span {
+    font-size: 16px;
+    line-height: 32px;
+    color: #D04344;
+    font-family: Georgia;
+}
+.price-box .btn {
+    width: 73px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: "Hiragino Sans GB","PingFang SC","Microsoft YaHei";
+}
+.price-box .btn.sell-out {
+    background: #b3b3b3;
+}
+.end-img {
+    width: 100%;
+    height: 15px;
+    margin: 37px 0 134px 0;
+    text-align: center;
+    background: url(../../../images/theme/theend.png) no-repeat center center;
+    background-size: 170px 12px;
+}
+
+
+.artist-box {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.photo-box {
+    width: 93px;
+    height: 93px;
+    margin: 0 auto;
+    position: relative;
+}
+.artist-box .photo {
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+}
+.artist-box .art-name {
+    margin: 20px 0 10px 0;
+}
+.artist-box .art-name span {
+    display: inline-block;
+}
+.artist-box .art-name .name {
+    font-size: 20px;
+    line-height: 28px;
+}
+.approve {
+    width: 22px;
+    height: 22px;
+    background: url(../../../images/approve/approve_2x.png) no-repeat;
+    background-size: 110px 355px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.approve.approve-yellow {
+    background-position: -85px -80px;
+}
+.approve.approve-blue {
+    background-position: -85px -110px;
+}
+.artist-box p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #a6a6a6;
+}
+.artist-box p em {
+    margin-right: 3px;
+    font-family: AGaramondPro-Regular,Times New Roman;
+}
+i {
+    margin: 0 3px;
+}
+
+.next-one {
+    padding: 50px 0 110px 0;
+    text-align: center;
+}
+.next-one .next-icon {
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    background: url(../../../images/icons_2x.png) -694px -192px no-repeat;
+    background-size: 1266px 587px;
+}
+.next-one .next-icon p {
+    display: none;
+}
+.next-one h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #2c2b2a;
+    padding: 30px 0;
+    font-weight: 500;
+}
+.next-one p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.video {
+    padding-bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+.video video {
+    width: 100%;
+    height: 100%;
+    /* background:transparent url('../../../images/wap-detail/art1.jpg') 50% 50% no-repeat;*/
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.video .video-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 38px;
+    text-align: center;
+}
+
+.comment-box {
+    margin: 27px 0 10px 0.75rem;
+    border-top: 1px solid #ededed;
+}
+.comment-list {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+.comment-list .comment-name {
+    width: 100%;
+    height: 32px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 32px;
+}
+.comment-name .btn-img {
+    margin-right: 10px;
+}
+.btn-img img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.comment-name .btn-name {
+    margin-right: 5px;
+}
+.comment-name .btn-name a {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.comment-text-box {
+    margin: 10px 15px 15px 18px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #a6a6a6;
+    position: relative;
+}
+.start-mark {
+    width: 11px;
+    height: 9px;
+    background: url(../../../images/theme/start-mark@2x.png) no-repeat;
+    background-size: 11px 9px;
+    position: absolute;
+    top: 0;
+    left: -16px;
+}
+.end-mark {
+    width: 11px;
+    height: 14px;
+    background: url(../../../images/theme/end-mark@2x.png) no-repeat top;
+    background-size: 11px 9px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 5px;
+
+}
+.link-box {
+    margin: 29px 0 0 0.75rem;
+}
+.link-box dt {
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.link-box dd {
+    margin: 12px 15px 12px 10px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    position: relative;
+}
+.link-box dd span {
+    width: 10px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: -10px;
+    font-size: 20px;
+}
+.link-box dd a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.comment-box .photo-box .approve {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(../../../images/approve/approve_2x.png) no-repeat;
+    background-size: 110px 355px;
+}
+.comment-box .photo-box .approve.approve-yellow {
+    background-position: -8px 0;
+}
+.comment-box .photo-box .approve.approve-blue {
+    background-position: -30px 0;
+}
+.comment-box .photo-box {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+/**/
+.art-box .tan-span{ font-size: 14px; color: #D04344 }
+
+.comment-box .thumbsBox{ position: absolute; top: 6px; right: 0 }
+.thumbsBox a.on span {
+    color: #D04344;
+}
+.thumbsBox  span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A4AFB3;
+    position: relative;
+    top: -1px;
+    padding-right: 3px;
+}
+.thumbsBox .heart-min {
+    position: relative;
+    top: 0;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    background: url(../../../images/new-images/details/version2/8.png);
+    background-size: 15px 14px;
+}
+.thumbsBox .on .heart-min {
+    background: url(../../../images/new-images/details/version2/16.png) no-repeat;
+    background-size: 15px 14px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5){
+.thumbsBox .on .heart-min {
+    background: url(../../../images/new-images/details/version2/16.png) no-repeat;
+    background-size: 15px 14px;
+}
+}

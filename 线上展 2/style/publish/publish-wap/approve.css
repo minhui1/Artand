@@ -1,0 +1,372 @@
+.profile_briefly h2 p{ font-size:12px; font-style:normal; padding-top:10px; color:#bfbdb8}
+.profile_briefly h2 p span{ padding-right:0px;}
+.profile_briefly h2 p .clue{ display:inline-block; width:3px; height:14px; background:url(../../../images/common/clue.jpg) 0 center no-repeat; overflow:hidden; margin:0 10px; position:relative; top:4px;}
+.carte_box .carte_top h4{ padding:0 10px 10px 10px; line-height:24px; color:#666666}
+.carte_box .carte_top h4 em{ width:100%; display:inline-block}
+.contact_box ul h3{ width:13em !important}
+.piece_content .right_feed .name .cGrade{ position:relative; top:6px; margin-left:3px;}
+.carte_box .carte_top h5 .place_icons {
+    background: rgba(0, 0, 0, 0) url(../../../images/Icon/Location.png) no-repeat scroll 0 0;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    width: 10px;
+    padding:0;
+    margin:0 3px;
+}
+.carte_box .carte_top .padding_t5{ padding-top:10px; }
+.CollectBox .cGrade{ padding:0; position:relative; top:4px; margin-left:3px;}
+.carte_box .carte_top .padding_t5 .clue {
+    background: url(../../../images/common/clue.jpg) no-repeat scroll 0 center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin: 0 10px;
+    overflow: hidden;
+    position: relative;
+    top: 3px;
+    width: 3px;
+}
+.right_feed .text .top div a{ float:left}
+
+/*认证icon*/
+.approve {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(../../../images/approve/approve_x.png)
+}
+.max.approve{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background: url(../../../images/approve/approve_x.png)}
+.max.approve-btn-a {
+    background-position: -8px -36px
+}
+.max.approve-btn-b {
+    background-position: -41px -36px
+}
+.max.approve-btn-c {
+    background-position: -74px -36px
+}
+.approve-btn-a {
+    background-position: -8px -17px
+}
+.approve-btn-b {
+    background-position: -28px -17px
+}
+.approve-btn-c {
+    background-position: -48px -17px
+}
+.carte_box .approve {
+    position: absolute;
+    bottom: -3px;
+    right: 3px
+}
+.cGrade_warp{ margin:0; padding:5px 0 0 0;}
+.cGrade {
+    width: 29px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../../images/approve/approve_x.png) no-repeat;
+}
+.cGrade.max{
+    width: 38px;
+    height: 22px;
+    display: inline-block;
+    background: url(../../../images/approve/approve_x.png) no-repeat;
+}
+.grade1 {
+    background-position: -8px -241px;
+}
+.grade2 {
+    background-position: -8px -208px;
+}
+.grade3 {
+    background-position: -8px -174px;
+}
+.grade4 {
+    background-position: -8px -141px;
+}
+.grade5 {
+    background-position: -8px -108px;
+}
+.grade6 {
+    background-position: -8px -74px;
+}
+.grade1.max {
+    background-position: -42px -241px;
+}
+.grade2.max {
+    background-position: -42px -208px;
+}
+.grade3.max {
+    background-position: -42px -174px;
+}
+.grade4.max {
+    background-position: -42px -141px;
+}
+.grade5.max {
+    background-position: -42px -108px;
+}
+.grade6.max {
+    background-position: -42px -74px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 160dpi) {
+    .approve-btn-a {
+        background: url(../../../images/approve/approve_2x.png) -8px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .approve-btn-b {
+        background: url(../../../images/approve/approve_2x.png) -28px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .approve-btn-c {
+        background: url(../../../images/approve/approve_2x.png) -48px -17px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-a {
+        background: url(../../../images/approve/approve_2x.png) -8px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-b {
+        background: url(../../../images/approve/approve_2x.png) -41px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .max.approve-btn-c {
+        background: url(../../../images/approve/approve_2x.png) -74px -36px no-repeat;
+        background-size: 110px 355px
+    }
+    .cGrade {
+        width: 28px;
+        height: 16px;
+        display: inline-block;
+        background: url(../../../images/approve/approve_2x.png) no-repeat;
+
+    }
+    .cGrade.max {
+        width: 38px;
+        height: 22px;
+        display: inline-block;
+        background: url(../../../images/approve/approve_2x.png) no-repeat;
+
+    }
+    .grade1 {
+        background: url(../../../images/approve/approve_2x.png) -8px -241px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade2 {
+        background: url(../../../images/approve/approve_2x.png) -8px -208px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade3 {
+        background: url(../../../images/approve/approve_2x.png) -8px -174px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade4 {
+        background: url(../../../images/approve/approve_2x.png) -8px -141px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade5 {
+        background: url(../../../images/approve/approve_2x.png) -8px -108px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade6 {
+        background: url(../../../images/approve/approve_2x.png) -8px -74px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade1.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -241px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade2.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -208px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade3.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -174px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade4.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -141px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade5.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -108px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade6.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -74px no-repeat;
+        background-size: 110px 355px
+    }
+}
+.search_c_box ul li .h4_s .text .approve{ width:16px; height:16px; position:relative; top:1px}
+.search_c_box ul li .h4_s .text .cGrade{ height:16px; width:28px;position:relative; top:8px; margin-left:3px;}
+/*以前的*/
+.profile_briefly .approve{ position:relative; top:3px; margin-left:5px}
+.sign_spread_out ul h3 .approve{ position:relative; top:1px; margin-left:3px}
+.profile_briefly p span{ padding-right:0}
+.profile_briefly .cGrade{ margin-left:5px; position: relative; top:0;}
+.piece_content .right_feed .name .approve{margin-left:3px; position:relative; top:3px}
+.meed_row_box .approve{ margin-top:3px; margin-left:3px;}
+.feed_row .approve{ position:relative; top:4px; margin:0 3px 0 0;}
+.box .feed_row .approve{ position:relative; top:4px; margin:0 3px 0 0;}
+.search_c_box ul .approve{ margin-top:5px; margin-left:3px;}
+.contact_box ul .approve{ margin-top:5px; margin-left:3px;}
+.news_content ul .approve{ margin-top:5px; margin-left:3px}
+.news_content ul .review .approve{ position:relative; top:4px; margin-top:0; margin-left:3px;}
+
+.search_c_box ul h3 a{ top:0;}
+.news_content ul h3 .cGrade{ position:relative; top:5px; margin-left:5px}
+.search_c_box ul h3 .cGrade{ position:relative; top:6px; margin-left:3px}
+.search_c_box ul h3 .cGrade.grade1{top:6px;}
+.contact_box ul h3 .cGrade{ position:relative; top:5px; margin-left:5px}
+.news_content .review .cGrade{position:relative; top:2px; margin:0 3px}
+.publish_review .review_warp ul .review_text .cGrade{ position:relative; top:2px; margin-left:3px}
+.CollectBox{ padding:10px 0;}
+.CollectBox .approve{ position:relative; top:5px; margin-left:3px;}
+.CollectBox .Collect_icon{ width:18px; height:18px; position:relative; top:4px; background:url(../../../images/zuanshi_2x.png) no-repeat; background-size: 18px 18px; padding-right:5px; display:inline-block}
+/*认证说明*/
+.Description{
+    margin: 0 auto;
+    max-width: 960px;
+    height:100%;
+}
+.tableWarp h2 {
+    text-align:center;
+    font-size: 16px;
+    color: #000000;
+    line-height: 16px;
+    padding-left: 6px;
+}
+.tableWarp{min-width:100%; height:100%; position:relative}
+.Description .table{ width:100%; }
+.Description .table table{ width: 100%; margin:0 auto; text-align:center}
+.Description .table table thead{
+    background:#5184bc;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #fff;
+}
+.Description .table table tr td{ height:40px;}
+.Description .table .cGrade{ margin-top:5px;}
+.Description .closeBox{ width:64px; height:64px; display:block; position:absolute; top:20px; right:20px; }
+.Description .closeBox .close{ width:100%; height:100%; display:block; transition-property:none;background:url(../../../images/approve/approve_web_2x_86.png) no-repeat; background-size: 64px 128px}
+.Description .closeBox .close:hover{ background:url(../../../images/approve/approve_web_2x_86.png) 0 -64px no-repeat;background-size: 64px 128px}
+.cGrade{ margin:0 3px;}
+.approve{ margin:0 3px;}
+.feed_row .review .top .approve {
+    position: relative;
+    top: 6px;
+}
+.filter_box .s_df .df_top .head_text .approve{ position:relative; top:3px;}
+.piece_content .right_feed .name .cGrade { top:4px;}
+.search_c_box ul li h3 .approve{ margin-top:6px; margin-left:3px;}
+.search_warp .search_c_box ul li h3 .approve{ margin-top:5px;}
+.carte_box .carte_top h3 .cGrade{ height:22px; position:relative; top:2px}
+
+
+
+/* 2016-06-08 wp change */
+.cGrade.max {
+    width: 40px;
+    height: 24px;
+}
+
+.grade7 {
+    background-position: -8px -274px;
+}
+.grade8 {
+    background-position: -8px -307px;
+}
+.grade7.max {
+    background-position: -42px -274px;
+}
+.grade8.max {
+    background-position: -42px -307px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 160dpi) {
+    .grade7 {
+        background: url(../../../images/approve/approve_2x.png) -8px -274px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade8 {
+        background: url(../../../images/approve/approve_2x.png) -8px -307px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade7.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -274px no-repeat;
+        background-size: 110px 355px
+    }
+    .grade8.max {
+        background: url(../../../images/approve/approve_2x.png) -42px -308px no-repeat;
+        background-size: 110px 355px
+    }
+}
+/* change end*/
+
+.publish_review .review_warp ul .review_text .cGrade {
+    position: static;
+    margin-top: 2px;
+}
+/*6.28 xiaobai*/
+.piece_content .right_feed .name .cGrade { top:5px;}
+.feed_warp .left_feed .feed_row .text  .approve{ float: left; top: 0 }
+.piece_content .box .text h3 span{ float: left; }
+.feed_row .cGrade{ position:relative;float: left; top: 1px; margin:0 5px 0 0}
+.publish_review .review_warp ul .review_text .approve{ position:relative; top:0}
+
+
+
+.Description .table table tr:nth-of-type(2n){
+    background: #f8f8f8;
+}
+table {
+    font-size: 14px;
+    color: #000;
+}
+.info-text {
+    margin: 16px 16px 26px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #000000;
+}
+.Description .table table tr td:first-of-type {
+    padding-left: 15px;
+    text-align: left;
+}
+.Description .table table tr td:last-of-type {
+    padding-right: 15px;
+    text-align: right;
+}
+.Description {
+    margin: 0 15px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.Description h3 {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    margin: 26px 0 16px;
+}
+.close-btn {
+    width: 16px;
+    height: 16px;
+    background: url(../../../images/publish/close2.png) no-repeat;
+    background-size: 16px 16px;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+.close-btn a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}

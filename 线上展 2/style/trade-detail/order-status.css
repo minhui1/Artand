@@ -1,0 +1,223 @@
+.art-detail {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    margin-bottom: 0.35rem;
+    padding-left: 0.75rem;
+    background: #fff;
+}
+.linkman {
+    height: 2.5rem;
+    border-bottom: 1px solid #ededed;
+}
+.linkman-btn {
+    vertical-align: middle;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+}
+.linkman .icon-right {
+    font-size: 12px;
+    color: #e2e2e2;
+    margin-top: -3px;
+}
+.linkman-img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.linkman-btn .name {
+    margin: 0 0.7rem 0 0.4rem;
+}
+.order-status-link .icon-right {
+    font-size: 12px;
+    color: #fff;
+    margin-top: -3px;
+}
+.art-box {
+    padding: 0.75rem;
+    padding-left: 0;
+    border-bottom: 1px solid #ededed;
+}
+.art-img {
+    width: 78px;
+    height: 78px;
+    margin-right: 0.7rem;
+}
+.art-img img {
+    width: 78px;
+    height: 78px;
+}
+.art-info-box {
+    margin-left: 92px;
+}
+.art-info-box .art-info {
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+}
+.price {
+    line-height: 14px;
+}
+.leave-msg {
+    height: 2.5rem;
+    border-bottom: 1px solid #ededed;
+}
+.customer-msg {
+    line-height: 2.5rem;
+    color: #555555;
+}
+.customer-text {
+    line-height: 2.5rem;
+    margin-left: 0.6rem;
+}
+.link-seller {
+    padding: 0.75rem;
+    padding-left: 0;
+}
+.link-seller .btn {
+    border: 1px solid #555;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+.price-box {
+    background: #fff;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-left: 0.75rem;
+    font-size: 14px;
+    font-weight: 300;
+    color: #555555;
+}
+.price-list {
+    padding: 9px 0;
+    border-bottom: 1px solid #ededed;
+}
+.price-list li {
+    line-height: 32px;
+}
+.black-price {
+    color: #000;
+}
+.price-list .price {
+    line-height: 32px;
+    margin-right: 0.75rem;
+}
+.price-total {
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+.price-total .price {
+    margin: 0 0.75rem 0 2px;
+}
+.tips-box {
+    margin: 0.35rem 0 3.45rem;
+    padding: 0 0.75rem;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+}
+.tips-title {
+    color: #555;
+    line-height: 14px;
+    margin: 18px 0 11px;
+}
+.tips-item-box {
+    color: #555;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+.bar-footer .price-total {
+    display: inline-block;
+    margin-left: 0.75rem;
+    color: #555;
+    height: 62px;
+    line-height: 62px;
+}
+.bar-footer .footer-btn {
+    display: inline-block;
+    padding: 8px 19px;
+    margin: 0.75rem;
+    margin-left: 0;
+    text-align: center;
+    height: 14px;
+    line-height: 14px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    box-sizing: content-box;
+}
+.bar-footer .white-btn {
+    background: #fff;
+    color: #000;
+}
+.address-box {
+    background: #fff;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    padding: 0 0.75rem;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.address-box .customer {
+    margin: 17px 0 12px;
+    font-size: 0;
+}
+.address-box .customer .name {
+    margin-right: 12px;
+}
+.address-box .address {
+    color: #555;
+    line-height: 21px;
+    margin-bottom: 1rem;
+}
+.order-box {
+    background: #fff;
+    line-height: 50px;
+    padding-left: 0.75rem;
+    border-bottom: 1px solid #ededed;
+}
+.order-status-box {
+    background-color: #d96b6a;
+    padding: 0 0.75rem;
+    color: #fff;
+}
+.order-status-title {
+    padding: 20px 0;
+}
+.order-status {
+    vertical-align: top;
+}
+.order-status i {
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+    display: inline-block;
+}
+.order-status span {
+    color: #fff;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+}
+.order-status-link {
+    color: #fff;
+    line-height: 12px;
+}
+.order-status-detail {
+    line-height: 20px;
+    padding-bottom: 17px;
+}
+.logistics-box {
+    margin: 0.35rem 0;
+    padding: 0 0.75rem;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+}

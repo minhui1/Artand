@@ -1,0 +1,29 @@
+@charset "utf-8";
+.button.button-fill {
+    color: #fff;
+    background: #0894ec;
+    border: none;
+    line-height: 1.35rem;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    position: absolute;
+}
+.bar-nav .panel-logo {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/feed/20.png) center no-repeat;
+    background-size: 17px 13px;
+    margin-left: 0;
+    top: 0;
+    left: 0.25rem;
+}
+.bar-nav .panel-logo:active{ background: none }
+.panel .panel-list-item .red {
+    color: #c1463e;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+    margin-left: 5px;
+}
+
+
+

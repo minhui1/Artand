@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*清楚弹出层的样式*/
+.verify-pop-modal.modal{ width: 15.2rem; margin-left: -7.51rem; }
+.verify-pop-modal .modal-inner{ background: #ffffff }
+.verify-pop-modal .modal-button{ background: #ffffff }
+.verify-pop-modal .modal-inner:after { background: #EDEDED }
+.verify-pop-modal .modal-button.modal-button-bold{  font-weight: 400; font-size: 0.7rem; color: #57AD68 }
+.one-step-tip{ padding: 0 0.6rem; text-align: left; }
+.one-step-tip h3{ font-size: 0.7rem; text-align: center; padding-bottom: 0.5rem ; padding-top: 0.5rem }
+.one-step-tip p{ font-size: 0.7rem; line-height: 24px; padding: 0.3rem 0}
+.one-step-tip .icon-tips{width: 14px; height: 14px; display: inline-block; background-size: 14px 14px; margin-left: 5px; position: relative; top: -2px}
+.success-p .icon-tips{ background: url(../../images/new-images/verify/satisfy.png) no-repeat;background-size: 14px 14px;}
+.failure-p .icon-tips{ background: url(../../images/new-images/verify/error.png) no-repeat; background-size: 14px 14px; }
+.floor-price{ font-weight: 400; font-size: 0.7rem; text-align: center;    padding:1rem 0 ; }
+.tip-picture{ position: relative; width: 100%; padding: 1.2rem 0 0.8rem 0}
+.tip-picture img{ width: 84%;  max-width: 100%;}
+/*
+.pic-t-left{ width: 49%;  display: inline-block; text-align: center;}
+.pic-t-left img{ width: 65%;  max-width: 100%;}
+.pic-t-right{ width: 49%;display: inline-block;text-align: center; }
+.pic-t-right img{ width: 65%;  max-width: 100%;}
+.tip-picture p{ text-align: left; padding-top: 0.4rem; padding-left: 1.8rem; font-size: 0.6rem}
+.tip-picture p.p1{  padding-left: 2.35rem }
+*/

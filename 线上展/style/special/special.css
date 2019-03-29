@@ -151,7 +151,8 @@ html{width: 100%; overflow-x: hidden;}
 .mod-text,
 .mod-img,
 .mod-video,
-.mod-title{position: relative; background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.mod-title,
+.mod-title-left{position: relative; background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .mod-text p{font-size: 0.6rem;color: #000;line-height: 1.5;padding-bottom: 0.8rem;}
 .mod-img{ min-height: 9.8rem;border-radius: 4px;padding-bottom: 0.6rem;}
 .mod-img img{min-height: 9.8rem;height: 100%;border-radius: 4px;}
@@ -159,7 +160,7 @@ html{width: 100%; overflow-x: hidden;}
 .mod-video span{display: block; background: #f2f2f2;margin-right: 0.65rem;border-radius: 4px;}
 .mod-video video{ width: 100%; -webkit-object-fit: fill; object-fit: fill; border-radius: 4px; }
 .mod-title h3{ font-size: 0.6rem;color: #9C9C9C;line-height: 1.5; text-align: center;padding-bottom: 0.9rem;}
-
+.mod-title-left h3{font-size: 0.6rem; color: #555; line-height: 1.5; font-weight: bold;padding-bottom: 0.5rem;}
 /*作品*/
 .section-content{margin-top: 0.5rem;}
 .section-content .M-info-title .mod-warp,

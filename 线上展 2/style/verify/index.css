@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.bar-nav {
+    padding-left: 0;
+    padding-right: 0;
+    background: #ffffff;
+}
+.bar .button-nav.pull-left {
+    margin: 0;
+}
+.bar-nav .back {
+    width: 40px;
+    height: 44px;
+    background: url(../../images/new-images/search/6.png) center no-repeat;
+    background-size: 10px 19px;
+}
+.btn.btn-publish {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #57AD68;
+}
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.title {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.notice{ padding: 2rem 1rem 4rem 1rem}
+.copy{ padding-bottom: 1.2rem }
+.copy h3{ font-size: 0.7rem; font-weight: 500; padding-bottom: 1.2rem}
+.copy p{font-size: 0.7rem; font-weight:400; padding-bottom:1rem}
+.verify-btn-box{ height: 60px; }
+.verify-btn1 {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    background: #000000;
+    height: 40px;
+}
+.verify-btn1.ash {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    background: #999999;
+    height: 40px;
+}
+
+.verify-submit-box{ height: 44px; }
+.verify-submit1 {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    background: #000000;
+    height: 40px;
+    top: 11px;
+    position: relative;
+}
+.form-agreen .checkboxWarp{ 
+    width: 12px; 
+    height: 12px;
+    background: url(../../images/new-images/verify/kuangcilck.png) center no-repeat;
+    background-size: 12px 12px;
+     }
+.form-agreen .checkboxWarp.not{ 
+    width: 12px; 
+    height: 12px;
+    background: url(../../images/new-images/verify/kuang.png) center no-repeat;
+    background-size: 12px 12px;
+    margin-right: 3px;
+     }
+.form-agreen .checkboxWarp input{ opacity: 0; }
+.form-agreen input {
+    width: 14px;
+    height: 14px;
+    border: solid 1px #cfd1d3;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+.form-agreen{  width: 100%; padding: 0.3rem 0; font-size: 0.6rem; line-height: 24px; text-align: center; }
+.bar-standard{ position: relative; }
+.bar-standard:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+.site-content{ padding-bottom: 3.5rem }
+.site-li-block h3{ padding-left: 0.75rem; font-size: 0.6rem; padding-bottom: 0.4rem; font-weight: 400; color: #9C9C9C }
+.det-error{ display: inline-block; text-align: right; color: #D04344; }
+.list-block .item-input.text-r{ text-align: right; }
+.det-error .det-icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../../images/new-images/verify/error.png) center no-repeat;
+    background-size: 14px 14px;
+    position: relative;
+    top: 2px;
+    margin-right: 3px; 
+}
+.embeddedbody .content .notice{ padding: 1rem 1rem 1rem 1rem;}

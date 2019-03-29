@@ -1,0 +1,516 @@
+.modal-mask {
+    background-color: rgba(55, 55, 55, 0.6);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 90;
+}
+.pay-modal {
+    width: 620px;
+    max-height: 650px;
+    z-index: 99;
+    position: absolute
+}
+.modal {
+    background: rgba(255,255,255,1.00);
+}
+.pay-modal .modal-header {
+    border-bottom: medium none;
+    padding: 30px 20px 0;
+}
+.pay-modal .modal-header .close {
+    background: rgba(0, 0, 0, 0) url(../../../images/Icon/shut/Close_1_2x.png) no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    float: right;
+    background-size: 16px 16px
+}
+.pay-modal .modal-header .close:hover {
+    background: rgba(0, 0, 0, 0) url(../../../images/Icon/shut/Close_1_hover.png) no-repeat;
+}
+.modal-body {
+    max-height: none;
+    padding: 0 30px 45px 30px;
+}
+.modal-body {
+    position: relative;
+}
+.modal-body .head_btn {
+    border-radius: 64px;
+    display: inline-block;
+    height: 64px;
+    overflow: hidden;
+    width: 64px;
+}
+.head-img {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px auto;
+}
+.modal-body .head_btn img {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.modal-body p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    padding: 0 45px;
+    color: #5d5d5d
+}
+.modal-body p span {
+    position: relative;
+    width: 24px;
+    display: inline-block;
+    line-height: normal;
+    height: 18px;
+}
+.modal-body p .quotes {
+    color: #d8d8d8;
+    font-family: Constantia, Georgia;
+    padding-right: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    height: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.main-inputs {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.main-inputs .control-group {
+    background-color: whitesmoke;
+}
+.main-inputs .control-group .money:active {
+    background: rgba(255,255,255,1.00)
+}
+.text-left {
+    text-align: left;
+}
+.control-group {
+    margin-bottom: 0;
+    padding: 15px 20px;
+}
+.main-inputs label {
+    display: inline-block;
+    float: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    padding-bottom: 8px;
+}
+.main-inputs i {
+    color: #b2b2b2;
+    font-size: 24px;
+    vertical-align: middle;
+    position: relative;
+    top: -9px;
+    width: 20px;
+}
+.main-inputs input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.main-inputs input {
+    font-size: 30px;
+    height: auto;
+    line-height: 38px;
+    margin-bottom: 0;
+    position: relative;
+    top: -1px;
+    color: #555555;
+    width: calc(100% - 120px);
+    font-family:"Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei",sans-serif
+}
+.message {
+    border-top: 1px solid #eeeeee;
+}
+.main-inputs textarea {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    resize: none;
+    width: 100%;
+    border: medium none !important;
+    box-shadow: none;
+    background-color: white;
+    border: 1px solid #cccccc;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    position: relative;
+    z-index: 10;
+}
+.main-inputs .control-group.message textarea {
+    background: whitesmoke;
+}
+.main-inputs .control-group.message textarea:focus {
+    background: rgba(255,255,255,1.00);
+    -moz-box-shadow: 0 0 3px #cccccc inset;
+    -webkit-box-shadow: 0 0 3px #cccccc inset;
+    box-shadow: 0 0 3px #cccccc inset;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.choose-pay h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+*::-moz-selection {
+    background: #4bb8ff none repeat scroll 0 0;
+    color: #fff;
+}
+.ant-radio {
+    display: inline-block;
+    line-height: 1;
+    outline: medium none;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.ant-radio-checked .ant-radio-inner::after {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, background-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.ant-radio-inner::after {
+    background-color: #2db7f5;
+    border-left: 0 none;
+    border-radius: 6px;
+    border-top: 0 none;
+    content: " ";
+    display: table;
+    height: 6px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: scale(0);
+    transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, background-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s;
+    width: 6px;
+}
+.ant-radio-checked .ant-radio-inner {
+    border-color: #d9d9d9;
+}
+.ant-radio-inner::after {
+    background-color: #2db7f5;
+    border-left: 0 none;
+    border-radius: 6px;
+    border-top: 0 none;
+    content: " ";
+    display: table;
+    height: 6px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: scale(0);
+    transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, background-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s;
+    width: 6px;
+}
+.ant-radio-inner {
+    background-color: #fff;
+    border-color: #d9d9d9;
+    border-radius: 14px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 14px;
+    left: 0;
+    position: relative;
+    top: 0;
+    transition: border-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, background-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s;
+    width: 14px;
+}
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.ant-radio-input {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.ant-radio + span {
+    margin-left: 8px;
+}
+.choose-pay label {
+    display: inline-block;
+    margin-right: 20px;
+}
+.alipay-bg {
+    width: 50px;
+    height: 17px;
+    display: inline-block;
+    background: url(../../images/new918/alipaylogo.png) no-repeat;
+    background-size: 50px 17px;
+    position: relative;
+    top: 3px;
+}
+.modal-footer {
+    background-color: #f5f5f5;
+    border-radius: 0;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 1px 0 white inset;
+    margin-bottom: 0;
+    padding: 14px 15px 15px;
+    text-align: right;
+}
+.modal-footer {
+    background-color: transparent;
+    border: medium none;
+    padding: 0 15px 60px 15px;
+    text-align: center;
+}
+.modal-footer .btn {
+    font-size: 24px;
+    padding: 16px 45px;
+}
+.modal-footer .btn-pay {
+    background: #57ad68 none repeat scroll 0 0;
+    border-color: #f57e42;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+}
+.modal-footer .btn-pay:hover {
+    background: rgba(87,173,104,0.8);
+}
+/**/
+.wx-pay-modal {
+    width: 360px;
+}
+.wx-pay-modal h4 {
+    font-size: 18px;
+    font-weight: 500
+}
+.wx-pay-modal p {
+    font-size: 14px;
+    margin-bottom: 20px
+}
+.wx-pay-modal p span {
+    font-size: 16px;
+    color: rgba(240,131,75,1.00);
+    padding: 5px 0
+}
+.wx-pay-modal .Qrcode {
+    background-color: white;
+    border: 1px solid #eeeeee;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto
+}
+.wx-pay-modal .Qrcode img {
+    display: inline-block;
+    max-width: 170px;
+    max-height: 170px;
+}
+/**/
+.modal-cg {
+    width: 360px;
+}
+.modal-cg .headWarp {
+    padding: 40px 0 0 0;
+}
+.modal-cg .head {
+    width: 60px;
+    height: 60px;
+    background: url(../../images/new918/x_09.png) no-repeat;
+    display: inline-block;
+}
+.modal-cg h3 {
+    color: #5d5d5d;
+    font-size: 14px;
+    padding-top: 15px
+}
+.modal-body .t_links_blue {
+    color: #006699;
+    text-decoration: none;
+    padding-top: 30px;
+    display: inline-block
+}
+.modal-body .t_links_blue:hover {
+    color: #3eaf36;
+}
+.modal-body .fb {
+    font-size: 13px;
+    position: relative;
+    top: -2px
+}
+.modal-body .The_of {
+    width: auto
+}
+.balance {
+    font-size: 13px;
+    padding-left: 5px;
+}
+.balance .iconfont {
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+}
+.radio-checked .ant-radio {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s, background-color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86) 0s;
+}
+.radio-checked .ant-radio::after {
+    background-color: #ccc;
+}
+.radio-checked .ant-radio-input {
+    cursor: default
+}
+.radio-checked span {
+    color: #999
+}
+.text_h3 {
+    padding: 15px 0 30px 0;
+    font-size: 24px;
+}
+.main-inputs .input2 {
+    font-size: 16px;
+}
+.pay-modal.unbind-alipay {
+    position: absolute;
+    width: 440px;
+    z-index: 99;
+    box-sizing: border-box
+}
+.pay-modal.unbind-alipay .text_h3 {
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 15px
+}
+.input-append {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: left;
+    width: 100%;
+}
+.input-append input[type="text"] {
+    height: 30px;
+    width: 226px;
+}
+.input-append input[disabled], .input-append select[disabled], .input-append textarea[disabled], .input-append input[readonly], .input-append select[readonly], .input-append textarea[readonly] {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+.input-append input[type="text"] {
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.input-append input[type="text"] {
+    color: #555555;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+}
+.sms_notice {
+    font-size: 12px;
+    color: #3eaf36;
+    text-align: left;
+}
+.input-append .btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #cccccc #cccccc #b3b3b3;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #3f3f3f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 3px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: top;
+}
+.input-append .btn {
+    color: #999999;
+    width: 100px;
+}
+.input-append .btn {
+    background: whitesmoke none repeat scroll 0 0;
+    border-color: #d5d5d5;
+    border-radius: 0 4px 4px 0;
+    box-shadow: none;
+    color: #555555;
+    text-shadow: none;
+    margin-left: -1px;
+    height: 40px;
+}
+.input-append input[disabled], .input-append select[disabled], .input-append textarea[disabled], .input-append input[readonly], .input-append select[readonly], .input-append textarea[readonly] {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+.main-inputs textarea:active, .main-inputs textarea:visited {
+    background: rgba(255,255,255,1.00)
+}
+.msg_content .text_h3 {
+    padding: 0;
+    font-size: inherit
+}
+.msg_notice {
+    color: #c8695e;
+    text-align: left
+}
+
+
+
+
+
+.main-inputs input {
+    font-size: 14px;
+    line-height: 41px;
+    top: -2px;
+}
+
+.a-reward-modal .head-img .approve { position: absolute; right: 0; bottom: 0 }
