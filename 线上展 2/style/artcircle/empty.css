@@ -1,9 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-.empty-box { text-align: center; padding-top: 7rem }
-.empty-box .icon.icon-group1{ display: inline-block; margin: 0; width: 108px; height: 108px;  background: url(../../images/new-images/air/9.png) center no-repeat;  background-size: 108px 108px; }
-.empty-box p{ padding-top: 20px; font-size: 0.7rem; color: #9C9C9C; }
-.empty-box .ation-btn{ font-size: 0.7rem; color: #ffffff; padding: 0.4rem 0.6rem; background:#000000; color: #ffffff; display: inline-block; margin-top: 1rem }
-
-.content-detail-box .empty-box{padding-top: 3rem }
-.content-detail-box .empty-box .icon.icon-group1{ display: inline-block; margin: 0; width: 108px; height: 108px;  background: url(../../images/new-images/air/6.png) center no-repeat;  background-size: 108px 108px; }

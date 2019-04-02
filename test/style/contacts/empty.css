@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-.empty-box { text-align: center; padding-top: 6rem }
-.empty-box .icon.icon-group1{ display: inline-block; width: 76px; height: 64px;  background: url(../../images/new-images/messenger/Group2.png) center no-repeat;  background-size: 76px 64px; }
-.empty-box p{ padding-top: 10px; font-size: 0.7rem; color: #9C9C9C; }
-.empty-box .ation-btn{ font-size: 0.7rem; color: #ffffff; padding: 0.4rem 0.6rem; background:#000000; color: #ffffff; display: inline-block; margin-top: 1rem }
