@@ -95,22 +95,23 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-c .mod-warp h4{font-size: 0; color: #555; }
 .M-info-c .mod-warp h4 em{display: inline-block;font-size: 0.4rem; vertical-align: middle; /*margin-left: -0.1rem; -webkit-transform: scale(.9,.9); transform: scale(.9,.9);*/}
 /*补丁*/
-.M-info-c .mod-warp-col-2{padding: 1.0rem 1.0rem 0; font-size: 0;}
-.M-info-c .mod-warp-col-2 .m-box{margin-right: -1.05rem;-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap: wrap;}
+.M-info-c .mod-warp-col-2{padding: 1.0rem .8rem 0; font-size: 0;}
+.M-info-c .mod-warp-col-2 .m-box{/*margin-right: -1.05rem;*/-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap: wrap;}
 .M-info-c .mod-warp-col-2 .m-img-box .m-ident{position: absolute; right: -2px; bottom: -2px;}
 .M-info-c .mod-warp-col-2 .m-img-box{text-align: center; margin: 0 1.05rem 0.95rem 0;}
 .M-info-c .mod-warp-col-2 .m-img-box em{display: block; white-space: nowrap;font-size: 0.4rem; color: #555; margin-top: 0.1rem; transform: scale(.9,.9);}
 
-.M-info-c .mod-warp-col-2 ul{display: flex; margin-right: -1.05rem;-webkit-flex-wrap: wrap;
+/* {display: flex;-webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
-    flex-wrap: wrap;}
-.M-info-c .mod-warp-col-2 ul li{display: inline-block; text-align: center; margin: 0 1.05rem 0.9rem 0; }
-.M-info-c .mod-warp-col-2 ul li span{ position: relative; display: block; width: 1.7rem;height: 1.7rem; border-radius: 50%;}
+	flex-wrap: wrap;} */
+.M-info-c .mod-warp-col-2 ul{width: 100%; overflow: hidden;}
+.M-info-c .mod-warp-col-2 ul li{display: inline-block; float: left; width: 16.6%;  margin: 0 0 0.9rem 0; text-align: center;  }
+.M-info-c .mod-warp-col-2 ul li span{ position: relative; display: block; width: 1.7rem;height: 1.7rem; margin: 0 auto; border-radius: 50%;}
 .M-info-c .mod-warp-col-2 ul li span img{border-radius: 50%;}
 .M-info-c .mod-warp-col-2 ul li .m-ident{position: absolute;right: -2px;bottom: -2px;}
-.M-info-c .mod-warp-col-2 ul li em{display: block;    white-space: nowrap; margin-top: 0.45rem; font-size: 0.5rem; color: #555;}
+.M-info-c .mod-warp-col-2 ul li em{display: block; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 50px;margin: .45rem auto 0; font-size: 0.5rem; color: #555;}
 .M-info-c .mod-warp .m-ident{margin-left: 0.15rem;}
 
 
@@ -128,11 +129,11 @@ html{width: 100%; overflow-x: hidden;}
     content: '';
     width: 100%;
     height: 3.0rem;
-    bottom: 1rem;
-    background-image: -webkit-linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
-    background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
+    bottom: 0;
+    background-image: -webkit-linear-gradient(-180deg, rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.8) 60%, #FFFFFF 100%);
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.8) 60%,#FFFFFF 100%);
 }
-.arrow{ position: relative; text-align: center; margin-top: -0.8rem; font-size: 0.7rem; padding-bottom: 0.8rem;}
+.arrow{ position: relative; text-align: center; margin-top: -0.5rem; font-size: 0.7rem; padding-bottom: 0.8rem;}
 .arrow a{color: #9C9C9C; line-height: 0.7rem;}
 .arrow .icon{display: inline-block; width: 0.315rem; height: 0.15rem; margin-left: 0.3rem;}
 .arrow .icon-open{background: url(../../images/special/icon-open.png); background-size: 100%;}
@@ -233,7 +234,7 @@ html{width: 100%; overflow-x: hidden;}
 /*简介*/
 .M-info-summary{ padding-bottom: 1.25rem; }
 .M-info-summary .mod-warp{ position: relative; background: #F5F5F5; padding: 1.0rem; box-sizing: border-box; border-radius: 0.2rem;}
-.M-info-summary .mod-warp::after{ position: absolute; content: ''; width: 93%; height: 3.0rem; bottom: 2.2rem; background-image: linear-gradient(-180deg, rgba(245,245,245,0.00) 0%, #F5F5F5 100%);}
+.M-info-summary .mod-warp::after{ position: absolute; content: ''; width: 93%; height: 3.0rem; bottom: 2.2rem; background-image: -webkit-linear-gradient(-180deg, rgba(245,245,245,0.00) 0%, #F5F5F5 100%);background-image: linear-gradient(-180deg, rgba(245,245,245,0.00) 0%, #F5F5F5 100%);}
 .M-info-summary .mod-warp h3{font-size: 0.8rem; line-height: 0.8rem; color: #000;}
 .M-info-summary .mod-warp p{font-size: 0.6rem; color: #555; line-height: 1.5; padding: 0.6rem 0 0.5rem;}
 .M-info-summary .mod-warp a{display: block; text-align: center; color: #57AD68; font-size: 0.6rem; line-height: 0.6rem;}
@@ -346,7 +347,7 @@ html{width: 100%; overflow-x: hidden;}
 .section-content-waterfall{margin-top: 0.5rem;}
 .section-content-waterfall .M-info-title .mod-warp { padding: 1.25rem 0 1.25rem;}
 .M-waterfall{padding-bottom: 1.2rem;}
-.M-waterfall .mod-box{-webkit-column-count: 2;column-count: 2; -webkit-column-gap: 0.5em;column-gap: 0.5em; margin-left:-0.65rem; }
+.M-waterfall .mod-box{font-size: 0;-webkit-column-count: 2;column-count: 2; -webkit-column-gap: 0.5em;column-gap: 0.5em; margin-left:-0.65rem; }
 .M-waterfall .mod-box .item { position: relative;padding: 0;margin: 0 0 1.2rem 0.65rem; font-size: 0; -webkit-column-break-inside: avoid;break-inside: avoid; }
 .M-waterfall .mod-box .item.mod-death:after{position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,.6);}
 .M-waterfall .mod-box .item .m-img-box{ position: relative; border-radius: 4px;}
@@ -357,7 +358,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-waterfall .mod-box .item .m-name{ font-size: 0.6rem; line-height: 0.6rem; color: #000; margin-top: 0.6rem;}
 .M-waterfall .mod-box .item .m-name em{display: inline-block;max-width: 88%; vertical-align: middle;line-height: 1.2;}
 .M-waterfall .mod-box .item .m-ident{width: 0.6rem; height: 0.6rem;margin-left: 0.15rem;}
-.M-waterfall .mod-box .item .m-top{display: block;color: #D20001; max-width: 88%;margin-top: 0.5rem; margin-bottom: 0.4rem;font-size: 0.9rem;line-height: 0.9rem;font-weight: bold;}
+.M-waterfall .mod-box .item .m-top{display: block;color: #D20001; margin-top: 0.5rem; margin-bottom: 0.4rem;font-size: 0.9rem;line-height: 0.9rem;font-weight: bold;}
+.M-waterfall .mod-box .item .m-top em{display:inline-block; font-weight: bold;max-width: 78%;}
 .M-waterfall .mod-box .item .m-top b{display: inline-block;font-size: 0.7rem;}
 .M-waterfall .mod-box .item .m-footer{display: block; overflow: hidden;font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;vertical-align: middle;}
 .M-waterfall .mod-box .item .m-txt-through{display: inline-block; max-width: 87%;float: left;font-size: 0.6rem;line-height: 0.6rem;font-weight: bold;color: #9C9C9C;text-decoration: line-through;}
