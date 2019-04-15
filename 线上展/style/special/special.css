@@ -33,7 +33,16 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-logo span{display: block; width: 2.85rem; height: 1.65rem;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .M-header .mod-logo p{ width: 2.5rem;text-align: center; padding-left: 1px; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;/*letter-spacing: 10.33px;*/text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
-.M-header .mod-text-box{position: absolute; width: 68%; left: 0.65rem; bottom: 1.35rem;}
+/*修改1*/
+.M-header .mod-text-box{  bottom: 1.35rem; padding: 0 1.0rem; text-align: justify;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7.0rem;
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%);
+}
+.M-header .mod-text-box .mod-box{position: absolute; bottom: 1.0rem; width: 90%;}
+
 .M-header .mod-text-box .mod-tit{font-size: 1.2rem; color: #fff;}
 .M-header .mod-text-box .m-left{line-height: 1.3;text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
@@ -69,11 +78,15 @@ html{width: 100%; overflow-x: hidden;}
 
 .M-info-a,
 .M-info-b{padding-left: 0.65rem; padding-right: 0.65rem;}
-.M-info-b .mod-warp{padding: 1.25rem 0 0.2rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
+/*修改1*/
+.M-info-b .mod-warp{ padding: 1.25rem 0 0; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden;}
+.M-info-b .mod-warp .m-left{float: left; max-width: 80%;word-break: keep-all; word-wrap: break-word;}
+.M-info-b .mod-warp .m-right {float: right;}
+.M-info-b .mod-warp .m-right .mod-logo{display: block; width: 2.55rem; height: 1.35rem;}
 .M-info-b .mod-warp ul li{ display: flex; display: -webkit-flex; font-size: 0; margin-bottom: 0.5rem; overflow: hidden;}
 .M-info-b .mod-warp ul li span,
 .M-info-b .mod-warp ul li em{ display: inline-block; float: left; font-size: 0.6rem;}
-.M-info-b .mod-warp ul li span{width: 23%;white-space: nowrap;color: #555;}
+.M-info-b .mod-warp ul li span{width: 4.0rem;white-space: nowrap;color: #555;}
 .M-info-b .mod-warp ul li em{width: 77%; line-height: 1.5;text-align: justify; color: #555;}
 .M-info-b .mod-warp ul li a{color: #63b373;font-weight: bold;}
 /*补丁*/
@@ -112,7 +125,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-c .mod-warp-col-2 ul li span img{border-radius: 50%;}
 .M-info-c .mod-warp-col-2 ul li .m-ident{position: absolute;right: -2px;bottom: -2px;}
 .M-info-c .mod-warp-col-2 ul li em{display: block; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 50px;margin: .45rem auto 0; font-size: 0.5rem; color: #555;}
-.M-info-c .mod-warp .m-ident{margin-left: 0.15rem;}
+/*修改1*/
+.M-info-c .mod-warp .m-ident{margin-left: 0.05rem;}
 
 
 
@@ -122,6 +136,14 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-d .mod-warp .m-address{display: inline-block;margin-right: 0.35rem;width: 0.4rem;height: 0.5rem;background: url(../../images/special/m-address-curr.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -1px;}
 .M-info-d .mod-warp .m-arrow{ display: inline-block;width: 0.35rem;height: 0.6rem;background: url(../../images/special/m-arrow.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -0.09375rem;}
 .M-info-d .mod-warp h3{font-size: 0.6rem; color: #555; font-weight: normal;}
+
+/*新增1*/
+.M-info-list .mod-warp{ margin-bottom:0.7rem;}
+.M-info-list .mod-warp ul li span,
+.M-info-list .mod-warp ul li em{display: inline-block; font-size: 0.6rem;}
+.M-info-list .mod-warp ul li span{width: 3.6rem;white-space: nowrap;color: #555;vertical-align: top;}
+.M-info-list .mod-warp ul li em{ width: 77%; line-height: 1.5;text-align: justify; color: #555;}
+.M-info-list .mod-warp ul li a {color: #63b373;font-weight: bold;}
 
 .M-text-box{position: relative; overflow: hidden;}
 .M-text-box.open-mongolia::after {
@@ -242,7 +264,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-btn{padding-bottom:0.15rem;}
 .M-info-btn .mod-warp{}
 .M-info-btn .mod-warp a{display: block; width: 100%; height: 1.7rem; line-height: 1.7rem; font-size: 0.6rem; color: #000; font-weight: bold; text-align: center; border:1px solid #EDEDED; border-radius: 1.0rem;}
-
+/*修改1*/
 .M-comment{padding-bottom: 0.5rem;}
 .M-comment .card-wrap{ position: relative;}
 .M-comment .card-main{margin: 0; padding: 0.9rem 0;height: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; }
@@ -265,10 +287,12 @@ html{width: 100%; overflow-x: hidden;}
 /*相关推荐*/
 .section-groom{margin-top: 0.5rem;}
 .section-groom .M-info-pic .m-filter{height: 7.5rem}
-.section-groom .M-info-pic .m-filter .m-text{margin: 3.6rem 0.8rem 0;}
+/*修改1*/
+.section-groom .M-info-pic .m-filter .m-text{margin: 3.6rem 0.8rem 0;position: absolute;width: 100%;bottom: 1.0rem;}
 .section-groom .M-info-pic .m-filter .m-text .m-box h3{max-width: 90%;font-size: 1.0rem; line-height: 1.0rem; font-weight: bold;color: #fff;}
 .section-groom .M-info-pic .m-filter .m-text .m-box span{ position: relative; max-width: 90%; bottom: 0; font-size: 0.6rem; line-height: 0.6rem;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical; line-height: 1.3;text-align: justify;}
-.section-groom .M-info-pic .m-filter .m-text .m-box .m-footer{height: auto; line-height: normal; margin-top: 0.3rem;}
+/*修改1*/
+.section-groom .M-info-pic .m-filter .m-text .m-box .m-footer{height: auto; line-height: normal; margin-top: 0.75rem;}
 
 /*end*/
 .M-info-end{padding: 0.75rem 0 5.2rem;}
@@ -304,7 +328,7 @@ html{width: 100%; overflow-x: hidden;}
 /*.section-content-card{margin-top: 0.5rem;}*/
 .section-content-card .M-info-title .mod-warp{padding: 1.25rem 0 0.5rem;}
 .section-content-card .M-list .m-right h4{margin-top: 0.5rem;}
-.section-content-card .M-info-btn{padding-top: 0.75rem; padding-bottom: 0;}
+.section-content-card .M-info-btn{padding-top: 0.3rem; padding-bottom: 0;}
 .M-list{overflow: hidden;}
 
 
@@ -346,7 +370,7 @@ html{width: 100%; overflow-x: hidden;}
 */
 .section-content-waterfall{margin-top: 0.5rem;}
 .section-content-waterfall .M-info-title .mod-warp { padding: 1.25rem 0 1.25rem;}
-.M-waterfall{padding-bottom: 1.2rem;}
+.M-waterfall{padding-bottom: 1.1rem;}
 .M-waterfall .mod-box{font-size: 0;-webkit-column-count: 2;column-count: 2; -webkit-column-gap: 0.5em;column-gap: 0.5em; margin-left:-0.65rem; }
 .M-waterfall .mod-box .item { position: relative;padding: 0;margin: 0 0 1.2rem 0.65rem; font-size: 0; -webkit-column-break-inside: avoid;break-inside: avoid; }
 .M-waterfall .mod-box .item.mod-death:after{position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,.6);}
@@ -357,7 +381,8 @@ html{width: 100%; overflow-x: hidden;}
 .M-waterfall .mod-box .item span{display: block;}
 .M-waterfall .mod-box .item .m-name{ font-size: 0.6rem; line-height: 0.6rem; color: #000; margin-top: 0.6rem;}
 .M-waterfall .mod-box .item .m-name em{display: inline-block;max-width: 88%; vertical-align: middle;line-height: 1.2;}
-.M-waterfall .mod-box .item .m-ident{width: 0.6rem; height: 0.6rem;margin-left: 0.15rem;}
+/*修改*/
+.M-waterfall .mod-box .item .m-ident{width: 0.6rem; height: 0.6rem;margin-left: 0.05rem;}
 .M-waterfall .mod-box .item .m-top{display: block;color: #D20001; margin-top: 0.5rem; margin-bottom: 0.4rem;font-size: 0.9rem;line-height: 0.9rem;font-weight: bold;}
 .M-waterfall .mod-box .item .m-top em{display:inline-block; font-weight: bold;max-width: 78%;}
 .M-waterfall .mod-box .item .m-top b{display: inline-block;font-size: 0.7rem;}
@@ -390,21 +415,39 @@ html{width: 100%; overflow-x: hidden;}
 .M-layer .mod-footer{text-align: center; margin-top: 1.3rem;}
 .M-layer .mod-footer .btn-close{display: block; width: 1.5rem; height: 1.5rem; margin: 0 auto; background: url(../../images/special/layer_close.png); background-size: 100% 100%; background-repeat: no-repeat; }
 
+
+/* 前言样式修改 */
+.M-text-box p{padding-left: 0.65rem; padding-right: 0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 0.6rem; color: #000; line-height: 1.5; padding-bottom: 0.8rem;}
+.M-text-box p a{color: #5184bc;}
+.M-text-box p img{height: 100%; min-height: 9.8rem; width: auto; max-width: 100%; border-radius: 4px;}
+.M-text-box figure.image{padding-left: 0.65rem;padding-right: 0.65rem;padding-bottom: 0.6rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.M-text-box figure.image img{border-radius: 4px;}
+.M-text-box figcaption{font-size: 0.6rem; color: #9C9C9C; line-height: 1.5;text-align: center;padding-top: 0.6rem;padding-bottom: 0.8rem;-webkit-box-sizing: border-box; box-sizing: border-box;}
+.M-text-box p video{width: 100%;padding-top: 0.6rem; -webkit-object-fit: fill; object-fit: fill;border-radius: 4px;}
+
+
+/*提示层*/
+.M-tips{ position: fixed; z-index: 999; width: 11.5rem; left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);
+ background: rgba(0,0,0,0.70);border-radius: 4px;border-radius: 4px;}
+.M-tips .mod-warp{padding: 1.25rem 0.75rem; text-align: center;}
+.M-tips .mod-warp p{font-size: 0.7rem;color: #FFFFFF;line-height: 1.0rem;}
+
 @media screen and (max-width: 320px){
 	html{font-size: 17px;}
+  .M-info-list .mod-warp ul li span{width: 4.0rem;}
 	/*.M-header .mod-logo p{letter-spacing: -1.1px;}*/
 }
 
 /*iphone X*/
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-	.M-bott-guide{padding-bottom: 1.6rem;}
-	.M-info-end{padding: 0.75rem 0 6.75rem;}
+	/*.M-bott-guide{padding-bottom: 1.6rem;}*/
+	/*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
 }
 
 /*iphone X max*/
 @media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){ 
-	.M-bott-guide{padding-bottom: 1.6rem;}
-	.M-info-end{padding: 0.75rem 0 6.75rem;}
+	/*.M-bott-guide{padding-bottom: 1.6rem;}*/
+	/*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
 }
 
 
