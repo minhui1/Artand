@@ -34,14 +34,14 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .M-header .mod-logo p{ width: 2.5rem;text-align: center; padding-left: 1px; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;/*letter-spacing: 10.33px;*/text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
 /*修改1*/
-.M-header .mod-text-box{  bottom: 1.35rem; padding: 0 1.0rem; text-align: justify;
+.M-header .mod-text-box{  bottom: 1.35rem; padding: 0 1.0rem 1.0rem; text-align: justify;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 7.0rem;
+  min-height: 3.0rem;
   background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%);
 }
-.M-header .mod-text-box .mod-box{position: absolute; bottom: 1.0rem; width: 90%;}
+/*.M-header .mod-text-box .mod-box{position: absolute; bottom: 1.0rem; width: 90%;}*/
 
 .M-header .mod-text-box .mod-tit{font-size: 1.2rem; color: #fff;}
 .M-header .mod-text-box .m-left{line-height: 1.3;text-overflow: -o-ellipsis-lastline;
@@ -99,7 +99,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-c .mod-warp .m-img-box{position: relative; background: #e9e9e9;display: inline-block; width: 1.7rem; height: 1.7rem; margin: 2px 0.5rem 0 0; border-radius: 50%;}
 .M-info-c .mod-warp .m-img-box img{border-radius: 50%;}
 /*.M-info-c .mod-warp .m-img-box::before {content: "";position: absolute;z-index: 2;top: 0;right: 0;bottom: 0;left: 0;border-radius: 50%;}*/
-.M-info .mod-warp .m-ident{display: inline-block;margin-left: 0.1rem;width: 0.7rem;height: 0.7rem;background: url(../../images/special/m-ident.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -0.09375rem;}
+.M-info .mod-warp .m-ident{display: inline-block;margin-left: 0.1rem;width: 0.7rem;height: 0.7rem;background: url(../../images/special/m-ident.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -2.5px;}
 .M-info-c .mod-warp .m-landmark{display: inline-block; margin-left: 0.25rem; margin-right: 0.1rem; width: 0.4rem;height: 0.5rem;background: url(../../images/special/m-address.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: middle;-webkit-transform: scale(.8,.8); transform: scale(.8,.8);}
 .M-info-c .mod-warp .m-follow{ display: inline-block;width: 2.4rem;height: 1.7rem;background: url(../../images/special/m-follow.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -0.09375rem; }
 .M-info-c .mod-warp .m-followed{display: inline-block;width: 2.4rem;height: 1.7rem;background: url(../../images/special/m-followed.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -0.09375rem;}
@@ -417,7 +417,7 @@ html{width: 100%; overflow-x: hidden;}
 
 
 /* 前言样式修改 */
-.M-text-box p{padding-left: 0.65rem; padding-right: 0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 0.6rem; color: #000; line-height: 1.5; padding-bottom: 0.8rem;}
+.M-text-box p{font-size: 0.6rem; color: #000; line-height: 1.5; padding-bottom: 0.8rem;text-align: justify;}
 .M-text-box p a{color: #5184bc;}
 .M-text-box p img{height: 100%; min-height: 9.8rem; width: auto; max-width: 100%; border-radius: 4px;}
 .M-text-box figure.image{padding-left: 0.65rem;padding-right: 0.65rem;padding-bottom: 0.6rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
