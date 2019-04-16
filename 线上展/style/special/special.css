@@ -34,7 +34,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-header .mod-logo span img{display: block;font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .M-header .mod-logo p{ width: 2.5rem;text-align: center; padding-left: 1px; margin-top: 0.2rem; font-size: 0.5rem; line-height: 0.5rem; color: #fff;/*letter-spacing: 10.33px;*/text-shadow: 0 0 5px rgba(0,0,0,0.70);white-space: nowrap;}
 /*修改1*/
-.M-header .mod-text-box{  bottom: 1.35rem; padding: 0 1.0rem 1.0rem; text-align: justify;
+.M-header .mod-text-box{  bottom: 1.35rem; padding: 0 0.65rem 0.65rem; text-align: justify;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -44,7 +44,7 @@ html{width: 100%; overflow-x: hidden;}
 /*.M-header .mod-text-box .mod-box{position: absolute; bottom: 1.0rem; width: 90%;}*/
 
 .M-header .mod-text-box .mod-tit{font-size: 1.2rem; color: #fff;}
-.M-header .mod-text-box .m-left{line-height: 1.3;text-overflow: -o-ellipsis-lastline;
+.M-header .mod-text-box .m-left{line-height: 1.3;font-weight: bold;text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
