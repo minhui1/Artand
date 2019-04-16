@@ -50,7 +50,7 @@ html{width: 100%; overflow-x: hidden;}
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
-  -webkit-box-orient: vertical;}
+  -webkit-box-orient: vertical;text-align: justify;}
 .M-header .mod-text-box .mod-txt{margin-top: 0.3rem;}
 .M-header .mod-text-box p{font-size: 0.7rem;color: rgba(255,255,255,.8); line-height: 1.3;text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
@@ -58,7 +58,7 @@ html{width: 100%; overflow-x: hidden;}
   display: -webkit-box;
   -webkit-line-clamp: 3;
   line-clamp: 3;
-  -webkit-box-orient: vertical;}
+  -webkit-box-orient: vertical;text-align: justify;}
 
 .M-info{ background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
