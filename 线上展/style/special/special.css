@@ -79,7 +79,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-a,
 .M-info-b{padding-left: 0.65rem; padding-right: 0.65rem;}
 /*修改1*/
-.M-info-b .mod-warp{ padding: 1.25rem 0 0; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden;}
+.M-info-b .mod-warp{ padding: 1.5rem 0 0; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden;}
 .M-info-b .mod-warp .m-left{float: left; max-width: 80%;word-break: keep-all; word-wrap: break-word;}
 .M-info-b .mod-warp .m-right {float: right;}
 .M-info-b .mod-warp .m-right .mod-logo{display: block; width: 2.55rem; height: 1.35rem;}
@@ -90,7 +90,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-b .mod-warp ul li em{width: 77%; line-height: 1.5;text-align: justify; color: #555;}
 .M-info-b .mod-warp ul li a{color: #63b373;font-weight: bold;}
 /*补丁*/
-.M-info-b .mod-margin{padding: 0 0 0.25rem;}
+.M-info-b .mod-margin{padding: 0 0 0.1rem;}
 
 .M-info-c{padding-bottom: 1.25rem;}
 .M-info-c .mod-warp{ width: 100%; height: 100%; padding:1.0rem ; background: #F5F5F5;border-radius: 4px; -webkit-box-sizing: border-box; box-sizing: border-box;}
@@ -130,7 +130,7 @@ html{width: 100%; overflow-x: hidden;}
 
 
 
-.M-info-d{padding-bottom: 1.25rem;}
+.M-info-d{padding-bottom: 2.2rem;}
 .M-info-d .mod-warp{ width: 100%; height: 100%; padding:0.75rem 1.0rem; background: #F5F5F5;border-radius: 4px; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .M-info-d .mod-warp .m-box{ height: 100%;}
 .M-info-d .mod-warp .m-address{display: inline-block;margin-right: 0.35rem;width: 0.4rem;height: 0.5rem;background: url(../../images/special/m-address-curr.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -1px;}
@@ -138,7 +138,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-d .mod-warp h3{font-size: 0.6rem; color: #555; font-weight: normal;}
 
 /*新增1*/
-.M-info-list .mod-warp{ margin-bottom:0.7rem;}
+.M-info-list .mod-warp{ margin-bottom:0.6rem;}
 .M-info-list .mod-warp ul li span,
 .M-info-list .mod-warp ul li em{display: inline-block; font-size: 0.6rem;}
 .M-info-list .mod-warp ul li span{width: 3.6rem;white-space: nowrap;color: #555;vertical-align: top;}
@@ -431,6 +431,36 @@ html{width: 100%; overflow-x: hidden;}
  background: rgba(0,0,0,0.70);border-radius: 4px;border-radius: 4px;}
 .M-tips .mod-warp{padding: 1.25rem 0.75rem; text-align: center;}
 .M-tips .mod-warp p{font-size: 0.7rem;color: #FFFFFF;line-height: 1.0rem;}
+
+
+/*新增页面04*/
+.section-main{margin-top: 0.5rem; background: #fff;}
+.section-main .M-info-title .mod-warp{padding: 1.25rem 0 3.0rem;}
+.M-info-imgtex{} 
+.M-info-imgtex .mod-warp{position: relative;}
+.M-info-imgtex .mod-warp .m-img-box{overflow: hidden;}
+.M-info-imgtex .mod-warp img{max-width: 100%; width: auto; margin: 0 auto;}
+.M-info-imgtex .mod-warp h3{ font-weight: normal; font-size: 0.5rem; color: #000; line-height: 0.5rem; text-align: center;margin: 0.9rem 0 9.0rem;}
+.M-info-imgtex .mod-warp .m-txt{margin:0 0 9.0rem;}
+.M-info-imgtex .mod-warp p{font-size: 0.6rem; color: #000; line-height: 1.5; text-align: justify; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 320px){
 	html{font-size: 17px;}
