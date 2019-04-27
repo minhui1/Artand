@@ -442,7 +442,7 @@ html{width: 100%; overflow-x: hidden;}
 .M-info-imgtex .mod-warp img{max-width: 100%;  width: auto; margin: 0 auto;}
 .M-info-imgtex .mod-warp h3{ font-weight: normal; font-size: 0.5rem; color: #000; line-height: 0.5rem; text-align: center;margin: 0.9rem 0 9.0rem;}
 .M-info-imgtex .mod-warp p{font-size: 0.6rem; margin:0 0 9.0rem;color: #000; line-height: 1.5; text-align: justify; }
-.M-info-imgtex .mod-warp .m-solid{display: inline-block; width: 0.4rem; height: 0.4rem; border-radius: 50px; background: #D20001; margin-left: 0.6rem; vertical-align: 0;}
+.M-info-imgtex .mod-warp .m-solid{display: inline-block; width: 0.4rem; height: 0.4rem; border-radius: 50px; background: #D20001; margin-left: 0.6rem; vertical-align: top;}
 
 
 
