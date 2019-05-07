@@ -5,7 +5,7 @@ body{max-width: 750px; margin: 0 auto; }
 body,
 html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 /*公用*/
-.content-block{position: relative; margin: 0; padding: 0; /*padding-bottom: 200px;*/}
+.content-block{position: relative; margin: 0; padding: 0;background: #F2F2F2 !important; /*padding-bottom: 200px;*/}
 .B-body-index,
 .B-body-index .page,
 .B-body-index .page .content{background: #F2F2F2; overflow-x: hidden;}
