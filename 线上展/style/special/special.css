@@ -118,7 +118,7 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
-	flex-wrap: wrap;} */
+  flex-wrap: wrap;} */
 .M-info-c .mod-warp-col-2 ul{width: 100%; overflow: hidden;}
 .M-info-c .mod-warp-col-2 ul li{display: inline-block; float: left; width: 16.6%;  margin: 0 0 0.9rem 0; text-align: center;  }
 .M-info-c .mod-warp-col-2 ul li span{ position: relative; display: block; width: 1.7rem;height: 1.7rem; margin: 0 auto; border-radius: 50%;}
@@ -317,7 +317,7 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 .M-bott-guide .m-tab-bar .m-right{float: right; padding: 0.65rem 0; font-size: 0;}
 .M-bott-guide .m-tab-bar .m-right a{display: inline-block; font-size: 0.7rem; margin-right: 0.6rem; font-weight: bold; width: 4.8rem; height: 2.0rem; line-height: 2.0rem; border-radius: 2px; text-align: center;}
 .M-bott-guide .m-tab-bar .m-contribute{border:1px solid #979797; color: #000;}
-.M-bott-guide .m-tab-bar .m-buy{background: #000;border:1px solid #000; color: #fff;}
+.M-bott-guide .m-tab-bar .m-buy{background: rgba(0,0,0,1);border:1px solid #000; color: #fff;}
 
 /*
 *
@@ -466,21 +466,21 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 
 
 @media screen and (max-width: 320px){
-	html{font-size: 17px;}
+  html{font-size: 17px;}
   .M-info-list .mod-warp ul li span{width: 4.0rem;}
-	/*.M-header .mod-logo p{letter-spacing: -1.1px;}*/
+  /*.M-header .mod-logo p{letter-spacing: -1.1px;}*/
 }
 
 /*iphone X*/
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-	/*.M-bott-guide{padding-bottom: 1.6rem;}*/
-	/*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
+  /*.M-bott-guide{padding-bottom: 1.6rem;}*/
+  /*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
 }
 
 /*iphone X max*/
 @media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){ 
-	/*.M-bott-guide{padding-bottom: 1.6rem;}*/
-	/*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
+  /*.M-bott-guide{padding-bottom: 1.6rem;}*/
+  /*.M-info-end{padding: 0.75rem 0 6.75rem;}*/
 }
 
 
