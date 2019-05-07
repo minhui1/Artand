@@ -304,7 +304,7 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 *底导
 *
 */
-.M-bott-guide{position: fixed;width: 100%;max-width: 750px;z-index: 999;bottom: 0;right: 0; background: #fff;left: 50%;-webkit-transform: translateX(-50%) translate3d(0,0,0);transform: translateX(-50%) translate3d(0,0,0);box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.06);}
+.M-bott-guide{position: fixed;width: 100%;max-width: 750px;z-index: 3000;bottom: 0;right: 0; background: #fff;left: 50%;-webkit-transform: translateX(-50%) translate3d(0,0,0);transform: translateX(-50%) translate3d(0,0,0);box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.06);}
 .M-bott-guide .m-tab-bar .page-box{ width: 100%; overflow: hidden;}
 .M-bott-guide .m-tab-bar .m-left{float: left; padding: 0.6rem 0.25rem 0.6rem 0.6rem;}
 .M-bott-guide .m-tab-bar .m-left i{display: inline-block;vertical-align: middle;}
@@ -396,8 +396,8 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 *弹层
 *
 */
-.M-layer-black-bg{position: fixed;z-index: 999; top: 0; left: 50%; bottom: 0; right: 0; width: 100%; max-width: 750px; height: 100%; overflow: hidden; background: rgba(0,0,0,0.5); -webkit-transform: translateX(-50%); transform: translateX(-50%);}
-.M-alert {position: fixed;z-index: 999;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);box-sizing: border-box;width: 15.5rem;background: #f8f8f8;border-radius: 4px;text-align: center;}
+.M-layer-black-bg{position: fixed;z-index: 3001; top: 0; left: 50%; bottom: 0; right: 0; width: 100%; max-width: 750px; height: 100%; overflow: hidden; background: rgba(0,0,0,0.5); -webkit-transform: translateX(-50%); transform: translateX(-50%);}
+.M-alert {position: fixed;z-index: 3001;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);box-sizing: border-box;width: 15.5rem;background: #f8f8f8;border-radius: 4px;text-align: center;}
 .M-alert header {padding: 2.0rem 1.4rem 1.0rem;color: #000;line-height: 1.25;}
 .M-alert header h2 {font-size: 0.9rem; }
 .M-alert header h3 {font-size: 0.7rem; color: #000; line-height: 1.0rem; font-weight: normal; text-align: left; margin: 1.0rem 0 0 0; }
@@ -409,7 +409,7 @@ html{width: 100%;background: #F2F2F2 !important; overflow-x: hidden;}
 .M-alert footer .m-left a{color: #555;}
 .M-alert footer .m-right a{color: #57AD68; font-weight: bold;}
 
-.M-layer{position: fixed; z-index: 999; left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.M-layer{position: fixed; z-index: 3001; left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
 .M-layer .mod-header{width: 15.5rem; height: 18.0rem;}
 .M-layer .mod-header img{display: block; font-size: 0; width: 100%; height: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .M-layer .mod-footer{text-align: center; margin-top: 1.3rem;}
