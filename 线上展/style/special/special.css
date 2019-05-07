@@ -6,9 +6,10 @@ body,
 html{width: 100%; overflow-x: hidden;}
 /*公用*/
 .content-block{position: relative; margin: 0; padding: 0; /*padding-bottom: 200px;*/}
+html{background: #F2F2F2 !important;}
 .B-body-index,
 .B-body-index .page,
-.B-body-index .page .content{background: #F2F2F2; overflow-x: hidden;}
+.B-body-index .page .content{background: #F2F2F2 !important; overflow-x: hidden;}
 .B-body-index .page{z-index: 99;}
 .content-block img{ display: block; font-size: 0; width: 100%; -webkit-object-fit: cover; object-fit: cover;}
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
