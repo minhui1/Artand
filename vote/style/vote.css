@@ -140,8 +140,8 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .mod-list{margin: 0 0.875rem; padding-bottom: 5.0rem}
 .mod-list .card-wrap{height: 100%;}
 .mod-list .card-main{padding: 0.75rem 0;height: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;}
-.mod-list .card-main h3{font-size: 1.0rem; line-height: 1.5625rem; color: #fff;font-weight: bold;margin-bottom: 0.75rem;}
-.mod-list .card-main h4{font-size: 0.625rem;color: #9f9f9f;}
+.mod-list .card-main h3{font-size: 1.0rem; line-height: 1.5625rem; color: #fff;font-weight: bold;}
+.mod-list .card-main h4{font-size: 0.625rem; line-height: 1.5625rem; color: #9f9f9f;}
 .mod-list .m-box{height: 100%;}
 .mod-list .m-img-box{width: 3.125rem;height: 3.125rem;margin-right: 0.8125rem;background: #fff;padding: 1px;border-radius: 50%;}
 .mod-list .m-img-box img{border-radius: 50%;}
