@@ -58,8 +58,8 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .icon-dowm{margin-left: 0.03rem;display: inline-block;width: .2rem;height: .1rem;background: url('../images/icon-down.png') no-repeat right center;background-size: .12rem .1rem;}
 .icon-case-list:before{display: inline-block;width: .26rem;height: .2rem;content: '';background: url("../images/case-list.png") no-repeat left center;background-size: .23rem .2rem;}
 /* item-list*/
-.item-list{position: relative;right: -0.375rem; font-size: 0;text-align: center;overflow: hidden;}
-.item-list a{display: inline-block;width: 6.0625rem;height: 1.875rem; font-size: 0.75rem; text-align: center;line-height: 1.875rem;margin:0 0.375rem 1.1875rem 0; border-radius: 50px;white-space: nowrap;}
+.item-list{position: relative;right: -0.25rem; font-size: 0;text-align: center;overflow: hidden;}
+.item-list a{display: inline-block;width: 30.5%;height: 1.875rem; font-size: 0.75rem; text-align: center;line-height: 1.875rem;margin:0 0.375rem 1.1875rem 0; border-radius: 50px;white-space: nowrap;}
 .item-list a.active{background: #dbb59c;color: #000000;}
 /* index style*/
 .index .cover{background: url('../images/cover-bg.png') no-repeat center center;background-size: 7.5rem 16.24rem;/*background-position: center top;*/height: 16.24rem;margin: 0 auto;/* margin-top: 0.2rem;*/}
