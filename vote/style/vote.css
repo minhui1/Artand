@@ -19,11 +19,11 @@ button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
 mark{background-color:transparent}
 a,ins,s,u,del{text-decoration:none}
 sup,sub{vertical-align:baseline}
-html {overflow-x: hidden;height: 100%;font-size: 16px;-webkit-tap-highlight-color: transparent;}
+html{overflow-x: hidden;height: 100%;font-size: 16px;-webkit-tap-highlight-color: transparent;}
 /*body{font-size: .28rem;}*/
-body {font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;color: #333;line-height: 1;-webkit-text-size-adjust: none;}
-hr {height: .02rem;margin: .1rem 0;border: medium none;border-top: .02rem solid #cacaca;}
-a {color: #25a4bb;text-decoration: none;}
+body{font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;color: #333;line-height: 1;-webkit-text-size-adjust: none;}
+hr{height: .02rem;margin: .1rem 0;border: medium none;border-top: .02rem solid #cacaca;}
+a{color: #25a4bb;text-decoration: none;}
 *{margin: 0; padding: 0;}
 /* global style*/
 html,body{max-width: 750px; margin: 0 auto;}
@@ -66,24 +66,12 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .index>.cover .title{margin-top: 0}
 .index>.case-list{margin: 0 1.875rem;}
 .index>.case-list>.title{background: url('../images/sel-artist.png') no-repeat center top;background-size: 7.5625rem auto;height: 1.3125rem;margin:3.125rem 0 2.8125rem;}
-.index>.user-list{
-	margin: 1.8125rem 0.9375rem 0;
-	-webkit-display: flex;
-    -moz-display: flex;
-    -ms-display: flex;
-    -o-display: flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    -o-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-.index>.user-list dl{ display: inline-block; width: 33.33%;min-height: 10.3125rem;float: left;margin: 0 0 2.5rem;text-align: center;}
+.index>.user-list{margin: 1.8125rem 0.9375rem 0;-webkit-display: flex; -moz-display: flex; -ms-display: flex; -o-display: flex; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap;}
+.index>.user-list dl{display: inline-block; width: 33.33%;min-height: 10.3125rem;float: left;margin: 0 0 2.5rem;text-align: center;}
 .index>.user-list dl dt{width: 4.375rem;height: 4.375rem;padding: 1px;border-radius: 50%;background:#ededed;margin: 0 auto;}
 .index>.user-list dl dt>img{width: 4.375rem;height: 4.375rem;border-radius: 50%}
 .index>.user-list dl dd.name{font-size: 1.0rem; line-height: 1.5625rem; margin-top: 0.875rem;}
-.index>.user-list dl dd.votes{ font-size: 0.625rem ; line-height: 1.5625rem; margin-bottom: 0.5rem; color: #919191;}
+.index>.user-list dl dd.votes{font-size: 0.625rem ; line-height: 1.5625rem; margin-bottom: 0.5rem; color: #919191;}
 .index>.user-list dl dd.btn{width: 5.625rem;height: 1.875rem;line-height: 1.875rem; font-size: 0.875rem; border-radius: 50px; margin: 0 auto;}
 .index>.user-list dl dd.btn.gray{color: #919191;}
 .index>.introduction{margin: 0 1.875rem;padding-top: 1.375rem;}
@@ -91,21 +79,19 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .index>.introduction>p{line-height: 1.625rem;font-size: 0.75rem;color: #fff;text-align: justify; margin-bottom: 2.5rem;}
 .index>.prize{margin-top: 2.8125rem;}
 .index>.prize>.title{background: url('../images/prize.png') no-repeat center center;background-size: 6.0rem auto;height: 1.3125rem;width: 100%;margin-bottom: 2.75rem}
-
 .index>.sel-process{width: 100%;margin: 0 auto; text-align: center; background: url('../images/process-icon.png') no-repeat center bottom;background-size: 19.1875rem auto;padding-bottom: 1.25rem;overflow: hidden;}
 .index>.sel-process>.title{background: url('../images/sel-process.png') no-repeat center center;background-size: 6.0rem auto;height: 1.3125rem;width: 100%;margin:1.5625rem 0 3.125rem}
 .index>.sel-process>dl{width: 25%; display: inline-block; text-align: center;line-height: 1.25rem;}
 .index>.sel-process>dl dt{white-space: nowrap;font-size: 0.875rem; line-height: 1.125rem;}
-.index>.sel-process>dl>dd{font-size: 0.625rem; line-height: 1.125rem; color:rgba(255,255,255,1);white-space: nowrap; -webkit-transform: scale(.9,.9); transform: scale(.9,.9); }
+.index>.sel-process>dl>dd{font-size: 0.625rem; line-height: 1.125rem; color:rgba(255,255,255,1);white-space: nowrap; -webkit-transform: scale(.9,.9); transform: scale(.9,.9);}
 .index>.sel-process>dl.middle{margin: 0 1.5625rem;}
 .index>.process-content{color: #fff;line-height: 1.5625rem;margin: 2.8125rem 1.875rem 0;font-size: 0.75rem;}
 .index>.process-content >.process-item{margin-bottom: 2.5rem;}
-.index>.process-content>.process-item >.item-title{ font-size: 0.75rem; line-height: 1.625rem; background: url('../images/icon-left.png') no-repeat left 0.375rem; background-size:0.125rem auto;padding-left: 0.5rem;}
+.index>.process-content>.process-item >.item-title{font-size: 0.75rem; line-height: 1.625rem; background: url('../images/icon-left.png') no-repeat left 0.375rem; background-size:0.125rem auto;padding-left: 0.5rem;}
 .index>.process-content>.process-item p{font-size: 0.75rem; line-height: 1.625rem;margin-bottom: 1.75rem;text-align: justify;}
 .index>.dialog-list{margin: 0 1.875rem;font-size: 0.75rem;line-height: 1.625rem;color: #fff;}
 .index>.dialog-list>.icon{background: url('../images/square.png') no-repeat left 0.625rem;background-size: 0.25rem 0.25rem;padding-left: 0.5625rem;text-align: justify;}
 .index>.dialog-list>.icon em{font-weight: normal;color: #c09375;}
-
 /*首页*/
 .index{position: relative;height: 100%;}
 .M-header img{display: block;font-size: 0;width: 100%;-webkit-object-fit: cover;object-fit: cover;}
@@ -114,7 +100,6 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .M-header .mod-headMap{display: block;width: 100%;height: 100%;background:url(../images/index-title.png);background-repeat: no-repeat;background-size: 100%;background-position: center 40%;}
 .M-header .mod-bottom{position:absolute;width: 100%;bottom: 1.5625rem;left: 0;z-index: 2;}
 .M-header .mod-img{position: relative;z-index: 99;width: 1.0625rem;height: 0.6875rem;margin: 0 auto 0;}
-
 .M-section{position: absolute;left: 50%;top: 0;width: 100%;max-width: 750px;-webkit-transform: translateX(-50%);transform: translateX(-50%);overflow-x: hidden;}
 .dialog-list .mod-img-box{width: 17.375rem;height: 12.875rem;margin: 2.5rem auto 0;}
 .dialog-list .mod-img-box img{font-size: 0;display: block;height: 100%;-webkit-object-fit: cover;object-fit: cover;}
@@ -126,7 +111,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .schedule p{font-size: 0.75rem; line-height: 1.625rem;}
 /*声明*/
 .state{}
-.state .title {background: url(../images/statement.png) no-repeat center center;background-size: 6.0rem auto;height: 1.375rem;width: 100%;margin: 2.5rem 0 2.8125rem;}
+.state .title{background: url(../images/statement.png) no-repeat center center;background-size: 6.0rem auto;height: 1.375rem;width: 100%;margin: 2.5rem 0 2.8125rem;}
 .footer-logo{text-align: center; padding-bottom: 6.25rem;}
 .footer-logo .mod-warp{width: 4.5625rem; height: 1.625rem; margin: 0 auto;}
 .footer-logo .mod-warp img{font-size: 0;display: block;height: 100%;-webkit-object-fit: cover;object-fit: cover;}
@@ -152,7 +137,6 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .mod-top .m-search input[type="search"]{border: none;background: transparent;width: 100%;height: 2.25rem;font-size: 0.8125rem;padding: 0 0 0 2.375rem;color: #fff;}
 .mod-top .m-right{width: 2.8rem;line-height: 2.25rem;text-align: right;}
 .mod-top .m-right a{display: block;font-size: 0.8125rem;color: #fff;}
-
 .mod-list{margin: 0 0.875rem; padding-bottom: 5.0rem}
 .mod-list .card-wrap{height: 100%;}
 .mod-list .card-main{padding: 0.75rem 0;height: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -163,7 +147,6 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .mod-list .m-img-box img{border-radius: 50%;}
 .mod-list .btn{width: 6.0rem;height: 2.25rem;line-height: 2.25rem;font-size: 0.875rem;text-align: center;border-radius: 50px;color: #fff;}
 .mod-list .btn.gray{color: #919191;}
-
 .m-box{display: -ms-flexbox;display: flex;}
 .m-box-col{-ms-flex: 1;flex: 1;width: 100%;display: block;}
 .m-box-center-a{display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;}
@@ -178,17 +161,13 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .footer .bar-btn img{height: 100%;vertical-align: top;-o-object-fit: cover;object-fit: cover;}
 .footer .btn{width: 6.0rem;height: 2.25rem;line-height: 2.25rem;font-size: 0.875rem;text-align: center;border-radius: 50px;color: #fff;}
 .footer .btn.gray{color: #919191;}
-
 /*搜索悬浮*/
 .layer-search{position: fixed; bottom: 1.875rem; right: 0.9375rem;}
 .layer-search a{display: block;width: 4.5625rem; height: 4.5625rem;}
 .layer-search a img{height: 100%;vertical-align: top;-o-object-fit: cover;object-fit: cover;}
-
-@media screen and (max-width: 320px) {html {font-size: 13px;}}
-@media screen and (max-width: 375px) {.M-header .mod-bottom{bottom: 0.5rem;}}
+@media screen and (max-width: 320px){html{font-size: 13px;}}
+@media screen and (max-width: 375px){.M-header .mod-bottom{bottom: 0.5rem;}}
 /*iphone X*/
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
-	.M-header .mod-bottom{bottom: 2.8125rem;}}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.M-header .mod-bottom{bottom: 2.8125rem;}}
 /*iphone X max*/
-@media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){
-	.M-header .mod-bottom{bottom: 2.8125rem;}}
+@media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){.M-header .mod-bottom{bottom: 2.8125rem;}}
