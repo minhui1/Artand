@@ -121,7 +121,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .footer-logo .mod-warp{width: 6.875rem; height: 2.4375rem; margin: 0 auto;}
 .footer-logo .mod-warp img{font-size: 0;display: block;height: 100%;-webkit-object-fit: cover;object-fit: cover;}
 /*个人主页投票入口*/
-.M-vote-top{position: fixed;top: 0;left: 50%;z-index: 2;font-size: 0;width: 100%;max-width: 750px;height: 2.75rem;line-height: 2.75rem;background: #000;box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.06);-webkit-transform: translateX(-50%);transform: translateX(-50%);overflow: hidden;}
+.M-vote-top{position: relative;top: 0;left: 50%;z-index: 2;font-size: 0;width: 100%;max-width: 750px;height: 2.75rem;line-height: 2.75rem;background: #000;box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.06);-webkit-transform: translateX(-50%);transform: translateX(-50%);overflow: hidden;}
 .M-vote-top > div{display: inline-block;}
 .M-vote-top .m-left{float: left;width: 7.4375rem;height:0.8125rem;margin: 0.9375rem 0 0 0.9375rem;}
 .M-vote-top .m-left img{font-size: 0;display: block;height: 100%;-webkit-object-fit: cover;object-fit: cover;}
@@ -133,19 +133,19 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .M-tips-layer .mod-warp{padding: 1.875rem 0.9375rem;text-align: center;}
 .M-tips-layer .mod-warp p{font-size: 0.875rem;color: #fff;}
 /*搜索*/
-.main{max-width: 750px;margin: 0 auto;}
-.mod-top{display: flex;display: -webkit-flex;overflow: hidden;margin: 1.125rem;}
+.main{ position: relative; max-width: 750px;margin: 0 auto; height: 100%;}
+.mod-top{display: flex;display: -webkit-flex;overflow: hidden;padding: 1.125rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .mod-top > div{display: inline-block;}
 .mod-top .m-left{width: 100%;}
 .mod-top .m-search{display: block;background: #252525;color: #fff;border-radius: 4px;box-sizing: border-box;position: relative;}
-.mod-top .m-search .m-font{display: block;position: absolute;z-index: 999;top: 50%;-webkit-transform: translateY(-50%);}
+.mod-top .m-search .m-font{display: block;position: absolute;z-index: 999;top: 50%;-webkit-transform: translateY(-50%);transform: translateY(-50%);}
 .mod-top .m-search .m-font-search{left: 0.75rem;width: 0.9375rem;height: 0.9375rem;background: url(../images/search.png);background-size: 100% 100%;}
 .mod-top .m-search .m-font-close{right: 0.75rem;width: 0.875rem;height: 0.875rem;background: url(../images/close.png);background-size: 100% 100%;}
 
-.mod-top .m-search input[type="search"]{border: none;background: transparent;width: 100%;height: 2.25rem;font-size: 0.8125rem;padding: 0 0 0 2.375rem;color: #fff;}
+.mod-top .m-search input[type="search"]{border: none;background: none;width: 100%;height: 2.25rem;font-size: 0.8125rem;padding: 0 0 0 2.375rem;color: #fff;}
 .mod-top .m-right{width: 2.8rem;line-height: 2.25rem;text-align: right;}
 .mod-top .m-right a{display: block;font-size: 0.8125rem;color: #fff;}
-.mod-list{margin: 0 0.875rem; padding-bottom: 5.0rem}
+.mod-list{ margin: 0 0.875rem; padding-bottom: 5.0rem}
 .mod-list .card-wrap{height: 100%;}
 .mod-list .card-main{padding: 0.75rem 0;height: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .mod-list .card-main h3{font-size: 1.0rem; line-height: 1.5625rem; color: #fff;font-weight: bold;}
@@ -155,6 +155,9 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .mod-list .m-img-box img{border-radius: 50%;}
 .mod-list .btn{width: 6.0rem;height: 2.25rem;line-height: 2.25rem;font-size: 0.875rem;text-align: center;border-radius: 50px;color: #fff;}
 .mod-list .btn.gray{color: #919191;}
+.null-box{position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
+.null-box p{color: #6b6b6b; text-align: center;font-size: 0.8125rem;}
+
 .m-box{display: -ms-flexbox;display: flex;}
 .m-box-col{-ms-flex: 1;flex: 1;width: 100%;display: block;}
 .m-box-center-a{display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;}
@@ -170,9 +173,25 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .footer .btn{width: 6.0rem;height: 2.25rem;line-height: 2.25rem;font-size: 0.875rem;text-align: center;border-radius: 50px;color: #fff;}
 .footer .btn.gray{color: #919191;}
 /*搜索悬浮*/
-.layer-search{position: fixed; bottom: 1.875rem; right: 0.9375rem;}
-.layer-search a{display: block;width: 4.5625rem; height: 4.5625rem;}
+.layer-search{position: fixed; bottom: 1.875rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
+.layer-search a{display: block;width: 21.875rem; height: 3.5rem;}
 .layer-search a img{height: 100%;vertical-align: top;-o-object-fit: cover;object-fit: cover;}
+/*弹层*/
+.M-layer-black-bg{position: fixed;z-index: 3001; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; overflow: hidden; background: rgba(0,0,0,0.5);}
+.M-alert {position: fixed;z-index: 3001;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);box-sizing: border-box;width: 19.375rem;background: #f8f8f8;border-radius: 4px;text-align: center;}
+.M-alert header {padding: 2.5rem 1.75rem 1.25rem;color: #000;line-height: 1.25;}
+.M-alert header h2 {font-size: 1.125rem; }
+.M-alert header h3 {font-size: 0.875rem; color: #000; line-height: 1.25rem; font-weight: normal; text-align: left; margin: 1.25rem 0 ; }
+.M-alert .m-box { position: relative; font-size: 0.875rem; margin: 0 0.9375rem;}
+.M-alert .m-box::before {position: absolute; content: ''; left: 0; top: 0; width: 100%; height: 1px; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
+.M-alert .m-box .m-box-col + .m-box-col { position: ;}
+.M-alert .m-box .m-box-col + .m-box-col::before {position: absolute; content: ''; left: 50%; top: 50%; width: .8px; height: 100%; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5) translateY(-50%); -ms-transform: scaleY(0.5) translateY(-50%); transform: scaleY(0.5) translateY(-50%);}
+.M-alert .m-box a {display: block; padding: 1.25rem 0; color: #007aff; }
+.M-alert .m-box .m-left a{color: #555;}
+.M-alert .m-box .m-right a{color: #57AD68; font-weight: bold;}
+
+
+
 @media screen and (max-width: 320px){html{font-size: 13px;}}
 @media screen and (max-width: 375px){.M-header .mod-bottom{bottom: 0.5rem;}}
 /*iphone X*/
