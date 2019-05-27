@@ -5,7 +5,7 @@
 .mod-number .m-txt-price{font-size: 1.5rem; font-weight: bold; line-height: 1.5rem; color: #D20001;}
 .mod-number .m-txt-price b{ font-size: 0.9rem; line-height: 0.9rem; font-weight: bold; }
 .mod-number .m-txt-through{ position: relative; bottom: -4px; font-size: 0.8rem;margin: 0; color: #9C9C9C;text-decoration: line-through; font-weight: bold;}
-.mod-number .m-btn{ padding:0 0.3rem; line-height: 1.1rem; font-size: 0.5rem; color: #D20001; border: 1px solid #D20001;border-radius: 2px; vertical-align: bottom;}
+.mod-number .m-btn{ padding:0 0.3rem; height: 1.1rem; line-height: 1.1rem; font-size: 0.5rem; color: #D20001; border: 1px solid #D20001;border-radius: 2px; vertical-align: bottom;}
 .mod-number .m-btn em{ font-weight: bold;}
 
 /*公用模块*/
@@ -88,7 +88,7 @@
     box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.06);
 }
 .m-bottom-bar .bar-btn{text-align: right;}
-.m-bottom-bar .m-btn{ display: inline-block; width: 4.8rem; height: 2.0rem; line-height: 2.0rem; color: #000; margin-left: 0.6rem; font-size: 0.7rem; text-align: center; background: #fff;border: 1px solid #979797; border-radius: 2px;}
+.m-bottom-bar .m-btn{ display: inline-block; width: 4.8rem; height: 2.0rem; line-height: 2rem; color: #000; margin-left: 0.6rem; font-size: 0.7rem; text-align: center; background: #fff;border: 1px solid #979797; border-radius: 2px;}
 .m-bottom-bar .m-btn-black{background: #000; color: #fff; border: 1px solid #000;}
 
 
@@ -187,8 +187,9 @@
 }
 .M-layer .mod-warp .m-box a {
     display: block;
+    font-size: 0.7rem;
     text-align: center;
-    padding: 1.25rem 0;
+    padding: 1.0rem 0;
     color: #57AD68 ;
 }
 .M-layer .mod-warp .m-box .m-txt-gray{color: #555;}
@@ -198,6 +199,18 @@
 .M-tips-layer{position: fixed;top: 50%;left: 50%;z-index: 999; padding: 0 4px;min-width: 9.25rem; max-width: 80%;white-space: nowrap;background: rgba(60, 60, 60,.7);border-radius: 4px;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
 .M-tips-layer .mod-warp{padding: 1.5rem .75rem;text-align: center;}
 .M-tips-layer .mod-warp p{font-size: .7rem;color: #fff;}
+
+/*分享*/
+.M-layer-share{position: absolute; top: 0; z-index: 999;}
+.M-layer-share .mod-warp{width: 100%; height: 10.0rem;}
+.M-layer-share .mod-warp img{display: block; font-size: 0; width: 100%;-webkit-object-fit: cover; object-fit: cover;}
+
+
+/*补丁*/
+.M-boxZ.M-coupon-wrap .M-coupon-wrap-content h1{padding: 1.5rem 0 0.75rem;}
+.M-boxZ.M-coupon-wrap .M-coupon-close{top: 0.75rem;}
+
+
 
 
 
