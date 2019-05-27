@@ -65,7 +65,7 @@
 .mod-freight .mod-warp span{color: #555;}
 
 .mod-state .mod-warp em{display: inline-block; font-size: 0.5rem; color: #555; margin-right: 0.75rem; vertical-align: middle;}
-.mod-state .mod-warp em i{display: inline-block; width: 0.5rem; height: 0.5rem; margin:0 0.2rem 0 0; vertical-align: middle;}
+.mod-state .mod-warp em i{display: inline-block; width: 0.5rem; height: 0.5rem; margin:0 0.2rem 0 0; vertical-align: -2px;}
 .mod-state .mod-warp em b{display: inline-block; width: 0.15rem; height: 0.3rem; margin: 0 0 0 0.3rem; background: url(../images/icon_arr_right.png) no-repeat; background-size: 100%; vertical-align: middle;}
 
 .mod-state .mod-warp em i.m-icon-green{background: url(../images/icon_green_small.png) no-repeat; background-size: 100%; }
