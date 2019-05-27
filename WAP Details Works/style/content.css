@@ -4,8 +4,8 @@
 .mod-number span{display: inline-block; margin-right:0.35rem; }
 .mod-number .m-txt-price{font-size: 1.5rem; font-weight: bold; line-height: 1.5rem; color: #D20001;}
 .mod-number .m-txt-price b{ font-size: 0.9rem; line-height: 0.9rem; font-weight: bold; }
-.mod-number .m-txt-through{ position: relative; bottom: -4px; font-size: 0.8rem;margin: 0; color: #9C9C9C;text-decoration: line-through; font-weight: bold;}
-.mod-number .m-btn{ padding:0 0.3rem; height: 1.1rem; line-height: 1.1rem; font-size: 0.5rem; color: #D20001; border: 1px solid #D20001;border-radius: 2px; vertical-align: bottom;}
+.mod-number .m-txt-through{ position: relative; bottom: 0; font-size: 0.8rem;margin: 0; color: #9C9C9C;text-decoration: line-through; font-weight: bold;}
+.mod-number .m-btn{ padding:0 0.3rem; height: 1.1rem; line-height: 1.1rem; font-size: 0.5rem; color: #D20001; border: 1px solid #D20001;border-radius: 2px; vertical-align: 4px;}
 .mod-number .m-btn em{ font-weight: bold;}
 
 /*公用模块*/
@@ -129,13 +129,31 @@
 
 /* 获得Artand首页推荐 */
 .M-layer{position: fixed; z-index: 999; width: 15.5rem; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%);  background: #fff; border-radius: 4px;}
-.M-layer .mod-warp{margin: 0 .75rem;}
+.M-layer .mod-warp{}
 .M-layer .mod-warp header {
+    position: relative;
     padding: 2rem 0 1.5rem;
+    margin: 0 .75rem;
     color: #000;
     line-height: 1.25;
     text-align: center;
 }
+.M-layer .mod-warp header::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #EDEDED;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+
 .M-layer .mod-warp header h3{font-size: .7rem; line-height: 1rem;height: 1.7rem; line-height: 1.7rem; color: #000; font-weight: normal;}
 .M-layer .mod-warp header .icon-num{display:inline-block; width: 1.7rem; height: 1.7rem; margin-right: .25rem; vertical-align: bottom;}
 .M-layer .mod-warp header .icon-num-a{background: url(../images/icon_num_a.png) no-repeat; background-size: 100%;}
@@ -151,21 +169,7 @@
     display: flex;
     align-items: center;
 }
-.M-layer .mod-warp .m-box::before {
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #EDEDED;
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: scaleY(0.5);
-    -ms-transform: scaleY(0.5);
-    transform: scaleY(0.5);
-}
+.M-layer .mod-warp .m-box{}
 .M-layer .mod-warp .m-box-col{-ms-flex: 1;flex: 1;width: 100%;display: block;}
 .M-layer .mod-warp .m-box-center-a{display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;}
 .M-layer .mod-warp .m-box-center{display: -ms-flexbox;display: flex;-ms-flex-pack: center;justify-content: center;}
