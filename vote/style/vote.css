@@ -75,7 +75,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .index .user-list dl dd.name{font-size: 1.0rem; line-height: 1.5625rem; margin-top: 0.875rem;overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 92%;}
+    max-width: 92%;margin-left: 0.3125rem;}
 .index .user-list dl dd.votes{font-size: 0.625rem ; line-height: 1.5625rem; margin-bottom: 0.5rem; color: #919191;}
 .index .user-list dl dd.btn{width: 5.625rem;height: 1.875rem;line-height: 1.875rem; font-size: 0.875rem; border-radius: 50px; margin: 0 auto;}
 .index .user-list dl dd.btn.gray{color: #919191;}
