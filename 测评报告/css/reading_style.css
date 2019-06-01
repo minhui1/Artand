@@ -25,22 +25,10 @@ html,body{background: url(../images/r_body_bg.png); min-height: 100%;width: 1200
 .B-main{width: 1200px; margin: 0 auto;}
 .B-main .left{float: left;}
 .B-main .right{float: right;}
-.m-icon{display: block; background: url(../images/r_icon.png) no-repeat; background-size: 750px auto;}
-.m-icon-01{width: 123px; height: 30px;background-position: 0 0;}
-.m-icon-02{width: 123px; height: 28px;background-position: 0 -56px;}
-.m-icon-03{width: 217px; height: 28px;background-position: 0 -112px;}
+.m-icon{display: block; background: url(../images/title_bg.png) no-repeat; background-size: 750px auto;}
 
-.m-icon-04{width: 186px; height: 22px; background-position: 0 -167px;}
-.m-icon-05{width: 196px; height: 22px; background-position: 0 -208px;}
-.m-icon-06{width: 189px; height: 22px; background-position: 0 -249px;}
-
-.m-icon-07{width: 188px; height: 22px; background-position: 0 -290px;}
-.m-icon-08{width: 196px; height: 22px; background-position: 0 -335px;}
-.m-icon-09{width: 189px; height: 22px; background-position: 0 -377px;}
-
-
-.m-tit-01{width:354px; height:73px; background-position: 0 -1159px;}
-.m-tit-02{width:354px; height:73px; background-position: 0 -1257px;}
+.m-tit-01{width:345px; height:73px; background-position: 0 -293px;}
+.m-tit-02{width:345px; height:73px; background-position: 0 -392px;}
 /*header*/
 .B-main .M-header{ position: relative; overflow: hidden;}
 .B-main .M-header .left a{ display: block; font-size: 0; margin: 56px 0 0 56px;}
