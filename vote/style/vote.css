@@ -203,6 +203,8 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 /*PC适配*/
 @media screen and (min-width: 415px) and (max-width: 1920px){
 	html{font-size: 29px;}
+	.M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
+  	.M-header .mod-bottom{bottom: 110px;}
 }
 /*iPad适配*/
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
@@ -229,13 +231,13 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 /*iPad 大屏适配*/
 @media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {background-position: center 15%;}
+  .M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
   .M-header .mod-bottom{bottom: 110px;}
 }
 @media all and (device-width: 2732px) and (device-height: 2048px) and (orientation:landscape) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {background-size: 83%;background-position: center -34%;}
-  .M-header .mod-bottom{bottom: 103px;}
+  .M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
+  .M-header .mod-bottom{bottom: 110px;}
 }
 
 
