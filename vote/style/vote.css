@@ -198,3 +198,19 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.M-header .mod-bottom{bottom: 2.8125rem;}}
 /*iphone X max*/
 @media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){.M-header .mod-bottom{bottom: 2.8125rem;}}
+
+
+/*iPad适配*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  html{font-size: 29px;}
+}
+/*iPad pro适配*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+  html{font-size: 29px;}
+}
+
+
+
+
+
+
