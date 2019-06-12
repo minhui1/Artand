@@ -231,7 +231,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 /*iPad 大屏适配*/
 @media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
+  .M-header .mod-headMap {background-size: 86%;background-position: center -55%;}
   .M-header .mod-bottom{bottom: 110px;}
 }
 @media all and (device-width: 2732px) and (device-height: 2048px) and (orientation:landscape) {
