@@ -201,14 +201,24 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 
 
 /*iPad适配*/
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  html{font-size: 29px;}
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   html{font-size: 29px;}
 }
 /*iPad pro适配*/
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
   html{font-size: 29px;}
 }
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  html{font-size: 29px;}
+}
 @media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
+  html{font-size: 29px;}
+}
+@media all and (device-width: 2732px) and (device-height: 2048px) and (orientation:landscape) {
   html{font-size: 29px;}
 }
 
