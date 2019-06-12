@@ -200,6 +200,8 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 @media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){.M-header .mod-bottom{bottom: 2.8125rem;}}
 
 
+/*PC适配*/
+@media screen and (min-width: 415px) and (max-width: 1920px){html{font-size: 29px;}}
 /*iPad适配*/
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   html{font-size: 29px;}
@@ -221,8 +223,6 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 @media all and (device-width: 2732px) and (device-height: 2048px) and (orientation:landscape) {
   html{font-size: 29px;}
 }
-
-/*@media screen and (min-width: 415px) and (max-width: 1920px){html{font-size: 29px;}}*/
 
 
 
