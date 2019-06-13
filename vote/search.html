@@ -4,7 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>“艺术星未来”——2019青年艺术家评选</title>
-	<link rel="stylesheet" type="text/css" href="style/vote.css">	
+	<link rel="stylesheet" type="text/css" href="style/vote.css">
+	<script type="text/javascript">
+		;(function(doc,win,size,int) {
+			var docEle = doc.documentElement,
+				evt = 'onorientationchange' in window ? 'orientationchange' : 'resize',
+				fn = function() {
+					var width = docEle.clientWidth;
+					if(width>size){
+					  docEle.style.fontSize=int+'px';
+					}else{
+					  width && (docEle.style.fontSize = width/(size/int) + 'px');
+					}
+					win.scrollTo(0,1);
+				};
+			win.addEventListener(evt, fn, false);
+			doc.addEventListener('DOMContentLoaded', fn, false);
+		})(document,window,750,100);
+	</script>		
 </head>
 <body>
 	<div class="main">
