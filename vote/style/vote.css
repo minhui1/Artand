@@ -38,9 +38,9 @@ body{background: #000;position: relative;height: 100%;}
 .container>.top-bar{background: rgb(26,25,31);color: #fff;height: 1rem;line-height: 1rem;font-size: .32rem;padding: 0 .2rem;}
 .container>.top-bar>a,.container>.top-bar>span{display: block;}
 .icon-back:before{background: url('../images/back.png') no-repeat center center;background-size: 50%;display: inline-block;float: left;width: .42rem;height: 1rem;content: '\0020';}
-.btn{border: .5px solid #dbb59c;}
-.btn-voted{border: .5px solid #9f9f9f;color: #9f9f9f;}
-.btn.light{border-width: .5px;}
+.btn{border: 1px solid #dbb59c;}
+.btn-voted{border: 1px solid #9f9f9f;color: #9f9f9f;}
+.btn.light{border-width: 1px;}
 .btn.gray{border-color: #9f9f9f;}
 .next{margin-top: 2.5rem;background: url('../images/next.png') no-repeat center center;background-size: 1.2rem 1.2rem;height: 1.2rem;}
 .next a{display: block;}
