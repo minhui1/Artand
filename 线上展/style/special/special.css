@@ -230,8 +230,8 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-pic{padding-bottom: 1.25rem;}
 .M-info-pic .mod-warp{position: relative;}
 .M-info-pic .mod-warp.mod-death::after{position: absolute; content: ""; top: 0; width: 100%; height: 100%; background: rgba(255,255,255,.6);}
-.M-info-pic .mod-warp .m-img-box{ height: 11.6rem; border-right: 4px; background: #f2f2f2;overflow: hidden;}
-.M-info-pic .mod-warp img{border-radius: 4px;height: 11.6rem;}
+.M-info-pic .mod-warp .m-img-box{ min-height: 11.6rem; border-right: 4px; background: #f2f2f2;overflow: hidden;}
+.M-info-pic .mod-warp img{border-radius: 4px;/*height: 11.6rem;*/}
 .M-info-pic .m-filter{ position: absolute; bottom: 0; left: 0; width: 100%; height:6.0rem;background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%);border-radius: 0 0 4px 4px;}
 .M-info-pic .m-filter .m-text{ margin: 2.6rem 0.9rem 0; overflow: hidden;}
 .M-info-pic .m-filter .m-text .m-box{ display: block; }
@@ -287,6 +287,8 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 
 /*相关推荐*/
 .section-groom{margin-top: 0.5rem;}
+.section-groom .M-info-pic .mod-warp .m-img-box{display: inline-block;width: 100%;position: relative;padding-bottom: 66.66%;overflow: hidden;}
+.section-groom .M-info-pic .mod-warp img{border-radius: 4px;position: absolute;width: 100%;height: 100%;vertical-align: top;-o-object-fit: cover;object-fit: cover;}
 .section-groom .M-info-pic .m-filter{height: 7.5rem}
 /*修改1*/
 .section-groom .M-info-pic .m-filter .m-text{margin: 3.6rem 0.8rem 0;position: absolute;width: 100%;bottom: 1.0rem;}
@@ -442,8 +444,8 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-imgtex .mod-warp .m-img-box{ position: relative; overflow: hidden;}
 .M-info-imgtex .mod-warp .m-img-box strong{position: absolute; right: 10px; top: 10px;}
 .M-info-imgtex .mod-warp .m-img-box strong span{display: inline-block; padding: 0 6px; vertical-align: middle; margin-right: 0.3rem; line-height: 24px; font-size: 10px; color: #fff; background: rgba(0,0,0,0.30);border-radius: 20px;}
-.M-info-imgtex .mod-warp .m-img-box strong em{display: inline-block; text-align: center;vertical-align: middle; width: 1.2rem; height: 1.2rem; background: rgba(0,0,0,0.30);border-radius: 20px;}
-.M-info-imgtex .mod-warp .m-img-box strong em i{display: inline-block; width: 0.6rem; height: 0.6rem ; position: relative; top: 5px; background: url(../../images/special/icon_jump.png);background-size: 100% 100%; background-repeat: no-repeat;}
+.M-info-imgtex .mod-warp .m-img-box strong em{ position: relative; display: inline-block; text-align: center;vertical-align: middle; width: 1.2rem; height: 1.2rem; background: rgba(0,0,0,1);border-radius: 20px;}
+.M-info-imgtex .mod-warp .m-img-box strong em i{ position: absolute; display: inline-block; width: 0.6rem; height: 0.6rem ; background: url(../../images/special/icon_jump.png);background-size: 100% 100%; background-repeat: no-repeat; top: 50%; left: 53%; transform: translate(-50%,-50%);}
 .M-info-imgtex .mod-warp img{max-width: 100%;  width: auto; margin: 0 auto;}
 .M-info-imgtex .mod-warp h3{ font-weight: normal; font-size: 0.5rem; color: #000; line-height: 0.5rem; text-align: center;margin: 0.9rem 0 9.0rem;}
 .M-info-imgtex .mod-warp p{font-size: 0.6rem; margin:0 0 9.0rem;color: #000; line-height: 1.5; text-align: justify; }
