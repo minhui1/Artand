@@ -84,7 +84,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 .index .introduction>p{line-height: 1.625rem;font-size: 0.75rem;color: #fff;text-align: justify; margin-bottom: 2.5rem;}
 .index .prize{margin-top: 2.8125rem;}
 .index .prize>.title{background: url('../images/prize.png') no-repeat center center;background-size: 6.0rem auto;height: 1.3125rem;width: 100%;margin-bottom: 2.75rem}
-.index .sel-process{width: 100%;margin: 0 auto; text-align: center; background: url('../images/process-icon.png') no-repeat center bottom;background-size: 90%;padding-bottom: 1.25rem;overflow: hidden;}
+.index .sel-process{width: 100%;margin: 0 auto; text-align: center; background: url('../images/process-icon.png') no-repeat center bottom;background-size: 19.1875rem auto;padding-bottom: 1.25rem;overflow: hidden;}
 .index .sel-process>.title{background: url('../images/sel-process.png') no-repeat center center;background-size: 6.0rem auto;height: 1.3125rem;width: 100%;margin:1.5625rem 0 3.125rem}
 .index .sel-process>dl{width: 25%; display: inline-block; text-align: center;line-height: 1.25rem;}
 .index .sel-process>dl dt{white-space: nowrap;font-size: 0.875rem; line-height: 1.125rem;}
@@ -100,11 +100,10 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 /*首页*/
 .index{position: relative;height: 100%;}
 .M-header img{display: block;font-size: 0;width: 100%;-webkit-object-fit: cover;object-fit: cover;}
-.M-header{/*position: relative;left: 50%;top: 0;right: 0;bottom: 0;*/width: 100%;max-width: 750px;height: 100%;background: #000;/*-webkit-transform: translateX(-50%);transform: translateX(-50%);*/overflow: hidden;}
+.M-header{position: relative;left: 50%;top: 0;right: 0;bottom: 0;width: 100%;max-width: 750px;height: 100%;background: #000;-webkit-transform: translateX(-50%);transform: translateX(-50%);overflow: hidden;}
 .M-header .mod-img-box{display: block;height: 16.24rem;width: 100%;height: 100%;background:#000 url(../images/cover-bg.png);background-repeat: no-repeat;background-size: 100%;background-position: center center;}
-/*.M-header .mod-headMap{display: block;width: 100%;height: 100%;background:url(../images/index-title.png);background-repeat: no-repeat;background-size: 100%;background-position: center 40%;}*/
-.M-header .mod-headMap{/*position: absolute; width: 46.875rem; height: 100%; */ display: block; position: relative; margin-top: -2.75rem; top: 50%; left: 50%; transform: translate(-50%,-50%);}
-.M-header .mod-bottom{position:absolute;width: 100%;bottom: 10%;left: 0;z-index: 2;}
+.M-header .mod-headMap{display: block;width: 100%;height: 100%;background:url(../images/index-title.png);background-repeat: no-repeat;background-size: 100%;background-position: center 40%;}
+.M-header .mod-bottom{position:absolute;width: 100%;bottom: 1.5625rem;left: 0;z-index: 2;}
 .M-header .mod-img{position: relative;z-index: 99;width: 1.0625rem;height: 0.6875rem;margin: 0 auto 0;}
 /*.M-section{position: absolute;left: 50%;top: 0;width: 100%;max-width: 750px;-webkit-transform: translateX(-50%);transform: translateX(-50%);overflow-x: hidden;}*/
 .dialog-list .mod-img-box{width: 17.375rem;height: 12.875rem;margin: 2.5rem auto 0;}
@@ -194,42 +193,43 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
 
 
 @media screen and (max-width: 320px){html{font-size: 13px;}}
-/*@media screen and (max-width: 375px){.M-header .mod-bottom{bottom: 0.5rem;}}*/
+@media screen and (max-width: 375px){.M-header .mod-bottom{bottom: 0.5rem;}}
 /*iphone X*/
-/*@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.M-header .mod-bottom{bottom: 2.8125rem;}}*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.M-header .mod-bottom{bottom: 2.8125rem;}}
 /*iphone X max*/
-/*@media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){.M-header .mod-bottom{bottom: 2.8125rem;}}*/
+@media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px),only screen and (-webkit-device-pixel-ratio: 2) and (device-height: 896px) and (device-width: 414px),only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 896px) and (device-width: 414px){.M-header .mod-bottom{bottom: 2.8125rem;}}
 
 
 /*PC适配*/
-/*@media screen and (min-width: 415px) and (max-width: 1920px){
+@media screen and (min-width: 415px) and (max-width: 1920px){
 	html{font-size: 29px;}
 	.M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
   	.M-header .mod-bottom{bottom: 110px;}
-}*/
+}
 /*iPad适配*/
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {width: 20.0rem;}
-
+  .M-header .mod-headMap {background-size: 86%;background-position: center -55%;}
+  .M-header .mod-bottom{bottom: 110px;}
 }
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-   html{font-size: 29px;}
-  .M-header .mod-headMap {width: 15.0rem;}
-  .M-header .mod-bottom{bottom: 15%;}
+  html{font-size: 29px;}
+  .M-header .mod-headMap {background-size: 62%;background-position: center -34%;}
+  .M-header .mod-bottom{bottom: 103px;}
 }
 /*iPad pro适配*/
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {width: 20.0rem;}
+  .M-header .mod-headMap {background-position: center 15%;}
+  .M-header .mod-bottom{bottom: 110px;}
 }
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
   html{font-size: 29px;}
-  .M-header .mod-headMap {width: 15.0rem;}
-  .M-header .mod-bottom{bottom: 15%;}
+  .M-header .mod-headMap {background-size: 83%;background-position: center -34%;}
+  .M-header .mod-bottom{bottom: 103px;}
 }
 /*iPad 大屏适配*/
-/*@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
+@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
   html{font-size: 29px;}
   .M-header .mod-headMap {background-size: 86%;background-position: center -55%;}
   .M-header .mod-bottom{bottom: 110px;}
@@ -239,7 +239,7 @@ footer>.foot-bar>a{width: 2rem;height: .6rem;line-height: .6rem;display: inline-
   .M-header .mod-headMap {background-size: 52%;background-position: center -21%;}
   .M-header .mod-bottom{bottom: 110px;}
 }
-*/
+
 
 
 
