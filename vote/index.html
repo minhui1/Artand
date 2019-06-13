@@ -5,6 +5,26 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>“艺术星未来”——2019青年艺术家评选</title>
 	<link rel="stylesheet" type="text/css" href="style/vote.css">
+	<script type="text/javascript">
+		;(function(doc,win,size,int) {
+			var docEle = doc.documentElement,
+				evt = 'onorientationchange' in window ? 'orientationchange' : 'resize',
+				fn = function() {
+					var width = docEle.clientWidth;
+						//if(width>480){
+					//  width=480;
+					// }
+					if(width>size){
+					  docEle.style.fontSize=int+'px';
+					}else{
+					  width && (docEle.style.fontSize = width/(size/int) + 'px');
+					}
+					win.scrollTo(0,1);
+				};
+			win.addEventListener(evt, fn, false);
+			doc.addEventListener('DOMContentLoaded', fn, false);
+		})(document,window,750,100);
+	</script>	
 </head>
 <body>
 	<!-- 个人主页投票入口 start -->
@@ -197,14 +217,14 @@
 	</div>
 
 	<!-- 搜索按钮 start -->
-	<div class="layer-search" style="display:;">
+	<div class="layer-search" style="display:none;">
 		<a href="#"><img src="images/sus-search.png" alt=""></a>
 	</div>
 	<!-- 搜索按钮 end -->
 
 	<!-- 弹层 -->
-	<div class="M-layer-black-bg" style="display:;"></div>
-	<div class="M-alert" style="display:;">
+	<div class="M-layer-black-bg" style="display:none;"></div>
+	<div class="M-alert" style="display:none;">
         <header>
             <!-- <h2>您需要先绑定手机号，才能参与投票</h2> -->
             <h3>您需要先绑定手机号，才能参与投票</h3>
