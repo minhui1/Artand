@@ -152,7 +152,7 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
     content: '';
     width: 100%;
     height: 3.0rem;
-    bottom: 1.0rem;
+    bottom: 1.15rem;
     background-image: -webkit-linear-gradient(-180deg, rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.8) 60%, #FFFFFF 100%);
     background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.8) 60%,#FFFFFF 100%);
 }
