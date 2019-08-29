@@ -93,7 +93,7 @@
 .M-waterfall .mod-box .item .m-top em{display:inline-block; font-weight: bold;max-width: 78%;}
 .M-waterfall .mod-box .item .m-top b{display: inline-block;font-size: 0.7rem;}
 .M-waterfall .mod-box .item .m-footer{display: block; overflow: hidden;font-size: 0.6rem;color: #9C9C9C;line-height: 0.6rem;vertical-align: middle;}
-.M-waterfall .mod-box .item .m-txt-through{display: inline-block; max-width: 87%;float: left;font-size: 0.6rem;line-height: 0.6rem;font-weight: bold;color: #9C9C9C;text-decoration: line-through;}
+.M-waterfall .mod-box .item .m-txt-through{display: inline-block; max-width: 82%;float: left;font-size: 0.6rem;line-height: 0.6rem;font-weight: bold;color: #9C9C9C;text-decoration: line-through;}
 .M-waterfall .mod-box .item .m-heart{ display: inline-block; float: right; width: 0.8rem; height: 0.65rem; background: url(../images/special/m-give.png); background-size: 100% 100%; background-repeat: no-repeat; }
 .M-waterfall .mod-box .item .m-heart-curr{ display: inline-block; float: right; width: 0.8rem; height: 0.65rem; background: url(../images/special/m-give-curr.png); background-size: 100% 100%; background-repeat: no-repeat; }
 
