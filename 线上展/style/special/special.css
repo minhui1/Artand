@@ -84,11 +84,11 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-b .mod-warp .m-left{float: left; max-width: 80%;word-break: keep-all; word-wrap: break-word;}
 .M-info-b .mod-warp .m-right {float: right;}
 .M-info-b .mod-warp .m-right .mod-logo{display: block; width: 2.55rem; height: 1.35rem;}
-.M-info-b .mod-warp ul li{ display: flex; display: -webkit-flex; font-size: 0; margin-bottom: 0.5rem; overflow: hidden;}
+.M-info-b .mod-warp ul li{ display: flex; display: -webkit-flex;width: 100%; -webkit-align-items: center; align-items: center; font-size: 0; margin-bottom: 0.5rem; overflow: hidden;}
 .M-info-b .mod-warp ul li span,
 .M-info-b .mod-warp ul li em{ display: inline-block; float: left; font-size: 0.6rem;}
-.M-info-b .mod-warp ul li span{width: 4.0rem;white-space: nowrap;color: #555;}
-.M-info-b .mod-warp ul li em{width: 77%; line-height: 1.5;text-align: justify; color: #555;}
+.M-info-b .mod-warp ul li span{/*width: 4.0rem;*/white-space: nowrap;color: #555;}
+.M-info-b .mod-warp ul li em{/*width: 77%;*/ line-height: 1.5;text-align: justify; color: #555;}
 .M-info-b .mod-warp ul li a{color: #63b373;font-weight: bold;}
 /*补丁*/
 .M-info-b .mod-margin{padding: 0 0 0.1rem;}
@@ -140,10 +140,11 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 
 /*新增1*/
 .M-info-list .mod-warp{ margin-bottom:0.6rem;}
+.M-info-list .mod-warp ul li{display: -webkit-flex; display: flex;}
 .M-info-list .mod-warp ul li span,
 .M-info-list .mod-warp ul li em{display: inline-block; font-size: 0.6rem;}
-.M-info-list .mod-warp ul li span{width: 3.6rem;white-space: nowrap;color: #555;vertical-align: top;}
-.M-info-list .mod-warp ul li em{ width: 77%; line-height: 1.5;text-align: justify; color: #555;}
+.M-info-list .mod-warp ul li span{/*width: 3.6rem;*/white-space: nowrap;color: #555;vertical-align: top;}
+.M-info-list .mod-warp ul li em{ /*width: 77%;*/ line-height: 1.5;text-align: justify; color: #555;}
 .M-info-list .mod-warp ul li a {color: #63b373;font-weight: bold;}
 
 .M-text-box{position: relative; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); overflow: hidden;}
@@ -489,7 +490,7 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 
 @media screen and (max-width: 320px){
   html{font-size: 17px;background: #f2f2f2;}
-  .M-info-list .mod-warp ul li span{width: 4.0rem;}
+  /*.M-info-list .mod-warp ul li span{width: 4.0rem;}*/
   /*.M-header .mod-logo p{letter-spacing: -1.1px;}*/
 }
 
