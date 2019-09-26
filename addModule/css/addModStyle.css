@@ -1,7 +1,6 @@
 @charset "utf-8";
 .m-text-cut{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .section-content-waterfall{overflow-x: hidden;}
-/*.section-content-waterfall .M-info-title .mod-warp { padding: .9rem 0 .9rem;}*/
 .M-info{ background: #fff; padding-left: 0.65rem; padding-right:  0.65rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .M-info .mod-warp .m-ident{display: inline-block;margin-left: 0.1rem;width: 0.7rem;height: 0.7rem;background: url(../images/special/m-ident.png);background-size: 100% 100%;background-repeat: no-repeat;vertical-align: -2.5px;}
 
