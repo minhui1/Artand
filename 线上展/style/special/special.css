@@ -42,8 +42,6 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
   min-height: 3.0rem;
   background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.70) 100%);
 }
-/*.M-header .mod-text-box .mod-box{position: absolute; bottom: 1.0rem; width: 90%;}*/
-
 .M-header .mod-text-box .mod-tit{font-size: 1.2rem; color: #fff;}
 .M-header .mod-text-box .m-left{line-height: 1.3;font-weight: bold;text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
@@ -87,14 +85,28 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-b .mod-warp ul li{ display: flex; display: -webkit-flex;width: 100%; -webkit-align-items: center; align-items: center; font-size: 0; margin-bottom: 0.5rem; overflow: hidden;}
 .M-info-b .mod-warp ul li span,
 .M-info-b .mod-warp ul li em{ display: inline-block; float: left; font-size: 0.6rem;}
-.M-info-b .mod-warp ul li span{width: 4.0rem;white-space: nowrap;color: #555;}
-.M-info-b .mod-warp ul li em{/*width: 77%;*/ line-height: 1.5;text-align: justify; color: #555;
+.M-info-b .mod-warp ul li span{white-space: nowrap;color: #555;}
+.M-info-b .mod-warp ul li em{line-height: 1.5;text-align: justify; color: #555;
   -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     width: 100%;
     display: block;}
 .M-info-b .mod-warp ul li a{color: #63b373;font-weight: bold;}
+
+
+.M-info-b .mod-warp ul li:nth-child(1) span{
+  letter-spacing: .24em;
+  margin-right: -.24em;
+}
+.M-info-b .mod-warp ul li:nth-child(2) span{
+  letter-spacing: .66em;
+  margin-right: -.66em;
+}
+
+
+
+
 /*补丁*/
 .M-info-b .mod-margin{padding: 0 0 0.1rem;}
 
@@ -120,11 +132,7 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-c .mod-warp-col-2 .m-img-box{text-align: center; margin: 0 1.05rem 0.95rem 0;}
 .M-info-c .mod-warp-col-2 .m-img-box em{display: block; white-space: nowrap;font-size: 0.4rem; color: #555; margin-top: 0.1rem; transform: scale(.9,.9);}
 
-/* {display: flex;-webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    -o-flex-wrap: wrap;
-  flex-wrap: wrap;} */
+
 .M-info-c .mod-warp-col-2 ul{width: 100%; overflow: hidden;}
 .M-info-c .mod-warp-col-2 ul li{display: inline-block; float: left; width: 16.6%;  margin: 0 0 0.9rem 0; text-align: center;  }
 .M-info-c .mod-warp-col-2 ul li span{ position: relative; display: block; width: 1.7rem;height: 1.7rem; margin: 0 auto; border-radius: 50%;}
@@ -148,7 +156,9 @@ html{width: 100%; height: 100%; background: #F2F2F2 !important; overflow-x: hidd
 .M-info-list .mod-warp ul li{display: -webkit-flex; display: flex;}
 .M-info-list .mod-warp ul li span,
 .M-info-list .mod-warp ul li em{display: inline-block; font-size: 0.6rem;}
-.M-info-list .mod-warp ul li span{/*width: 3.6rem;*/white-space: nowrap;color: #555;vertical-align: top;}
+.M-info-list .mod-warp ul li span{/*width: 3.6rem;*/white-space: nowrap;color: #555;vertical-align: top;
+  letter-spacing: 0;
+    margin-right: 0;}
 .M-info-list .mod-warp ul li em{ /*width: 77%;*/ line-height: 1.5;text-align: justify; color: #555;
   -webkit-box-flex: 1;
     -ms-flex: 1;
