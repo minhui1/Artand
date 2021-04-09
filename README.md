@@ -12,6 +12,9 @@
 `专题4   #vote#`
 >项目地址：https://minhui1.github.io/Artand/vote/index.html
 
-`专题5   #Collection#`
+`专题5   #Collection 证书收藏#`
 >项目地址：https://minhui1.github.io/Artand/Collection/index.html
+
+`专题6   #bill 商户结算对账单#`
+>项目地址：https://minhui1.github.io/Artand/bill/index.html
 
