@@ -4,7 +4,7 @@ h3,h4,em,strong{font-weight: normal; font-style: normal;}
 ul li{list-style: none;}
 table{margin: 0; padding: 0; border: 0;border-collapse: collapse;border-spacing: 0;}
 html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei';-webkit-font-smoothing: antialiased;}
-.main{ position: relative; width: 1119px;height: 1487px;  margin: 100px 100px 100px 50px; overflow: hidden;}
+.main{ position: relative; width: 1119px;height: 1487px;  margin: 100px 100px 100px 0; overflow: hidden;}
 .box{ position: relative; width: 1074px; height: 1487px;
     /* height: 1588px; */
 }
