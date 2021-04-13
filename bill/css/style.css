@@ -29,7 +29,7 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 .M-table table th:first-child,
 .M-table table td:first-child{padding-left: 20px !important;}
 .M-table .mod-title th,
-.M-table .mod-content td{position: relative; color: #333;font-size: 16px;font-weight: normal;white-space: nowrap;}
+.M-table .mod-content td{position: relative;font-size: 16px;font-weight: normal;white-space: nowrap;}
 .M-table .mod-title th i,
 .M-table .mod-content td .mcn-font-arrow-down{vertical-align: text-top; cursor: pointer; font-size: 14px; color: #A6A9AB; margin-left: 2px;}
 .M-table .mod-title tr{background: #fafafa;}
@@ -50,7 +50,7 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 /*合计*/
 .content .mod-count{ height: 60px; line-height: 60px; border-top: 1px solid #eee;border-bottom: 1px solid #eee; overflow: hidden;}
 .content .mod-count > div {float: left; font-size: 16px;}
-.content .mod-count .m-left{ width: 81.74%; text-align: right; padding-right: 40px; border-right: 1px solid #eee; box-sizing: border-box;}
+.content .mod-count .m-left{ width: 81.4%; text-align: right; padding-right: 40px; border-right: 1px solid #eee; box-sizing: border-box;}
 .content .mod-count .m-right{ width: 10%; padding-left: 40px; box-sizing: border-box;}
 .content .mod-text{ margin-top: 80px; overflow: hidden;}
 .content .mod-text > div { float: left; font-size: 16px;}
