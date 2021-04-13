@@ -5,7 +5,7 @@ ul li{list-style: none;}
 table{margin: 0; padding: 0; border: 0;border-collapse: collapse;border-spacing: 0;}
 html{background: #fff; height: 100%;-webkit-font-smoothing: antialiased;}
 html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
-.main{ position: relative; width: 1074px;height: 1487px;  margin: 50px; overflow: hidden;}
+.main{ position: relative; width: 1119px;height: 1487px;  margin: 50px 0 50px 45px; overflow: hidden;}
 .box{ position: relative; width: 1074px; height: 1487px;}
 .box h3{overflow: hidden;}
 .box h3 img{ float: left; display: block; font-size: 0; width: 188px; height: 67px;}
