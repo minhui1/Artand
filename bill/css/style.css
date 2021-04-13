@@ -7,9 +7,11 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .main{ position: relative; width: 1074px;height: 1487px;  margin: 50px; overflow: hidden;}
 .box{ position: relative; width: 1074px; height: 1487px;}
 .box h3{overflow: hidden;}
-.box h3 img{ float: left; display: block; font-size: 0; width: 235px; height: 87.5px;}
-.box h3 span{ float: right; display: block; font-size: 28px;  line-height: 87.5px; margin-right: 2px;  }
+.box h3 img{ float: left; display: block; font-size: 0; width: 188px; height: 67px;}
+.box h3 span{ float: right; display: block; font-size: 22px;  line-height: 67px; margin-right: 2px;  }
 .m-text-cut{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+/* content */
 .content{ margin-top: 45px; }
 .content ul{ position: relative; overflow: hidden;}
 .content ul img{position: absolute; z-index: 1; width: 100%; height: 160px; overflow: hidden;}
@@ -19,8 +21,33 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .content ul li h3{ font-size: 14px; color: #666666; margin-bottom: 4px;}
 .content ul li h4{ font-size: 16px; color: #000;}
 
+/*表格mod*/
+.M-table{width: auto;margin-top: 35px;}
+.M-table table{width: 100%;}
+.M-table table th{text-align: left; height: 75px; box-sizing: border-box;}
+.M-table table td{position: relative; text-align: left;}
+.M-table table th:first-child,
+.M-table table td:first-child{padding-left: 20px !important;}
+.M-table .mod-title th,
+.M-table .mod-content td{position: relative; color: #333;font-size: 16px;font-weight: normal;white-space: nowrap;}
+.M-table .mod-title th i,
+.M-table .mod-content td .mcn-font-arrow-down{vertical-align: text-top; cursor: pointer; font-size: 14px; color: #A6A9AB; margin-left: 2px;}
+.M-table .mod-title tr{background: #fafafa;}
+.M-table .mod-title tr,
+.M-table .mod-content tr{position: relative; }
+.M-table .mod-content{ padding: 20px 0; box-sizing: border-box;}
+.M-table .mod-content tr td{padding: 15px 0; box-sizing: border-box;}
+.M-table .mod-content{background: #fff; }
+.M-table .mod-explain{background: #fff;margin-bottom: 20px;}
+.M-table .mod-explain .mod-wrap{padding:16px 10px;}
+.M-table .mod-explain .m-box{font-size: 12px; padding: 0 10px; overflow: hidden;}
+.M-table .mod-explain .m-box .m-txt{color: #333;}
+.M-table .mod-explain .m-box .m-data{color: #999;}
+.M-table .mod-box{width: 100%;}
+.M-table .mod-content .mcn-font-operation{color: #aaa;cursor: pointer;}
+.M-table .m-tit{ display: block; width: 185px;}
 
-
+/*合计*/
 .content .mod-count{ background: #fff; margin-top: -1px; height: 90px; line-height: 90px; border-top: 2px solid #eee;border-bottom: 2px solid #eeeeee; overflow: hidden;}
 .content .mod-count > div {float: left; font-size: 16px;}
 .content .mod-count .m-left{ width: 81.74%; text-align: right; padding-right: 40px; border-right: 2px solid #eee; box-sizing: border-box;}
@@ -31,33 +58,6 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .content .mod-text .m-right{ width: 20%; }
 .content .mod-text h3{margin-bottom: 25px;font-size: 16px;} 
 
-/*表格mod*/
-.M-table{width: auto;margin-top: 35px;}
-.M-table table{width: 100%;}
-.M-table table th{text-align: left; height: 75px; box-sizing: border-box;}
-.M-table table td{position: relative; text-align: left;height: 75px;}
-.M-table table th:first-child,
-.M-table table td:first-child{padding-left: 20px;}
-.M-table .mod-title th,
-.M-table .mod-content td{position: relative; color: #333;font-size: 16px;font-weight: normal;white-space: nowrap;}
-.M-table .mod-title th i,
-.M-table .mod-content td .mcn-font-arrow-down{vertical-align: text-top; cursor: pointer; font-size: 14px; color: #A6A9AB; margin-left: 2px;}
-.M-table .mod-title tr{background: #fafafa;}
-.M-table .mod-title tr,
-.M-table .mod-content tr{position: relative; }
-.M-table .mod-content tr{border-bottom: 1px solid #fafafa;}
-.M-table .mod-content{background: #fff; }
-.M-table .mod-explain{background: #fff;margin-bottom: 20px;}
-.M-table .mod-explain .mod-wrap{padding:16px 10px;}
-.M-table .mod-explain .m-box{font-size: 12px; padding: 0 10px; overflow: hidden;}
-.M-table .mod-explain .m-box .m-txt{color: #333;}
-.M-table .mod-explain .m-box .m-data{color: #999;}
-.M-table .W-checkbox,
-.M-table .W-radio{margin-right: 10px;}
-.M-table .mod-box{width: 100%;}
-.M-table .mod-content .mcn-font-operation{color: #aaa;cursor: pointer;}
-.M-table .m-tit{ display: block; width: 185px;}
-
-
+/*底部*/
 .footer{position: absolute;width: 100%; bottom: 50px;}
-.footer img{ display: block; width: 209px; height: 158px; margin: 0 auto;}
+.footer img{ display: block; width: 167px; height: 127px; margin: 0 auto;}
