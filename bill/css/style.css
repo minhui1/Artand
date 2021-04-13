@@ -15,7 +15,7 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 /* content */
 .content{ margin-top: 45px; }
 .content ul{ overflow: hidden;}
-.content ul li{ float: left; background: #fafafa; width: 49.85%; height: 80px; border-right: 2px solid #fff; border-bottom: 2px solid #fff; overflow: hidden;}
+.content ul li{ float: left; background: #fafafa; width: 49.85%; height: 80px; border-right: 1px solid #fff; border-bottom: 1px solid #fff; overflow: hidden;}
 .content ul li.line{ border-right: none;}
 .content ul li span{display: block; margin: 18px 20px 0;}
 .content ul li h3{ font-size: 14px; color: #666666; margin-bottom: 4px;}
@@ -48,9 +48,9 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 .M-table .m-tit{ display: block; width: 185px;}
 
 /*合计*/
-.content .mod-count{ height: 60px; line-height: 60px; border-top: 2px solid #eee;border-bottom: 2px solid #eeeeee; overflow: hidden;}
+.content .mod-count{ height: 60px; line-height: 60px; border-top: 1px solid #eee;border-bottom: 1px solid #eee; overflow: hidden;}
 .content .mod-count > div {float: left; font-size: 16px;}
-.content .mod-count .m-left{ width: 81.74%; text-align: right; padding-right: 40px; border-right: 2px solid #eee; box-sizing: border-box;}
+.content .mod-count .m-left{ width: 81.74%; text-align: right; padding-right: 40px; border-right: 1px solid #eee; box-sizing: border-box;}
 .content .mod-count .m-right{ width: 10%; padding-left: 40px; box-sizing: border-box;}
 .content .mod-text{ margin-top: 80px; overflow: hidden;}
 .content .mod-text > div { float: left; font-size: 16px;}
