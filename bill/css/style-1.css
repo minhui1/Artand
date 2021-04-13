@@ -22,20 +22,7 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .content ul li h4{ font-size: 16px; color: #000;}
 
 
-/* .content .mod-table{margin-top: 35px;} */
-/* .content .mod-table dt,
-.content .mod-table dd{ display: flex;}
-.content .mod-table span { width: 16.66%;font-size: 16px;}
-.content .mod-table span.order-1 em{display: inline-block; margin-left: 20px;}
-.content .mod-table span.order-1 { width: 10%;}
-.content .mod-table span.order-2 { width: 23%;}
-.content .mod-table span.order-3 { width: 24%;}
-.content .mod-table span.order-4 { width: 25%;}
-.content .mod-table span.order-4 strong{ display: inline-block; width: 185px;}
-.content .mod-table dt{ position: relative; height: 75px; line-height: 75px; font-size: 50px; overflow: hidden;}
-.content .mod-table dt img{ position: absolute; z-index: 1;  top: 0; left: 0; width: 100%; height: 75px;  }
-.content .mod-table dt span{ position: relative; z-index: 2;}
-.content .mod-table dd{ padding: 25px 0; box-sizing: border-box; border-bottom: 1px solid #fafafa;}*/
+
 .content .mod-count{ background: #fff; margin-top: -1px; height: 90px; line-height: 90px; border-top: 2px solid #eee;border-bottom: 2px solid #eeeeee; overflow: hidden;}
 .content .mod-count > div {float: left; font-size: 16px;}
 .content .mod-count .m-left{ width: 81.74%; text-align: right; padding-right: 40px; border-right: 2px solid #eee; box-sizing: border-box;}
@@ -59,12 +46,11 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .M-table .mod-content td{position: relative; color: #333;font-size: 16px;font-weight: normal;white-space: nowrap;}
 .M-table .mod-title th i,
 .M-table .mod-content td .mcn-font-arrow-down{vertical-align: text-top; cursor: pointer; font-size: 14px; color: #A6A9AB; margin-left: 2px;}
-/* .M-table .mod-title:not(.table2){margin-bottom: 20px;} */
-.M-table .mod-title tr{background: #F5F6F7;}
+.M-table .mod-title tr{background: #fafafa;}
 .M-table .mod-title tr,
 .M-table .mod-content tr{position: relative; }
 .M-table .mod-content tr{border-bottom: 1px solid #fafafa;}
-.M-table .mod-content{background: #fff; /*overflow: hidden;*/}
+.M-table .mod-content{background: #fff; }
 .M-table .mod-explain{background: #fff;margin-bottom: 20px;}
 .M-table .mod-explain .mod-wrap{padding:16px 10px;}
 .M-table .mod-explain .m-box{font-size: 12px; padding: 0 10px; overflow: hidden;}
@@ -73,7 +59,6 @@ html{background: #fff; height: 100%;font-family: 'Arial','PingFang SC','Microsof
 .M-table .W-checkbox,
 .M-table .W-radio{margin-right: 10px;}
 .M-table .mod-box{width: 100%;}
-/* .M-table .mod-flex{display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-align-items: center; align-items: center;} */
 .M-table .mod-content .mcn-font-operation{color: #aaa;cursor: pointer;}
 .M-table .m-tit{ display: block; width: 185px;}
 
