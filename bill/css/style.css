@@ -51,9 +51,9 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 .mod-texts ul li span{ display: inline-block; color: #000;}
 
 /*底部*/
-.footer{position: absolute;width: 100%; bottom: 50px;display: flex;align-items: flex-end;justify-content: space-between;}
-.footer .mod-left {float: left; margin-left: 20px; margin-bottom: -15px;}
-.footer .mod-right {float: right; margin-right: 0px;}
+.footer{position: absolute;width: 100%; height: 70px; bottom: 50px;}
+.footer .mod-left {position: absolute;width: 141px; height: 50px; left: 20px; bottom: 0;}
+.footer .mod-right {position: absolute; right: 0; bottom: 0;}
 .footer .mod-text{ font-size: 14px; overflow: hidden;}
 .footer .mod-text h3{margin-bottom: 25px;font-size: 14px;} 
 .footer img{ display: block; width: 141px; height: 50px;}
