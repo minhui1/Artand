@@ -13,18 +13,12 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 .m-text-cut{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 
 /* content */
-.content{ margin-top: 45px; }
-/* .content ul{ overflow: hidden;}
-.content ul li{ float: left; background: #fafafa; width: 49.85%; height: 80px; border-right: 1px solid #fff; border-bottom: 1px solid #fff; overflow: hidden;}
-.content ul li.line{ border-right: none;}
-.content ul li span{display: block; margin: 18px 20px 0;}
-.content ul li h3{ font-size: 14px; color: #666666; margin-bottom: 4px;}
-.content ul li h4{ font-size: 16px; color: #000;} */
+.content{ margin-top: 40px; }
 
 /*表格mod*/
 .M-table{width: auto;margin-top: 35px;}
 .M-table table{width: 100%;}
-.M-table table th{text-align: center; height: 50px; box-sizing: border-box;}
+.M-table table th{text-align: center; height: 36px; box-sizing: border-box;}
 .M-table table td{position: relative; text-align: center;}
 .M-table table th:first-child,
 .M-table table td:first-child{padding-left: 10px !important;}
@@ -35,29 +29,24 @@ html,body{font-family: 'Arial','PingFang SC','Microsoft YaHei';}
 .M-table .mod-title tr{background: #fafafa;}
 .M-table .mod-title tr,
 .M-table .mod-content tr{position: relative; }
-.M-table .mod-content{ padding: 20px 0; box-sizing: border-box;}
-.M-table .mod-content tr td{padding: 15px 0; box-sizing: border-box;}
+.M-table .mod-content{ padding: 15px 0 0; box-sizing: border-box;}
+.M-table .mod-content tr td{padding: 13px 0; box-sizing: border-box;}
 .M-table .mod-content{background: #fff; }
-.M-table .mod-explain{background: #fff;margin-bottom: 20px;}
-.M-table .mod-explain .mod-wrap{padding:16px 10px;}
-.M-table .mod-explain .m-box{font-size: 12px; padding: 0 10px; overflow: hidden;}
-.M-table .mod-explain .m-box .m-txt{color: #333;}
-.M-table .mod-explain .m-box .m-data{color: #999;}
 .M-table .mod-box{width: 100%;}
 .M-table .mod-content .mcn-font-operation{color: #aaa;cursor: pointer;}
 .M-table .m-tit{ display: block; width: 185px; margin: 0 auto; text-align: left;}
 
 /*合计*/
-.content .mod-count{ height: 60px; line-height: 60px; border-top: 1px solid #eee;border-bottom: 1px solid #eee; overflow: hidden;}
-.content .mod-count p{ text-align: right; font-size: 14px; padding-right: 40px;box-sizing: border-box;}
+.content .mod-count{ height: 60px; line-height: 70px; border-top: 1px solid #eee;border-bottom: 1px solid #eee; overflow: hidden;}
+.content .mod-count p{ text-align: right; font-size: 14px; padding-right: 36px;box-sizing: border-box;}
 .content .mod-count > div {float: left; font-size: 14px;}
 .content .mod-count .m-left{ width: 81.5%; text-align: right; padding-right: 40px; border-right: 1px solid #eee; box-sizing: border-box;}
 .content .mod-count .m-right{ width: 10%; padding-left: 40px; box-sizing: border-box;}
 
 /*基本信息*/
-.mod-texts{ margin-top: 45px;}
+.mod-texts{ margin-top: 50px;}
 .mod-texts ul{margin-left: 25px;}
-.mod-texts ul li{ line-height: 40px; font-size: 14px; color: #9d9d9d;}
+.mod-texts ul li{ line-height: 28px; font-size: 14px; color: #9d9d9d;}
 .mod-texts ul li em{display: inline-block; width: 145px; }
 .mod-texts ul li span{ display: inline-block; color: #000;}
 
