@@ -1,0 +1,20 @@
+/* html{min-width: 320px;} */
+.wrapper{position: absolute;left: 0;right: 0;top: 0; bottom: 0;}
+p{margin: 50px 20px; font-size: 16px;}
+/* 大于1441px的尺寸 */
+@media only screen and (min-width: 1441px) {
+  .wrapper{background: rosybrown;}
+}
+
+/*1068~734之间的尺寸 iPad*/
+@media only screen and (max-width: 1068px) {
+  /* html{min-width: 320px;} */
+  .wrapper{background: goldenrod;}
+}
+
+/*734以下的尺寸 常见手机尺寸*/
+@media only screen and (max-width: 734px) {
+  html{font-size: 100px;}
+  .wrapper{min-width: 320px;background: green;}
+  p{ font-size: .32rem;}
+}
