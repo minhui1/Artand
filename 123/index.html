@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Test2</title>
+  <link rel="stylesheet" href="css/test2.css">
+  <script type="text/javascript" src="js/respond.js"></script>
+  <script>
+    /**
+    * 根据UA判断设备
+    */
+    // function isPc() {
+    //   if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+    //     return false;
+    //   }
+    //   return true;
+    // }
+    /**
+    * 动态适配手机端样式
+    */ 
+    // if (!isPc() || isPc()) {
+      ; (function (doc, win, size, int) {
+        var docEle = doc.documentElement,
+          evt = 'onorientationchange' in window ? 'orientationchange' : 'resize',
+          fn = function () {
+            var width = width > 750 ? 750 : docEle.clientWidth;
+            if (width > size) {
+              docEle.style.fontSize = int + 'px';
+            } else {
+              width && (docEle.style.fontSize = width / (size / int) + 'px');
+            }
+            win.scrollTo(0, 1);
+          };
+        win.addEventListener(evt, fn, false);
+        doc.addEventListener('DOMContentLoaded', fn, false);
+      })(document, window, 750, 100);
+    // } 
+    
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <p>探索Apple 充满创新的世界,选购各式 iPhone、iPad、Apple Watch 和 Mac,浏览各种配件、娱乐产品,并获得相关产品的专家支持服务。</p>
+  </div>
+</body>
+
+</html>
