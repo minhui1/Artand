@@ -21,7 +21,7 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 :focus{ outline-color:#eb7350;} */
 
 /* 公用 */
-.wapper{ background:#021f39 url(../images/bg.jpg) no-repeat;color: #fff;}
+.wapper{ background:#021f39 url(../images/bg.jpg); background-position: top center; background-repeat: no-repeat; color: #fff;}
 .wapper .m-lf{float: left;}
 .wapper .m-rg{float: right;}
 .wapper .icon{ display: block; background: url(../images/icon.png) no-repeat; background-size: 129px 161px !important;}
