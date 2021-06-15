@@ -18,7 +18,7 @@ textarea{resize:none}
 body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
 
 /* 公用 */
-.wapper{ background:#021f39 url(../images/bg.jpg); background-position: top center; background-repeat: no-repeat; color: #fff;}
+.wapper{ background:#021f39 url(../images/bg.jpg); background-position: top center; background-repeat: no-repeat;background-size: 100%; color: #fff;}
 .wapper .m-lf{float: left;}
 .wapper .m-rg{float: right;}
 .wapper .icon{ display: block; background: url(../images/icon.png) no-repeat; background-size: 129px 161px !important;}
