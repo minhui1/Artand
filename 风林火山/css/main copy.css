@@ -16,7 +16,7 @@ sub{vertical-align:text-bottom;}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%; /*to enable resizing for IE*/}
 textarea{resize:none}
 
-body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
+body{font:14px/1.3 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
 /* ::selection{background:#eb7350;color:#fff;}
 :focus{ outline-color:#eb7350;} */
 
@@ -51,10 +51,10 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 .wapper-index .carousel .mod-content{ height: 100%; overflow: hidden;}
 .wapper-index .carousel .mod-video-box{ width: 300px; height: 600px; position: relative;}
 .wapper-index .carousel video{ position: absolute; left: -65%; top: -30%; width: 950px; height: 950px;mix-blend-mode: screen;}
-.wapper-index .carousel h3{ position: relative; z-index: 9; margin-top: 230px; font-size: 48px; line-height: 70px; font-weight: 500;}
-.wapper-index .carousel p{ position: relative; z-index: 9; margin-top: 4px; font-size: 14px; line-height: 20px; color: #fff;}
+.wapper-index .carousel h3{ margin-top: 230px; font-size: 48px; line-height: 70px; font-weight: 500;}
+.wapper-index .carousel p{ margin-top: 4px; font-size: 14px; line-height: 20px; color: #fff;}
 .wapper-index .carousel p a{color: #fff; margin-left: 17px;}
-.wapper-index .carousel .icon-light{ position: relative; z-index: 9; margin-top: 25px; font-size: 16px; width: 129px; height: 36px; line-height: 36px; text-align: center;color: #FFFFFF; font-weight: 500;background-position: 0 -51px;}
+.wapper-index .carousel .icon-light{ margin-top: 25px; font-size: 16px; width: 129px; height: 36px; line-height: 36px; text-align: center;color: #FFFFFF; font-weight: 500;background-position: 0 -51px;}
 .wapper-index .carousel .icon-light:hover{  background-position: 0 -102px;}
 
 /* 底导 */
