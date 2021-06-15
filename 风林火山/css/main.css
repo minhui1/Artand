@@ -61,7 +61,7 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 .footer .mod-list li a{color: #fff;}
 .footer p{ font-size: 14px; line-height: 20px; color: #999; text-align: center;}
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
 /* @media screen and (max-width: 1280px) { */
 .wapper .icon{  background-size: 103px 129px !important;}
 /* 首页 */
