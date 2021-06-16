@@ -15,30 +15,30 @@ sup{vertical-align:text-top;}
 sub{vertical-align:text-bottom;}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%; /*to enable resizing for IE*/}
 textarea{resize:none}
+html,body{height: 100%;}
 body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
-
 /* 公用 */
-.wapper{ background:#021f39 url(../images/bg.jpg); background-position: top center; background-repeat: no-repeat;background-size: 100%; color: #fff;}
+.wapper{ color: #fff; background:#021f39 url(../images/bg.jpg); background-position: top center; background-repeat: no-repeat;background-size: cover; background-attachment: fixed;}
 .wapper .m-lf{float: left;}
 .wapper .m-rg{float: right;}
 .wapper .icon{ display: block; background: url(../images/icon.png) no-repeat; background-size: 129px 161px !important;}
 
+.wapper .header{ position: fixed; top: 0; z-index: 1; width: 100%; height: 60px; background: #000; opacity: .8;}
+.wapper .header .head-box{width: 1000px; height: 60px; line-height: 60px; margin: 0 auto; overflow: hidden;}
+.wapper .header .img-box{ float: left; width: 84px; height: 30px;}
+.wapper .header .img-box img{ width: 84px; height: 30px;}
+.wapper .header .list-box{ display: inline-block; overflow: hidden;}
+.wapper .header .list-box li{float: left; margin-left: 44px;  font-size: 16px;}
+.wapper .header .list-box li a{color: #fff; opacity: .6;}
+.wapper .header .list-box li.curr a{color: #FFAE74; opacity: 1;}
+.wapper .header .login-box {overflow: hidden;}
+.wapper .header .login-box li{float: left; margin-left: 22px; font-size: 16px;}
+.wapper .header .login-box li a{color: #fff; }
 /* 首页 */
-.wapper-index{position: fixed;left: 0;right: 0;top: 0;bottom: 0;}
-.wapper-index .header{width: 100%; height: 60px; background: #000; opacity: .8;}
-.wapper-index .header .head-box{width: 1000px; height: 60px; line-height: 60px; margin: 0 auto; overflow: hidden;}
-.wapper-index .header .img-box{ float: left; width: 84px; height: 30px;}
-.wapper-index .header .img-box img{ width: 84px; height: 30px;}
-.wapper-index .header .list-box{ display: inline-block; overflow: hidden;}
-.wapper-index .header .list-box li{float: left; margin-left: 44px;  font-size: 16px;}
-.wapper-index .header .list-box li a{color: #fff; opacity: .6;}
-.wapper-index .header .list-box li.curr a{color: #FFAE74; opacity: 1;}
-.wapper-index .header .login-box {overflow: hidden;}
-.wapper-index .header .login-box li{float: left; margin-left: 22px; font-size: 16px;}
-.wapper-index .header .login-box li a{color: #fff; }
+.wapper-index{position: fixed;left: 0;right: 0;top: 0;bottom: 0; }
 
 /* 介绍&查看详情 */
-.wapper-index .introduce{width: 920px; height: 120px; margin: 30px auto 0; background: #000 url(../images/introduce.png) no-repeat; border-radius: 12px; box-sizing: border-box;}
+.wapper-index .introduce{width: 920px; height: 120px; margin: 90px auto 0; background: #000 url(../images/introduce.png) no-repeat; border-radius: 12px; box-sizing: border-box;}
 .wapper-index .introduce .mod-main{ height: 100%; overflow: hidden;}
 .wapper-index .icon-more{ margin: 40px 30px 0 0; width: 129px; height: 36px; line-height: 36px; text-align: center; color: #040404; background-position: 0 0;}
 
@@ -54,12 +54,86 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 .wapper-index .carousel .icon-light{ position: relative; z-index: 9; margin-top: 25px; font-size: 16px; width: 129px; height: 36px; line-height: 36px; text-align: center;color: #FFFFFF; font-weight: 500;background-position: 0 -51px;}
 .wapper-index .carousel .icon-light:hover{  background-position: 0 -102px;}
 
+
 /* 底导 */
-.footer{ position: absolute; bottom: 0; width: 100%; height: 100px; background: #000; }
-.footer .mod-list{ width: 620px; margin: 22px auto 17px; text-align: center; overflow: hidden;}
+.footer{ position: fixed; bottom: 0; width: 100%; padding: 22px 0; background: #000; }
+.footer .mod-list{ width: 620px; margin: 0 auto 17px; text-align: center; overflow: hidden;}
 .footer .mod-list li{ float: left; margin:0 20px; text-align: center; font-size: 14px; line-height: 19px; color: #666;}
 .footer .mod-list li a{color: #fff;}
 .footer p{ font-size: 14px; line-height: 20px; color: #999; text-align: center;}
+
+
+/* 详情页面 */
+.wapper-content .wapper{background: none;}
+.wapper-content .footer{ position: relative;}
+.wapper-content{ height: 100%; background: url(../images/bg.png); background-position: top center; background-repeat: no-repeat;background-size: cover; background-attachment: fixed; /*position: absolute;left: 0;right: 0;top: 0;bottom: 0;*/}
+.wapper-content .main-box{ margin: 70px auto 10px; width: 1000px; min-height: 500px; overflow: auto; background: #000000;opacity: 0.85;border-radius: 2px;}
+.wapper-content .mod-box{ margin: 40px; overflow: hidden;}
+.wapper-content .warp-box{width: 332px; height: 100%; float: left;}
+.wapper-content .warp-box .m-tips{ margin-top: 10px; width: 92px; height: 24px; line-height: 24px; background: url(../images/icon_tips_bg.png) no-repeat; cursor: pointer;}
+.wapper-content .warp-box .m-tips span{display: block; margin-left: 30px; font-size: 14px; color: #B6825C;}
+.wapper-content .shape-box{ position: relative;  width: 332px; height: 332px; border: 7px solid rgba(228, 195, 165, 0.08); overflow: hidden;}
+.wapper-content .shape-box video{ position: absolute; top: -35%; left: -40%; width: 600px; height: 600px;}
+.wapper-content .article-box{ display: initial;}
+.wapper-content .article-box .marg-box{ padding-left: 40px; box-sizing: border-box; overflow: hidden;}
+.wapper-content .article-box .text-box,
+.wapper-content .article-box .price-box{ padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,.1) ; overflow: hidden;box-sizing: border-box;}
+.wapper-content .article-box .text-box h3{font-size: 20px;line-height: 29px; font-weight: 500;}
+.wapper-content .article-box .text-box p{ margin-top: 2px; font-size: 14px;line-height: 20px;color: #FFFFFF;opacity: 0.6;}
+.wapper-content .article-box .icon-invite{ display: inline-block; width: 18px; height: 18px; margin-right: 6px; background-position: 0 -143px; vertical-align: middle;}
+
+.wapper-content .article-box .invite{ font-size: 14px;line-height: 20px;text-align: center; font-weight: 500; color: #B6825C; cursor: pointer;}
+.wapper-content .article-box .price-box { padding-top: 20px;}
+.wapper-content .article-box .price-box .m-text{margin-top: 15px;}
+.wapper-content .article-box .price-box .m-number {font-size: 32px; font-weight: 500; line-height: 44px;}
+.wapper-content .article-box .price-box .m-number b{font-size: 14px; font-weight: 500;}
+
+.wapper-content .article-box .cont-box{ margin: 30px 0 0; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,.1); box-sizing: border-box;}
+.wapper-content .article-box .sel-box,
+.wapper-content .article-box .selId-box,
+.wapper-content .article-box .time-box,
+.wapper-content .article-box .explain-box{overflow: hidden;}
+
+
+.wapper-content .article-box .sel-box .m-text{margin-top: 5px;}
+.wapper-content .article-box .sel-box .mod-li{overflow: hidden;}
+.wapper-content .article-box .sel-box .mod-li .mod-sel-txt{ float: left; margin-right: 10px; width: 74px; height: 30px; line-height: 30px; text-align: center; border: 1px solid #fff; border-radius: 2px; cursor: pointer;}
+.wapper-content .article-box .sel-box .mod-li .mod-sel-txt.curr,
+.wapper-content .article-box .sel-box .mod-li .mod-sel-txt:hover{border:none; color: #FFA552; background: url(../images/icon_line_bg_01.png) no-repeat;}
+
+.wapper-content .article-box .selId-box{ margin-top: 14px;}
+.wapper-content .article-box .selId-box .mod-dt{ margin-left: 70px; width: 478px;height: 303px;background: #000000;border: 1px solid #32251C;box-sizing: border-box;}
+.wapper-content .article-box .selId-box .mod-dt .mod-scroll{ width: 498px;height: 100%; overflow: auto; padding: 4px; box-sizing: border-box;}
+.wapper-content .article-box .selId-box .mod-dt ul{width: 468px;}
+.wapper-content .article-box .selId-box .mod-dt ul li{margin-bottom: 1px; font-size: 12px; width: 469px; line-height: 30px; font-weight: 500; padding:0 12px; box-sizing: border-box;background: #29170A; cursor: pointer;}
+.wapper-content .article-box .selId-box .mod-dt ul li span{ float: right; display: inline-block; vertical-align: middle;}
+.wapper-content .article-box .selId-box .mod-dt ul li.m-txt-disable{opacity: 0.6;}
+.wapper-content .article-box .selId-box .mod-dt ul li:hover,
+.wapper-content .article-box .selId-box .mod-dt ul li.curr{background: url(../images/icon_line_bg_02.png) no-repeat;}
+.wapper-content .article-box .selId-box .mod-dt ul li.m-txt-disable:hover{opacity: 0.6; background: #29170A;}
+
+.wapper-content .article-box .time-box{margin-top: 20px;}
+.wapper-content .article-box .time-box .mod-end{font-size: 14px; line-height: 20px; font-weight: 500;}
+.wapper-content .article-box .time-box .icon-light{ position: relative; z-index: 9; margin-top: 25px;margin-left: 70px; font-size: 16px; width: 129px; height: 36px; line-height: 36px; text-align: center;color: #FFFFFF; font-weight: 500;background-position: 0 -51px;}
+.wapper-content .article-box .time-box .icon-light:hover{  background-position: 0 -102px;}
+
+.wapper-content .article-box .explain-box{ margin: 24px 0;}
+
+.wapper-content .article-box .explain-box .mod-exp{ margin-left: 70px;}
+.wapper-content .article-box .explain-box .mod-exp p{ margin-bottom: 20px; font-size: 14px; line-height: 20px; color: #fff; opacity: .5;}
+
+.wapper-content .article-box .m-text{ font-size: 14px; width: 70px; line-height: 20px; color: #fff; font-weight: 500;}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
 /* @media screen and (max-width: 1280px) { */
@@ -73,7 +147,7 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 .wapper-index .header .login-box li{ margin-left: 18px; font-size: 13px;}
 
 /* 介绍&查看详情 */
-.wapper-index .introduce{width: 736px; height: 96px; margin: 24px auto 0; border-radius: 10px; background-size: 736px 96px;}
+.wapper-index .introduce{width: 736px; height: 96px; margin: 72px auto 0; border-radius: 10px; background-size: 736px 96px;}
 .wapper-index .icon-more{ margin: 32px 24px 0 0; width: 103px; height: 29px; line-height: 29px;}
 
 /* 轮播 */
@@ -87,9 +161,19 @@ body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;
 .wapper-index .carousel .icon-light{  margin-top: 20px; font-size: 13px; width: 103px; height: 29px; line-height: 29px; background-position: 0 -41px;}
 .wapper-index .carousel .icon-light:hover{  background-position: 0 -82px;}
 
+.wapper-content .article-box .time-box .icon-light{ margin-top: 20px; margin-left: 70px; font-size: 13px; width: 103px; height: 29px; line-height: 29px; background-position: 0 -41px;}
+.wapper-content .article-box .time-box .icon-light:hover{  background-position: 0 -82px;}
+
 /* 底导 */
-.footer{  height: 80px; }
-.footer .mod-list{ width: 520px; margin: 18px auto 11px; }
+.footer{  height: 80px; padding: 18px 0; }
+.footer .mod-list{ width: 520px; margin: 0 auto 11px; }
 .footer .mod-list li{ margin:0 16px;  font-size: 11px; line-height: 15px; }
 .footer p{ font-size: 11px; line-height: 16px; }
+
+
+
+
+
+.wapper-content .article-box .icon-invite{ display: inline-block; width: 14px; height: 14px; margin-right: 5px; background-position: 0 -115px; vertical-align: middle;}
+
 }
