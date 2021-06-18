@@ -17,6 +17,7 @@ input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;
 textarea{resize:none}
 html,body{height: 100%;}
 body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
+input{ outline: none;}
 input::-webkit-input-placeholder{color: #999999;}    
 input:-moz-placeholder{color: #999999;}                     
 input::-moz-placeholder{color: #999999;}                     
@@ -51,7 +52,7 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper-index .icon-more{ margin: 40px 30px 0 0; width: 129px; height: 36px; line-height: 36px; text-align: center; color: #040404; background-position: 0 0;}
 
 /* 轮播 */
-.wapper-index .carousel{ position: relative; width: 920px; min-height: 550px; margin: 0 auto 0; overflow: hidden;}
+.wapper-index .carousel{ position: relative; width: 920px; min-height: 550px; margin: 0 auto 0; mix-blend-mode: screen; overflow: hidden;}
 .wapper-index .carousel .slide{ position: absolute; left: 50%; top: 50%; width: 100%; height: 550px; margin-left: -460px; margin-top: -275px;}
 .wapper-index .carousel .mod-content{ height: 100%; overflow: hidden;}
 .wapper-index .carousel .mod-video-box{ width: 300px; height: 600px; position: relative;}
@@ -159,9 +160,9 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper-content .mod-info .mod-brief p{ font-size: 14px; line-height: 20px; margin-bottom: 20px;}
 
 /* 弹层公用 */
-.layer{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden;}
-.layer .mask{ position: fixed;left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,.4);}
-.layer .content-box{position: fixed; top:50%; left: 50%; padding: 16px 0; background: #fff; min-width: 500px; min-height: 200px; transform: translate(-50%,-50%);}
+.layer{ position: fixed; z-index: 98; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden;}
+.layer .mask{ position: fixed; z-index: 98; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,.4);}
+.layer .content-box{position: fixed;z-index: 99; top:50%; left: 50%; padding: 16px 0; background: #fff; min-width: 500px; min-height: 200px; transform: translate(-50%,-50%);}
 .layer .content-box .mod-title{ padding: 0 26px; line-height: 26px; overflow: hidden;}
 .layer .content-box .mod-title h3{ font-size: 18px; font-weight: 500;}
 .layer .content-box .icon-item-close{ font-size: 0; width: 19px; height: 19px; background-position: -150px -198px; cursor: pointer;}
@@ -197,7 +198,7 @@ input:-ms-input-placeholder{color: #999999;}
 .layer .mod-found .mod-dt p span{color: #507DAF;}
 
 /* 支付 */
-.layer .mod-pay{ margin: 20px 0;}
+.layer .mod-pay{ margin: 20px 0 0;}
 .layer .mod-pay .mod-order{ height: 48px; line-height: 48px; margin: 0 26px; background: #000; border-radius: 2px; box-sizing: border-box;}
 .layer .mod-pay .mod-order p{ font-size: 14px;  margin: 0 15px; color: #fff; }
 .layer .mod-pay .mod-order p b{display: inline-block; margin-right: 5px;  font-size: 24px; font-weight: 500; }
@@ -206,15 +207,44 @@ input:-ms-input-placeholder{color: #999999;}
 .layer .mod-pay .mod-tab{ margin-top: 12px;}
 .layer .mod-pay .mod-tab ul{ margin-left: 26px; overflow: hidden;}
 .layer .mod-pay .mod-tab ul li{ position: relative; float: left; padding: 0 18px; font-size: 14px; height: 36px; line-height: 36px; box-sizing: border-box; cursor: pointer; }
-.layer .mod-pay .mod-tab ul li.curr{ z-index: 1; border: 1px solid #e8e8e8; border-bottom: none; background: #F4F4F4; border-radius: 6px 6px 0 0;}
+.layer .mod-pay .mod-tab ul li.curr{ z-index: 1; border: 1px solid #e8e8e8; border-bottom: none; background: #F4F4F4; border-radius: 4px 4px 0 0;}
 .layer .mod-pay .mod-col{ margin-top: -1px; min-height: 100px; background: #F4F4F4; border-top: 1px solid #e8e8e8;border-bottom: 1px solid #e8e8e8;}
-.layer .mod-pay .mod-col .mod-main{ margin: 26px;}
+.layer .mod-pay .mod-col .mod-main{ margin: 10px 26px 26px; overflow: hidden;}
+.layer .mod-pay .mod-col .mod-main h3{ margin-top: 18px; font-size: 14px; }
+.layer .mod-pay .mod-col .mod-pay-list{ min-width: 500px; margin-top: 16px; overflow: hidden;}
+.layer .mod-pay .mod-col .mod-pay-list dd{ float: left; margin-right: 10px;}
+.layer .mod-pay .mod-col .icon-item-pay01{ display: block; width:56px; height: 34px; background-position: -1px -150px;}
+.layer .mod-pay .mod-col .icon-item-pay02{ display: block; width:56px; height: 34px; background-position: -62px -150px;}
+.layer .mod-pay .mod-col .icon-item-pay03{ display: block; width:56px; height: 34px; background-position: -123px -150px;}
+.layer .mod-pay .mod-col .mod-inpt{ margin-top: 8px;margin-left: -7px;  overflow: hidden;}
+.layer .mod-pay .mod-col .mod-inpt dt{ float: left; font-weight: normal; color: rgba(0,0,0,.4);}
+.layer .mod-pay .mod-col .mod-inpt input{ margin: 0 7px; width: 102px; height: 40px; line-height: 40px; padding-left: 10px; font-weight: normal; background: none; border:1px solid #ddd; box-sizing: border-box; border-radius: 2px; box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);}
+.layer .mod-pay .mod-col .mod-name input{ width: 225px;}
+
+/*虚拟*/
+.layer .mod-pay .mod-col .mod-fictitious{ margin-bottom: 15px;}
+.layer .mod-pay .mod-col .mod-card{ margin: 10px 0; font-size: 14px; height: 63px; line-height: 63px; padding: 0 16px; border: 1px solid #ddd;box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);border-radius: 4px; background: #fff; box-sizing: border-box; cursor: pointer;}
+.layer .mod-pay .mod-col .mod-card .m-radio{vertical-align: -3px; width: 16px; height: 16px;}
+.layer .mod-pay .mod-col .mod-card .icon-blue{ display: inline-block; margin: 0 4px 0 10px; width: 32px; height: 32px; background: #60B9FA; border-radius: 4px; vertical-align: middle;}
+.layer .mod-pay .mod-col .mod-card-disable {opacity: .3; cursor: default;}
+.layer .mod-pay .mod-col .m-text{ margin-top: 7px; font-size: 12px; color: #999;}
+
+.layer .mod-footer { padding: 25px 0 0; box-sizing: border-box;}
+.layer .mod-footer span{ display: block; width: 140px; height: 40px; line-height: 40px; margin: 0 auto; text-align: center; color: #fff; background: #000; border-radius: 2px; cursor: pointer;}
+.layer .mod-footer p{ margin-top: 16px; font-size: 12px; line-height: 17px; color: #999; text-align: center;}
 
 
-/* nft提示 */
 
 
-
+/* NFT信息 */
+.layer .mod-nft-info{ margin-top: 16px; border-top: 1px solid rgba(0,0,0,.1);}
+.layer .mod-nft-info .nft-list{ margin: 30px 60px 30px 26px; overflow: hidden;}
+.layer .mod-nft-info .nft-list li{ margin-bottom: 20px; font-size: 14px; color: #333; overflow: hidden;}
+.layer .mod-nft-info .nft-list .icon-item-nft01{float: left; width: 24px; height: 24px; background-position: -1px -193px;}
+.layer .mod-nft-info .nft-list .icon-item-nft02{float: left; width: 24px; height: 24px; background-position: -31px -193px;}
+.layer .mod-nft-info .nft-list .icon-item-nft03{float: left; width: 24px; height: 24px; background-position: -61px -193px;}
+.layer .mod-nft-info .nft-list .m-txt{width: 455px;  margin-left: 35px;}
+.layer .mod-nft-info .nft-list h4{ margin-top: 8px;  color: #666; line-height: 12px;}
 
 
 
