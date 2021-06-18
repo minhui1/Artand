@@ -155,7 +155,8 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper-content .mod-info .text-box{ float: left; margin-left: 15px;}
 .wapper-content .mod-info .text-box h3{ font-size: 16px; line-height: 23px; font-weight: 500;}
 .wapper-content .mod-info .text-box p{ margin-top: 8px; font-size: 12px; line-height: 17px; width: 212px; }
-.wapper-content .mod-info .m-btn{ font-size: 0; width: 158px; line-height: 36px; text-align: center; font-weight: 500; color: #4F290C; background-position: 0 -92px; cursor: pointer;}
+.wapper-content .mod-info .m-btn{ font-size: 14px; width: 158px; line-height: 36px; text-align: center; font-weight: 500; color: #4F290C; background-position: 0 -92px; cursor: pointer;}
+.wapper-content .mod-info .m-btn:hover{ background-position: -167px -92px;}
 .wapper-content .mod-info .mod-brief{ margin-top: 40px;}
 .wapper-content .mod-info .mod-brief p{ font-size: 14px; line-height: 20px; margin-bottom: 20px;}
 
