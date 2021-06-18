@@ -1,0 +1,95 @@
+/*清零*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table{border-collapse:collapse;	border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var,i{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a,
+a:hover{text-decoration: none;}
+q:before,q:after{content:'';}
+a:focus{outline-style:none;}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%; /*to enable resizing for IE*/}
+textarea{resize:none}
+body{font-family: 'Arial','Microsoft YaHei','Noto Sans SC'; _font-family:simsun;}
+
+/* 公用 */
+.wapper{ background:#021f39 url(/images/bg.jpg); background-position: top center; background-repeat: no-repeat;background-size: 100%; color: #fff;}
+.wapper .m-lf{float: left;}
+.wapper .m-rg{float: right;}
+.wapper .icon{ display: block; background: url(/images/icon.png) no-repeat; background-size: 129px 161px !important;}
+
+/* 首页 */
+.wapper-index{position: fixed;left: 0;right: 0;top: 0;bottom: 0;}
+.wapper-index .header{width: 100%; height: 60px; background: #000; opacity: .8;}
+.wapper-index .header .head-box{width: 1000px; height: 60px; line-height: 60px; margin: 0 auto; overflow: hidden;}
+.wapper-index .header .img-box{ float: left; width: 84px; height: 30px;}
+.wapper-index .header .img-box img{ width: 84px; height: 30px;}
+.wapper-index .header .list-box{ display: inline-block; overflow: hidden;}
+.wapper-index .header .list-box li{float: left; margin-left: 44px;  font-size: 16px;}
+.wapper-index .header .list-box li a{color: #fff; opacity: .6;}
+.wapper-index .header .list-box li.curr a{color: #FFAE74; opacity: 1;}
+.wapper-index .header .login-box {overflow: hidden;}
+.wapper-index .header .login-box li{float: left; margin-left: 22px; font-size: 16px;}
+.wapper-index .header .login-box li a{color: #fff; }
+
+/* 介绍&查看详情 */
+.wapper-index .introduce{width: 920px; height: 120px; margin: 30px auto 0; background: #000 url(/images/introduce.png) no-repeat; border-radius: 12px; box-sizing: border-box;}
+.wapper-index .introduce .mod-main{ height: 100%; overflow: hidden;}
+.wapper-index .icon-more{ margin: 40px 30px 0 0; width: 129px; height: 36px; line-height: 36px; text-align: center; color: #040404; background-position: 0 0;}
+
+/* 轮播 */
+.wapper-index .carousel{ position: relative; width: 920px; min-height: 550px; margin: 0 auto 0; overflow: hidden;}
+.wapper-index .carousel .slide{ position: absolute; left: 50%; top: 50%; width: 100%; height: 550px; margin-left: -460px; margin-top: -275px;}
+.wapper-index .carousel .mod-content{ height: 100%; overflow: hidden;}
+.wapper-index .carousel .mod-video-box{ width: 300px; height: 600px; position: relative;}
+.wapper-index .carousel video{ position: absolute; left: -65%; top: -30%; width: 950px; height: 950px;mix-blend-mode: screen;}
+.wapper-index .carousel h3{ position: relative; z-index: 9; margin-top: 230px; font-size: 48px; line-height: 70px; font-weight: 500;}
+.wapper-index .carousel p{ position: relative; z-index: 9; margin-top: 4px; font-size: 14px; line-height: 20px; color: #fff;}
+.wapper-index .carousel p a{color: #fff; margin-left: 17px;}
+.wapper-index .carousel .icon-light{ position: relative; z-index: 9; margin-top: 25px; font-size: 16px; width: 129px; height: 36px; line-height: 36px; text-align: center;color: #FFFFFF; font-weight: 500;background-position: 0 -51px;}
+.wapper-index .carousel .icon-light:hover{  background-position: 0 -102px;}
+
+/* 底导 */
+.footer{ position: absolute; bottom: 0; width: 100%; height: 100px; background: #000; }
+.footer .mod-list{ width: 620px; margin: 22px auto 17px; text-align: center; overflow: hidden;}
+.footer .mod-list li{ float: left; margin:0 20px; text-align: center; font-size: 14px; line-height: 19px; color: #666;}
+.footer .mod-list li a{color: #fff;}
+.footer p{ font-size: 14px; line-height: 20px; color: #999; text-align: center;}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+/* @media screen and (max-width: 1280px) { */
+.wapper .icon{  background-size: 103px 129px !important;}
+/* 首页 */
+.wapper-index .header{ height:48px; }
+.wapper-index .header .head-box{width: 900px; height: 48px; line-height: 48px; }
+.wapper-index .header .img-box{ width: 67px; height: 24px;}
+.wapper-index .header .img-box img{ width: 67px; height: 24px;}
+.wapper-index .header .list-box li{ margin-left: 35px;  font-size: 13px;}
+.wapper-index .header .login-box li{ margin-left: 18px; font-size: 13px;}
+
+/* 介绍&查看详情 */
+.wapper-index .introduce{width: 736px; height: 96px; margin: 24px auto 0; border-radius: 10px; background-size: 736px 96px;}
+.wapper-index .icon-more{ margin: 32px 24px 0 0; width: 103px; height: 29px; line-height: 29px;}
+
+/* 轮播 */
+.wapper-index .carousel{width: 736px; min-height: 440px; }
+.wapper-index .carousel .slide{ height: 440px; margin-left: -368px; margin-top: -220px;}
+.wapper-index .carousel .mod-video-box{ width: 240px; height: 480px; position: relative;}
+.wapper-index .carousel video{ left: -65%; top: -30%; width: 760px; height: 760px;}
+.wapper-index .carousel h3{  margin-top: 184px; font-size: 38px; line-height: 56px; }
+.wapper-index .carousel p{ margin-top: 3px; font-size: 12px; line-height: 16px; }
+.wapper-index .carousel p a{ margin-left: 14px;}
+.wapper-index .carousel .icon-light{  margin-top: 20px; font-size: 13px; width: 103px; height: 29px; line-height: 29px; background-position: 0 -41px;}
+.wapper-index .carousel .icon-light:hover{  background-position: 0 -82px;}
+
+/* 底导 */
+.footer{  height: 80px; }
+.footer .mod-list{ width: 520px; margin: 18px auto 11px; }
+.footer .mod-list li{ margin:0 16px;  font-size: 11px; line-height: 15px; }
+.footer p{ font-size: 11px; line-height: 16px; }
+}
