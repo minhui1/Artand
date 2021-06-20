@@ -163,15 +163,18 @@ input:-ms-input-placeholder{color: #999999;}
 /* 弹层公用 */
 .layer{ position: fixed; z-index: 98; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden;}
 .layer .mask{ position: fixed; z-index: 98; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,.4);}
-.layer .content-box{position: fixed;z-index: 99; top:50%; left: 50%; padding: 16px 0; background: #fff; min-width: 500px; min-height: 200px; transform: translate(-50%,-50%);}
+.layer .content-box{position: fixed;z-index: 99; top:50%; left: 50%; padding: 16px 0; background: #fff; min-width: 500px; min-height: 50px; transform: translate(-50%,-50%);}
 .layer .content-box .mod-title{ padding: 0 26px; line-height: 26px; overflow: hidden;}
 .layer .content-box .mod-title h3{ font-size: 18px; font-weight: 500;color: #000;}
 .layer .content-box .icon-item-close{ font-size: 0; width: 19px; height: 19px; background-position: -150px -198px; cursor: pointer;}
 .layer .mod-error{ margin-bottom: 18px; height: 36px; line-height: 36px; font-size: 12px; color:#D00000;background: #FFD1D1;border: 1px solid #FEC4C4;box-sizing: border-box;border-radius: 2px;}
 .layer .mod-error .icon-item-err{ display: inline-block; width: 16px; height: 16px; margin: 0 4px 0 10px; background-position: -230px -197px; vertical-align: -2px;}
-
+/* 接口报错*/
+.layer .mod-point-out{ padding: 40px 60px 60px;}
+.layer .mod-point-out p{ font-size: 18px; line-height: 26px; color: #000;}
+.layer .mod-point-out .icon-item-point{display: inline-block; margin-right: 8px; width: 27px; height: 26px; background-position: -259px -189px; vertical-align: -7px;}
 /* 找回密码 */
-.layer .mod-forgot-password{ margin: 23px 55px 25px; height: 300px;}
+.layer .mod-forgot-password{ margin: 23px 55px 25px; height: 350px;}
 .layer .mod-forgot-password .mod-setup{ padding-top: 12px; margin-bottom: 26px; box-sizing: border-box; overflow: hidden;}
 .layer .mod-forgot-password .mod-setup .mod-line{ width: 300px; height: 1px; margin: 0 auto; background: #EEEEEE;}
 .layer .mod-forgot-password .mod-setup .mod-dot{ float: left; width: 33.33%; margin: -12px auto 0; }
@@ -194,8 +197,11 @@ input:-ms-input-placeholder{color: #999999;}
 
 /* setup-2 */
 .layer .mod-forgot-password .mod-set-main{width: 435px;}
-.layer .mod-forgot-password .mod-set-main h3{margin-top: 60px;}
-.layer .mod-forgot-password .mod-set-main p{ font-size: 14px; color: #999999; line-height: 20px;}
+.layer .mod-forgot-password .mod-set-main h3{margin-top: 30px;}
+.layer .mod-forgot-password .mod-set-main p{ margin-bottom: 10px; font-size: 14px; color: #999999; line-height: 20px;}
+.layer .mod-forgot-password .mod-set-main .mod-li{ margin-bottom: 10px;}
+.layer .mod-forgot-password .mod-set-main .w-ipnt-email{ width: 300px;}
+.layer .mod-forgot-password .mod-set-main .m-text{ width: 120px;}
 .layer .mod-forgot-password .mod-set-main .mod-dt{margin-top: 67px;}
 /* setup-3 */
 .layer .mod-forgot-password .mod-set-main .mod-dt{margin-top: 28px;}
