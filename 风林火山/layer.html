@@ -124,8 +124,88 @@
         <p>Copyright© 楓林山火 2021 All Right Reserved.</p>
     </div>
 
-    <!-- 注册 -->
-    <div class="layer">
+    <!-- 找回密码 -->
+    <div class="layer" style="display:  ;">
+        <div class="mask"></div>
+        <div class="content-box">
+            <div class="mod-title">
+                <div class="m-lf"><h3>找回密码</h3></div>
+                <div class="m-rg"><i class="icon-item icon-item-close">关闭</i></div>
+            </div>
+            <!-- 填写账户信息 -->
+            <div class="mod-forgot-password" style="display: ;">
+                <div class="mod-setup">
+                    <div class="mod-line"></div>
+                    <div class="mod-dot curr"><span>1</span><em>填写账户信息</em></div>
+                    <div class="mod-dot"><span>2</span><em>去邮箱验证</em></div>
+                    <div class="mod-dot"><span>3</span><em>修改密码</em></div>
+                </div>
+                <div class="mod-li">
+                    <h3>请填写需要找回的账号：</h3>
+                    <div class="warp-box">
+                        <input class="w-ipnt" type="text" placeholder="请输入账号邮箱" />
+                    </div>
+                </div>
+                <div class="mod-li">
+                    <div class="warp-box">
+                        <input class="w-ipnt w-ipnt-code" type="text" placeholder="请输入验证码" /> 
+                        <div class="mod-code"></div>
+                        <span class="m-text">看不清</span>
+                    </div>
+                </div>
+                <div class="mod-dt">
+                    <a href="javascript:;" class="m-btn">继续</a>
+                </div>
+            </div>
+            <!-- 填写账户信息 /-->
+            <!-- 去邮箱验证 -->
+            <div class="mod-forgot-password" style="display: none;">
+                <div class="mod-setup">
+                    <div class="mod-line"></div>
+                    <div class="mod-dot curr"><span>1</span><em>填写账户信息</em></div>
+                    <div class="mod-dot curr"><span>2</span><em>去邮箱验证</em></div>
+                    <div class="mod-dot"><span>3</span><em>修改密码</em></div>
+                </div>
+                <div class="mod-set-main">
+                    <h3>为确认身份，我们需验证您的安全邮箱</h3>
+                    <p>点击发送邮件按钮，将会发送一封有修改密码连接的邮件至邮箱yar***@163.com，请注意查收。</p>
+                    <div class="mod-dt">
+                        <a href="javascript:;" class="m-btn">继续</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 去邮箱验证 /-->
+            <!-- 修改密码 -->
+            <div class="mod-forgot-password" style="display: none;">
+                <div class="mod-setup">
+                    <div class="mod-line"></div>
+                    <div class="mod-dot curr"><span>1</span><em>填写账户信息</em></div>
+                    <div class="mod-dot curr"><span>2</span><em>去邮箱验证</em></div>
+                    <div class="mod-dot curr"><span>3</span><em>修改密码</em></div>
+                </div>
+                <div class="mod-modify-main">
+                    <div class="mod-li">
+                        <h3>请输入新密码：</h3>
+                        <div class="warp-box">
+                            <input class="w-ipnt" type="text" placeholder="新密码" />
+                        </div>
+                    </div>
+                    <div class="mod-li">
+                        <div class="warp-box">
+                            <input class="w-ipnt" type="text" placeholder="确认密码" />
+                        </div>
+                    </div>
+                    <div class="mod-dt">
+                        <a href="javascript:;" class="m-btn">确认</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 修改密码 /-->
+        </div>
+    </div>
+    <!-- 找回密码 /-->
+    <!-- 登录 -->
+    <div class="layer" style="display: none ;">
         <div class="mask"></div>
         <div class="content-box">
             <div class="mod-title">
@@ -133,6 +213,10 @@
                 <div class="m-rg"><i class="icon-item icon-item-close">关闭</i></div>
             </div>
             <div class="mod-sign-in">
+                <div class="mod-error">
+                    <i class="icon-item icon-item-err"></i>
+                    报错提示文案报错提示文案报错提示文案
+                </div>
                 <div class="mod-li">
                     <h3>账户</h3>
                     <div class="warp-box">
@@ -155,11 +239,10 @@
             </div>
         </div>
     </div>
-    <!-- 注册 /-->
-
+    <!-- 登录 /-->
 
     <!-- 创建 -->
-    <div class="layer">
+    <div class="layer" style="display: none ;">
         <div class="mask"></div>
         <div class="content-box">
             <div class="mod-title">
@@ -167,6 +250,10 @@
                 <div class="m-rg"><i class="icon-item icon-item-close">关闭</i></div>
             </div>
             <div class="mod-found">
+                <div class="mod-error">
+                    <i class="icon-item icon-item-err"></i>
+                    报错提示文案报错提示文案报错提示文案
+                </div>
                 <div class="mod-li">
                     <h3>用户名</h3>
                     <div class="warp-box">
@@ -177,6 +264,16 @@
                     <h3>账号</h3>
                     <div class="warp-box">
                         <input class="w-ipnt" type="text" placeholder="请输入邮箱" />
+                    </div>
+                </div>
+                <div class="mod-li">
+                    <h3>邮箱验证码</h3>
+                    <div class="warp-box">
+                        <input class="w-ipnt w-ipnt-code" type="text" placeholder="请输入验证码" /> 
+                        <!-- <span class="m-text">发送验证码到邮箱</span> -->
+                        <!-- <span class="m-text m-grey">119秒</span> -->
+                        <span class="m-text">重新发送验证码</span>
+                        <i class="icon-item icon-item-code"></i>
                     </div>
                 </div>
                 <div class="mod-li">
@@ -201,7 +298,7 @@
     <!-- 创建 / -->
 
     <!-- 支付*信用卡 -->
-    <div class="layer" style="display: ;">
+    <div class="layer" style="display: none;">
         <div class="mask"></div>
         <div class="content-box">
             <div class="mod-title">
@@ -255,7 +352,7 @@
     <!-- 支付*信用卡 /-->
 
     <!-- 支付*虚拟币 -->
-    <div class="layer" style="display: ;">
+    <div class="layer" style="display:none ;">
         <div class="mask"></div>
         <div class="content-box">
             <div class="mod-title">
@@ -337,7 +434,7 @@
     <!-- 支付*虚拟币 /-->
 
     <!-- NFT信息 -->
-    <div class="layer">
+    <div class="layer" style="display: none ;">
         <div class="mask"></div>
         <div class="content-box">
             <div class="mod-title">

@@ -38,7 +38,7 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper .header .list-box li a{color: #fff; opacity: .6;}
 .wapper .header .list-box li.curr a{color: #FFAE74; opacity: 1;}
 .wapper .header .login-box {overflow: hidden;}
-.wapper .header .login-box li{float: left; margin-left: 22px; font-size: 16px;}
+.wapper .header .login-box li{float: left; margin-left: 22px; font-size: 16px;cursor: pointer;}
 .wapper .header .login-box li a{color: #fff; }
 .wapper .header .login-box li span{  display: inline-block; width: 20px; height: 20px; background: #ccc; border-radius: 50px; margin-right: 6px; vertical-align: text-bottom; overflow: hidden;}
 .wapper .header .login-box li span img{ display: block; width: 20px; height: 20px;border-radius: 50px;}
@@ -77,7 +77,7 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper-content .footer{ position: relative;}
 .wapper-content{ height: 100%; background: url(../images/bg.png); background-position: top center; background-repeat: no-repeat;background-size: cover; background-attachment: fixed; /*position: absolute;left: 0;right: 0;top: 0;bottom: 0;*/}
 .wapper-content .main-box{ margin: 70px auto 10px; width: 1000px; min-height: 500px; overflow: auto; background: #000000;opacity: 0.85;border-radius: 2px;}
-.wapper-content .mod-box{ margin: 40px 40px 0; overflow: hidden;}
+.wapper-content .mod-box{ height: calc(100vh);  margin: 40px 40px 0; overflow: hidden;}
 .wapper-content .warp-box{width: 332px; height: 100%; float: left;}
 .wapper-content .warp-box .m-tips{ margin-top: 10px; width: 92px; height: 24px; line-height: 24px; background: url(../images/icon_tips_bg.png) no-repeat; cursor: pointer;}
 .wapper-content .warp-box .m-tips span{display: block; margin-left: 30px; font-size: 14px; color: #B6825C;}
@@ -111,7 +111,7 @@ input:-ms-input-placeholder{color: #999999;}
 .wapper-content .article-box .sel-box .mod-li .mod-sel-txt.curr{border:none; color: #FFA552; background: url(../images/icon_line_bg_01.png) no-repeat;}
 
 .wapper-content .article-box .selId-box{ margin-top: 14px;}
-.wapper-content .article-box .selId-box .mod-dt{ margin-left: 70px; width: 478px;height: 303px;background: #000000;border: 1px solid #32251C;box-sizing: border-box;}
+.wapper-content .article-box .selId-box .mod-dt{ margin-left: 70px; width: 478px;max-height: 303px;background: #000000;border: 1px solid #32251C;box-sizing: border-box;}
 .wapper-content .article-box .selId-box .mod-dt .mod-scroll{ width: 498px;height: 100%; overflow: auto; padding: 4px; box-sizing: border-box;}
 .wapper-content .article-box .selId-box .mod-dt ul{width: 468px;}
 .wapper-content .article-box .selId-box .mod-dt ul li{margin-bottom: 1px; font-size: 12px; width: 469px; line-height: 30px; font-weight: 500; padding:0 12px; box-sizing: border-box;background: #29170A; cursor: pointer;}
@@ -165,12 +165,43 @@ input:-ms-input-placeholder{color: #999999;}
 .layer .mask{ position: fixed; z-index: 98; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,.4);}
 .layer .content-box{position: fixed;z-index: 99; top:50%; left: 50%; padding: 16px 0; background: #fff; min-width: 500px; min-height: 200px; transform: translate(-50%,-50%);}
 .layer .content-box .mod-title{ padding: 0 26px; line-height: 26px; overflow: hidden;}
-.layer .content-box .mod-title h3{ font-size: 18px; font-weight: 500;}
+.layer .content-box .mod-title h3{ font-size: 18px; font-weight: 500;color: #000;}
 .layer .content-box .icon-item-close{ font-size: 0; width: 19px; height: 19px; background-position: -150px -198px; cursor: pointer;}
+.layer .mod-error{ margin-bottom: 18px; height: 36px; line-height: 36px; font-size: 12px; color:#D00000;background: #FFD1D1;border: 1px solid #FEC4C4;box-sizing: border-box;border-radius: 2px;}
+.layer .mod-error .icon-item-err{ display: inline-block; width: 16px; height: 16px; margin: 0 4px 0 10px; background-position: -230px -197px; vertical-align: -2px;}
 
+/* 找回密码 */
+.layer .mod-forgot-password{ margin: 23px 55px 25px; height: 300px;}
+.layer .mod-forgot-password .mod-setup{ padding-top: 12px; margin-bottom: 26px; box-sizing: border-box; overflow: hidden;}
+.layer .mod-forgot-password .mod-setup .mod-line{ width: 300px; height: 1px; margin: 0 auto; background: #EEEEEE;}
+.layer .mod-forgot-password .mod-setup .mod-dot{ float: left; width: 33.33%; margin: -12px auto 0; }
+.layer .mod-forgot-password .mod-setup .mod-dot span{display: block; margin: 0 auto; width: 24px; height: 24px; line-height: 24px; font-size: 12px; text-align: center; color: #fff; background: #C4C4C4; border-radius: 50px;}
+.layer .mod-forgot-password .mod-setup .mod-dot.curr span{ background: #000;}
+.layer .mod-forgot-password .mod-setup .mod-dot em{display: block; margin: 0 auto; font-size: 12px; line-height: 17px; text-align: center;  line-height: 24px; font-size: 12px; text-align: center; color: #999999; }
+.layer .mod-forgot-password .mod-setup .mod-dot.curr em{ color: #666666;}
+
+.layer .mod-forgot-password .mod-li{ margin-bottom: 14px; font-size: 14px; color: #000; overflow: hidden;}
+.layer .mod-forgot-password h3{ line-height: 20px; margin-bottom: 12px; font-weight: 500;}
+.layer .mod-forgot-password .warp-box{ position: relative;width: 430px; height: 50px; overflow: hidden;}
+.layer .mod-forgot-password .w-ipnt{ float: left; width: 430px; height: 50px; padding-left: 15px; background: none; border: 1px solid #DDDDDD; border-radius: 2px; outline: none;}
+.layer .mod-forgot-password .w-ipnt-code{ width: 173px;}
+.layer .mod-forgot-password .mod-code{ float: left; margin-left: 12px; width: 113px; height: 50px; text-align: center; border: 1px solid #DDDDDD; border-radius: 2px; overflow: hidden;}
+.layer .mod-forgot-password .m-text{ display: inline-block; width: 70px; font-size: 12px; line-height: 50px; text-align: center; color: #507DAF; cursor: pointer;}
+.layer .mod-forgot-password .m-forget{ position: relative;top: -15px; font-size: 12px; line-height: 17px; color: #507DAF;}
+.layer .mod-forgot-password .mod-dt{margin-top: 28px ;}
+.layer .mod-forgot-password .mod-dt .m-btn{ display: block; width: 100%; height: 50px; line-height: 50px; font-weight: 500; color: #fff; text-align: center; background: #000; border-radius: 2px;}
+.layer .mod-forgot-password .mod-dt p{ margin-top: 17px; font-size: 12px; line-height: 17px; color: #507DAF; text-align: center;}
+
+/* setup-2 */
+.layer .mod-forgot-password .mod-set-main{width: 435px;}
+.layer .mod-forgot-password .mod-set-main h3{margin-top: 60px;}
+.layer .mod-forgot-password .mod-set-main p{ font-size: 14px; color: #999999; line-height: 20px;}
+.layer .mod-forgot-password .mod-set-main .mod-dt{margin-top: 67px;}
+/* setup-3 */
+.layer .mod-forgot-password .mod-set-main .mod-dt{margin-top: 28px;}
 
 /* 登录 */
-.layer .mod-sign-in{ margin: 60px 55px 0;}
+.layer .mod-sign-in{ margin: 25px 55px 0;}
 .layer .mod-sign-in .mod-li{ margin-bottom: 20px; font-size: 14px; color: #000; overflow: hidden;}
 .layer .mod-sign-in h3{ line-height: 20px; margin-bottom: 2px;}
 .layer .mod-sign-in .warp-box{ position: relative;width: 430px; height: 50px; overflow: hidden;}
@@ -180,14 +211,18 @@ input:-ms-input-placeholder{color: #999999;}
 .layer .mod-sign-in .m-forget{ position: relative;top: -15px; font-size: 12px; line-height: 17px; color: #507DAF;}
 .layer .mod-sign-in .mod-dt{margin-top: 28px ;}
 .layer .mod-sign-in .mod-dt .m-btn{ display: block; width: 100%; height: 50px; line-height: 50px; font-weight: 500; color: #fff; text-align: center; background: #000; border-radius: 2px;}
-.layer .mod-sign-in .mod-dt p{ margin-top: 17px; font-size: 12px; line-height: 17px; color: #507DAF; text-align: center;}
+.layer .mod-sign-in .mod-dt p{ margin-top: 17px; font-size: 12px; line-height: 17px; color: #507DAF; text-align: center; cursor: pointer;}
 
 /* 注册 */
-.layer .mod-found{ margin: 37px 55px 0;}
+.layer .mod-found{ margin: 25px 55px 0;}
 .layer .mod-found .mod-li{ margin-bottom: 8px; font-size: 14px; color: #000; overflow: hidden;}
 .layer .mod-found h3{ line-height: 20px; margin-bottom: 2px;}
 .layer .mod-found .warp-box{ position: relative;width: 430px; height: 50px; overflow: hidden;}
 .layer .mod-found .w-ipnt{ width: 430px; height: 50px; padding-left: 10px; background: none; border: 1px solid #DDDDDD; border-radius: 2px; outline: none;}
+.layer .mod-found .w-ipnt-code{ width: 320px;}
+.layer .mod-found .m-text{ display: inline-block; width: 104px; font-size: 12px; text-align: center; color: #507DAF; cursor: pointer;}
+.layer .mod-found .m-grey{ color: #999999;}
+
 .layer .mod-found .mod-agreement{ margin-top: 10px; font-size: 12px; line-height: 17px; color: #999;}
 .layer .mod-found .mod-agreement .check-box{ display: inline-block;}
 .layer .mod-found .mod-agreement .w-checked{width: 16px; height: 16px; background: none; border: 1px solid #ddd; border-radius: 2px;}
@@ -207,11 +242,11 @@ input:-ms-input-placeholder{color: #999999;}
 
 .layer .mod-pay .mod-tab{ margin-top: 12px;}
 .layer .mod-pay .mod-tab ul{ margin-left: 26px; overflow: hidden;}
-.layer .mod-pay .mod-tab ul li{ position: relative; float: left; padding: 0 18px; font-size: 14px; height: 36px; line-height: 36px; box-sizing: border-box; cursor: pointer; }
+.layer .mod-pay .mod-tab ul li{ position: relative; float: left; color: #000; padding: 0 18px; font-size: 14px; height: 36px; line-height: 36px; box-sizing: border-box; cursor: pointer; }
 .layer .mod-pay .mod-tab ul li.curr{ z-index: 1; border: 1px solid #e8e8e8; border-bottom: none; background: #F4F4F4; border-radius: 4px 4px 0 0;}
 .layer .mod-pay .mod-col{ margin-top: -1px; min-height: 100px; background: #F4F4F4; border-top: 1px solid #e8e8e8;border-bottom: 1px solid #e8e8e8;}
 .layer .mod-pay .mod-col .mod-main{ margin: 10px 26px 26px; overflow: hidden;}
-.layer .mod-pay .mod-col .mod-main h3{ margin-top: 18px; font-size: 14px; }
+.layer .mod-pay .mod-col .mod-main h3{ margin-top: 18px; font-size: 14px;color: #000; }
 .layer .mod-pay .mod-col .mod-pay-list{ min-width: 500px; margin-top: 16px; overflow: hidden;}
 .layer .mod-pay .mod-col .mod-pay-list dd{ float: left; margin-right: 10px;}
 .layer .mod-pay .mod-col .icon-item-pay01{ display: block; width:56px; height: 34px; background-position: -1px -150px;}
@@ -244,8 +279,8 @@ input:-ms-input-placeholder{color: #999999;}
 .layer .mod-nft-info .nft-list .icon-item-nft01{float: left; width: 24px; height: 24px; background-position: -1px -193px;}
 .layer .mod-nft-info .nft-list .icon-item-nft02{float: left; width: 24px; height: 24px; background-position: -31px -193px;}
 .layer .mod-nft-info .nft-list .icon-item-nft03{float: left; width: 24px; height: 24px; background-position: -61px -193px;}
-.layer .mod-nft-info .nft-list .m-txt{width: 455px;  margin-left: 35px;}
-.layer .mod-nft-info .nft-list h4{ margin-top: 8px;  color: #666; line-height: 12px;}
+.layer .mod-nft-info .nft-list .m-txt{width: 455px;  margin-left: 35px; color: #000;}
+.layer .mod-nft-info .nft-list h4{ display: block; font-size: 14px; margin-top: 6px;  color: #666; line-height: 20px;word-break: break-all;}
 
 
 
