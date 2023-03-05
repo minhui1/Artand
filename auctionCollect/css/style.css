@@ -145,19 +145,23 @@ a{ text-decoration: none;}
 .M-commodity .mod-tag{ margin-top: .2rem; font-size: .28rem; line-height: .4rem; color: rgba(0, 0, 0, .8); }
 .M-commodity .mod-price{ margin-top: .1rem; font-size: .32rem; line-height: .44rem; font-weight: bold;}
 .M-commodity .mod-play{ margin-top: .1rem; display: flex; align-items: center; justify-content: space-between; font-size: .24rem;}
+.M-commodity .mod-play .m-lf{ display: flex; align-items: center;}
+.M-commodity .icon{ display: inline-block; width: .24rem; height: 0.24rem; margin-right: 0.1rem;}
+.M-commodity .icon-auction-start{ background: url(../images/icon-auction-start.png) no-repeat; background-size: cover;}
+.M-commodity .icon-auction-end{ background: url(../images/icon-auction-end.png) no-repeat; background-size: cover;}
 .M-commodity .icon-hammer{ margin-right: .1rem; font-size: .24rem; color: rgba(0, 0, 0, .2);}
 .M-commodity .mod-play b{ font-size: .24rem; line-height: .34rem; color: #9C9C9C;}
-.M-commodity .mod-play .m-rg{ font-size: .24rem; line-height: .34rem;  }
+.M-commodity .mod-play .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem;  }
 .M-commodity .mod-play .m-btn{ display: block; width: 1.52rem; height: .72rem; line-height: .72rem; background: #000; border-radius: .08rem; text-align: center; font-size: .28rem; color: #fff; cursor: pointer;}
 .M-commodity .mod-play strong{ margin-left: .16rem; font-size: .24rem; font-weight: bold;}
 .M-commodity .icon-time,
-.M-commodity .icon-times{ font-size: .3rem; }
+.M-commodity .icon-times{ font-size: .3rem; margin-top: -0.04rem; }
 .M-commodity .icon-time{ margin-left: .12rem;}
 .M-commodity .icon-times{ margin-left: .12rem; color: #2871d3; }
 .M-commodity .active .icon-hammer,
 .M-commodity .active  b{ color: #FE6E01; }
 .M-commodity .disabled b{ color: #9C9C9C;}
-.M-commodity .mod-text{ margin-top: .4rem; overflow: hidden;}
+.M-commodity .mod-text{ margin-top: .7rem; overflow: hidden;}
 .M-commodity .mod-text p{ margin-bottom: .4rem; font-size: .28rem; line-height: .56rem; color: rgba(0, 0, 0, .8); text-align: justify;}
 
 /* footer */
