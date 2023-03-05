@@ -82,10 +82,10 @@ a{ text-decoration: none;}
 /* iconfont */
 @font-face {
     font-family: 'iconfont';
-    src: url('../font/iconfont.woff2?t=1677906270382') format('woff2'),
-         url('../font/iconfont.woff?t=1677906270382') format('woff'),
-         url('../font/iconfont.ttf?t=1677906270382') format('truetype'),
-         url('../font/iconfont.svg?t=1677906270382#iconfont') format('truetype');
+    src: url('../font/iconfont.woff2?t=1678001654865') format('woff2'),
+         url('../font/iconfont.woff?t=1678001654865') format('woff'),
+         url('../font/iconfont.ttf?t=1678001654865') format('truetype'),
+         url('../font/iconfont.svg?t=1678001654865#iconfont') format('truetype');
 }
 .iconfont {
     font-family: "iconfont" !important;
@@ -101,8 +101,8 @@ a{ text-decoration: none;}
 .icon-times:before{
     content: '\e614';
 }
-.icon-hammer:before{
-    content: '\e664';
+.icon-auction-start:before{
+    content: '\e62b';
 }
 
 /* banner */
@@ -146,9 +146,7 @@ a{ text-decoration: none;}
 .M-commodity .mod-play{ margin-top: .1rem; display: flex; align-items: center; justify-content: space-between; font-size: .24rem;}
 .M-commodity .mod-play .m-lf{ display: flex; align-items: center;}
 .M-commodity .icon{ display: inline-block; width: .24rem; height: 0.24rem; margin-right: 0.1rem;}
-.M-commodity .icon-auction-start{ background: url(../images/icon-auction-start.png) no-repeat; background-size: cover;}
-.M-commodity .icon-auction-end{ background: url(../images/icon-auction-end.png) no-repeat; background-size: cover;}
-.M-commodity .icon-hammer{ margin-right: .1rem; font-size: .24rem; color: rgba(0, 0, 0, .2);}
+.M-commodity .icon-auction-start{ margin-right: .1rem; font-size: .22rem; color:#D8D8D8;}
 .M-commodity .mod-play b{ font-size: .24rem; line-height: .34rem; color: #9C9C9C;}
 .M-commodity .mod-play .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem;  }
 .M-commodity .mod-play .m-btn{ display: block; width: 1.52rem; height: .72rem; line-height: .74rem; background: #000; border-radius: .08rem; text-align: center; font-size: .28rem; color: #fff; cursor: pointer;}
