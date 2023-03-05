@@ -157,8 +157,8 @@ a{ text-decoration: none;}
 .M-commodity .active .icon-hammer,
 .M-commodity .active  b{ color: #FE6E01; }
 .M-commodity .disabled b{ color: #9C9C9C;}
-.M-commodity .mod-text{ margin-top: .6rem; overflow: hidden;}
-.M-commodity .mod-text p{ font-size: .28rem; line-height: .56rem; color: rgba(0, 0, 0, .8); text-align: justify;}
+.M-commodity .mod-text{ margin-top: .4rem; overflow: hidden;}
+.M-commodity .mod-text p{ margin-bottom: .4rem; font-size: .28rem; line-height: .56rem; color: rgba(0, 0, 0, .8); text-align: justify;}
 
 /* footer */
 .M-footer{ overflow: hidden;}
