@@ -1,31 +1,85 @@
 /* 样式重置 */
-body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,figure,form,fieldset,legend,input,textarea,button,p,blockquote,th,td,pre,xmp{margin:0;padding:0}
-body,input,textarea,button,select,pre,xmp,tt,code,kbd,samp{line-height:1.5;font-family:tahoma,arial,"Hiragino Sans GB",simsun,sans-serif}
-h1,h2,h3,h4,h5,h6,small,big,input,textarea,button,select{font-size:100%}
-h1,h2,h3,h4,h5,h6{font-family:"PingFangSC"}
-h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal}
-address,cite,dfn,em,i,optgroup,var{font-style:normal}
-table{border-collapse:collapse;border-spacing:0;text-align:left}
-caption,th{text-align:inherit}
-ul,ol,menu{list-style:none}
-fieldset,img{border:0}
-img,object,input,textarea,button,select{vertical-align:middle}
-article,aside,footer,header,section,nav,figure,figcaption,hgroup,details,menu{display:block}
-audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
-blockquote:before,blockquote:after,q:before,q:after{content:"\0020"}
-textarea{overflow:auto;resize:vertical}
-input,textarea,button,select,a{outline:0 none;border: none;}
-button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
-mark{background-color:transparent}
-a,ins,s,u,del{text-decoration:none}
-sup,sub{vertical-align:baseline}
+html, body, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, big, cite, code,
+del, dfn, em, img, ins, q, s, samp,
+small, strike, strong, sub, sup,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-html{ margin: 0 auto; overflow-x: hidden;height: 100%;font-size: calc(100vw/7.5);-webkit-tap-highlight-color: transparent;}
-body{ margin: 0 auto; font-family: Arial, Helvetica, sans-serif ,"PingFangSC"; color: #000;line-height: 1;-webkit-text-size-adjust: none;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+input, textarea, button, a, select, div {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent !important; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+a, img, label {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+  html {
+    font-size: calc(100vw/7.5);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "PingFang SC";
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+    -webkit-overflow-scrolling: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    max-width: 750px;
+}
+
 article{ padding-bottom: 2.6rem; box-sizing: border-box;}
 
-a{color: #25a4bb;text-decoration: none;}
-*{margin: 0; padding: 0;}
+a{ text-decoration: none;}
+*{ margin: 0; padding: 0;}
 
 /* iconfont */
 @font-face {
@@ -42,7 +96,6 @@ a{color: #25a4bb;text-decoration: none;}
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 
 .icon-time:before{
     content: '\e619';
@@ -107,7 +160,7 @@ a{color: #25a4bb;text-decoration: none;}
 .M-commodity .active  b{ color: #FE6E01; }
 .M-commodity .disabled b{ color: #9C9C9C;}
 .M-commodity .mod-text{ margin-top: .6rem; overflow: hidden;}
-.M-commodity .mod-text p{ font-size: .28rem; line-height: .56rem; color: rgba(0, 0, 0, .8);}
+.M-commodity .mod-text p{ font-size: .28rem; line-height: .56rem; color: rgba(0, 0, 0, .8); text-align: justify;}
 
 /* footer */
 .M-footer{ overflow: hidden;}
@@ -115,4 +168,4 @@ a{color: #25a4bb;text-decoration: none;}
 .M-footer .m-img-box{ margin: 3rem auto 0; width: 2.6rem; height: 2.6rem; overflow: hidden;}
 .M-footer .m-img-box img{ display: block; font-size: 0; width: 100%; height: 100%; object-fit: cover;}
 .M-footer .mod-text { margin-top: .2rem; text-align: center;}
-.M-footer .mod-text p{ font-size: .24rem; line-height: .5rem; color: rgba(0, 0, 0, .8);}
+.M-footer .mod-text p{ font-size: .24rem; line-height: .5rem; color: rgba(0, 0, 0, .8); text-align: justify;}
