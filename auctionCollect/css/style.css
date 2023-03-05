@@ -152,7 +152,7 @@ a{ text-decoration: none;}
 .M-commodity .icon-hammer{ margin-right: .1rem; font-size: .24rem; color: rgba(0, 0, 0, .2);}
 .M-commodity .mod-play b{ font-size: .24rem; line-height: .34rem; color: #9C9C9C;}
 .M-commodity .mod-play .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem;  }
-.M-commodity .mod-play .m-btn{ display: block; width: 1.52rem; height: .72rem; line-height: .72rem; background: #000; border-radius: .08rem; text-align: center; font-size: .28rem; color: #fff; cursor: pointer;}
+.M-commodity .mod-play .m-btn{ display: block; width: 1.52rem; height: .72rem; line-height: .74rem; background: #000; border-radius: .08rem; text-align: center; font-size: .28rem; color: #fff; cursor: pointer;}
 .M-commodity .mod-play strong{ margin-left: .16rem; font-size: .24rem; font-weight: bold;}
 .M-commodity .icon-time,
 .M-commodity .icon-times{ font-size: .3rem; margin-top: -0.04rem; }
