@@ -127,7 +127,6 @@ a{ text-decoration: none;}
 .M-works .mod-list ul li img{display: block; font-size: 0; width: 100%; height: 100%; -webkit-object-fit: cover; object-fit: cover; border-radius: .08rem;}
 .M-works .mod-text{ margin: .44rem 0.26rem .8rem; font-size: .28rem; color: rgba(0, 0, 0, .8); line-height: .66rem;}
 
-.M-line{ margin: .8rem .26rem 0; height: 1px; background-color: #EDEDED; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); -ms-transform: scaleY(0.5); transform: scaleY(0.5);}
 /* introduce */
 .M-introduce{ overflow: hidden;}
 .M-introduce .mod-warp{ margin: 0 .26rem ; text-align: center;}
@@ -138,7 +137,7 @@ a{ text-decoration: none;}
 
 /* commodity */
 .M-commodity{ overflow: hidden;}
-.M-commodity .mod-warp{ margin: 0 .26rem; }
+.M-commodity .mod-warp{ margin: 0 .26rem .8rem; }
 .M-commodity .m-img-box{ width: 6.98rem; height: 6.98rem; border-radius: .08rem; overflow: hidden;}
 .M-commodity .m-img-box img{ display: block; font-size: 0; width: 100%; height: 100%; object-fit: cover;}
 .M-commodity .mod-tag{ margin-top: .2rem; font-size: .28rem; line-height: .4rem; color: rgba(0, 0, 0, .8); }
