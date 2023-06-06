@@ -18,3 +18,13 @@
 `专题6   #bill 商户结算对账单#`
 >项目地址：https://minhui1.github.io/Artand/bill/index.html
 
+`专题7   #auctionCollect 月度收藏#`
+>项目地址：https://minhui1.github.io/Artand/auctionCollect/index.html
+
+`专题8   #auctionCollects 作品拍卖#`
+>项目地址：https://minhui1.github.io/Artand/auctionCollects/index.html
+>列表：https://minhui1.github.io/Artand/auctionCollects/layer.html
+>弹层：https://minhui1.github.io/Artand/auctionCollects/layer.html
+
+
+
