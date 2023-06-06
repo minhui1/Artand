@@ -298,9 +298,10 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list .m-tit{ display: flex; align-items: center;}
 .M-comment .mod-comment-list h3{ margin: 0; font-size: .28rem; line-height: .4rem; color: #000;}
 .M-comment .mod-comment-list img{ margin: 0 .08rem 0 .06rem; width: .28rem; height: .28rem; object-fit: cover; overflow: hidden;}
-.M-comment .mod-comment-list em{ display: block; font-size: .16rem ; text-align: center; color: #9C9C9C; padding: 0 .04rem; height: .24rem; line-height: .23rem; border: .02rem solid #9C9C9C; border-radius: .04rem;}
+.M-comment .mod-comment-list em{ display: block; font-size: .16rem ; text-align: center; color: #9C9C9C; padding: 0 .04rem; height: .24rem; border: .02rem solid #9C9C9C; border-radius: .04rem;}
 .M-comment .mod-comment-list h4{ margin-top: .1rem; font-size: .18rem; line-height: .26rem; color: #9C9C9C;}
 .M-comment .mod-comment-list h5{ max-width: 3.8rem; margin-top: .16rem; font-size: .3rem; line-height: .46rem; color: #000000;}
+.M-comment .mod-comment-list strong{ position: relative; top: .028rem;}
 .M-comment .mod-comment-list .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
 .M-comment .mod-comment-list .iconfont{ margin-left: .06rem; font-size: .32rem; color: #c6c6c6;}
 .M-comment .mod-comment-list .m-rg.curr .iconfont{ color: #D20001;}
