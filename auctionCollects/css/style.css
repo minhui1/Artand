@@ -251,10 +251,10 @@ a{ text-decoration: none;}
 .M-bidRecord .mod-ul .mod-li:last-child{ border: none;}
 .M-bidRecord .mod-ul .m-text{ font-size: 0; display: flex; align-items: center;}
 .M-bidRecord .mod-ul h3{ margin-right: .08rem; font-size: .25rem;font-weight: bold; color: #000;}
-.M-bidRecord .mod-ul span{ margin-right: .1rem; display: inline-block; width: .48rem; height: .24rem; overflow: hidden; vertical-align: middle;}
+.M-bidRecord .mod-ul span{ margin-right: .1rem; margin-top: -0.02rem; display: inline-block; width: .48rem; height: .24rem; overflow: hidden; vertical-align: middle;}
 .M-bidRecord .mod-ul span img{ display: block; font-size: 0; width: 100%; height: 100%; object-fit: cover;}
 
-.M-bidRecord .mod-ul .mod-li em{ display: inline-block; padding: 0 .1rem; box-sizing: border-box; height: .24rem; line-height: 1.4em; font-size: .14rem;  text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4; vertical-align: middle;}
+.M-bidRecord .mod-ul .mod-li em{ margin-top: -0.02rem; display: inline-block; padding: .002rem .1rem; box-sizing: border-box; font-size: .14rem;  text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4; vertical-align: middle;}
 .M-bidRecord .mod-ul .mod-li.curr em{ border: .02rem solid #D20001; color: #D20001; }
 
 
