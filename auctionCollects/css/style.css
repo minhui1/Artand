@@ -185,9 +185,11 @@ a{ text-decoration: none;}
 
 /* banner */
 .M-banner{ width: 100%; overflow: hidden;}
-.M-banner .video-box{ position: relative;}
-.M-banner img{ display: block; margin-bottom: .2rem; width: 100%; min-height: 6.26rem; max-height: 9.18rem; object-fit: cover;}
-.M-banner .icon-video{ position: absolute; top: 50%; left: 50%; display: block; width: 1.04rem; height: 1.04rem; background: url(../images/icon_video.png) no-repeat; background-size: cover; transform: translate(-50%,-50%);}
+.M-banner .video-box{ position: relative; height: 6.26rem; margin-bottom: .2rem;}
+.M-banner .video-box video{ width: 100%; height: 6.26rem; object-fit: cover;}
+.M-banner .video-box img{ position: absolute; top: 50%; left: 50%;transform: translate(-50%,-50%); }
+.M-banner img{ display: block; margin-bottom: .2rem; width: 100%;  min-height: 6.26rem; max-height: 9.18rem; object-fit: cover;}
+.M-banner .icon-video{ position: absolute; top: 50%; left: 50%; display: block; width: 1.04rem; height: 1.04rem; cursor: pointer; background: url(../images/icon_video.png) no-repeat; background-size: cover; transform: translate(-50%,-50%);}
 
 /* profile */
 .M-profile{ overflow: hidden;}
@@ -234,7 +236,7 @@ a{ text-decoration: none;}
 .M-author .mod-warp h3{ font-size: .28rem; line-height: .4rem; color: #000;}
 .M-author .mod-warp h4{ font-size: .24rem; line-height: .34rem; color: #9C9C9C;}
 .M-author .mod-warp h4 span{ margin-right: .2rem;}
-.M-author .mod-warp .m-rg{ width: .92rem; height: .68rem; line-height: .68rem; text-align: center; border: .02rem solid #CCCCCC; border-radius: .5rem; }
+.M-author .mod-warp .m-rg{ width: .92rem; height: .68rem; line-height: .68rem; text-align: center; border: .02rem solid #CCCCCC; border-radius: .5rem; cursor: pointer; }
 .M-author .mod-warp .icon-concerns{ font-size: .38rem; color: #000000;}
 
 /* line */
@@ -245,7 +247,7 @@ a{ text-decoration: none;}
 .M-bidRecord .mod-warp{ margin: 0 .26rem; padding: .28rem 0; box-sizing: border-box;}
 .M-bidRecord .mod-tit{ display: flex; align-items: center; justify-content: space-between; font-size: .24rem; line-height: .34rem; color: #555555;}
 .M-bidRecord .mod-tit .iconfont{ font-size: .28rem; margin-right: .1rem; vertical-align: text-top;}
-
+.M-bidRecord .mod-tit .m-rg{ cursor: pointer;}
 .M-bidRecord .mod-ul{ margin-top: .26rem;}
 .M-bidRecord .mod-ul .mod-li{ display: flex; align-items: center; justify-content: space-between; padding: .18rem 0; box-sizing: border-box; border-bottom: 1px solid #F5F5F5;}
 .M-bidRecord .mod-ul .mod-li:last-child{ border: none;}
@@ -256,7 +258,7 @@ a{ text-decoration: none;}
 
 .M-bidRecord .mod-ul .mod-li em{ margin-top: -0.02rem; display: inline-block; padding: 0 .1rem; box-sizing: border-box; font-size: .14rem; height: .24rem; text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4; vertical-align: middle;}
 .M-bidRecord .mod-ul .mod-li.curr em{ border: .02rem solid #D20001; color: #D20001; }
-.M-bidRecord .mod-ul .mod-li strong{ line-height: .22rem;}
+.M-bidRecord .mod-ul .mod-li strong{ line-height: .2rem;}
 
 .M-bidRecord .mod-ul h4{ margin-top: .06rem; font-size: .2rem; line-height: .28rem; color: #9D9D9D;}
 .M-bidRecord .mod-ul .m-rg{ text-align: right;}
@@ -271,8 +273,8 @@ a{ text-decoration: none;}
 .M-bidRecord .mod-ul .m-img-box img{ display: block; width: 100%; object-fit: cover;}
 .M-bidRecord .mod-ul .text-box{ flex: 1;}
 
-.M-bidRecord .mod-more{ text-align: center; border-top: 1px solid #F5F5F5; overflow: hidden;}
-.M-bidRecord .mod-more span{ display: block; font-size: .28rem; line-height: .4rem; color: #555; padding: .28rem 0 0 ;  box-sizing: border-box;}
+.M-bidRecord .mod-more{ text-align: center; border-top: 1px solid #F5F5F5; overflow: hidden; cursor: pointer;}
+.M-bidRecord .mod-more span{ display: block; font-size: .28rem; line-height: .4rem; color: #555; padding: .28rem 0 0 ;  box-sizing: border-box; cursor: pointer;}
 /* comment */
 .M-comment{ overflow: hidden;}
 .M-comment .mod-warp{ margin: 0 .26rem;}
