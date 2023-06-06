@@ -248,17 +248,17 @@ a{ text-decoration: none;}
 
 .M-bidRecord .mod-ul{ margin-top: .26rem;}
 .M-bidRecord .mod-ul .mod-li{ display: flex; align-items: center; justify-content: space-between; padding: .18rem 0; box-sizing: border-box; border-bottom: 1px solid #F5F5F5;}
-.M-bidRecord .mod-ul .m-text{ display: flex; align-items: center;}
+.M-bidRecord .mod-ul .mod-li:last-child{ border: none;}
+.M-bidRecord .mod-ul .m-text{ font-size: 0; display: flex; align-items: center;}
 .M-bidRecord .mod-ul  h3{ margin-right: .08rem; font-size: .24rem; line-height: .34rem; font-weight: bold; color: #000;}
 .M-bidRecord .mod-ul  span{ margin-right: .1rem; display: inline-block; width: .48rem; height: .24rem; overflow: hidden;}
 .M-bidRecord .mod-ul span img{ display: block; font-size: 0; width: 100%; height: 100%; object-fit: cover;}
 
-.M-bidRecord .mod-ul .mod-li em{ display: inline-block; padding: 0 .1rem; box-sizing: border-box; height: .24rem; line-height: .22rem; font-size: .14rem;  text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4;}
+.M-bidRecord .mod-ul .mod-li em{ display: inline-block; padding: 0 .1rem; box-sizing: border-box; height: .24rem; line-height: 1.5em; font-size: .14rem;  text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4;}
 .M-bidRecord .mod-ul .mod-li.curr em{ border: .02rem solid #D20001; color: #D20001; }
 
 
 .M-bidRecord .mod-ul h4{ margin-top: .06rem; font-size: .2rem; line-height: .28rem; color: #9D9D9D;}
-/* .M-bidRecord .mod-ul .m-lf strong{ display:block; transform: scale(.8); -webkit-transform: scale(.8); margin-top: -0.02rem;} */
 .M-bidRecord .mod-ul .m-rg{ text-align: right;}
 .M-bidRecord .mod-ul .m-rg h3{ font-size: .28rem; line-height: .4rem; letter-spacing: .02rem; color: #000; font-weight: bold; }
 .M-bidRecord .mod-ul .m-rg h4{ margin-top: .02rem; font-size: .2rem; line-height: .28rem; color: #9C9C9C; font-weight: bold;}
@@ -271,7 +271,7 @@ a{ text-decoration: none;}
 .M-bidRecord .mod-ul .m-img-box img{ display: block; width: 100%; object-fit: cover;}
 .M-bidRecord .mod-ul .text-box{ flex: 1;}
 
-.M-bidRecord .mod-more{ text-align: center; overflow: hidden;}
+.M-bidRecord .mod-more{ text-align: center; border-top: 1px solid #F5F5F5; overflow: hidden;}
 .M-bidRecord .mod-more span{ display: block; font-size: .28rem; line-height: .4rem; color: #555; padding: .28rem 0 0 ;  box-sizing: border-box;}
 /* comment */
 .M-comment{ overflow: hidden;}
