@@ -283,7 +283,7 @@ a{ text-decoration: none;}
 .M-comment .mod-box .m-lf{ margin-right: .2rem;}
 .M-comment .mod-box .m-lf img{ width: .68rem; height: .68rem; border-radius: .5rem;}
 .M-comment .mod-box .m-rg{ flex: 1; height: .72rem; overflow: hidden; }
-.M-comment input{ width: 100%; height: .72rem; line-height: .72rem; border-radius: .08rem; background-color:#F5F5F5; font-size: .28rem; padding:0 .2rem;  box-sizing: border-box; vertical-align: middle;}
+.M-comment input{ width: 100%; height: .72rem; line-height: .72rem; border-radius: .08rem; background-color:#F5F5F5;  outline: none; font-size: .28rem; padding:0 .2rem;  box-sizing: border-box; vertical-align: middle;}
 .M-comment input:active,
 .M-comment input:focus {border: none;}
 .M-comment .mod-empty{ padding: .6rem 0; box-sizing: border-box; text-align: center;}
