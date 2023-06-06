@@ -258,7 +258,7 @@ a{ text-decoration: none;}
 
 .M-bidRecord .mod-ul .mod-li em{ margin-top: -0.02rem; display: inline-block; padding: 0 .1rem; box-sizing: border-box; font-size: .14rem; height: .24rem; text-align: center; border-radius: .04rem; border:.02rem solid #9C9C9C; color: #A4A4A4; vertical-align: middle;}
 .M-bidRecord .mod-ul .mod-li.curr em{ border: .02rem solid #D20001; color: #D20001; }
-.M-bidRecord .mod-ul .mod-li strong{ display: block; line-height: .2rem;}
+.M-bidRecord .mod-ul .mod-li strong{ display: block; line-height: .22rem;}
 
 .M-bidRecord .mod-ul h4{ margin-top: .06rem; font-size: .2rem; line-height: .28rem; color: #9D9D9D;}
 .M-bidRecord .mod-ul .m-rg{ text-align: right;}
