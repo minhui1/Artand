@@ -153,7 +153,7 @@ a{ text-decoration: none;}
 
 .M-state .mod-warp h3{ position: relative; margin-bottom: .18rem; font-size: .4rem; line-height: .56rem; color: #D20001; font-weight: bold;}
 .M-state .mod-warp h4{ font-size: .2rem; line-height: .28rem; color: #6D6D6D;}
-.M-state .mod-warp b{ font-size: .28rem;}
+.M-state .mod-warp b{ margin-right: .03rem; font-size: .28rem;}
 .M-state .mod-warp .m-pic{ position: absolute; top: .06rem; right: -.4rem; width: .32rem; height: .32rem; border-radius: .5rem; object-fit: cover;}
 .M-state .mod-warp .img-buy{ display: inline-block; margin-top: -0.02rem; width: .56rem; height: .56rem; background: url(../images/IMG_buy.png) no-repeat; background-size: cover; vertical-align: middle;}
 .M-state .mod-warp .m-li{ text-align: right; margin-top: .06rem; font-size: .2rem; line-height: .28rem; color: #6D6D6D;}
