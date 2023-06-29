@@ -306,7 +306,7 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list h5{ max-width: 3.8rem; margin-top: .16rem; font-size: .3rem; line-height: .46rem; color: #000000;}
 .M-comment .mod-comment-list strong{ position: relative; top: .028rem;}
 .M-comment .mod-comment-list .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
-.M-comment .mod-comment-list .icon{ margin-left: .06rem; width: .32rem; height: .32rem; background: url(../images/icon-01.png) no-repeat; background-size: cover;}
+.M-comment .mod-comment-list .icon{ margin-left: .06rem; width: .32rem; height: .32rem; background: url(../images/icon-0001.png) no-repeat; background-size: cover;}
 .M-comment .mod-comment-list .m-rg.curr .icon{ background: url(../images/icon-001.png) no-repeat; background-size: cover; }
 
 /* M-appStore */
