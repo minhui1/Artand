@@ -112,6 +112,9 @@ a{ text-decoration: none;}
 .icon-like:before{
   content: '\e611';
 }
+.icon-collect:before{
+  content: '\e607';
+}
 .icon-arrow:before{
   content: '\e6b7';
 }
@@ -144,10 +147,10 @@ a{ text-decoration: none;}
 .M-logo .m-rg .m-btn{ width: 1.16rem; height: .6rem; line-height: .6rem; background: #007AFF; border-radius: .3rem; font-size: .26rem; text-align: center; color: #fff;}
 
 /* state */
-.M-state{ overflow: hidden;}
-.M-state .mod-prompt{ width: 100%; height: .6rem; line-height: .6rem;}
+.M-state{ position: relative; overflow: hidden;}
+.M-state .mod-prompt{ position: fixed; z-index: 9; width: 100%; height: .6rem; line-height: .6rem;}
 .M-state .mod-prompt{ font-size: .24rem; color: #fff; text-align: center;}
-.M-state .mod-warp{ margin: .2rem .26rem .22rem; display: flex; justify-content: space-between; align-items: flex-end;}
+.M-state .mod-warp{ margin: .2rem .26rem .22rem; padding-top: .6rem; display: flex; justify-content: space-between; align-items: flex-end; box-sizing: border-box;}
 .M-state .mod-warp .iconfont{ display: inline-block; font-size: .28rem; margin-top: -0.04rem; margin-right: .06rem;vertical-align: middle;}
 .M-state .mod-warp .m-price{ margin-bottom: .12rem; font-size: .24rem; color: #5C5C5C; }
 
@@ -161,7 +164,7 @@ a{ text-decoration: none;}
 .M-state .mod-warp .m-li em{ color: #000; font-weight: bold; margin: 0 .04rem;}
 .M-state .mod-warp .m-li strong{ margin: 0 .02rem;}
 
-.M-state.plan{ margin-top: .98rem;}
+.M-state.plan{ margin-top: .96rem;}
 .M-state.plan .mod-prompt{ background-color: #F0B846; }
 .M-state.auction .mod-prompt{ background-color: #FF6E01; }
 .M-state.auction .mod-warp h3{ margin-bottom: .06rem; font-size: .6rem;}
@@ -193,8 +196,8 @@ a{ text-decoration: none;}
 
 /* profile */
 .M-profile{ overflow: hidden;}
-.M-profile .mod-warp{ margin: .58rem .26rem .26rem;}
-.M-profile h3{ margin-bottom: .36rem; font-size: .48rem; font-weight: bold; line-height: .66rem;}
+.M-profile .mod-warp{ margin: .40rem .26rem .26rem;}
+.M-profile h3{ margin-bottom: .28rem; font-size: .48rem; font-weight: bold; line-height: .66rem;}
 .M-profile h4{ margin-bottom: .26rem; font-size: .28rem; line-height: .4rem;}
 .M-profile .m-info{ margin-bottom: .26rem; font-size: .24rem; line-height: .34rem; color: #9E9E9E;}
 .M-profile .m-info span{ margin-right: .26rem;}
@@ -244,13 +247,13 @@ a{ text-decoration: none;}
 
 /* bidRecord */
 .M-bidRecord{ overflow: hidden; }
-.M-bidRecord .mod-warp{ margin: 0 .26rem; padding: .28rem 0; box-sizing: border-box;}
+.M-bidRecord .mod-warp{ margin: 0 .26rem; padding: .28rem 0 .1rem; box-sizing: border-box;}
 .M-bidRecord .mod-tit{ display: flex; align-items: center; justify-content: space-between; font-size: .24rem; line-height: .34rem; color: #555555;}
 .M-bidRecord .mod-tit .iconfont{ font-size: .28rem; margin-right: .1rem; vertical-align: text-top;}
 .M-bidRecord .mod-tit .m-rg{ cursor: pointer;}
 .M-bidRecord .mod-ul{ margin-top: .26rem;}
 .M-bidRecord .mod-ul .mod-li{ display: flex; align-items: center; justify-content: space-between; padding: .18rem 0; box-sizing: border-box; border-bottom: 1px solid #F5F5F5;}
-.M-bidRecord .mod-ul .mod-li:last-child{ border: none;}
+.M-bidRecord .mod-ul .mod-li:last-child{ border: none; }
 .M-bidRecord .mod-ul .m-text{ font-size: 0; display: flex; align-items: center;}
 .M-bidRecord .mod-ul h3{ margin-right: .08rem; font-size: .25rem;font-weight: bold; color: #000;}
 .M-bidRecord .mod-ul span{ margin-right: .1rem; margin-top: -0.02rem; display: inline-block; width: .48rem; height: .24rem; overflow: hidden; vertical-align: middle;}
@@ -274,7 +277,7 @@ a{ text-decoration: none;}
 .M-bidRecord .mod-ul .text-box{ flex: 1;}
 
 .M-bidRecord .mod-more{ text-align: center; border-top: 1px solid #F5F5F5; overflow: hidden; cursor: pointer;}
-.M-bidRecord .mod-more span{ display: block; font-size: .28rem; line-height: .4rem; color: #555; padding: .28rem 0 0 ;  box-sizing: border-box; cursor: pointer;}
+.M-bidRecord .mod-more span{ display: block; font-size: .28rem; line-height: .4rem; color: #555; padding: .28rem 0 .18rem;  box-sizing: border-box; cursor: pointer;}
 /* comment */
 .M-comment{ overflow: hidden;}
 .M-comment .mod-warp{ margin: 0 .26rem;}
@@ -303,8 +306,8 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list h5{ max-width: 3.8rem; margin-top: .16rem; font-size: .3rem; line-height: .46rem; color: #000000;}
 .M-comment .mod-comment-list strong{ position: relative; top: .028rem;}
 .M-comment .mod-comment-list .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
-.M-comment .mod-comment-list .iconfont{ margin-left: .06rem; font-size: .32rem; color: #c6c6c6;}
-.M-comment .mod-comment-list .m-rg.curr .iconfont{ color: #D20001;}
+.M-comment .mod-comment-list .icon{ margin-left: .06rem; width: .32rem; height: .32rem; background: url(../images/icon-01.png) no-repeat; background-size: cover;}
+.M-comment .mod-comment-list .m-rg.curr .icon{ background: url(../images/icon-001.png) no-repeat; background-size: cover; }
 
 /* M-appStore */
 .M-appStore .mod-bg{ position: relative; width: 100%; }
