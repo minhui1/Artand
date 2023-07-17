@@ -1,0 +1,165 @@
+/* 样式重置 */
+html, body, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, big, cite, code,
+del, dfn, em, img, ins, q, s, samp,
+small, strike, strong, sub, sup,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+input, textarea, button, a, select, div {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent !important; }
+input {
+    border: none;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+a, img, label {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+  html {
+    font-size: calc(100vw/7.5);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "PingFang SC";
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+    -webkit-overflow-scrolling: auto;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 auto;
+}
+
+a{ text-decoration: none;}
+*{ margin: 0; padding: 0;}
+
+
+/* banner */
+.M-banner{ width: 100%; height: 4.24rem; overflow: hidden;}
+.M-banner img{ display: block; font-size: 0; width: 100%; object-fit: cover;}
+
+/* title */
+.M-title{ overflow: hidden;}
+.M-title .mod-warp{ margin: 1rem .5rem .74rem;}
+.M-title .mod-tit-img{ margin-bottom: .22rem; width: 4.04rem; height: 1.76rem; object-fit: cover;}
+.M-title span{ margin-bottom: .22rem; display: block; width: 1.56rem; height: .06rem; background-color: #000;}
+.M-title h4{ font-size: .36rem; line-height: .37rem; font-weight: bold; color: #000;}
+
+/* list */
+.M-list{ -webkit-overflow-x: auto; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;}
+.M-list::-webkit-scrollbar { display: none; }
+.M-list ul{ padding: 0 0 0 .5rem; display: inline-flex; white-space: nowrap;}
+.M-list ul li{ height: 100%; float: left; display: inline-block; margin-right: .26rem;  }
+.M-list ul li .m-logo{ margin-bottom: .24rem; width: 1.84rem; height: .8rem; overflow: hidden;}
+.M-list ul li .m-img-box{ margin-bottom: .36rem; width: 5.24rem; height: 5.24rem; overflow: hidden;}
+.M-list ul li img{ display: block; font-size: 0; width: 100%; object-fit: cover;}
+.M-list ul li h4,
+.M-list ul li h5{ font-size: .28rem; line-height: .4rem; color: #000; }
+.M-list ul li h5{ margin-top: .06rem; font-weight: bold;}
+.M-list ul li .icon-more{ margin-top: .4rem; display: block; width: 1.24rem; height: .4rem; background: url(../images/more@2x.png) no-repeat; background-size: cover;}
+
+/* tab */
+.M-tab{ margin-bottom: .36rem; font-size: 0; -webkit-overflow-x: auto; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;}
+.M-tab::-webkit-scrollbar { display: none; }
+.M-tab .mod-dl{ padding: 0 0 0 .5rem; display: inline-flex; white-space: nowrap;}
+.M-tab .mod-dd{ font-size: .28rem; height: .6rem; line-height: .6rem; font-weight: bold; height: 100%; float: left; display: inline-block; padding: 0 .26rem; cursor: pointer;  }
+.M-tab .mod-dd.cur{ background-color: #000; color: #fff;}
+
+/* logo */
+.M-logo{ width: 100%; height: 100%; overflow: hidden;}
+.M-logo img{ display: block; font-size: 0; width: 100%; height: 100%; object-fit: cover;}
+
+/* Carousel */
+.M-carousel{ overflow: hidden;}
+.M-carousel .mod-warp{  margin: 0 .5rem;}
+.M-carousel .mod-li {background-color: #fff;}
+.M-carousel .mod-li img{ display: block; font-size: 0; width: 6.5rem; height: 3.8rem;}
+.M-carousel .mod-li .mod-text-box{ margin: .2rem .26rem; }
+.M-carousel .mod-li h3{ margin-bottom: .14rem; font-size: .28rem; line-height: .4rem; color: #000;}
+.M-carousel .mod-li h4{ padding-bottom: .26rem; font-size: .28rem; line-height: .4rem; color: #000; font-weight: bold;}
+.M-carousel .mod-list{ margin-top: .2rem; -webkit-overflow-x: auto; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;}
+.M-carousel .mod-list::-webkit-scrollbar { display: none; }
+.M-carousel .mod-list .mod-box{ display: inline-flex; white-space: nowrap;}
+.M-carousel .mod-dd{ float: left; display: inline-block; width: .92rem; height: .92rem; margin: 0 .18rem 0 0; border-radius: .16rem; border: .03rem solid #EFF0F4; overflow: hidden;}
+.M-carousel .mod-dd img{ display: block;font-size: 0; width: 100%; height: 100%; object-fit: cover;}
+.M-carousel .mod-dd.cur{ border: .03rem solid #fff;}
+
+
+
+/* footer */
+.M-footer{ overflow: hidden;}
+.M-footer .mod-warp{ margin: .8rem 0 1.8rem; text-align: center; }
+.M-footer h3{ margin-bottom: .22rem; font-size: .52rem; line-height: .74rem; color: #000; font-weight: bold;}
+.M-footer h4{ margin-bottom: .8rem; color: #000;}
+.M-footer h4,
+.M-footer h5,
+.M-footer h6,
+.M-footer p{ font-size: .28rem; line-height: .40rem; }
+.M-footer h5,
+.M-footer h6,
+.M-footer p{font-weight: bold;  }
+.M-footer h5{ margin-bottom: .08rem; color: #9C9C9C; }
+.M-footer h6{ margin-bottom: .52rem; }
+.M-footer p{ margin-bottom: .22rem; color: #9C9C9C;}
+
+/* 补丁 */
+.M-col-1{ padding-bottom: 1rem;}
+.M-col-1 .M-list ul{ padding: 0 .2rem 0 .5rem;}
+.M-col-1 .M-list ul li{ width: 5.84rem;  margin-right: .4rem; padding: .42rem .30rem .52rem; box-sizing: border-box; background-color:#EFF0F4; border-radius: .16rem; }
+
+.M-col-2,
+.M-col-4,
+.M-col-6{ padding-bottom: 1rem; background-color: #EFF0F4;}
+.M-col-2 .M-list ul{ padding: 0 .24rem 0 .5rem; }
+.M-col-5{ padding-bottom: .9rem;}
+.M-col-5 .M-title .mod-tit-img{ width: 6.14rem;}
+.M-col-5 .M-title .mod-warp { margin: 1rem 0.5rem 0.44rem;}
