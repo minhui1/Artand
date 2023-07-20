@@ -149,12 +149,12 @@ a{ text-decoration: none;}
 .M-footer h5,
 .M-footer h6,
 .M-footer p{font-weight: bold;  }
-.M-footer h5{ margin-bottom: .08rem; color: #9C9C9C; }
+.M-footer h5{ margin: .6rem 0 .08rem; color: #9C9C9C; }
 .M-footer h6{ margin-bottom: .52rem; }
 .M-footer p{ margin-bottom: .22rem; color: #9C9C9C;}
-.M-footer .m-txt{ margin: .52rem 0 .2rem;}
+.M-footer .m-txt{ margin: 0 0 .2rem;}
 .M-footer .mod-code{ width: 3.2rem; height: 3.2rem; overflow: hidden;}
-.M-footer .m-btn{ display: block; margin: 0 auto; width: 4.16rem; height: .8rem; line-height: .8rem; font-size: .28rem; color: #fff; background-color: #000;}
+.M-footer .m-btn{ display: block; margin: 0 auto; width: 4.10rem; height: .8rem; line-height: .8rem; font-size: .28rem; color: #fff; background-color: #000;}
 
 /* 补丁 */
 .M-col-1{ padding-bottom: 1rem;}
