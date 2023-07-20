@@ -116,7 +116,7 @@ a{ text-decoration: none;}
 
 /* logo */
 .M-logo{ width: 100%; height: 100%; }
-.M-logo ul{ margin: 0 .5rem; display: flex; justify-content: center; flex-wrap: wrap;}
+.M-logo ul{ margin: 0 .5rem; display: flex; flex-wrap: wrap;}
 .M-logo li{  width: 25%; height: .84rem; margin-bottom: .16rem; }
 .M-logo li img{ display: block; font-size: 0; width: 100%; object-fit: cover;}
 
@@ -152,6 +152,8 @@ a{ text-decoration: none;}
 .M-footer h5{ margin-bottom: .08rem; color: #9C9C9C; }
 .M-footer h6{ margin-bottom: .52rem; }
 .M-footer p{ margin-bottom: .22rem; color: #9C9C9C;}
+.M-footer .m-txt{ margin: .52rem 0 .2rem;}
+.M-footer a{ display: block; margin: 0 auto; width: 4.16rem; height: .8rem; line-height: .8rem; font-size: .28rem; color: #fff; background-color: #000;}
 
 /* 补丁 */
 .M-col-1{ padding-bottom: 1rem;}
