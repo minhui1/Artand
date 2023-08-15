@@ -110,7 +110,7 @@ a{ text-decoration: none;}
 /* tab */
 .M-tab{ margin-bottom: .36rem; font-size: 0; -webkit-overflow-x: auto; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;}
 .M-tab::-webkit-scrollbar { display: none; }
-.M-tab .mod-dl{ padding: 0 0 0 .5rem; display: inline-flex; white-space: nowrap;}
+.M-tab .mod-dl{ padding: 0 .5rem 0 .5rem; display: inline-flex; white-space: nowrap;}
 .M-tab .mod-dd{ font-size: .28rem; height: .6rem; line-height: .6rem; font-weight: bold; height: 100%; float: left; display: inline-block; padding: 0 .26rem; cursor: pointer;  }
 .M-tab .mod-dd.cur{ background-color: #000; color: #fff;}
 
