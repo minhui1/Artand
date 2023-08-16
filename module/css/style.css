@@ -1,90 +1,29 @@
 /* 样式重置 */
-html, body, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, address, big, cite, code,
-del, dfn, em, img, ins, q, s, samp,
-small, strike, strong, sub, sup,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-a {
-  text-decoration: none; }
-
-input, textarea, button, a, select, div {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  -webkit-tap-highlight-color: transparent !important; }
-input {
-    border: none;
-    color: #333;
-    box-sizing: border-box;
-    width: 100%;
-}
 html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-}
-
-a, img, label {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
-
-  html {
-    font-size: calc(100vw/7.5);
-    width: 100%;
-    height: 100%;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    font-family: "PingFang SC";
-    width: 100%;
-    height: 100%;
-    word-wrap: break-word;
-    -webkit-overflow-scrolling: auto;
-    -webkit-font-smoothing: antialiased;
-    color: rgba(0, 0, 0, 1);
-    margin: 0 auto;
+  font-family: "PingFang SC";
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+  -webkit-overflow-scrolling: auto;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
 }
 
 a{ text-decoration: none;}
 *{ margin: 0; padding: 0;}
 
 
-
 .M-merchant{ overflow: hidden;}
-.M-merchant .mod-warp{ display: flex; align-items: center; justify-content: space-between; font-size: .28rem; color: #555; padding: .28rem 0; margin: 0 .26rem; border-bottom: .02rem solid #F5F5F5;}
+.M-merchant .mod-warp{ font-size: .875rem; color: #555; padding: .875rem 0; margin: 0 .8125rem; border-bottom: .125rem solid #F5F5F5; overflow: hidden;}
+.M-merchant .mod-warp .m-lf{float: left;}
+.M-merchant .mod-warp .m-rg{float: right;}
+
 .M-picture{ overflow: hidden;}
 .M-picture img{display: block; font-size: 0; width: 100%; object-fit: cover;}
