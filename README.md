@@ -14,6 +14,7 @@
 
 `专题5   #Collection 证书收藏#`
 >项目地址：https://minhui1.github.io/Artand/Collection/index.html
+>流水账单截图：https://minhui1.github.io/Artand/module/index.html
 
 `专题6   #bill 商户结算对账单#`
 >项目地址：https://minhui1.github.io/Artand/bill/index.html
