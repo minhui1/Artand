@@ -313,7 +313,7 @@ a{ text-decoration: none;}
 .M-appStore .mod-bg{ position: relative; width: 100%; }
 .M-appStore .mod-bg::after{ position: absolute; content: ''; z-index: -1; bottom: 0; width: 100%; height: 100%; background: url(../images/bg.jpeg) no-repeat; background-size: cover;}
 .M-appStore .mod-bg img{ display: block; font-size: 0; width: 100%; object-fit: cover;}
-
+ 
 /* footer */
 .M-footer{ position: fixed; z-index: 9; width: 100%; bottom: 0; left: 0; background-color: #fff; overflow: hidden;box-shadow: inset 0 1px 0 0 #fff, 0 -2px 2px -1px rgba(0, 0, 0, 0.15);}
 .M-footer .mod-warp{ margin: 0 .2rem; padding: .26rem 0; font-size: 0; display: flex; justify-content: space-between;}
