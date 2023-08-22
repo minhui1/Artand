@@ -234,7 +234,7 @@ a{ text-decoration: none;}
 .M-author .mod-warp .m-lf{ display: flex; align-items: center;}
 .M-author .mod-warp .m-img-box{ position: relative; margin-right: .24rem; width: .76rem; height: .76rem; border-radius: .5rem;}
 .M-author .mod-warp .m-img-box img{ display: block; font-size: 0; width: 100%; height: 100%; border-radius: .5rem;}
-.M-author .mod-warp .m-img-box i{ position: absolute; right: 0; bottom: 0; display: block; width: .32rem; height: .32rem; }
+.M-author .mod-warp .m-img-box i{ position: absolute; right: -0.04rem; bottom: -0.04rem; display: block; width: .32rem; height: .32rem; }
 .M-author .mod-warp .m-img-box i img{ width: 100%; object-fit: cover;}
 .M-author .mod-warp h3{ font-size: .28rem; line-height: .4rem; color: #000;}
 .M-author .mod-warp h4{ font-size: .24rem; line-height: .34rem; color: #9C9C9C;}
@@ -318,6 +318,7 @@ a{ text-decoration: none;}
 .M-footer{ position: fixed; width: 100%; bottom: 0; left: 0; background-color: #fff; overflow: hidden;box-shadow: inset 0 1px 0 0 #fff, 0 -2px 2px -1px rgba(0, 0, 0, 0.15);}
 .M-footer .mod-warp{ margin: 0 .26rem; padding: .26rem 0; font-size: 0; display: flex; justify-content: space-between;}
 .M-footer .m-lf{ display: flex; flex: 1; margin-right: .26rem;}
+.M-footer .m-rg{ margin-left: .9rem;}
 .M-footer .m-li{ flex: 1; width: 100%; display: flex; align-items: center; flex-direction: column;}
 .M-footer .m-li .icon{ margin-bottom: .16rem; width: .4rem; height: .4rem; color: #000; background-size: cover !important;}
 .M-footer .m-li .icon-collect{ background: url(../images/icon-01.png) no-repeat; } 
