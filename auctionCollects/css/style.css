@@ -112,12 +112,6 @@ a{ text-decoration: none;}
 .icon-like:before{
   content: '\e611';
 }
-.icon-collect:before{
-  content: '\e607';
-}
-.icon-arrow:before{
-  content: '\e6b7';
-}
 .icon-prompt:before{
   content: '\e613';
 }
@@ -126,9 +120,6 @@ a{ text-decoration: none;}
 }
 .icon-concerns:before{
   content: '\e615';
-}
-.icon-empty:before{
-  content: '\e61a';
 }
 .icon-refresh:before{
   content: '\e60f';
