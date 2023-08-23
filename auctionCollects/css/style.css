@@ -288,7 +288,8 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list{ padding: .34rem 0; display: flex; justify-content: space-between;font-size: 0; border-top: 1px solid #f5f5f5; box-sizing: border-box;}
 .M-comment .mod-comment-list .m-lf{ display: flex;}
 .M-comment .mod-comment-list .m-img-box{ margin-right: .2rem;  overflow: hidden;}
-.M-comment .mod-comment-list .m-img-box img{ width: .68rem; height: .68rem; border-radius: .5rem;}
+.M-comment .mod-comment-list .m-img-box img{ width: .68rem; height: .68rem; border-radius: .5rem; margin: 0;}
+.M-comment .mod-comment-list .m-text-box{ flex: 1;}
 .M-comment .mod-comment-list .m-tit{ display: flex; align-items: center;}
 .M-comment .mod-comment-list h3{ margin: 0; font-size: .28rem; line-height: .4rem; color: #000;}
 .M-comment .mod-comment-list img{ margin: 0 .08rem 0 .06rem; width: .28rem; height: .28rem; object-fit: cover; overflow: hidden;}
@@ -296,7 +297,7 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list h4{ margin-top: .1rem; font-size: .18rem; line-height: .26rem; color: #9C9C9C;}
 .M-comment .mod-comment-list h5{ margin-top: .16rem; font-size: .28rem; line-height: .46rem; color: #000000;}
 .M-comment .mod-comment-list strong{ position: relative; top: .028rem;}
-.M-comment .mod-comment-list .m-rg{ display: flex; margin-left: .2rem; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
+.M-comment .mod-comment-list .m-rg{ display: flex; padding-top: .2rem; margin-left: .2rem; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
 .M-comment .mod-comment-list .icon{ margin-left: .06rem; width: .32rem; height: .32rem; background: url(../images/icon-0001.png) no-repeat; background-size: cover;}
 .M-comment .mod-comment-list .m-rg.curr .icon{ background: url(../images/icon-001.png) no-repeat; background-size: cover; }
 
