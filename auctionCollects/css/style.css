@@ -190,8 +190,8 @@ a{ text-decoration: none;}
 .M-profile .mod-warp{ margin: .40rem .26rem .26rem;}
 .M-profile h3{ margin-bottom: .28rem; font-size: .48rem; font-weight: bold; line-height: .66rem;}
 .M-profile h4{ margin-bottom: .26rem; font-size: .28rem; line-height: .4rem;}
-.M-profile .m-info{ margin-bottom: .26rem; font-size: .24rem; line-height: .34rem; color: #9E9E9E;}
-.M-profile .m-info span{ margin-right: .26rem;}
+.M-profile .m-info{ display: flex; margin-bottom: .26rem; font-size: .24rem; line-height: .34rem; color: #9E9E9E;}
+.M-profile .m-info span{ display: flex; align-items: center; margin-right: .26rem;}
 .M-profile .iconfont{ margin-right: .06rem; color: #D8D8D8; vertical-align: top;}
 .M-profile .m-price{ margin-bottom: .02rem; font-size: .4rem; line-height: .56rem; font-weight: bold; color: #D20001;}
 .M-profile .m-price b{ margin-right: .02rem; font-size: .3rem;}
@@ -294,9 +294,9 @@ a{ text-decoration: none;}
 .M-comment .mod-comment-list img{ margin: 0 .08rem 0 .06rem; width: .28rem; height: .28rem; object-fit: cover; overflow: hidden;}
 .M-comment .mod-comment-list em{ display: block; font-size: .16rem ; text-align: center; color: #9C9C9C; padding: 0 .04rem; height: .24rem; border: .02rem solid #9C9C9C; border-radius: .04rem;}
 .M-comment .mod-comment-list h4{ margin-top: .1rem; font-size: .18rem; line-height: .26rem; color: #9C9C9C;}
-.M-comment .mod-comment-list h5{ max-width: 3.8rem; margin-top: .16rem; font-size: .3rem; line-height: .46rem; color: #000000;}
+.M-comment .mod-comment-list h5{ margin-top: .16rem; font-size: .28rem; line-height: .46rem; color: #000000;}
 .M-comment .mod-comment-list strong{ position: relative; top: .028rem;}
-.M-comment .mod-comment-list .m-rg{ display: flex; align-items: center; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
+.M-comment .mod-comment-list .m-rg{ display: flex; margin-left: .2rem; font-size: .24rem; line-height: .34rem; color: #c6c6c6;}
 .M-comment .mod-comment-list .icon{ margin-left: .06rem; width: .32rem; height: .32rem; background: url(../images/icon-0001.png) no-repeat; background-size: cover;}
 .M-comment .mod-comment-list .m-rg.curr .icon{ background: url(../images/icon-001.png) no-repeat; background-size: cover; }
 
