@@ -194,7 +194,7 @@ article{ position: relative; width: 100%; height: 100%;}
 .M-info span{ display: inline-block; cursor: pointer;}
 
 .M-works{ position: fixed; bottom: 3rem; width: 100%; }
-.M-works .mod-warp{ margin: 0 .24rem; width: 4.72rem; font-size: 0; display: flex; align-items: center; background: rgba(0,0,0,0.4);border-radius: .08rem;backdrop-filter: blur(.08rem);}
+.M-works .mod-warp{ margin: 0 .24rem; width: 4.72rem; font-size: 0; display: flex; align-items: center; background: rgba(0,0,0,0.4);border-radius: .08rem;backdrop-filter: blur(.04rem);}
 .M-works .m-left img{ width: 1.12rem; height: 1.12rem;border-radius: .08rem 0 0 .08rem;}
 .M-works .m-right{ flex: 1; margin-left: .14rem; }
 .M-works .m-right h3{ font-size: .28rem; font-weight: bold; color: #fff;}
