@@ -155,7 +155,7 @@ article{ position: relative; width: 100%; height: 100%;}
 .M-right{ position: absolute; right: .14rem; bottom: .68rem; text-align: center; font-size: 0;}
 .M-right .mod-head { position: relative;}
 .M-right .mod-head img{ width: .44rem; height: .44rem; object-fit: cover; border-radius: .5rem; border: .02rem solid #fff; overflow: hidden; cursor: pointer;}
-.M-right .icon-plus{ position: absolute; z-index: 11; font-size: .2rem; color: #3F85E2; left: 55%; bottom: -.1rem; transform: translateX(-50%);}
+.M-right .icon-plus{ position: absolute; z-index: 8; font-size: .2rem; color: #3F85E2; left: 55%; bottom: -.1rem; transform: translateX(-50%);}
 .M-right .icon-plus::after{ position: absolute; z-index: -1; content: ''; width: .18rem; height: .18rem; border-radius: .5rem; background-color: #fff; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 .M-right .icon-liked,
 .M-right .icon-comment,
