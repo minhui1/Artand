@@ -169,8 +169,8 @@ article{ position: relative; width: 100%; height: 100%;}
 /* 评论 */
 .M-comment{ position: fixed; bottom: 0; width: 100%; height: 1.08rem; background: #161616; font-size: 0;}
 .M-comment .mod-warp{ display: flex; align-items: center; justify-content: space-between; margin: 0 .24rem;}
-.M-comment .mod-warp .m-left{ display: block; flex: 1; font-size: .32rem; color: #808080;}
-.M-comment .mod-warp input{ height: 1.08rem; outline: none; background: #161616; color: #fff; box-sizing: border-box;}
+.M-comment .mod-warp .m-left{ display: block; flex: 1; color: #808080;}
+.M-comment .mod-warp input{ height: 1.08rem; font-size: .32rem; outline: none; background: #161616; color: #fff; box-sizing: border-box;}
 .M-comment .m-li{ display: inline-table;}
 .M-comment .icon-pic,
 .M-comment .icon-itel,
