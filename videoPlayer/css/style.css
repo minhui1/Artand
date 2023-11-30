@@ -191,7 +191,14 @@ article{ position: relative; width: 100%; height: 100%;}
 .M-info{ position: fixed; bottom: 1.36rem; width: 100%;}
 .M-info .mod-warp{ margin: 0 .24rem; font-size: 0;}
 .M-info h3{ font-size: .36rem; font-weight: bold; color: #fff;}
-.M-info h4{ margin-top: .14rem; font-size: .28rem; line-height: .4rem; color: #fff;}
+.M-info h4{ margin-top: .14rem; font-size: .28rem; line-height: .4rem; color: #fff;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+word-break: break-all;
+}
 .M-info span{ display: inline-block; cursor: pointer;}
 
 .M-works{ position: fixed; bottom: 3rem; width: 100%; }
