@@ -78,6 +78,7 @@ body {
     -webkit-font-smoothing: antialiased;
     color: rgba(0, 0, 0, 1);
     margin: 0 auto;
+    -webkit-text-size-adjust: none !important;
 }
 
 article{ padding-bottom: 1.3rem; box-sizing: border-box;}
