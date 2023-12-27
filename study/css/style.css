@@ -109,8 +109,8 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 .M-header img{display: block;font-size: 0;width: 100%;-webkit-object-fit: cover; -ms-object-fit: cover; -ms-object-fit: cover; -o-object-fit: cover; object-fit: cover;}
 .M-header .icon-prompt{ margin-right: .06rem; font-size: .3rem; color: #8B909C4C;}
 .M-header .icon-arrow-right-full{ margin: 0 .08rem; font-size: .24rem;}
-.M-header .mod-left{ width: 48%; margin-top: -10%;}
-.M-header .mod-right{ width: 60%; margin-top: -8%; position: relative; right: -6%;}
+.M-header .mod-left{ width: 48%; margin-top: -.8rem;}
+.M-header .mod-right{ width: 60%; margin-top: -.4rem; position: relative; right: -6%;}
 .M-header .mod-left h3{ font-size: .5rem; color: #334065; font-weight: bold;}
 .M-header .mod-left h4{ margin-top: .3rem; font-size: .28rem; line-height: 1.4em; color: #677485;}
 .M-header .mod-left span{ margin-top: .54rem; display: block; width: 2.4rem; line-height: .68rem; color: #fff; font-size: .28rem; text-align: center; background-color: #FF5758; border-radius: .5rem; cursor: pointer; }
@@ -173,6 +173,10 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
       transform: translate(0,0);
   }
 }
+@media screen and (min-width: 1280px){
+	html{font-size: 90px; }
+}
+
 @media screen and (min-width: 1920px){
 	html{font-size: 110px; }
 }
