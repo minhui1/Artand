@@ -109,7 +109,6 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 .M-header img{display: block;font-size: 0;width: 100%;-webkit-object-fit: cover; -ms-object-fit: cover; -ms-object-fit: cover; -o-object-fit: cover; object-fit: cover;}
 .M-header .icon-prompt{ margin-right: .06rem; font-size: .3rem; color: #8B909C4C;}
 .M-header .icon-arrow-right-full{ margin: 0 .08rem; font-size: .24rem;}
-
 .M-header .mod-left{ width: 48%; margin-top: -10%;}
 .M-header .mod-right{ width: 60%; margin-top: -8%; position: relative; right: -6%;}
 .M-header .mod-left h3{ font-size: .5rem; color: #334065; font-weight: bold;}
