@@ -120,10 +120,7 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 .M-header .mod-right .mod-img-box{ position: relative; top: -40%; }
 .M-header .mod-right .mod-img-box img{position: absolute; }
 
-
-
-
-/*悬浮*/
+/*动画*/
 .an_tbot_a{
   -webkit-animation: an_tbot_a 2.5s infinite 1s;
    animation: an_tbot_a 2.5s infinite 1s; 
