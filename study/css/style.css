@@ -164,7 +164,7 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 }
 @keyframes an_tbot_b{
   0%{
-      transform: translate(0,0);
+      transform: translate(0,0); 
   }
   50%{
       transform: translate(0,20px);
