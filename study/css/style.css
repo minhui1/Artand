@@ -114,9 +114,9 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 .M-header .mod-right{ width: 60%; margin-top: -8%; position: relative; right: -6%;}
 .M-header .mod-left h3{ font-size: .5rem; color: #334065; font-weight: bold;}
 .M-header .mod-left h4{ margin-top: .3rem; font-size: .28rem; line-height: 1.4em; color: #677485;}
-.M-header .mod-left span{ margin-top: .54rem; display: block; width: 2.4rem; line-height: .68rem; color: #fff; font-size: .28rem; text-align: center; background-color: #FF5758; border-radius: .5rem; }
+.M-header .mod-left span{ margin-top: .54rem; display: block; width: 2.4rem; line-height: .68rem; color: #fff; font-size: .28rem; text-align: center; background-color: #FF5758; border-radius: .5rem; cursor: pointer; }
 .M-header .mod-left p{ margin-top: .18rem; font-size: .26rem; color: #677485;}
-.M-header .mod-left strong{ display: inline-block; color: #FF5F1E;}
+.M-header .mod-left strong{ display: inline-block; color: #FF5F1E; cursor: pointer;}
 .M-header .mod-right .mod-img-box{ position: relative; top: -40%; }
 .M-header .mod-right .mod-img-box img{position: absolute; }
 
