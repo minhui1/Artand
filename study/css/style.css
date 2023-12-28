@@ -116,10 +116,12 @@ article{ height: 100%; background: radial-gradient(circle at 50% 50%, #F4C7BB 0%
 .M-header .mod-left h4{ margin-top: .3rem; font-size: .28rem; line-height: 1.4em; color: #677485;}
 .M-header .mod-left span{ margin-top: .54rem; display: block; width: 2.4rem; line-height: .68rem; color: #fff; font-size: .28rem; text-align: center; background-color: #FF5758; border-radius: .5rem; cursor: pointer; }
 .M-header .mod-left p{ margin-top: .24rem; font-size: .24rem; color: #677485;}
+.M-header .mod-left em{ display: inline-block; margin-left: .04rem; width: .66rem; height: .22rem; line-height: .22rem; font-size: .14rem; text-align: center; border: 1px solid #677485; border-radius: .5rem; color: #677485;}
 .M-header .mod-left strong{ display: inline-block; color: #FF5F1E; cursor: pointer;}
 .M-header .mod-right .mod-img-box{ position: relative; top: -40%; }
 .M-header .mod-right .mod-img-box img{position: absolute; }
-
+.M-footer{ position: fixed; bottom: .12rem; width: 100%;}
+.M-footer p{ font-size: .14rem; text-align: center; color: rgba(103, 116, 133, .7); line-height: 1.4em;}
 /*动画*/
 .an_tbot_a{
   -webkit-animation: an_tbot_a 2.5s infinite 1s;
